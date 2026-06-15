@@ -5,7 +5,7 @@ A modern, interactive web application for learning about the most common birds o
 ## Features
 
 ### 🎨 Bird Gallery
-- Browse all 20 most common birds of Belize
+- Browse the most common birds of Belize
 - Beautiful card-based layout with bird images
 - Detailed information including:
   - Common and scientific names
@@ -13,7 +13,7 @@ A modern, interactive web application for learning about the most common birds o
   - Habitat preferences
   - Diet and size information
   - Fun facts about each species
-  - Bird call frequency data
+  - Bird call frequency data (when available)
 
 ### 🔍 Search & Filter
 - Real-time search by common or scientific name
@@ -23,19 +23,20 @@ A modern, interactive web application for learning about the most common birds o
 - Easy-to-use clear filters button
 
 ### 🎵 Audio Player
-- Listen to bird calls for each species
+- Listen to bird calls for each species (when available)
 - Play/stop controls
 - Visual feedback when audio is playing
 - Only one audio plays at a time
+- Buttons are disabled when audio is not available
 
 ### 🎯 Interactive Quiz
 Two quiz modes to test your knowledge:
 
 1. **Identify the Bird**: View a bird image and select the correct name from 4 options
-2. **Match the Call**: Listen to a bird call and identify which bird it belongs to
+2. **Match the Call**: Listen to a bird call and identify which bird it belongs to (for species with audio)
 
 Quiz features:
-- 10 randomized questions per quiz
+- Randomized questions
 - Progress tracking
 - Score display
 - Visual feedback for correct/incorrect answers
@@ -97,31 +98,30 @@ npm run preview
 
 ## Adding Bird Images and Audio
 
-The app currently uses placeholder images and audio files. To add real media:
-
 ### Bird Images
 
 1. Place bird images in the `public/birds/` directory
-2. Use the exact filenames specified in `src/data/birds.json`
-3. Recommended format: JPG or PNG
-4. Recommended size: 800x600px or similar aspect ratio
+2. Use kebab-case filenames matching the bird's common name
+3. Recommended format: JPG
+4. Recommended size: 800x600px (4:3 aspect ratio)
 
-**Example filenames:**
-- `melodious-blackbird.jpg`
-- `rufous-tailed-hummingbird.jpg`
-- `keel-billed-toucan.jpg`
+**Filename format:**
+- Lowercase
+- Replace spaces with hyphens
+- Remove apostrophes
+- Example: "Morelet's Seedeater" → `morelets-seedeater.jpg`
 
 ### Bird Audio Files
 
 1. Place bird call audio files in the `public/audio/` directory
-2. Use the exact filenames specified in `src/data/birds.json`
+2. Use the same kebab-case naming as images
 3. Recommended format: MP3
 4. Recommended duration: 5-30 seconds
+5. Audio buttons will be automatically disabled if files are missing
 
-**Example filenames:**
-- `melodious-blackbird.mp3`
-- `rufous-tailed-hummingbird.mp3`
-- `keel-billed-toucan.mp3`
+**Filename format:**
+- Same as images but with `.mp3` extension
+- Example: "Morelet's Seedeater" → `morelets-seedeater.mp3`
 
 ### Where to Find Bird Media
 
@@ -157,7 +157,7 @@ belizebirds/
 │   ├── context/
 │   │   └── AppContext.jsx      # Global state management
 │   ├── data/
-│   │   └── birds.json          # Bird data (20 species)
+│   │   └── birds.json          # Bird data
 │   ├── App.jsx                 # Main app component
 │   ├── main.jsx                # React entry point
 │   └── index.css               # Global styles + Tailwind
@@ -170,53 +170,46 @@ belizebirds/
 └── README.md
 ```
 
-## Bird Species Included
+## Bird Species Database
 
-The app includes data for the 20 most commonly observed birds in Belize:
+The app includes bird data for common species found in Belize. Each bird entry includes:
+- Common and scientific names
+- Family classification
+- Habitat preferences
+- Physical description
+- Size and diet information
+- Fun facts
+- Observation frequency (when available, based on eBird data)
 
-1. Melodious Blackbird (45.03%)
-2. Rufous-tailed Hummingbird (38.75%)
-3. Social Flycatcher (37.74%)
-4. Brown Jay (34.56%)
-5. Morelet's Seedeater (26.51%)
-6. Spot-breasted Wren (23.01%)
-7. Keel-billed Toucan (21.04%) - National Bird of Belize!
-8. Red-throated Ant-Tanager (20.61%)
-9. Collared Aracari (19.61%)
-10. Ruddy Ground Dove (19.11%)
-11. Yellow-throated Euphonia (18.82%)
-12. Black-headed Saltator (18.67%)
-13. Blue-black Grassquit (16.15%)
-14. Groove-billed Ani (16.02%)
-15. Olive-throated Parakeet (15.87%)
-16. Yellow-winged Tanager (15.24%)
-17. Common Squirrel-Cuckoo (14.60%)
-18. Ivory-billed Woodcreeper (13.41%)
-19. Masked Tityra (13.40%)
-20. Boat-billed Flycatcher (13.35%)
-
-Frequency percentages represent observation rates in Belize according to eBird data.
+**Note:** The database is designed to be easily expandable. See the "Adding More Birds" section below for instructions on adding new species.
 
 ## Customization
 
 ### Adding More Birds
 
-To add more birds to the app:
+To add more birds to the app, you can use the built-in add-bird skill:
 
-1. Open `src/data/birds.json`
-2. Add a new bird object following the existing structure:
+1. **Using OpenCode Skill** (Recommended):
+   - The repository includes a custom skill at `.opencode/skills/add-bird/`
+   - This skill automates the process of adding birds with images
+   - It downloads images, processes them to 800x600, and updates the database
+   - See `QUICKSTART.md` for details on using the skill
+
+2. **Manual Method**:
+   - Open `src/data/birds.json`
+   - Add a new bird object following the existing structure:
 
 ```json
 {
-  "id": 21,
+  "id": 26,
   "commonName": "Bird Name",
   "scientificName": "Genus species",
   "frequency": "X.XX%",
   "family": "Family Name",
   "habitat": ["Habitat 1", "Habitat 2"],
   "description": "Description of the bird...",
-  "size": "Small/Medium/Large",
-  "diet": "Diet type",
+  "size": "Very small/Small/Small-medium/Medium/Medium-large/Large",
+  "diet": "Nectarivore/Insectivore/Frugivore/Granivore/Omnivore/Carnivore",
   "image": "/birds/bird-name.jpg",
   "audio": "/audio/bird-name.mp3",
   "funFact": "An interesting fact..."
