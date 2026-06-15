@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Custom theme colors */
+@theme {
+  --color-belize-blue: #003F87;
+  --color-belize-red: #CE1126;
+  --color-belize-green-light: #86BC42;
+  --color-belize-green: #00843D;
+  --color-belize-green-dark: #004D29;
+  --color-belize-sand: #F4E4C1;
+}
+
+/* Custom base styles */
+@layer base {
+  body {
+    @apply m-0 bg-gray-50 text-gray-900;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-belize-green text-white rounded-lg hover:bg-belize-green-dark transition-colors duration-200 font-medium;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-white text-belize-green border-2 border-belize-green rounded-lg hover:bg-belize-green hover:text-white transition-colors duration-200 font-medium;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-200 hover:shadow-lg hover:-translate-y-1;
+  }
+}
