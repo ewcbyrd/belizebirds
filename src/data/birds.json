@@ -343,5 +343,44 @@
     "image": "/birds/white-bellied-emerald.jpg",
     "audio": "/audio/white-bellied-emerald.mp3",
     "funFact": "Males sing in leks and are believed to be polygynous, with females building cup nests decorated with lichen and moss."
+  },
+  {
+    "id": 26,
+    "commonName": "Olive-backed Euphonia",
+    "scientificName": "Euphonia gouldi",
+    "family": "Fringillidae",
+    "habitat": ["Forest", "Forest edges", "Secondary forest"],
+    "description": "Males have a yellow forehead, olive-green crown, nape, upperparts, and tail with a bluish gray gloss, and bright yellow underparts. Females have a rufous-chestnut forehead and mostly olive plumage with tawny-rufous underparts.",
+    "size": "Small",
+    "diet": "Frugivore",
+    "image": "/birds/olive-backed-euphonia.jpg",
+    "audio": "/audio/olive-backed-euphonia.mp3",
+    "funFact": "Builds a globe-shaped nest with a side entrance made from moss, roots, and plant fibers, typically placed in a clump of moss or epiphytes."
+  },
+  {
+    "id": 27,
+    "commonName": "Southern House Wren",
+    "scientificName": "Troglodytes musculus",
+    "family": "Troglodytidae",
+    "habitat": ["Gardens", "Urban areas", "Forest"],
+    "description": "A very small wren with brownish plumage. The name troglodytes means hole dweller, referencing the bird's tendency to disappear into crevices when hunting insects or seeking shelter.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/southern-house-wren.jpg",
+    "audio": "/audio/southern-house-wren.mp3",
+    "funFact": "Formerly considered the same species as the Northern House Wren but was split based on genetic divergence, differences in vocalizations, and morphology."
+  },
+  {
+    "id": 28,
+    "commonName": "White-breasted Wood-Wren",
+    "scientificName": "Henicorhina leucosticta",
+    "family": "Troglodytidae",
+    "habitat": ["Forest", "Secondary forest", "Woodland"],
+    "description": "Has chestnut brown upperparts with a darker crown, pale eyebrows, black-and-white streaked sides of the head and neck, and white underparts becoming buff on the lower belly. Wings and very short tail are barred with black.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/white-breasted-wood-wren.jpg",
+    "audio": "/audio/white-breasted-wood-wren.mp3",
+    "funFact": "Pairs often sing in duets, and the song has been compared to the opening bars of Beethoven's Fifth Symphony by ornithologist Luis Baptista."
   }
 ]
