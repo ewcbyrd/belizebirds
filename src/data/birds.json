@@ -408,5 +408,18 @@
     "image": "/birds/red-legged-honeycreeper.jpg",
     "audio": "/audio/red-legged-honeycreeper.mp3",
     "funFact": "Males undergo a dramatic seasonal transformation, molting from their brilliant violet-blue breeding plumage into greenish eclipse plumage after the breeding season!"
+  },
+  {
+    "id": 31,
+    "commonName": "Black-cowled Oriole",
+    "scientificName": "Icterus prosthemelas",
+    "family": "Icteridae",
+    "habitat": ["Forest edges", "Open woodland", "Plantations", "Gardens"],
+    "description": "A medium-sized bird, 18.5-21 cm long. Adult males are mostly black with bright yellow patches on the shoulder, rump, belly, wing lining, and crissum. Females in the north have olive-yellow crown and upperparts with black face, throat, and wings; southern females resemble males. Both sexes have a slender, slightly decurved black bill with silvery base.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/black-cowled-oriole.jpg",
+    "audio": "/audio/black-cowled-oriole.mp3",
+    "funFact": "Builds a shallow pendant nest stitched to the underside of large leaves like heliconia or banana, making holes in the leaf and lacing fibers through them to hang the nest!"
   }
 ]
