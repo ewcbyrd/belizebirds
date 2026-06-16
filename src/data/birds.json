@@ -395,5 +395,18 @@
     "image": "/birds/lineated-woodpecker.jpg",
     "audio": "/audio/lineated-woodpecker.mp3",
     "funFact": "Uses its strong bill to chip out large holes while searching for insects, especially ant and beetle larvae. Both males and females drum loudly on trees to communicate and establish territory."
+  },
+  {
+    "id": 30,
+    "commonName": "Red-legged Honeycreeper",
+    "scientificName": "Cyanerpes cyaneus",
+    "family": "Thraupidae",
+    "habitat": ["Forest edges", "Open woodland", "Plantations"],
+    "description": "A small songbird, 12.2 cm long. Males are brilliant violet-blue with black wings, tail and back, bright red legs, and a turquoise crown. Females and immatures are mainly green with paler, faintly streaked underparts. The call is a thin, high-pitched tsip. Often found in small groups feeding on insects, seeds, fruit, and nectar.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/red-legged-honeycreeper.jpg",
+    "audio": "/audio/red-legged-honeycreeper.mp3",
+    "funFact": "Males undergo a dramatic seasonal transformation, molting from their brilliant violet-blue breeding plumage into greenish eclipse plumage after the breeding season!"
   }
 ]
