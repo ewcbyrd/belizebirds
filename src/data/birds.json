@@ -421,5 +421,18 @@
     "image": "/birds/black-cowled-oriole.jpg",
     "audio": "/audio/black-cowled-oriole.mp3",
     "funFact": "Builds a shallow pendant nest stitched to the underside of large leaves like heliconia or banana, making holes in the leaf and lacing fibers through them to hang the nest!"
+  },
+  {
+    "id": 32,
+    "commonName": "Lesson's Motmot",
+    "scientificName": "Momotus lessonii",
+    "family": "Momotidae",
+    "habitat": ["Forest", "Woodland", "Dense forest"],
+    "description": "A colorful near-passerine bird with a black central crown surrounded by a blue band and a black eyemask. Features distinctive tail feathers with racket-shaped tips. The call is a low owl-like ooo-doot. Often sits motionless in dense forest habitat, making them difficult to spot despite their size. Eats insects, lizards, and fruit.",
+    "size": "Medium-large",
+    "diet": "Omnivore",
+    "image": "/birds/lessons-motmot.jpg",
+    "audio": "/audio/lessons-motmot.mp3",
+    "funFact": "Nests in tunnels dug into banks, laying 3-4 white eggs. The unique racket-shaped tail feathers are created when the barbs naturally fall off the central portion of the tail!"
   }
 ]
