@@ -382,5 +382,18 @@
     "image": "/birds/white-breasted-wood-wren.jpg",
     "audio": "/audio/white-breasted-wood-wren.mp3",
     "funFact": "Pairs often sing in duets, and the song has been compared to the opening bars of Beethoven's Fifth Symphony by ornithologist Luis Baptista."
+  },
+  {
+    "id": 29,
+    "commonName": "Lineated Woodpecker",
+    "scientificName": "Dryocopus lineatus",
+    "family": "Picidae",
+    "habitat": ["Forest borders", "Open woodland", "Forest edges"],
+    "description": "A very large woodpecker, 31.5-36 cm long. Mainly black above with a red crest and whitish lines from the bill down the neck and shoulders. Underparts are whitish heavily barred with black. Adult males have a red line from the bill to the throat and a red forehead, while these features are black in females. The call is a loud, ringing wic-wic-wic.",
+    "size": "Large",
+    "diet": "Insectivore",
+    "image": "/birds/lineated-woodpecker.jpg",
+    "audio": "/audio/lineated-woodpecker.mp3",
+    "funFact": "Uses its strong bill to chip out large holes while searching for insects, especially ant and beetle larvae. Both males and females drum loudly on trees to communicate and establish territory."
   }
 ]
