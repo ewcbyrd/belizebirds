@@ -486,5 +486,18 @@
     "image": "/birds/long-billed-hermit.jpg",
     "audio": "/audio/long-billed-hermit.mp3",
     "funFact": "Males sing in communal leks of up to 25 birds and wiggle their long tails in display. Competitive lek singing can occupy half of the daylight hours to attract females!"
+  },
+  {
+    "id": 37,
+    "commonName": "Gartered Trogon",
+    "scientificName": "Trogon caligatus",
+    "family": "Trogonidae",
+    "habitat": ["Forest edges", "Secondary forest", "Gallery forest", "Clearings"],
+    "description": "A colorful trogon, 23-25 cm long, weighing 38-57 g. Males have a violet-blue head, neck, and upper breast with black face and throat. A pale yellow ring surrounds the eye, and a narrow white band separates the upper breast from the bright yellow lower breast and belly. Upperparts are metallic green with a violet-blue tail. Females are gray above with duller yellow underparts.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/gartered-trogon.jpg",
+    "audio": "/audio/gartered-trogon.mp3",
+    "funFact": "Nests in wasp, ant, or termite arboreal nests or holes in rotten trees. Its diet includes more fruit than most other trogons, supplemented with many types of insects!"
   }
 ]
