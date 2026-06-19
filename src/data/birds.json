@@ -551,5 +551,18 @@
     "image": "/birds/yellow-bellied-flycatcher.jpg",
     "audio": "/audio/yellow-bellied-flycatcher.mp3",
     "funFact": "Migrates from breeding grounds in Canada and northeastern US to winter in southern Mexico and Central America. Makes a cup nest in sphagnum moss on or near the ground!"
+  },
+  {
+    "id": 42,
+    "commonName": "White-necked Jacobin",
+    "scientificName": "Florisuga mellivora",
+    "family": "Trochilidae",
+    "habitat": ["Humid forest canopy", "Forest edges", "Secondary forest", "Coffee and cacao plantations"],
+    "description": "A medium-sized hummingbird, 11-12 cm long. Males weigh 7.4-9 g, females 6-9.2 g. Males are unmistakable with dark blue head and chest, white belly and tail with black tips, and a white band on the nape separating the blue head from the bright green back. Females are highly variable with green upperparts, blue-green throat and breast with white scales, white belly, and mostly green tail with blue end.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "image": "/birds/white-necked-jacobin.jpg",
+    "audio": "/audio/white-necked-jacobin.mp3",
+    "funFact": "Builds a shallow cup nest of plant down and cobweb on the upper surface of a leaf where another leaf provides a 'roof'! Several may feed in one tree and are aggressive to each other."
   }
 ]
