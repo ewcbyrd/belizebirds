@@ -434,5 +434,18 @@
     "image": "/birds/lessons-motmot.jpg",
     "audio": "/audio/lessons-motmot.mp3",
     "funFact": "Nests in tunnels dug into banks, laying 3-4 white eggs. The unique racket-shaped tail feathers are created when the barbs naturally fall off the central portion of the tail!"
+  },
+  {
+    "id": 33,
+    "commonName": "Yellow-olive Flatbill",
+    "scientificName": "Tolmomyias sulphurescens",
+    "family": "Tyrannidae",
+    "habitat": ["Rainforest", "Montane forest", "Secondary forest", "Woodland"],
+    "description": "A small tyrant flycatcher, 12.5-14 cm long. Has a dark olive crown, thin white eye-ring, and olive-green upperparts. Wings are dusky with yellowish-olive edges forming two wing bars. Throat is pale greenish gray, breast grayish greenish olive, and belly bright yellow. Features a wide flat bill with black upper mandible and pale gray lower mandible. Tends to be sluggish, peering slowly around from a perch.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/yellow-olive-flatbill.jpg",
+    "audio": "/audio/yellow-olive-flatbill.mp3",
+    "funFact": "Builds a distinctive pear-shaped bag nest with a tube entrance that slopes upward! Made from rootlets, fungal rhizomorphs, grass, and spider web, adults roost in it even outside breeding season."
   }
 ]
