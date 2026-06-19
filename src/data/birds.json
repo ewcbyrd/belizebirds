@@ -447,5 +447,18 @@
     "image": "/birds/yellow-olive-flatbill.jpg",
     "audio": "/audio/yellow-olive-flatbill.mp3",
     "funFact": "Builds a distinctive pear-shaped bag nest with a tube entrance that slopes upward! Made from rootlets, fungal rhizomorphs, grass, and spider web, adults roost in it even outside breeding season."
+  },
+  {
+    "id": 34,
+    "commonName": "Pale-billed Woodpecker",
+    "scientificName": "Campephilus guatemalensis",
+    "family": "Picidae",
+    "habitat": ["Lowland tropical evergreen forest", "Tropical deciduous forest", "Mangroves", "Montane forest"],
+    "description": "A very large woodpecker, 35.5-38 cm long. Both sexes have black upperparts with vertical white or buffy white stripes on the sides of the neck forming a 'V' on the back. Throat and upper breast black, rest of underparts light yellowish buff with narrow black bars. Long ivory yellow chisel-like bill. Males have a red head with bushy crest; females have black forecrown and center of crown.",
+    "size": "Large",
+    "diet": "Insectivore",
+    "image": "/birds/pale-billed-woodpecker.jpg",
+    "audio": "/audio/pale-billed-woodpecker.mp3",
+    "funFact": "Requires large trees for foraging and disappears from heavily deforested areas. Its characteristic call sounds like a nasal squeeze toy: 'kip kip kip kip-hey'eh'eh'!"
   }
 ]
