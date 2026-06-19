@@ -460,5 +460,18 @@
     "image": "/birds/pale-billed-woodpecker.jpg",
     "audio": "/audio/pale-billed-woodpecker.mp3",
     "funFact": "Requires large trees for foraging and disappears from heavily deforested areas. Its characteristic call sounds like a nasal squeeze toy: 'kip kip kip kip-hey'eh'eh'!"
+  },
+  {
+    "id": 35,
+    "commonName": "Common Tody-Flycatcher",
+    "scientificName": "Todirostrum cinereum",
+    "family": "Tyrannidae",
+    "habitat": ["Forest edges", "Secondary growth", "Gardens", "Open woodland"],
+    "description": "A tiny flycatcher, 9-10 cm long. Has a black crown and nape, white supercilium, yellow iris, gray face and upperparts, bright yellow underparts, and a short black tail. The wings have two yellowish wing bars. Features a distinctive long, flat, black bill that is pale at the base of the lower mandible. Often perches sideways on vertical stems.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/common-tody-flycatcher.jpg",
+    "audio": "/audio/common-tody-flycatcher.mp3",
+    "funFact": "Builds a hanging pouch nest with a side entrance, often decorated with bits of lichen and spider webs. Both parents incubate and feed the young!"
   }
 ]
