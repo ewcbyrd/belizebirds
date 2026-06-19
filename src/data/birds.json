@@ -616,5 +616,18 @@
     "image": "/birds/bat-falcon.jpg",
     "audio": "/audio/bat-falcon.mp3",
     "funFact": "Named for their habit of hunting bats! They are most active around dawn and dusk, often hunting well past sunset from high, open perches."
+  },
+  {
+    "id": 47,
+    "commonName": "Black-cheeked Woodpecker",
+    "scientificName": "Melanerpes pucherani",
+    "family": "Picidae",
+    "habitat": ["Humid evergreen forest", "Mature secondary forest", "Abandoned plantations", "Clearings with scattered trees"],
+    "description": "A small-medium woodpecker, 17-19 cm long, weighing 42-68 g. Males have golden yellow forehead and red crown/nape. Females have white forehead, black central crown, and red hindcrown/nape. Both have black around eye extending down neck with white line behind eye. Barred upper back, white lower back. Whitish throat and breast with olive-buff tinge, buffish white underparts with wavy bars and red belly spot.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "image": "/birds/black-cheeked-woodpecker.jpg",
+    "audio": "/audio/black-cheeked-woodpecker.mp3",
+    "funFact": "Very active and agile forager that sometimes clings to the underside of branches! Feeds on everything from insects to fruits to flower nectar."
   }
 ]
