@@ -538,5 +538,18 @@
     "image": "/birds/barred-antshrike.jpg",
     "audio": "/audio/barred-antshrike.mp3",
     "funFact": "Pairs vigorously defend year-round territories and sing duets while stretching their necks, bowing forward, and pumping their tails up and down!"
+  },
+  {
+    "id": 41,
+    "commonName": "Yellow-bellied Flycatcher",
+    "scientificName": "Empidonax flaviventris",
+    "family": "Tyrannidae",
+    "habitat": ["Wet northern woods", "Spruce bogs", "Forest"],
+    "description": "A small flycatcher, 13-15 cm long, weighing 8.5-17 g. Has greenish upperparts and yellowish underparts with a dusky wash on the chest. Features a white or yellow eye ring, white or yellowish wing bars that contrast against black wings, and a broad flat bill. Upper mandible is dark while lower mandible is orange-pink.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/yellow-bellied-flycatcher.jpg",
+    "audio": "/audio/yellow-bellied-flycatcher.mp3",
+    "funFact": "Migrates from breeding grounds in Canada and northeastern US to winter in southern Mexico and Central America. Makes a cup nest in sphagnum moss on or near the ground!"
   }
 ]
