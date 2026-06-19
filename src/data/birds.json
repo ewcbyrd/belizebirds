@@ -473,5 +473,18 @@
     "image": "/birds/common-tody-flycatcher.jpg",
     "audio": "/audio/common-tody-flycatcher.mp3",
     "funFact": "Builds a hanging pouch nest with a side entrance, often decorated with bits of lichen and spider webs. Both parents incubate and feed the young!"
+  },
+  {
+    "id": 36,
+    "commonName": "Long-billed Hermit",
+    "scientificName": "Phaethornis longirostris",
+    "family": "Trochilidae",
+    "habitat": ["Rainforest", "Secondary forest", "Cloudforest", "Gallery forest"],
+    "description": "A hummingbird, 13-16 cm long. Males weigh 5-7.5 g, females 4-6.5 g. Has greenish-brown upperparts and brownish to grayish underparts. Uppertail coverts have dark and light ochre bands, and central tail feathers are long with long white tips. Features a long decurved bill, with females having a shorter but more curved bill than males.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "image": "/birds/long-billed-hermit.jpg",
+    "audio": "/audio/long-billed-hermit.mp3",
+    "funFact": "Males sing in communal leks of up to 25 birds and wiggle their long tails in display. Competitive lek singing can occupy half of the daylight hours to attract females!"
   }
 ]
