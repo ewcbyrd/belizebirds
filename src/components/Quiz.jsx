@@ -21,19 +21,64 @@ const Quiz = () => {
 
   const currentBird = quizQuestions[currentQuestionIndex];
 
-  // Generate random options for the current question
+  // Generate smart options for the current question with intelligent difficulty
   useEffect(() => {
     if (!currentBird) return;
 
-    // Get 3 random wrong answers plus the correct answer
-    const wrongBirds = birds
-      .filter((b) => b.id !== currentBird.id)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
+    // Smart option generation: prioritize same family, fall back to same size, then random
+    const generateSmartOptions = (correctBird, allBirds) => {
+      let wrongOptions = [];
+      const availableBirds = allBirds.filter((b) => b.id !== correctBird.id);
+      
+      // Priority 1: Same family (hardest - requires knowing differences within family)
+      const sameFamily = availableBirds.filter(
+        (b) => b.family === correctBird.family
+      );
+      
+      if (sameFamily.length >= 3) {
+        // Enough same-family birds, use them for maximum difficulty
+        wrongOptions = sameFamily
+          .sort(() => 0.5 - Math.random())
+          .slice(0, 3);
+      } else {
+        // Not enough same-family, take what we can get
+        wrongOptions = [...sameFamily];
+        
+        // Priority 2: Same size (medium difficulty - visually comparable birds)
+        const similarSize = availableBirds.filter(
+          (b) => 
+            b.size === correctBird.size && 
+            !wrongOptions.some(w => w.id === b.id)
+        );
+        
+        const needed = 3 - wrongOptions.length;
+        if (similarSize.length >= needed) {
+          wrongOptions.push(
+            ...similarSize
+              .sort(() => 0.5 - Math.random())
+              .slice(0, needed)
+          );
+        } else {
+          // Take all similar-sized birds
+          wrongOptions.push(...similarSize);
+          
+          // Priority 3: Random fallback (ensures quiz always works)
+          const remaining = availableBirds.filter(
+            (b) => !wrongOptions.some(w => w.id === b.id)
+          );
+          wrongOptions.push(
+            ...remaining
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 3 - wrongOptions.length)
+          );
+        }
+      }
+      
+      // Shuffle correct answer in with wrong answers
+      return [...wrongOptions, correctBird].sort(() => 0.5 - Math.random());
+    };
 
-    const allOptions = [...wrongBirds, currentBird].sort(
-      () => 0.5 - Math.random()
-    );
+    const allOptions = generateSmartOptions(currentBird, birds);
 
     setOptions(allOptions);
     setSelectedAnswer(null);
