@@ -564,5 +564,18 @@
     "image": "/birds/white-necked-jacobin.jpg",
     "audio": "/audio/white-necked-jacobin.mp3",
     "funFact": "Builds a shallow cup nest of plant down and cobweb on the upper surface of a leaf where another leaf provides a 'roof'! Several may feed in one tree and are aggressive to each other."
+  },
+  {
+    "id": 43,
+    "commonName": "White-crowned Parrot",
+    "scientificName": "Pionus senilis",
+    "family": "Psittacidae",
+    "habitat": ["Humid lowland forest", "Forest edges", "Secondary forest", "Plantations"],
+    "description": "A medium-sized parrot, 24 cm long, weighing 225-250 g. Has a mostly green plumage with a distinctive white forecrown and throat with bare pink skin. The crown ranges from deep white to bluish white, with a magenta spot on the throat and bronze-green to bluish-green ear coverts. Chest and belly are yellowish-olive with bluish edges, while the undertail coverts are red. Features dark blue flight feathers and tail with red undertail coverts.",
+    "size": "Medium",
+    "diet": "Frugivore",
+    "image": "/birds/white-crowned-parrot.jpg",
+    "audio": "/audio/white-crowned-parrot.mp3",
+    "funFact": "When disturbed, these parrots make a distinctive musky odor! They travel in flocks of 10-40 birds and can become very tame in captivity, though wild-caught birds are protected by CITES."
   }
 ]
