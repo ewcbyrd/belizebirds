@@ -577,5 +577,18 @@
     "image": "/birds/white-crowned-parrot.jpg",
     "audio": "/audio/white-crowned-parrot.mp3",
     "funFact": "When disturbed, these parrots make a distinctive musky odor! They travel in flocks of 10-40 birds and can become very tame in captivity, though wild-caught birds are protected by CITES."
+  },
+  {
+    "id": 44,
+    "commonName": "Olivaceous Woodcreeper",
+    "scientificName": "Sittasomus griseicapillus",
+    "family": "Furnariidae",
+    "habitat": ["Rainforest", "Secondary forest", "Gallery forest", "Plantations"],
+    "description": "One of the smallest woodcreepers, 13-19 cm long, with a slim body and short straight bill. Has mostly olivaceous plumage with rufous tail and flight feathers. Unlike most other woodcreepers, has no streaks or spots. Males weigh 9-18 g, females 8.6-16 g. Often seen hitching up tree trunks and along branches from mid-level to subcanopy.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/olivaceous-woodcreeper.jpg",
+    "audio": "/audio/olivaceous-woodcreeper.mp3",
+    "funFact": "Often follows army ant swarms to catch insects fleeing from the ants, and frequently joins mixed-species feeding flocks where it may even form a core species!"
   }
 ]
