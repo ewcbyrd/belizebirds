@@ -603,5 +603,18 @@
     "image": "/birds/wedge-tailed-sabrewing.jpg",
     "audio": "/audio/wedge-tailed-sabrewing.mp3",
     "funFact": "Males sing the most complex song of any hummingbird, even comparable to songbirds! They display at leks and sing from bare twigs in the forest understory."
+  },
+  {
+    "id": 46,
+    "commonName": "Bat Falcon",
+    "scientificName": "Falco rufigularis",
+    "family": "Falconidae",
+    "habitat": ["Tropical forest", "Forest edges", "Gallery forest", "Wooded savanna"],
+    "description": "A small falcon, 23-30 cm long. Adults have blue-black head and upperparts with grayish edges. Throat, upper breast, and neck sides are white to buff; rest of breast is black with fine white bars. Belly, thighs, and undertail coverts are chestnut-rufous. Long wings and longish tail with square tip. Bright yellow cere and bare skin around eye, orange-yellow legs and feet.",
+    "size": "Small",
+    "diet": "Carnivore",
+    "image": "/birds/bat-falcon.jpg",
+    "audio": "/audio/bat-falcon.mp3",
+    "funFact": "Named for their habit of hunting bats! They are most active around dawn and dusk, often hunting well past sunset from high, open perches."
   }
 ]
