@@ -590,5 +590,18 @@
     "image": "/birds/olivaceous-woodcreeper.jpg",
     "audio": "/audio/olivaceous-woodcreeper.mp3",
     "funFact": "Often follows army ant swarms to catch insects fleeing from the ants, and frequently joins mixed-species feeding flocks where it may even form a core species!"
+  },
+  {
+    "id": 45,
+    "commonName": "Wedge-tailed Sabrewing",
+    "scientificName": "Pampa curvipennis",
+    "family": "Trochilidae",
+    "habitat": ["Humid evergreen forest", "Semi-deciduous forest", "Rainforest", "Forest edges"],
+    "description": "A hummingbird, 11.5-13.5 cm long. Males have a bright violet crown, metallic green to bronze green upperparts, and bluish green uppertail coverts. Face is dull grayish white to gray with a white spot behind the eye. Underparts are brownish gray. Females similar but with duller blue crown and pale cinnamon wash on underparts. Bill is straight, longish, and stout.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "image": "/birds/wedge-tailed-sabrewing.jpg",
+    "audio": "/audio/wedge-tailed-sabrewing.mp3",
+    "funFact": "Males sing the most complex song of any hummingbird, even comparable to songbirds! They display at leks and sing from bare twigs in the forest understory."
   }
 ]
