@@ -525,5 +525,18 @@
     "image": "/birds/northern-schiffornis.jpg",
     "audio": "/audio/northern-schiffornis.mp3",
     "funFact": "Sings mostly in the early morning with a sequence of 2-4 clear, rich musical whistles! The female alone incubates eggs for 20-21 days and provisions nestlings by herself."
+  },
+  {
+    "id": 40,
+    "commonName": "Barred Antshrike",
+    "scientificName": "Thamnophilus doliatus",
+    "family": "Thamnophilidae",
+    "habitat": ["Scrublands", "Secondary forest", "Forest edges", "Riparian thickets"],
+    "description": "A bird, 15-18.5 cm long, weighing 24-32 g. Males are barred with alternating black and white throughout. Females have a cinnamon-rufous crest and upperparts with streaked black and white head and neck sides, buff chin, and ochraceous-buff underparts. Both sexes have a bushy crest and stout hooked bills.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/barred-antshrike.jpg",
+    "audio": "/audio/barred-antshrike.mp3",
+    "funFact": "Pairs vigorously defend year-round territories and sing duets while stretching their necks, bowing forward, and pumping their tails up and down!"
   }
 ]
