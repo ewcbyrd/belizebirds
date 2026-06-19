@@ -25,8 +25,6 @@ const Quiz = () => {
   useEffect(() => {
     if (!currentBird) return;
 
-    console.log('Current Bird:', currentBird);
-
     // Smart option generation: prioritize same family, fall back to same size, then random
     const generateSmartOptions = (correctBird, allBirds) => {
       let wrongOptions = [];
@@ -81,7 +79,6 @@ const Quiz = () => {
     };
 
     const allOptions = generateSmartOptions(currentBird, birds);
-    console.log('Generated options:', allOptions);
 
     setOptions(allOptions);
     setSelectedAnswer(null);
