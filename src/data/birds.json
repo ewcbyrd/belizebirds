@@ -499,5 +499,18 @@
     "image": "/birds/gartered-trogon.jpg",
     "audio": "/audio/gartered-trogon.mp3",
     "funFact": "Nests in wasp, ant, or termite arboreal nests or holes in rotten trees. Its diet includes more fruit than most other trogons, supplemented with many types of insects!"
+  },
+  {
+    "id": 38,
+    "commonName": "Green-backed Sparrow",
+    "scientificName": "Arremonops chloronotus",
+    "family": "Passerellidae",
+    "habitat": ["Forest edges", "Savanna", "Secondary forest", "Semi-deciduous forest"],
+    "description": "A sparrow, 15-16 cm long, weighing 24-31 g. Has a mostly slate gray head with wide black stripes on each side of the crown, a black spot in front of the eye, and a long black stripe behind the eye. Upperparts, tail, and wings are bright olive green with canary yellow on the edge of the wings. Chin and throat are dull white, breast and sides grayish, belly white, and undertail coverts yellowish olive.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/green-backed-sparrow.jpg",
+    "audio": "/audio/green-backed-sparrow.mp3",
+    "funFact": "Builds a dome-shaped nest on the ground with a side entrance, made from plant fibers, leaves, and bark. Forages on the ground, usually singly or in pairs!"
   }
 ]
