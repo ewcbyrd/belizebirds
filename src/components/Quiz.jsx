@@ -25,6 +25,8 @@ const Quiz = () => {
   useEffect(() => {
     if (!currentBird) return;
 
+    console.log('Current Bird:', currentBird);
+
     // Smart option generation: prioritize same family, fall back to same size, then random
     const generateSmartOptions = (correctBird, allBirds) => {
       let wrongOptions = [];
@@ -79,6 +81,7 @@ const Quiz = () => {
     };
 
     const allOptions = generateSmartOptions(currentBird, birds);
+    console.log('Generated options:', allOptions);
 
     setOptions(allOptions);
     setSelectedAnswer(null);
@@ -227,11 +230,21 @@ const Quiz = () => {
           {quizMode === 'identify' ? (
             <div className="mb-6">
               <div className="relative h-64 bg-gradient-to-br from-belize-green-light to-belize-green rounded-lg overflow-hidden">
-                <img
-                  src={currentBird.image}
-                  alt="Mystery bird"
-                  className="w-full h-full object-contain"
-                />
+                {currentBird && currentBird.image ? (
+                  <img
+                    src={currentBird.image}
+                    alt="Mystery bird"
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      console.error('Image failed to load:', currentBird.image);
+                      e.target.style.display = 'none';
+                    }}
+                  />
+                ) : (
+                  <div className="flex items-center justify-center h-full text-white">
+                    <p>Image not available</p>
+                  </div>
+                )}
               </div>
               <p className="text-center text-gray-700 font-medium mt-4">
                 What bird is this?
