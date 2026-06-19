@@ -512,5 +512,18 @@
     "image": "/birds/green-backed-sparrow.jpg",
     "audio": "/audio/green-backed-sparrow.mp3",
     "funFact": "Builds a dome-shaped nest on the ground with a side entrance, made from plant fibers, leaves, and bark. Forages on the ground, usually singly or in pairs!"
+  },
+  {
+    "id": 39,
+    "commonName": "Northern Schiffornis",
+    "scientificName": "Schiffornis veraepacis",
+    "family": "Tityridae",
+    "habitat": ["Humid evergreen forest", "Wet evergreen forest", "Secondary forest"],
+    "description": "A small bird, 15.5-16.5 cm long, weighing 20-40 g. Has an indistinct pale ring around the eye on an otherwise dark brownish olive face. Upperparts and tail are dark brownish olive, wings are warmer brown. Throat and breast are brownish olive, belly and vent grayish olive. Both sexes have the same plumage.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/northern-schiffornis.jpg",
+    "audio": "/audio/northern-schiffornis.mp3",
+    "funFact": "Sings mostly in the early morning with a sequence of 2-4 clear, rich musical whistles! The female alone incubates eggs for 20-21 days and provisions nestlings by herself."
   }
 ]
