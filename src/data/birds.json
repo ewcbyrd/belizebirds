@@ -629,5 +629,18 @@
     "image": "/birds/black-cheeked-woodpecker.jpg",
     "audio": "/audio/black-cheeked-woodpecker.mp3",
     "funFact": "Very active and agile forager that sometimes clings to the underside of branches! Feeds on everything from insects to fruits to flower nectar."
+  },
+  {
+    "id": 48,
+    "commonName": "Blue-black Grosbeak",
+    "scientificName": "Cyanoloxia cyanoides",
+    "family": "Cardinalidae",
+    "habitat": ["Dense forests", "Tall trees with undergrowth", "Broadleaf forest edges"],
+    "description": "A sexually dimorphic songbird. Males are dark blue with lighter blue eyebrows and shoulder patches on wings, and lighter blue forehead above beak. Females have dark brown plumage with slight reddish hue. Prefer to stay hidden in dense vegetation. Song consists of about six whistles with decreasing pitch.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/blue-black-grosbeak.jpg",
+    "audio": "/audio/blue-black-grosbeak.mp3",
+    "funFact": "Often not seen because they prefer to stay hidden in vegetation - their presence is usually known only by their distinctive song of about six whistles with decreasing pitch!"
   }
 ]
