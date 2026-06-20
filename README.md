@@ -61,7 +61,7 @@ Quiz features:
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
+- Node.js (version 18 or higher recommended, 24+ for production deployment)
 - npm
 
 ### Installation
