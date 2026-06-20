@@ -144,12 +144,29 @@ Read `src/data/birds.json` and:
 
 Write the updated JSON back to `src/data/birds.json` with proper formatting (2-space indentation).
 
-### 5. Confirm Success
+### 5. Commit Changes
+
+Commit the changes to git:
+1. Stage the modified files:
+   - `src/data/birds.json`
+   - `public/birds/[FILENAME].jpg`
+
+2. Create a commit with a descriptive message:
+   - For new birds: `"Add [Common Name] to bird database"`
+   - For updates: `"Update [Common Name] in bird database"`
+
+3. Use the bash tool to run:
+   ```bash
+   git add src/data/birds.json public/birds/[FILENAME].jpg && git commit -m "Add [Common Name] to bird database"
+   ```
+
+### 6. Confirm Success
 
 Display a success message:
 - For updates: "✓ Updated [Common Name] (#[ID])"
 - For new birds: "✓ Added [Common Name] (#[ID])"
 - Show the image path: "Image saved to: public/birds/[FILENAME].jpg (800x600)"
+- Confirm the commit: "✓ Changes committed to git"
 
 Remind the user:
 - "Note: You'll need to add the bird call audio file to: public/audio/[FILENAME].mp3"
@@ -163,6 +180,7 @@ Assistant: Adding new bird: Short-billed Pigeon
 [Downloads and processes image]
 ✓ Added Short-billed Pigeon (#51)
 Image saved to: public/birds/short-billed-pigeon.jpg (800x600)
+✓ Changes committed to git
 Note: You'll need to add the bird call audio file to: public/audio/short-billed-pigeon.mp3
 ```
 

@@ -668,5 +668,18 @@
     "image": "/birds/scaly-breasted-hummingbird.jpg",
     "audio": "/audio/scaly-breasted-hummingbird.mp3",
     "funFact": "Males display for females at leks during breeding season. This hummingbird aggressively defends patches of flowers and dominates smaller hummingbirds at feeding sites!"
+  },
+  {
+    "id": 51,
+    "commonName": "Short-billed Pigeon",
+    "scientificName": "Patagioenas nigrirostris",
+    "family": "Columbidae",
+    "habitat": ["Lowland forest", "Forest canopy", "Semi-open woodland"],
+    "description": "A large pigeon, 26.5 cm long, weighing 150 g. Mainly wine-purple in color with a black bill and purple-red eyes and legs. The belly is browner and the back is more olive-brown, with blackish tail and flight feathers. Forages in tree tops for mistletoe, fruits and berries.",
+    "size": "Medium-large",
+    "diet": "Frugivore",
+    "image": "/birds/short-billed-pigeon.jpg",
+    "audio": "/audio/short-billed-pigeon.mp3",
+    "funFact": "Named for its proportionally short bill compared to other pigeons in its genus. Has a complex, loud and high-pitched call that is slower and more complex than its close relative, the ruddy pigeon."
   }
 ]
