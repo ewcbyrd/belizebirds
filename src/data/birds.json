@@ -707,5 +707,18 @@
     "image": "/birds/yellow-faced-grassquit.jpg",
     "audio": "/audio/yellow-faced-grassquit.mp3",
     "funFact": "Builds a roughly globular nest with a side entrance placed usually less than 30 cm above the ground among grass or weeds. During courtship, males vibrate their wings while singing just inches away from the female!"
+  },
+  {
+    "id": 54,
+    "commonName": "Cinnamon-bellied Saltator",
+    "scientificName": "Saltator grandis",
+    "family": "Thraupidae",
+    "habitat": ["Forest edges", "Secondary forest", "Gardens", "Open woodland"],
+    "description": "A thick-billed songbird found from Mexico to Panama. Members of the saltator genus have robust bills, relatively long tails, and strong legs. This species has grey upperparts with cinnamon-colored underparts. Like other saltators, it forages for seeds, fruits, and insects in the canopy and mid-levels of trees.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/cinnamon-bellied-saltator.jpg",
+    "audio": "/audio/cinnamon-bellied-saltator.mp3",
+    "funFact": "In El Salvador, this bird is affectionately known as 'dichosofui' after its elaborate call, which sounds like the Spanish phrase '¡dichoso fui!' meaning 'I was happy!'"
   }
 ]
