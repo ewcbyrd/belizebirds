@@ -67,8 +67,19 @@ Execute the following steps to download and crop the image:
    - Example: "Morelet's Seedeater" → "morelets-seedeater.jpg"
 
 2. Download the image to a temporary location:
+   
+   If the URL is from Macaulay Library (macaulaylibrary.org), extract the asset ID and use the CDN URL:
    ```bash
-   curl -L "[IMAGE_URL]" -o /tmp/temp-bird-image.jpg
+   # Check if it's a Macaulay Library URL
+   if [[ "[IMAGE_URL]" == *"macaulaylibrary.org"* ]]; then
+     # Extract asset ID from URL (e.g., /photo/33376791 -> 33376791)
+     asset_id=$(echo "[IMAGE_URL]" | grep -oE '[0-9]+' | tail -1)
+     # Use CDN URL with asset ID
+     curl -L "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/${asset_id}/1800" -o /tmp/temp-bird-image.jpg
+   else
+     # Direct image URL
+     curl -L "[IMAGE_URL]" -o /tmp/temp-bird-image.jpg
+   fi
    ```
 
 3. Center crop the image to 800x600:
