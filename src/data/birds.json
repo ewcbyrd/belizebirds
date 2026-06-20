@@ -681,5 +681,18 @@
     "image": "/birds/short-billed-pigeon.jpg",
     "audio": "/audio/short-billed-pigeon.mp3",
     "funFact": "Named for its proportionally short bill compared to other pigeons in its genus. Has a complex, loud and high-pitched call that is slower and more complex than its close relative, the ruddy pigeon."
+  },
+  {
+    "id": 52,
+    "commonName": "Yellow-billed Cacique",
+    "scientificName": "Amblycercus holosericeus",
+    "family": "Icteridae",
+    "habitat": ["Dense undergrowth", "Forest edges", "Clearings", "Secondary forest"],
+    "description": "A distinctive blackbird about 21.5 cm long. Both males and females are entirely black with a characteristic pale yellow bill that is chisel-shaped at the tip. Has a pale yellow iris and gray legs. Often feeds like a woodpecker, hammering and probing bamboo stems and rotten wood to extract insects.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/yellow-billed-cacique.jpg",
+    "audio": "/audio/yellow-billed-cacique.mp3",
+    "funFact": "Pairs duet together with complex vocalizations, and this bird feeds like a woodpecker by hammering into bamboo and inserting its closed bill into substrates then opening it to expose hidden prey!"
   }
 ]
