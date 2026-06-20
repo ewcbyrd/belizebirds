@@ -694,5 +694,18 @@
     "image": "/birds/yellow-billed-cacique.jpg",
     "audio": "/audio/yellow-billed-cacique.mp3",
     "funFact": "Pairs duet together with complex vocalizations, and this bird feeds like a woodpecker by hammering into bamboo and inserting its closed bill into substrates then opening it to expose hidden prey!"
+  },
+  {
+    "id": 53,
+    "commonName": "Yellow-faced Grassquit",
+    "scientificName": "Tiaris olivaceus",
+    "family": "Thraupidae",
+    "habitat": ["Semi-open areas", "Roadsides", "Pastures", "Weedy fields"],
+    "description": "A small bird, 10-10.7 cm long. Adult males have an olive-green back with black face and breast marked by a distinctive bright yellow throat, supercilia, and lower eyelid spot. The rest of the underparts are greyish olive. Females are dull olive-green above and paler grey below with a weaker yellow face pattern.",
+    "size": "Very small",
+    "diet": "Granivore",
+    "image": "/birds/yellow-faced-grassquit.jpg",
+    "audio": "/audio/yellow-faced-grassquit.mp3",
+    "funFact": "Builds a roughly globular nest with a side entrance placed usually less than 30 cm above the ground among grass or weeds. During courtship, males vibrate their wings while singing just inches away from the female!"
   }
 ]
