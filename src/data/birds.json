@@ -655,5 +655,18 @@
     "image": "/birds/bright-rumped-attila.jpg",
     "audio": "/audio/bright-rumped-attila.mp3",
     "funFact": "Active, aggressive, and noisy! Will pursue prey on foot and follow army ant columns. Known for its loud 'beat-it, beat-it' call and plaintive whistled song."
+  },
+  {
+    "id": 50,
+    "commonName": "Scaly-breasted Hummingbird",
+    "scientificName": "Phaeochroa cuvierii",
+    "family": "Trochilidae",
+    "habitat": ["Dry forest", "Forest edges", "Mangroves", "Secondary forest", "Gardens"],
+    "description": "A hummingbird 11.5-13 cm long, weighing 8-10 g. Mostly bronzy green with a grayish buff belly and distinctive scaly appearance created by buffy edges on underpart feathers. The tail is mostly bronzy with white tips on outer feathers. Has a mostly black bill with pink base.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "image": "/birds/scaly-breasted-hummingbird.jpg",
+    "audio": "/audio/scaly-breasted-hummingbird.mp3",
+    "funFact": "Males display for females at leks during breeding season. This hummingbird aggressively defends patches of flowers and dominates smaller hummingbirds at feeding sites!"
   }
 ]
