@@ -3,6 +3,13 @@ import birdsData from '../data/birds.json';
 
 const AppContext = createContext();
 
+// Helper function to get full path for public assets
+const getAssetPath = (path) => {
+  // Remove leading slash if present and prepend BASE_URL
+  const cleanPath = path.replace(/^\//, '');
+  return import.meta.env.BASE_URL + cleanPath;
+};
+
 export const useAppContext = () => {
   const context = useContext(AppContext);
   if (!context) {
@@ -15,8 +22,14 @@ export const AppProvider = ({ children }) => {
   // App Mode: 'gallery' or 'quiz'
   const [mode, setMode] = useState('gallery');
 
-  // Birds data
-  const [birds] = useState(birdsData);
+  // Birds data with BASE_URL prepended to image and audio paths
+  const [birds] = useState(() =>
+    birdsData.map(bird => ({
+      ...bird,
+      image: getAssetPath(bird.image),
+      audio: getAssetPath(bird.audio)
+    }))
+  );
 
   // Search and Filter state
   const [searchTerm, setSearchTerm] = useState('');
