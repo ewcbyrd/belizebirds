@@ -642,5 +642,18 @@
     "image": "/birds/blue-black-grosbeak.jpg",
     "audio": "/audio/blue-black-grosbeak.mp3",
     "funFact": "Often not seen because they prefer to stay hidden in vegetation - their presence is usually known only by their distinctive song of about six whistles with decreasing pitch!"
+  },
+  {
+    "id": 49,
+    "commonName": "Bright-rumped Attila",
+    "scientificName": "Attila spadiceus",
+    "family": "Tyrannidae",
+    "habitat": ["Forests", "Second growth", "Pasture with trees", "Shady gardens"],
+    "description": "A large tyrant flycatcher, 18 cm long, weighing 40 g, with big head, hooked and slightly upturned bill, and upright stance. Head olive-green streaked with black, back chestnut or olive, rump bright yellow, tail brown. Wings dark brown with two pale wing bars. Whitish or yellow throat and yellow breast variably streaked darker. Belly white becoming yellow near tail. Red iris. Very variable plumage.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/bright-rumped-attila.jpg",
+    "audio": "/audio/bright-rumped-attila.mp3",
+    "funFact": "Active, aggressive, and noisy! Will pursue prey on foot and follow army ant columns. Known for its loud 'beat-it, beat-it' call and plaintive whistled song."
   }
 ]
