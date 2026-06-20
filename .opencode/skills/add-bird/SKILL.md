@@ -33,30 +33,38 @@ Check if the bird already exists in `src/data/birds.json`:
 - If it exists, inform the user: "This bird already exists. I'll update its information."
 - If it's new, inform the user: "Adding new bird: [Common Name]"
 
-### 2. Collect Required Information
+### 2. Research Bird Information
 
-For new birds OR if updating, prompt for any missing fields:
+Use the WebFetch tool to gather information about the bird from Wikipedia:
+1. Search for the bird's common name on Wikipedia (e.g., "https://en.wikipedia.org/wiki/Short-billed_Pigeon")
+2. Extract the following information from the Wikipedia page:
+   - Scientific name
+   - Family
+   - Habitat (convert to array format, focusing on habitats relevant to Belize/Central America)
+   - Physical description
+   - Size (categorize as: "Very small", "Small", "Small-medium", "Medium", "Medium-large", "Large")
+   - Diet (categorize as: "Nectarivore", "Insectivore", "Frugivore", "Granivore", "Omnivore", "Carnivore")
+   - Interesting facts
 
-**Required fields:**
-- `commonName` - e.g., "Melodious Blackbird"
-- `scientificName` - e.g., "Dives dives"
-- `family` - Bird family name (e.g., "Icteridae")
-- `habitat` - Array of habitats (e.g., ["Urban areas", "Open woodland"])
-- `description` - Detailed description of the bird
-- `size` - Size category: "Very small", "Small", "Small-medium", "Medium", "Medium-large", "Large"
-- `diet` - Diet type: "Nectarivore", "Insectivore", "Frugivore", "Granivore", "Omnivore", "Carnivore"
-- `funFact` - An interesting fact about the bird
+3. Create a concise description (2-3 sentences) suitable for the database
+4. Select an interesting fun fact
+
+**Required fields to gather:**
+- `commonName` - Already provided by user
+- `scientificName` - From Wikipedia
+- `family` - From Wikipedia  
+- `habitat` - Array of habitats from Wikipedia
+- `description` - Detailed description based on Wikipedia info
+- `size` - Categorize based on length/weight info
+- `diet` - From Wikipedia behavior/ecology section
+- `funFact` - An interesting fact from Wikipedia
 
 **Optional fields:**
-- `frequency` - Observation frequency percentage (e.g., "45.03%")
+- `frequency` - Skip (user would need to provide this)
 
-### 3. Get Image URL
+If the image URL was already provided by the user, skip to step 3. Otherwise, ask for it.
 
-Ask the user: "Please provide the URL for the bird image:"
-
-Wait for the user to provide the image URL.
-
-### 4. Process the Image
+### 3. Process the Image
 
 Execute the following steps to download and crop the image:
 
@@ -116,7 +124,7 @@ Execute the following steps to download and crop the image:
    ls -lh public/birds/[FILENAME].jpg
    ```
 
-### 5. Update the Database
+### 4. Update the Database
 
 Read `src/data/birds.json` and:
 
@@ -136,7 +144,7 @@ Read `src/data/birds.json` and:
 
 Write the updated JSON back to `src/data/birds.json` with proper formatting (2-space indentation).
 
-### 6. Confirm Success
+### 5. Confirm Success
 
 Display a success message:
 - For updates: "✓ Updated [Common Name] (#[ID])"
@@ -149,21 +157,13 @@ Remind the user:
 ## Example Usage
 
 ```
-User: /add-bird
-Assistant: What is the common name of the bird you want to add?
-User: Great Kiskadee
-Assistant: Adding new bird: Great Kiskadee
-What is the scientific name?
-User: Pitangus sulphuratus
-Assistant: What family does this bird belong to?
-User: Tyrannidae
-[... continues collecting all required fields ...]
-Assistant: Please provide the URL for the bird image:
-User: https://example.com/great-kiskadee.jpg
-Assistant: [Downloads and processes image]
-✓ Added Great Kiskadee (#21)
-Image saved to: public/birds/great-kiskadee.jpg (800x600)
-Note: You'll need to add the bird call audio file to: public/audio/great-kiskadee.mp3
+User: /add-bird Short-billed Pigeon https://macaulaylibrary.org/asset/505255691
+Assistant: Adding new bird: Short-billed Pigeon
+[Researches bird information from Wikipedia]
+[Downloads and processes image]
+✓ Added Short-billed Pigeon (#51)
+Image saved to: public/birds/short-billed-pigeon.jpg (800x600)
+Note: You'll need to add the bird call audio file to: public/audio/short-billed-pigeon.mp3
 ```
 
 ## Data Structure Reference
@@ -192,7 +192,7 @@ Each bird object in `birds.json` should follow this structure:
 - Always preserve the JSON structure and formatting
 - Use 2-space indentation when writing the JSON file
 - Validate that all required fields are present before saving
-- If the user provides minimal information, prompt for missing required fields
+- Research bird information from Wikipedia automatically - don't ask the user for details
 - Image filenames should be lowercase with hyphens, no apostrophes
 - The skill should be non-destructive - always confirm before overwriting data
 - Handle errors gracefully (e.g., failed image download, invalid URL)
