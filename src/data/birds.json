@@ -759,5 +759,18 @@
     "image": "/birds/white-collared-manakin.jpg",
     "audio": "/audio/white-collared-manakin.mp3",
     "funFact": "Males clear a patch of forest floor up to 120 cm across to bare earth for their display courts, leaping to and fro between thin upright sticks while giving loud wing snaps."
+  },
+  {
+    "id": 58,
+    "commonName": "Laughing Falcon",
+    "scientificName": "Herpetotheres cachinnans",
+    "family": "Falconidae",
+    "habitat": ["Forest edges", "Gallery forest", "Secondary forest", "Savanna", "Open woodland"],
+    "description": "A medium-sized bird of prey with creamy white underparts, a broad black face mask that wraps around the neck, and a small bushy crest. The wings and back are dusky black, and the tail has bold white bands. It has short, rounded wings and a long tail. Known for its loud, far-carrying laughing call, it is often seen perched conspicuously for hours watching for prey.",
+    "size": "Medium",
+    "diet": "Carnivore",
+    "image": "/birds/laughing-falcon.jpg",
+    "audio": "/audio/laughing-falcon.mp3",
+    "funFact": "The laughing falcon specializes in hunting snakes, including venomous coral snakes, and its scientific name Herpetotheres cachinnans means 'snake mower' and 'laughing aloud'."
   }
 ]
