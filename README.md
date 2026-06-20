@@ -2,6 +2,8 @@
 
 A modern, interactive web application for learning about the most common birds of Belize. Built with React, Vite, and Tailwind CSS.
 
+**Live Site:** [https://ewcbyrd.github.io/belizebirds/](https://ewcbyrd.github.io/belizebirds/)
+
 ## Features
 
 ### 🎨 Bird Gallery
@@ -89,6 +91,16 @@ npm run build
 ```
 
 The production-ready files will be in the `dist` directory.
+
+### Deployment
+
+This site is automatically deployed to GitHub Pages via GitHub Actions:
+
+1. Push changes to the `main` branch
+2. GitHub Actions automatically builds and deploys the site
+3. Site is live at [https://ewcbyrd.github.io/belizebirds/](https://ewcbyrd.github.io/belizebirds/) within 2-3 minutes
+
+**Manual Deployment:** If you need to trigger a deployment manually, go to Actions → Deploy to GitHub Pages → Run workflow.
 
 ### Preview Production Build
 
