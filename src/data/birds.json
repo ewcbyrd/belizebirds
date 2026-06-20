@@ -720,5 +720,18 @@
     "image": "/birds/cinnamon-bellied-saltator.jpg",
     "audio": "/audio/cinnamon-bellied-saltator.mp3",
     "funFact": "In El Salvador, this bird is affectionately known as 'dichosofui' after its elaborate call, which sounds like the Spanish phrase '¡dichoso fui!' meaning 'I was happy!'"
+  },
+  {
+    "id": 55,
+    "commonName": "Golden-olive Woodpecker",
+    "scientificName": "Colaptes rubiginosus",
+    "family": "Picidae",
+    "habitat": ["Forest edges", "Rainforest", "Cloudforest", "Open woodland", "Plantations"],
+    "description": "A medium-sized woodpecker, 18-23 cm long. Both sexes have mostly green upperparts with a bronze tinge and pale buffy yellow underparts barred with blackish olive. Males have a slate gray crown with a red border and nape and a wide red malar stripe. Females have red only on the nape. Forages from the mid-level to the canopy for ants, termites, and wood-boring beetles.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/golden-olive-woodpecker.jpg",
+    "audio": "/audio/golden-olive-woodpecker.mp3",
+    "funFact": "This woodpecker has been observed eating Müllerian bodies - specialized food structures that Cecropia plants produce to feed their symbiotic ants!"
   }
 ]
