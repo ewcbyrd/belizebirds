@@ -733,5 +733,31 @@
     "image": "/birds/golden-olive-woodpecker.jpg",
     "audio": "/audio/golden-olive-woodpecker.mp3",
     "funFact": "This woodpecker has been observed eating Müllerian bodies - specialized food structures that Cecropia plants produce to feed their symbiotic ants!"
+  },
+  {
+    "id": 56,
+    "commonName": "Mangrove Swallow",
+    "scientificName": "Tachycineta albilinea",
+    "family": "Hirundinidae",
+    "habitat": ["Low-lying bodies of water", "Mangrove forests", "Rivers", "Lakes", "Intertidal zones"],
+    "description": "The mangrove swallow is a passerine bird found from Mexico through Central America to Panama. It has iridescent blue-green upperparts, white underparts, a white rump, and a black tail. It can be identified by the distinctive supraloral white streak near its eye, a feature shared only with two other Tachycineta species. Highly territorial when breeding, it nests in cavities near water and feeds on unusually large aerial prey for its size, including dragonflies and bees.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/mangrove-swallow.jpg",
+    "audio": "/audio/mangrove-swallow.mp3",
+    "funFact": "The mangrove swallow feeds on unusually large prey for its size, including dragonflies and bees, and typically forages within 100 meters of its nest when feeding its young."
+  },
+  {
+    "id": 57,
+    "commonName": "White-collared Manakin",
+    "scientificName": "Manacus candei",
+    "family": "Pipridae",
+    "habitat": ["Forest edges", "Secondary forest", "Moist forest", "Plantations"],
+    "description": "A compact, short-tailed bird with a heavy hooked bill and orange legs. Males have a black crown, wings, and tail, a white head, neck, and breast contrasting with a bright yellow belly. Females are olive-green with a yellow belly. Males perform elaborate lekking displays on the forest floor, using their modified wings to produce loud snapping sounds.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/white-collared-manakin.jpg",
+    "audio": "/audio/white-collared-manakin.mp3",
+    "funFact": "Males clear a patch of forest floor up to 120 cm across to bare earth for their display courts, leaping to and fro between thin upright sticks while giving loud wing snaps."
   }
 ]
