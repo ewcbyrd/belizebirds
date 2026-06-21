@@ -13,6 +13,7 @@ export const FAMILY_NAMES = {
   'Psittacidae': 'Parrots',
   'Cuculidae': 'Cuckoos',
   'Strigidae': 'Typical Owls',
+  'Apodidae': 'Swifts',
   'Trochilidae': 'Hummingbirds',
   'Trogonidae': 'Trogons',
   'Alcedinidae': 'Kingfishers',

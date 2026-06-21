@@ -1927,5 +1927,23 @@
     "image": "/birds/black-throated-shrike-tanager.jpg",
     "audio": "/audio/black-throated-shrike-tanager.mp3",
     "funFact": "It is replaced geographically by its close relative the White-throated Shrike-Tanager further south in Central America."
+  },
+  {
+    "id": 107,
+    "commonName": "Vaux's Swift",
+    "scientificName": "Chaetura vauxi",
+    "frequency": "",
+    "family": "Apodidae",
+    "habitat": [
+      "Forests",
+      "Open areas",
+      "Towns"
+    ],
+    "description": "A very small swift with a cigar-shaped body, long crescentic wings, and a short bluntly squared-off tail. The head, upperparts, and wings are dusky black, while the underparts, rump, and tail coverts are greyish brown with a paler grey throat. Found from Alaska through Central America to Venezuela, often flying in flocks over forests and open areas.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/vauxs-swift.jpg",
+    "audio": "/audio/vauxs-swift.mp3",
+    "funFact": "Named for William Sansom Vaux (pronounced 'vox'), this swift has a more varied call repertoire than others in its genus, mixing chattering, buzzes, squeaks, and chips."
   }
 ]
