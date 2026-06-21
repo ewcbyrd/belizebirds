@@ -1669,5 +1669,24 @@
     "image": "/birds/lesser-swallow-tailed-swift.jpg",
     "audio": "/audio/lesser-swallow-tailed-swift.mp3",
     "funFact": "Its nest is a long tube made of plant material felted with saliva, wider at the top with the entrance at the base, attached to a vertical surface or tree branch."
+  },
+  {
+    "id": 93,
+    "commonName": "Green-breasted Mango",
+    "scientificName": "Anthracothorax prevostii",
+    "frequency": "",
+    "family": "Trochilidae",
+    "habitat": [
+      "Open areas",
+      "Forest edges",
+      "Gardens",
+      "Mangroves"
+    ],
+    "description": "A medium-sized hummingbird with a slightly decurved black bill. Males have metallic bronze-green upperparts and a velvety black stripe down the throat and chest, while females have white-tipped outer tail feathers. Found from Mexico through Central America in semi-open habitats.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "image": "/birds/green-breasted-mango.jpg",
+    "audio": "/audio/green-breasted-mango.mp3",
+    "funFact": "Despite being a tropical species, it has wandered as far north as Wisconsin and North Carolina as a vagrant to the United States."
   }
 ]
