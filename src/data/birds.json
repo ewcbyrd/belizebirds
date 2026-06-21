@@ -955,7 +955,7 @@
     "diet": "Omnivore",
     "image": "/birds/cinnamon-bellied-saltator.jpg",
     "audio": "/audio/cinnamon-bellied-saltator.mp3",
-    "funFact": "In El Salvador, this bird is affectionately known as 'dichosofui' after its elaborate call, which sounds like the Spanish phrase '¡dichoso fui!' meaning 'I was happy!'"
+    "funFact": "In El Salvador, this bird is affectionately known as 'dichosofui' after its elaborate call, which sounds like the Spanish phrase '\u00a1dichoso fui!' meaning 'I was happy!'"
   },
   {
     "id": 55,
@@ -974,7 +974,7 @@
     "diet": "Insectivore",
     "image": "/birds/golden-olive-woodpecker.jpg",
     "audio": "/audio/golden-olive-woodpecker.mp3",
-    "funFact": "This woodpecker has been observed eating Müllerian bodies - specialized food structures that Cecropia plants produce to feed their symbiotic ants!"
+    "funFact": "This woodpecker has been observed eating M\u00fcllerian bodies - specialized food structures that Cecropia plants produce to feed their symbiotic ants!"
   },
   {
     "id": 56,
@@ -1306,5 +1306,24 @@
     "image": "/birds/gray-crowned-yellowthroat.jpg",
     "audio": "/audio/gray-crowned-yellowthroat.mp3",
     "funFact": "Unlike most yellowthroats, the gray-crowned yellowthroat has scarcely any black on its face, with the black usually restricted to just the lores and behind the eye."
+  },
+  {
+    "id": 73,
+    "commonName": "Greenish Elaenia",
+    "scientificName": "Myiopagis viridicata",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Forests",
+      "Forest edges",
+      "Secondary forests",
+      "Plantations"
+    ],
+    "description": "A small flycatcher, 13-14 cm long, with greenish olive upperparts, a concealed yellow crown stripe, and pale yellow underparts. It has a whitish gray supercilium and partial white eyering. Found in a wide variety of wooded habitats from Mexico to Argentina.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/greenish-elaenia.jpg",
+    "audio": "/audio/greenish-elaenia.mp3",
+    "funFact": "The greenish elaenia is the only species in the genus Myiopagis found from Mexico through Central America and across much of South America, with 10 recognized subspecies."
   }
 ]
