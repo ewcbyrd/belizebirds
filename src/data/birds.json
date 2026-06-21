@@ -1963,5 +1963,23 @@
     "image": "/birds/violet-sabrewing.jpg",
     "audio": "/audio/violet-sabrewing.mp3",
     "funFact": "The violet sabrewing is the largest hummingbird in Mexico and Central America, measuring 13 to 15 cm long, and males are known to aggressively defend flower patches from other hummingbirds."
+  },
+  {
+    "id": 109,
+    "commonName": "Rufous-capped Warbler",
+    "scientificName": "Basileuterus rufifrons",
+    "frequency": "",
+    "family": "Parulidae",
+    "habitat": [
+      "Tropical shrubby highlands",
+      "Oak woodland",
+      "Dense undergrowth"
+    ],
+    "description": "A small warbler about 12.7 cm long with plain olive-gray upperparts, a bright yellow chest and throat, and a white belly. Its distinctive facial pattern includes a rufous cap, white eyebrow-line, dark eye-line, and white malar marking. It has a stout bill, round stubby wings, and a long tail often held at a high angle.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/rufous-capped-warbler.jpg",
+    "audio": "/audio/rufous-capped-warbler.mp3",
+    "funFact": "Despite its name, the rufous-capped warbler does not actually warble — its courtship song is a rapid, accelerating series of chipping notes."
   }
 ]
