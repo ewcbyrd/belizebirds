@@ -1836,5 +1836,24 @@
     "image": "/birds/ornate-hawk-eagle.jpg",
     "audio": "/audio/ornate-hawk-eagle.mp3",
     "funFact": "The juvenile gray-bellied hawk closely resembles the adult ornate hawk-eagle, likely a case of mimicry where a less powerful species mimics a more powerful raptor to avoid attack."
+  },
+  {
+    "id": 102,
+    "commonName": "Blue Bunting",
+    "scientificName": "Cyanocompsa parellina",
+    "frequency": "",
+    "family": "Cardinalidae",
+    "habitat": [
+      "Dense thickets",
+      "Scrubby areas",
+      "Forest edges",
+      "Forest undergrowth"
+    ],
+    "description": "A small cardinalid with striking sexual dimorphism. The male is brilliant blue with a sky blue forehead and cheek, blackish blue upperparts, and deep blue underparts. The female is dull brownish overall with a reddish tinge to the belly. Found in dense vegetation from Mexico to Nicaragua.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/blue-bunting.jpg",
+    "audio": "/audio/blue-bunting.mp3",
+    "funFact": "The male's song has been described as \"a sweet, rather sad warble.\""
   }
 ]
