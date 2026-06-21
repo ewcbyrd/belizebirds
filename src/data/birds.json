@@ -1416,5 +1416,24 @@
     "image": "/birds/ferruginous-pygmy-owl.jpg",
     "audio": "/audio/ferruginous-pygmy-owl.mp3",
     "funFact": "The two dark spots on the back of its head look like eyes, a clever defense that helps fool both predators and small birds trying to mob it."
+  },
+  {
+    "id": 79,
+    "commonName": "Mealy Amazon",
+    "scientificName": "Amazona farinosa",
+    "frequency": "",
+    "family": "Psittacidae",
+    "habitat": [
+      "Humid forests",
+      "Semi-humid forests",
+      "Gallery forests",
+      "Plantations"
+    ],
+    "description": "A large parrot, 38-41 cm long, mainly green with a distinctive whitish powdery tinge on the back and nape, a short square tail, and a red speculum on the wing. It has a broad white eye-ring and a bi-colored tail that is paler yellow at the tip. Found in humid forests from southern Mexico to the Amazon basin.",
+    "size": "Medium-large",
+    "diet": "Frugivore",
+    "image": "/birds/mealy-amazon.jpg",
+    "audio": "/audio/mealy-amazon.mp3",
+    "funFact": "The name \"mealy\" comes from the whitish, flour-like powder on its back and nape \u2014 \"farinosa\" in Latin means \"sprinkled with flour.\""
   }
 ]
