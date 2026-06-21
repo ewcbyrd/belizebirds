@@ -1893,5 +1893,23 @@
     "image": "/birds/ruddy-crake.jpg",
     "audio": "/audio/ruddy-crake.mp3",
     "funFact": "After no sightings for two decades in Costa Rica, it was listed as possibly extinct there until rediscovered in 2007 at the La Selva Biological Research Station."
+  },
+  {
+    "id": 105,
+    "commonName": "Ochre-crowned Greenlet",
+    "scientificName": "Tunchiornis ochraceiceps",
+    "frequency": "",
+    "family": "Vireonidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Mature wet forest",
+      "Lowland rainforest"
+    ],
+    "description": "A small greenlet with a yellowish forehead, yellow-brown crown, olive-brown upperparts, dull gray face, and ochraceous breast becoming bright yellow on the belly. It has a pale gray iris and moves actively through the forest understory, often hanging upside-down while foraging. Found from Mexico to Ecuador.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/ochre-crowned-greenlet.jpg",
+    "audio": "/audio/ochre-crowned-greenlet.mp3",
+    "funFact": "Its genus name Tunchiornis derives from 'El Tunche,' the whistling jungle spirit of Amazonian mythology, referring to its simple whistled song."
   }
 ]
