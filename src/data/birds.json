@@ -1051,5 +1051,24 @@
     "image": "/birds/yellow-bellied-elaenia.jpg",
     "audio": "/audio/yellow-bellied-elaenia.mp3",
     "funFact": "Its dawn song has been described as \"spud-deeer, spud-deer-dzz, spud-deer\", repeated over and over."
+  },
+  {
+    "id": 60,
+    "commonName": "Stripe-throated Hermit",
+    "scientificName": "Phaethornis striigularis",
+    "family": "Trochilidae",
+    "habitat": [
+      "Forest",
+      "Forest edges",
+      "Woodland",
+      "Thickets",
+      "Gardens"
+    ],
+    "description": "A very small hummingbird with dull iridescent green upperparts, pale rufous rump, buff belly, and a blackish \"bandit-mask\" face with whitish stripes. It has a long, decurved bill and is found in wooded habitats from Mexico through Central America to northwestern South America.",
+    "size": "Very small",
+    "diet": "Nectarivore",
+    "image": "/birds/stripe-throated-hermit.jpg",
+    "audio": "/audio/stripe-throated-hermit.mp3",
+    "funFact": "It is a \"trap-line\" feeder, visiting a regular circuit of flowers, and has been observed piercing flower bases to access nectar that would otherwise be out of reach."
   }
 ]
