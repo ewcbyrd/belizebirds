@@ -1633,5 +1633,23 @@
     "image": "/birds/green-honeycreeper.jpg",
     "audio": "/audio/green-honeycreeper.mp3",
     "funFact": "Unlike other honeycreepers, it depends less on nectar \u2014 fruit and seeds make up about 60% of its diet."
+  },
+  {
+    "id": 91,
+    "commonName": "Band-backed Wren",
+    "scientificName": "Campylorhynchus zonatus",
+    "frequency": "",
+    "family": "Troglodytidae",
+    "habitat": [
+      "Open woodland",
+      "Forest edges",
+      "Second growth"
+    ],
+    "description": "A large wren with a brown-grey crown, black nape, and heavily barred upperparts and tail with black, tawny, and white. The breast is white with heavy black spots and the belly is cinnamon. Found from Mexico to Ecuador.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/band-backed-wren.jpg",
+    "audio": "/audio/band-backed-wren.mp3",
+    "funFact": "After breeding, family groups of 4-12 birds sleep together in dormitory nests used throughout the year."
   }
 ]
