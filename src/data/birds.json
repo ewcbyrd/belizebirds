@@ -1488,5 +1488,23 @@
     "image": "/birds/crimson-collared-tanager.jpg",
     "audio": "/audio/crimson-collared-tanager.mp3",
     "funFact": "Its specific epithet sanguinolentus means 'bloodied' in Latin, referring to its striking red plumage."
+  },
+  {
+    "id": 83,
+    "commonName": "Bare-throated Tiger-Heron",
+    "scientificName": "Tigrisoma mexicanum",
+    "frequency": "",
+    "family": "Ardeidae",
+    "habitat": [
+      "River banks",
+      "Lake banks",
+      "Open wetlands"
+    ],
+    "description": "The bare-throated tiger heron is 80 cm (31 in) long, a large wading bird with a bare greenish-yellow to orange throat. Adults have a black crown, light grey sides of the head, and blackish upperparts narrowly barred with buff. Juveniles are buff coarsely barred with black. Its flight is heavy and it is often found motionless along river and lake banks.",
+    "size": "Large",
+    "diet": "Carnivore",
+    "image": "/birds/bare-throated-tiger-heron.jpg",
+    "audio": "/audio/bare-throated-tiger-heron.mp3",
+    "funFact": "Males give a booming hrrrowwr! call at sunset, during which the beak opens wide and undulations can be seen along the throat."
   }
 ]
