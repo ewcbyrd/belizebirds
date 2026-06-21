@@ -1286,5 +1286,25 @@
     "image": "/birds/red-capped-manakin.jpg",
     "audio": "/audio/red-capped-manakin.mp3",
     "funFact": "The male's courtship display includes shuffling rapidly backwards along a branch like a moonwalk, earning it the nickname 'the Michael Jackson bird.' Its digestive system can process fruit in less than 18 minutes."
+  },
+  {
+    "id": 72,
+    "commonName": "Gray-crowned Yellowthroat",
+    "scientificName": "Geothlypis poliocephala",
+    "frequency": "",
+    "family": "Parulidae",
+    "habitat": [
+      "Open grassy areas",
+      "Shrubland",
+      "Semi-arid scrub",
+      "Savannas",
+      "Sugar cane fields"
+    ],
+    "description": "A medium-sized warbler, about 13 cm long, with olive upperparts and bright yellow underparts. The male has a gray crown and nape with black restricted to the lores and behind the eye, unlike the full face mask of other yellowthroats. The female is similar but lacks the black face markings. Found in open grassy and shrubby habitats from Mexico to Panama.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/gray-crowned-yellowthroat.jpg",
+    "audio": "/audio/gray-crowned-yellowthroat.mp3",
+    "funFact": "Unlike most yellowthroats, the gray-crowned yellowthroat has scarcely any black on its face, with the black usually restricted to just the lores and behind the eye."
   }
 ]
