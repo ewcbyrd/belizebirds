@@ -1089,5 +1089,26 @@
     "image": "/birds/king-vulture.jpg",
     "audio": "/audio/king-vulture.mp3",
     "funFact": "The king vulture was revered in Maya mythology, often portrayed as a god carrying messages between humans and the other gods, and appears frequently in Maya codices."
+  },
+  {
+    "id": 62,
+    "commonName": "Scrub Euphonia",
+    "scientificName": "Euphonia affinis",
+    "frequency": "",
+    "family": "Fringillidae",
+    "habitat": [
+      "Deciduous forest",
+      "Secondary forest",
+      "Forest edges",
+      "Scrublands",
+      "Gardens",
+      "Clearings"
+    ],
+    "description": "A very small finch with a stubby bill, about 10 cm long. Males have a yellow forecrown, glossy blue-black head and upperparts, and bright yellow underparts. Females are olive-yellow with grayish crowns. It is found in open and semi-open habitats from Mexico to Costa Rica.",
+    "size": "Very small",
+    "diet": "Frugivore",
+    "image": "/birds/scrub-euphonia.jpg",
+    "audio": "/audio/scrub-euphonia.mp3",
+    "funFact": "The scrub euphonia feeds primarily on mistletoe berries, making it an important seed disperser for this parasitic plant."
   }
 ]
