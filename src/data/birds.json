@@ -1247,5 +1247,26 @@
     "image": "/birds/slaty-tailed-trogon.jpg",
     "audio": "/audio/slaty-tailed-trogon.mp3",
     "funFact": "This trogon often follows white-faced capuchin monkeys to snatch insects they flush, and nests in cavities excavated in active termite nests high in trees."
+  },
+  {
+    "id": 70,
+    "commonName": "Ochre-bellied Flycatcher",
+    "scientificName": "Mionectes oleagineus",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Semi-deciduous forest",
+      "Secondary forest",
+      "Gallery forest",
+      "Plantations",
+      "Gardens"
+    ],
+    "description": "A small flycatcher, 12.5 to 14 cm long, with greenish olive upperparts, buffy ochraceous edges on the wings, and rich cinnamon buff underparts. Forages at middle levels of the forest, hover-gleaning fruit and insects from a perch. Found from Mexico through Central America to northern South America.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/ochre-bellied-flycatcher.jpg",
+    "audio": "/audio/ochre-bellied-flycatcher.mp3",
+    "funFact": "Males court at leks, singing and flashing their wings, and the female builds a pear-shaped moss-covered nest with a side entrance suspended from a vine."
   }
 ]
