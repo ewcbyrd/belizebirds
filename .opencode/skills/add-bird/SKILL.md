@@ -9,7 +9,7 @@ I help you add or update bird species in the Belize Birds database with the foll
 
 - Add new bird species with all required fields
 - Update existing bird species
-- Automatically download and process bird images to 800x600 (4:3 ratio)
+- Automatically download and process bird images to 4:3 aspect ratio
 - Generate properly formatted filenames from bird names
 - Maintain the birds.json database structure
 
@@ -90,7 +90,7 @@ Execute the following steps to download and crop the image:
    fi
    ```
 
-3. Center crop the image to 800x600:
+3. Center crop the image to 4:3 ratio:
    ```bash
    # Get dimensions
    width=$(sips -g pixelWidth /tmp/temp-bird-image.jpg | grep pixelWidth | awk '{print $2}')
@@ -112,8 +112,8 @@ Execute the following steps to download and crop the image:
      sips --cropToHeightWidth $new_height $width --cropOffset $crop_y 0 /tmp/temp-bird-image.jpg -o /tmp/temp-bird-image.jpg >/dev/null 2>&1
    fi
    
-   # Resize to exactly 800x600
-   sips -z 600 800 /tmp/temp-bird-image.jpg -o public/birds/[FILENAME].jpg >/dev/null 2>&1
+   # Save the cropped image (no resize)
+   cp /tmp/temp-bird-image.jpg public/birds/[FILENAME].jpg
    
    # Cleanup
    rm /tmp/temp-bird-image.jpg
@@ -165,7 +165,7 @@ Commit the changes to git:
 Display a success message:
 - For updates: "✓ Updated [Common Name] (#[ID])"
 - For new birds: "✓ Added [Common Name] (#[ID])"
-- Show the image path: "Image saved to: public/birds/[FILENAME].jpg (800x600)"
+- Show the image path: "Image saved to: public/birds/[FILENAME].jpg (4:3 ratio)"
 - Confirm the commit: "✓ Changes committed to git"
 
 Remind the user:
@@ -179,7 +179,7 @@ Assistant: Adding new bird: Short-billed Pigeon
 [Researches bird information from Wikipedia]
 [Downloads and processes image]
 ✓ Added Short-billed Pigeon (#51)
-Image saved to: public/birds/short-billed-pigeon.jpg (800x600)
+Image saved to: public/birds/short-billed-pigeon.jpg (4:3 ratio)
 ✓ Changes committed to git
 Note: You'll need to add the bird call audio file to: public/audio/short-billed-pigeon.mp3
 ```
