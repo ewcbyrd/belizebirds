@@ -1651,5 +1651,23 @@
     "image": "/birds/band-backed-wren.jpg",
     "audio": "/audio/band-backed-wren.mp3",
     "funFact": "After breeding, family groups of 4-12 birds sleep together in dormitory nests used throughout the year."
+  },
+  {
+    "id": 92,
+    "commonName": "Lesser Swallow-tailed Swift",
+    "scientificName": "Panyptila cayennensis",
+    "frequency": "",
+    "family": "Apodidae",
+    "habitat": [
+      "Forest edges",
+      "Open areas",
+      "Riverine"
+    ],
+    "description": "A slender swift with long narrow wings and a long forked tail, mainly black with a white throat and upper breast. Found from southern Mexico through Central America and South America, often flying very fast and high above the forest canopy.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/lesser-swallow-tailed-swift.jpg",
+    "audio": "/audio/lesser-swallow-tailed-swift.mp3",
+    "funFact": "Its nest is a long tube made of plant material felted with saliva, wider at the top with the entrance at the base, attached to a vertical surface or tree branch."
   }
 ]
