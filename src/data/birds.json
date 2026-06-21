@@ -1362,5 +1362,22 @@
     "image": "/birds/amazon-kingfisher.jpg",
     "audio": "/audio/amazon-kingfisher.mp3",
     "funFact": "The Amazon kingfisher hunts by plunging into water from a perch, but also hovers like a helicopter before diving for fish."
+  },
+  {
+    "id": 76,
+    "commonName": "White Hawk",
+    "scientificName": "Pseudastur albicollis",
+    "frequency": "",
+    "family": "Accipitridae",
+    "habitat": [
+      "Lowland forests",
+      "Woodlands"
+    ],
+    "description": "A striking raptor, 46-56 cm long, with entirely white head, body, and underwings contrasting with black upper wings and a short black tail with a broad white band. The bill is black and legs are yellow. Females are larger than males. Found from southern Mexico through Central America to the Amazon basin.",
+    "size": "Medium-large",
+    "diet": "Carnivore",
+    "image": "/birds/white-hawk.jpg",
+    "audio": "/audio/white-hawk.mp3",
+    "funFact": "The white hawk often follows foraging groups of tufted capuchin monkeys and coatis to snatch prey startled by these animals."
   }
 ]
