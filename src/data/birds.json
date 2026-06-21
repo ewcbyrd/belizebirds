@@ -1542,5 +1542,23 @@
     "image": "/birds/black-faced-grosbeak.jpg",
     "audio": "/audio/black-faced-grosbeak.mp3",
     "funFact": "Forms noisy flocks of up to 20 birds, often mixing with honeycreepers and tanagers in mixed-species feeding flocks."
+  },
+  {
+    "id": 86,
+    "commonName": "Black Hawk-Eagle",
+    "scientificName": "Spizaetus tyrannus",
+    "frequency": "",
+    "family": "Accipitridae",
+    "habitat": [
+      "Lowland forests",
+      "Riverine forests",
+      "Forest canopy"
+    ],
+    "description": "A powerful eagle with black plumage, barred wings, and a long narrow tail with distinctive grey bars. It hunts relatively large prey including monkeys, rodents, opossums, and reptiles from central Mexico through Central America to South America.",
+    "size": "Medium-large",
+    "diet": "Carnivore",
+    "image": "/birds/black-hawk-eagle.jpg",
+    "audio": "/audio/black-hawk-eagle.mp3",
+    "funFact": "Its popular name in Brazil is Gavi\u00e3o-pega-macaco, meaning hawk catching-monkey, as it frequently preys on monkeys."
   }
 ]
