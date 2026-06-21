@@ -1343,5 +1343,24 @@
     "image": "/birds/pale-vented-pigeon.jpg",
     "audio": "/audio/pale-vented-pigeon.mp3",
     "funFact": "Its call is a distinctive row of soft notes \u2014 \"kuk kuk croo-ooo\" \u2014 where the initial short \"kuk\" is characteristic of the cayennensis group of Patagioenas pigeons."
+  },
+  {
+    "id": 75,
+    "commonName": "Amazon Kingfisher",
+    "scientificName": "Chloroceryle amazona",
+    "frequency": "",
+    "family": "Alcedinidae",
+    "habitat": [
+      "Large rivers",
+      "Lakeshores",
+      "Freshwater lagoons",
+      "Mangroves"
+    ],
+    "description": "A large kingfisher, about 30 cm long, with dark bronzy green upperparts, a white collar, and a long heavy black bill. Males have a rich rufous breast while females are green across the breast. Found from southern Mexico to northern Argentina along rivers and lakes.",
+    "size": "Medium",
+    "diet": "Carnivore",
+    "image": "/birds/amazon-kingfisher.jpg",
+    "audio": "/audio/amazon-kingfisher.mp3",
+    "funFact": "The Amazon kingfisher hunts by plunging into water from a perch, but also hovers like a helicopter before diving for fish."
   }
 ]
