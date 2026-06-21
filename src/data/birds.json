@@ -1579,5 +1579,24 @@
     "image": "/birds/fork-tailed-flycatcher.jpg",
     "audio": "/audio/fork-tailed-flycatcher.mp3",
     "funFact": "Can reach speeds up to 105 km/h (65 mph), using its long forked tail for quick turns and stops while pursuing flying insects."
+  },
+  {
+    "id": 88,
+    "commonName": "Variable Seedeater",
+    "scientificName": "Sporophila corvina",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Forest edges",
+      "Open areas",
+      "Gardens",
+      "Grasslands"
+    ],
+    "description": "A small, robust bird with a black conical bill. Males vary in plumage by subspecies from entirely black to black with white collars and bellies, while females are olive-brown above and paler below. Commonly found in semi-open areas from southern Mexico through Central America.",
+    "size": "Small",
+    "diet": "Granivore",
+    "image": "/birds/variable-seedeater.jpg",
+    "audio": "/audio/variable-seedeater.mp3",
+    "funFact": "The subspecies found in Belize (Sporophila c. corvina) has entirely black males apart from a small white wing patch."
   }
 ]
