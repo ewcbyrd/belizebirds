@@ -1524,5 +1524,23 @@
     "image": "/birds/rufous-tailed-jacamar.jpg",
     "audio": "/audio/rufous-tailed-jacamar.mp3",
     "funFact": "This bird can distinguish between edible and unpalatable butterflies mainly by their body shape."
+  },
+  {
+    "id": 85,
+    "commonName": "Black-faced Grosbeak",
+    "scientificName": "Caryothraustes poliogaster",
+    "frequency": "",
+    "family": "Cardinalidae",
+    "habitat": [
+      "Lowland forests",
+      "Forest canopy",
+      "Forest edges"
+    ],
+    "description": "A large seed-eating bird with a black face, yellow head, neck and breast, and olive back, wings and tail. It inhabits the canopy and middle levels of dense wet forests and tall second growth in Central American lowlands.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/black-faced-grosbeak.jpg",
+    "audio": "/audio/black-faced-grosbeak.mp3",
+    "funFact": "Forms noisy flocks of up to 20 birds, often mixing with honeycreepers and tanagers in mixed-species feeding flocks."
   }
 ]
