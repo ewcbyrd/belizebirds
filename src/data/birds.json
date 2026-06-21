@@ -1188,5 +1188,25 @@
     "image": "/birds/dusky-antbird.jpg",
     "audio": "/audio/dusky-antbird.mp3",
     "funFact": "This antbird regularly attends army ant swarms to catch insects fleeing from the ants, and both parents share incubation and feeding duties."
+  },
+  {
+    "id": 67,
+    "commonName": "Mayan Antthrush",
+    "scientificName": "Formicarius moniliger",
+    "frequency": "",
+    "family": "Formicariidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Semi-deciduous forest",
+      "Deciduous forest",
+      "Secondary forest",
+      "Coffee plantations"
+    ],
+    "description": "A thrush-like forest bird, 15 to 19 cm long, with a dusky brown crown, bare bluish skin around the eye, black face and throat, rufous sides of the neck, and uniform gray underparts. Walks slowly on the forest floor with its tail cocked, found in humid forests from sea level to 1,800 m from Mexico to Honduras.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/mayan-antthrush.jpg",
+    "audio": "/audio/mayan-antthrush.mp3",
+    "funFact": "The Mayan antthrush walks deliberately on the forest floor with its tail cocked upright like a little rail, and pasture gaps wider than 50 meters are significant barriers to its movement."
   }
 ]
