@@ -1780,5 +1780,24 @@
     "image": "/birds/blue-ground-dove.jpg",
     "audio": "/audio/blue-ground-dove.mp3",
     "funFact": "In most regions where it occurs, a blue-grey and a brown bird flying through the trees together is almost certainly this species."
+  },
+  {
+    "id": 99,
+    "commonName": "Tawny-winged Woodcreeper",
+    "scientificName": "Dendrocincla anabatina",
+    "frequency": "",
+    "family": "Furnariidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Secondary forest",
+      "Forest edges",
+      "Semi-deciduous forest"
+    ],
+    "description": "A medium-sized woodcreeper with a brown head, buffy supercilium, bare gray skin around the eye, dark olive-brown upperparts, cinnamon-rufous tail, and tawny flight feathers. Its underparts are pale buff on the throat becoming cinnamon on the belly. It has a straight bill and a ruffled nape.",
+    "size": "Small-medium",
+    "diet": "Insectivore",
+    "image": "/birds/tawny-winged-woodcreeper.jpg",
+    "audio": "/audio/tawny-winged-woodcreeper.mp3",
+    "funFact": "This species is a near-obligate follower of army ant swarms, capturing arthropods that flee from the advancing ants."
   }
 ]
