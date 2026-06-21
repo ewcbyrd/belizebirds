@@ -1855,5 +1855,24 @@
     "image": "/birds/blue-bunting.jpg",
     "audio": "/audio/blue-bunting.mp3",
     "funFact": "The male's song has been described as \"a sweet, rather sad warble.\""
+  },
+  {
+    "id": 103,
+    "commonName": "Mottled Owl",
+    "scientificName": "Strix virgata",
+    "frequency": "",
+    "family": "Strigidae",
+    "habitat": [
+      "Rainforest",
+      "Dry thorn forest",
+      "Pine-oak woodland",
+      "Plantations"
+    ],
+    "description": "A medium-sized owl with a round head and no ear tufts. The crown, nape, and back are mottled brown, the facial disc is pale brown, and the underparts are off-white with bold vertical brown streaks. The eyes are dark brown. Found in a variety of wooded habitats from Mexico to Argentina.",
+    "size": "Medium",
+    "diet": "Carnivore",
+    "image": "/birds/mottled-owl.jpg",
+    "audio": "/audio/mottled-owl.mp3",
+    "funFact": "The mottled owl shows the greatest degree of sexual dimorphism of any owl species, with females considerably larger than males."
   }
 ]
