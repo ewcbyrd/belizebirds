@@ -1268,5 +1268,23 @@
     "image": "/birds/ochre-bellied-flycatcher.jpg",
     "audio": "/audio/ochre-bellied-flycatcher.mp3",
     "funFact": "Males court at leks, singing and flashing their wings, and the female builds a pear-shaped moss-covered nest with a side entrance suspended from a vine."
+  },
+  {
+    "id": 71,
+    "commonName": "Red-capped Manakin",
+    "scientificName": "Ceratopipra mentalis",
+    "frequency": "",
+    "family": "Pipridae",
+    "habitat": [
+      "Humid forest",
+      "Second growth woodland",
+      "Tropical moist lowland forest"
+    ],
+    "description": "A tiny bird, just 10 cm long. Males are velvety black with a brilliant red cap and bright yellow thighs. Females are olive green above with paler greenish-yellow underparts. Found in the understory of humid forests from Mexico to Ecuador, often near fruiting trees.",
+    "size": "Very small",
+    "diet": "Frugivore",
+    "image": "/birds/red-capped-manakin.jpg",
+    "audio": "/audio/red-capped-manakin.mp3",
+    "funFact": "The male's courtship display includes shuffling rapidly backwards along a branch like a moonwalk, earning it the nickname 'the Michael Jackson bird.' Its digestive system can process fruit in less than 18 minutes."
   }
 ]
