@@ -1688,5 +1688,23 @@
     "image": "/birds/green-breasted-mango.jpg",
     "audio": "/audio/green-breasted-mango.mp3",
     "funFact": "Despite being a tropical species, it has wandered as far north as Wisconsin and North Carolina as a vagrant to the United States."
+  },
+  {
+    "id": 94,
+    "commonName": "Buff-throated Saltator",
+    "scientificName": "Saltator maximus",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Forest edges",
+      "Second growth",
+      "Dense vegetation"
+    ],
+    "description": "A seed-eating tanager with a slate-grey head, white supercilium, olive-green upperparts, and a buff throat edged with black. Its thick convex black bill is distinctive. Found from southeastern Mexico through Central America to western Ecuador and northeastern Brazil.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/buff-throated-saltator.jpg",
+    "audio": "/audio/buff-throated-saltator.mp3",
+    "funFact": "Males duet melodiously with a warbled \"cheery cheery\" answered by \"cheery to you.\""
   }
 ]
