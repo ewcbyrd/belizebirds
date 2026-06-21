@@ -64,6 +64,40 @@ Use the WebFetch tool to gather information about the bird from Wikipedia:
 
 If the image URL was already provided by the user, skip to step 3. Otherwise, ask for it.
 
+### 2.5. Check and Update Family Mapping
+
+After extracting the family from Wikipedia, check if it exists in `src/data/familyNames.js`:
+
+1. Read the `src/data/familyNames.js` file to get the current FAMILY_NAMES object
+
+2. Check if the bird's family (scientific name) exists as a key in FAMILY_NAMES:
+   - If it exists, continue to step 3
+   - If it does NOT exist, proceed with steps 3-5 below
+
+3. Extract the family common name from Wikipedia:
+   - Look for the taxonomy infobox on the Wikipedia page
+   - The family common name is typically shown in parentheses after the scientific family name
+   - Example: "Columbidae (pigeons and doves)" → common name is "Pigeons & Doves"
+   - Capitalize properly (e.g., "pigeons and doves" → "Pigeons & Doves")
+   - If the common name cannot be found, use a generic format: "[Family] Family" (e.g., "Phasianidae Family")
+
+4. Ask the user to confirm the family common name:
+   - Display: "This bird belongs to **[Scientific Family]** which isn't in our family mapping yet. I found the common name: **[Common Name]**. Is this correct? (yes/no or provide alternative)"
+   - If user says no or provides alternative, use their provided name
+   - If user confirms (yes), use the extracted name
+
+5. Update the `src/data/familyNames.js` file:
+   - Read the current file content
+   - Parse the FAMILY_NAMES object
+   - Add the new family entry: `'[Scientific Name]': '[Common Name]'`
+   - **IMPORTANT**: DO NOT sort alphabetically - families must remain in taxonomic order
+   - Append the new family to the END of the FAMILY_NAMES object (this preserves taxonomic order as birds are added)
+   - Write the updated file back with proper formatting:
+     - Maintain the same style: single quotes for keys and values
+     - 2-space indentation
+     - Preserve the export statement and comments
+   - Set a flag `familyMappingUpdated = true` for use in step 5
+
 ### 3. Process the Image
 
 Execute the following steps to download and crop the image:
@@ -150,21 +184,30 @@ Commit the changes to git:
 1. Stage the modified files:
    - `src/data/birds.json`
    - `public/birds/[FILENAME].jpg`
+   - `src/data/familyNames.js` (only if `familyMappingUpdated` is true)
 
 2. Create a commit with a descriptive message:
-   - For new birds: `"Add [Common Name] to bird database"`
-   - For updates: `"Update [Common Name] in bird database"`
+   - For new birds with new family: `"Add [Common Name] to bird database (new family: [Family Common Name])"`
+   - For new birds with existing family: `"Add [Common Name] to bird database"`
+   - For updates with new family: `"Update [Common Name] in bird database (new family: [Family Common Name])"`
+   - For updates with existing family: `"Update [Common Name] in bird database"`
 
 3. Use the bash tool to run:
-   ```bash
-   git add src/data/birds.json public/birds/[FILENAME].jpg && git commit -m "Add [Common Name] to bird database"
-   ```
+   - If family mapping was updated:
+     ```bash
+     git add src/data/birds.json public/birds/[FILENAME].jpg src/data/familyNames.js && git commit -m "[Commit Message]"
+     ```
+   - If family mapping was NOT updated:
+     ```bash
+     git add src/data/birds.json public/birds/[FILENAME].jpg && git commit -m "[Commit Message]"
+     ```
 
 ### 6. Confirm Success
 
 Display a success message:
 - For updates: "✓ Updated [Common Name] (#[ID])"
 - For new birds: "✓ Added [Common Name] (#[ID])"
+- If family mapping was updated: "✓ Added family mapping: [Scientific Family] - [Common Name]"
 - Show the image path: "Image saved to: public/birds/[FILENAME].jpg (4:3 ratio)"
 - Confirm the commit: "✓ Changes committed to git"
 
