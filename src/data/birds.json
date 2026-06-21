@@ -1761,5 +1761,24 @@
     "image": "/birds/yellow-tailed-oriole.jpg",
     "audio": "/audio/yellow-tailed-oriole.mp3",
     "funFact": "This is the only oriole with prominent yellow in the tail, which gives the species its name."
+  },
+  {
+    "id": 98,
+    "commonName": "Blue Ground Dove",
+    "scientificName": "Claravis pretiosa",
+    "frequency": "",
+    "family": "Columbidae",
+    "habitat": [
+      "Open woodland",
+      "Forest edges",
+      "Clearings",
+      "Humid areas"
+    ],
+    "description": "A small dove with striking sexual dimorphism. Males are blue-grey with black-spotted wings and paler underparts. Females are grey-brown with a ruddy brown back, chestnut rump and tail, and chestnut-brown wing spots. Both have red or yellow irises and a green bare eyering.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "image": "/birds/blue-ground-dove.jpg",
+    "audio": "/audio/blue-ground-dove.mp3",
+    "funFact": "In most regions where it occurs, a blue-grey and a brown bird flying through the trees together is almost certainly this species."
   }
 ]
