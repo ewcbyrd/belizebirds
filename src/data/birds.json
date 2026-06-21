@@ -1128,5 +1128,25 @@
     "image": "/birds/montezuma-oropendola.jpg",
     "audio": "/audio/montezuma-oropendola.mp3",
     "funFact": "The Montezuma oropendola builds hanging woven nests up to 180 cm long, and a single colony can contain as many as 172 nests in one tree."
+  },
+  {
+    "id": 64,
+    "commonName": "Northern Bentbill",
+    "scientificName": "Oncostoma cinereigulare",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Humid lowland evergreen forest",
+      "Semi-deciduous forest",
+      "Secondary woodland",
+      "Thickets",
+      "Scrublands"
+    ],
+    "description": "A very small flycatcher, 9.5-10.5 cm long, with a distinctive downcurved bill. It has a pale gray head, olive upperparts, pale gray throat and breast with olive streaks, and a pale lemon-yellow belly. It inhabits dense undergrowth from Mexico to Panama.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/northern-bentbill.jpg",
+    "audio": "/audio/northern-bentbill.mp3",
+    "funFact": "The northern bentbill's call is described as a rapid toad-like trill, and it gets its name from its distinctive downcurved bill."
   }
 ]
