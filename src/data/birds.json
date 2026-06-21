@@ -1598,5 +1598,23 @@
     "image": "/birds/variable-seedeater.jpg",
     "audio": "/audio/variable-seedeater.mp3",
     "funFact": "The subspecies found in Belize (Sporophila c. corvina) has entirely black males apart from a small white wing patch."
+  },
+  {
+    "id": 89,
+    "commonName": "Collared Forest-Falcon",
+    "scientificName": "Micrastur semitorquatus",
+    "frequency": "",
+    "family": "Falconidae",
+    "habitat": [
+      "Lowland forests",
+      "Forest canopy",
+      "Mangroves"
+    ],
+    "description": "A large, secretive forest falcon with a dark back, white neck and breast, and long tail. It has three color morphs (pale, tawny, and dark) and is a powerful predator that hunts mammals, birds, and reptiles in dense tropical forests from Mexico to South America.",
+    "size": "Medium-large",
+    "diet": "Carnivore",
+    "image": "/birds/collared-forest-falcon.jpg",
+    "audio": "/audio/collared-forest-falcon.mp3",
+    "funFact": "Its distinctive low, almost human-like ow or ahr call can be heard at great distances through the dense forest canopy."
   }
 ]
