@@ -1379,5 +1379,24 @@
     "image": "/birds/white-hawk.jpg",
     "audio": "/audio/white-hawk.mp3",
     "funFact": "The white hawk often follows foraging groups of tufted capuchin monkeys and coatis to snatch prey startled by these animals."
+  },
+  {
+    "id": 77,
+    "commonName": "Russet-naped Wood-Rail",
+    "scientificName": "Aramides albiventris",
+    "frequency": "",
+    "family": "Rallidae",
+    "habitat": [
+      "Marshes",
+      "Swamp forest",
+      "River corridors",
+      "Mangrove forest"
+    ],
+    "description": "A large rail, 33-40 cm long, with slate gray crown and hindneck, a chestnut patch on the nape, grayish olive back, white chin, and pale tawny cinnamon underparts fading to black on the lower belly. It has a thick dark yellow bill, deep red eye, and red legs. Found from Mexico to Costa Rica in dense wetlands and forests.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/russet-naped-wood-rail.jpg",
+    "audio": "/audio/russet-naped-wood-rail.mp3",
+    "funFact": "Its song is a rapid, crazed-sounding series of popping and clucking notes, most often heard at twilight and at night."
   }
 ]
