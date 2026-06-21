@@ -1148,5 +1148,26 @@
     "image": "/birds/northern-bentbill.jpg",
     "audio": "/audio/northern-bentbill.mp3",
     "funFact": "The northern bentbill's call is described as a rapid toad-like trill, and it gets its name from its distinctive downcurved bill."
+  },
+  {
+    "id": 65,
+    "commonName": "Tropical Mockingbird",
+    "scientificName": "Mimus gilvus",
+    "frequency": "",
+    "family": "Mimidae",
+    "habitat": [
+      "Open areas",
+      "Scrublands",
+      "Savannas",
+      "Parks",
+      "Farmlands",
+      "Urban areas"
+    ],
+    "description": "A medium-sized gray songbird, 23 to 25.5 cm long, with a whitish eyebrow, dark stripe through the eye, off-white underparts, and blackish wings with two white wing bars. It has a long dark tail with white feather tips and a slim slightly curved black bill. Common in open habitats and around human habitation throughout Belize and Central America.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/tropical-mockingbird.jpg",
+    "audio": "/audio/tropical-mockingbird.mp3",
+    "funFact": "Despite being a mockingbird, the tropical mockingbird rarely mimics other species, unlike its well-known northern relative."
   }
 ]
