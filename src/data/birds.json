@@ -1169,5 +1169,24 @@
     "image": "/birds/tropical-mockingbird.jpg",
     "audio": "/audio/tropical-mockingbird.mp3",
     "funFact": "Despite being a mockingbird, the tropical mockingbird rarely mimics other species, unlike its well-known northern relative."
+  },
+  {
+    "id": 66,
+    "commonName": "Dusky Antbird",
+    "scientificName": "Cercomacroides tyrannina",
+    "frequency": "",
+    "family": "Thamnophilidae",
+    "habitat": [
+      "Forest edges",
+      "Clearings",
+      "Secondary forest",
+      "Riverside"
+    ],
+    "description": "A small antbird, 13 to 15 cm long. Males are mostly slate gray with a white patch between the scapulars and white tips on the wing coverts and outer tail feathers. Females have tawny-tinged olive-gray upperparts and tawny-buff underparts. Both sexes have distinctive rich chocolate-brown irises. Inhabits dense understorey of forest edges, clearings, and secondary growth from Mexico through Central America.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/dusky-antbird.jpg",
+    "audio": "/audio/dusky-antbird.mp3",
+    "funFact": "This antbird regularly attends army ant swarms to catch insects fleeing from the ants, and both parents share incubation and feeding duties."
   }
 ]
