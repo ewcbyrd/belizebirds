@@ -1706,5 +1706,24 @@
     "image": "/birds/buff-throated-saltator.jpg",
     "audio": "/audio/buff-throated-saltator.mp3",
     "funFact": "Males duet melodiously with a warbled \"cheery cheery\" answered by \"cheery to you.\""
+  },
+  {
+    "id": 95,
+    "commonName": "Yellow-bellied Tyrannulet",
+    "scientificName": "Ornithion semiflavum",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Secondary forest",
+      "Plantations",
+      "Gardens with tall trees"
+    ],
+    "description": "A tiny flycatcher with a slate-grey crown, white forehead, bright olive upperparts, and bright yellow underparts with faint olive streaks on the breast. Found in the canopy and edges of humid forests from southern Mexico to western Panama.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/yellow-bellied-tyrannulet.jpg",
+    "audio": "/audio/yellow-bellied-tyrannulet.mp3",
+    "funFact": "Despite being a flycatcher, its active foraging behavior resembles that of a warbler or vireo as it gleans arthropods from leaves and twigs."
   }
 ]
