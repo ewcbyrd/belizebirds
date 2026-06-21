@@ -1725,5 +1725,23 @@
     "image": "/birds/yellow-bellied-tyrannulet.jpg",
     "audio": "/audio/yellow-bellied-tyrannulet.mp3",
     "funFact": "Despite being a flycatcher, its active foraging behavior resembles that of a warbler or vireo as it gleans arthropods from leaves and twigs."
+  },
+  {
+    "id": 96,
+    "commonName": "Stub-tailed Spadebill",
+    "scientificName": "Platyrinchus cancrominus",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Tropical dry forests",
+      "Moist lowland forests",
+      "Forest undergrowth"
+    ],
+    "description": "A small flycatcher with brown upperparts, white throat, yellow breast, a short stubby tail, and a broad flat bill. It lacks a crown, which distinguishes it from other Platyrinchus species. Found in the undergrowth of tropical forests from southern Mexico to Costa Rica.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/stub-tailed-spadebill.jpg",
+    "audio": "/audio/stub-tailed-spadebill.mp3",
+    "funFact": "Its greatly reduced or completely absent crown distinguishes it from all other members of the genus Platyrinchus."
   }
 ]
