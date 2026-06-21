@@ -1560,5 +1560,24 @@
     "image": "/birds/black-hawk-eagle.jpg",
     "audio": "/audio/black-hawk-eagle.mp3",
     "funFact": "Its popular name in Brazil is Gavi\u00e3o-pega-macaco, meaning hawk catching-monkey, as it frequently preys on monkeys."
+  },
+  {
+    "id": 87,
+    "commonName": "Fork-tailed Flycatcher",
+    "scientificName": "Tyrannus savana",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Open areas",
+      "Forest edges",
+      "Grasslands",
+      "Riverside"
+    ],
+    "description": "A striking tyrant flycatcher with white underparts, gray upperparts, a black cap, and an extremely long forked tail. Found from southern Mexico to Argentina in open habitats including pastures, savannas, and forest edges.",
+    "size": "Small-medium",
+    "diet": "Insectivore",
+    "image": "/birds/fork-tailed-flycatcher.jpg",
+    "audio": "/audio/fork-tailed-flycatcher.mp3",
+    "funFact": "Can reach speeds up to 105 km/h (65 mph), using its long forked tail for quick turns and stops while pursuing flying insects."
   }
 ]
