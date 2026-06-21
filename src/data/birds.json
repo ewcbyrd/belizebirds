@@ -1453,5 +1453,23 @@
     "image": "/birds/northern-jacana.jpg",
     "audio": "/audio/northern-jacana.mp3",
     "funFact": "Its enormous feet let it walk on floating lily pads, earning it the nickname \"Jesus bird\" for appearing to walk on water."
+  },
+  {
+    "id": 81,
+    "commonName": "White-whiskered Puffbird",
+    "scientificName": "Malacoptila panamensis",
+    "frequency": "",
+    "family": "Bucconidae",
+    "habitat": [
+      "Primary evergreen forest",
+      "Secondary forest",
+      "Forest edges"
+    ],
+    "description": "The white-whiskered puffbird is about 18 cm (7.1 in) long. Both sexes have bristles around the base of the large bill and distinctive white 'whiskers' made of feather tufts. Males have brown to chestnut brown upperparts while females have grayer crowns and olive to brown upperparts.",
+    "size": "Small-medium",
+    "diet": "Insectivore",
+    "image": "/birds/white-whiskered-puffbird.jpg",
+    "audio": "/audio/white-whiskered-puffbird.mp3",
+    "funFact": "This puffbird hunts using a watch-and-wait technique, sitting motionless before darting to catch large invertebrates and small vertebrates like frogs and lizards."
   }
 ]
