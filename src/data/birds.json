@@ -1616,5 +1616,22 @@
     "image": "/birds/collared-forest-falcon.jpg",
     "audio": "/audio/collared-forest-falcon.mp3",
     "funFact": "Its distinctive low, almost human-like ow or ahr call can be heard at great distances through the dense forest canopy."
+  },
+  {
+    "id": 90,
+    "commonName": "Green Honeycreeper",
+    "scientificName": "Chlorophanes spiza",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Forest canopy",
+      "Lowland forests"
+    ],
+    "description": "A small tanager with a long decurved bill. Males are mainly blue-tinged green with a black head and bright yellow bill, while females are grass-green without the black head. Found in the forest canopy from southern Mexico to Brazil.",
+    "size": "Small",
+    "diet": "Frugivore",
+    "image": "/birds/green-honeycreeper.jpg",
+    "audio": "/audio/green-honeycreeper.mp3",
+    "funFact": "Unlike other honeycreepers, it depends less on nectar \u2014 fruit and seeds make up about 60% of its diet."
   }
 ]
