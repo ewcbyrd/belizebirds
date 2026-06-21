@@ -1227,5 +1227,25 @@
     "image": "/birds/long-billed-gnatwren.jpg",
     "audio": "/audio/long-billed-gnatwren.mp3",
     "funFact": "This bird's long, thin bill is perfect for picking insects and spiders from foliage, and it frequently wags and cocks its short black tail with white-tipped feathers."
+  },
+  {
+    "id": 69,
+    "commonName": "Slaty-tailed Trogon",
+    "scientificName": "Trogon massena",
+    "frequency": "",
+    "family": "Trogonidae",
+    "habitat": [
+      "Tropical evergreen forest",
+      "Mature secondary forest",
+      "Gallery forest",
+      "Coffee plantations",
+      "Mangroves"
+    ],
+    "description": "A large trogon, 30 to 35.5 cm long. Males have an orange-red bill, metallic green upperparts and breast, deep red belly, and slate gray undertail. Females are gray where males are green. Often seen sitting motionless in the forest midstory, from Mexico through Central America to Colombia and Ecuador.",
+    "size": "Medium-large",
+    "diet": "Omnivore",
+    "image": "/birds/slaty-tailed-trogon.jpg",
+    "audio": "/audio/slaty-tailed-trogon.mp3",
+    "funFact": "This trogon often follows white-faced capuchin monkeys to snatch insects they flush, and nests in cavities excavated in active termite nests high in trees."
   }
 ]
