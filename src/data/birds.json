@@ -1874,5 +1874,24 @@
     "image": "/birds/mottled-owl.jpg",
     "audio": "/audio/mottled-owl.mp3",
     "funFact": "The mottled owl shows the greatest degree of sexual dimorphism of any owl species, with females considerably larger than males."
+  },
+  {
+    "id": 104,
+    "commonName": "Ruddy Crake",
+    "scientificName": "Laterallus ruber",
+    "frequency": "",
+    "family": "Rallidae",
+    "habitat": [
+      "Freshwater marshes",
+      "Reedbeds",
+      "Damp fields",
+      "Wet pastures"
+    ],
+    "description": "A small sparrow-sized crake with bright chestnut plumage, a gray head with blackish crown, dark grey ear-coverts, and paler chin and belly. It has a short black conical bill, red iris, and distinctive olive-green legs and feet. Found in wet lowlands from Mexico to northwestern Costa Rica.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/ruddy-crake.jpg",
+    "audio": "/audio/ruddy-crake.mp3",
+    "funFact": "After no sightings for two decades in Costa Rica, it was listed as possibly extinct there until rediscovered in 2007 at the La Selva Biological Research Station."
   }
 ]
