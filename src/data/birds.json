@@ -1911,5 +1911,21 @@
     "image": "/birds/ochre-crowned-greenlet.jpg",
     "audio": "/audio/ochre-crowned-greenlet.mp3",
     "funFact": "Its genus name Tunchiornis derives from 'El Tunche,' the whistling jungle spirit of Amazonian mythology, referring to its simple whistled song."
+  },
+  {
+    "id": 106,
+    "commonName": "Black-throated Shrike-Tanager",
+    "scientificName": "Lanio aurantius",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Tropical moist lowland forest"
+    ],
+    "description": "A striking tanager with strong sexual dimorphism. The male is mostly yellow to orange-yellow with a black hood, wings, and tail. The female is olive-yellow below and olive-green to brownish above with a grayish head. Both have a relatively large, hooked bill. Found from southeastern Mexico to central Honduras.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/black-throated-shrike-tanager.jpg",
+    "audio": "/audio/black-throated-shrike-tanager.mp3",
+    "funFact": "It is replaced geographically by its close relative the White-throated Shrike-Tanager further south in Central America."
   }
 ]
