@@ -1506,5 +1506,23 @@
     "image": "/birds/bare-throated-tiger-heron.jpg",
     "audio": "/audio/bare-throated-tiger-heron.mp3",
     "funFact": "Males give a booming hrrrowwr! call at sunset, during which the beak opens wide and undulations can be seen along the throat."
+  },
+  {
+    "id": 84,
+    "commonName": "Rufous-tailed Jacamar",
+    "scientificName": "Galbula ruficauda",
+    "frequency": "",
+    "family": "Galbulidae",
+    "habitat": [
+      "Dry woodlands",
+      "Moist woodlands",
+      "Scrub"
+    ],
+    "description": "The rufous-tailed jacamar is 25 cm (10 in) long with a 5 cm (2 in) black bill. It is metallic green above with mainly orange underparts and a green breast band. Males have a white throat while females have a buff throat. It sits with its bill tilted up, flying out to catch insects in mid-air.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/rufous-tailed-jacamar.jpg",
+    "audio": "/audio/rufous-tailed-jacamar.mp3",
+    "funFact": "This bird can distinguish between edible and unpalatable butterflies mainly by their body shape."
   }
 ]
