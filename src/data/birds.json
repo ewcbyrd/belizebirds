@@ -1981,5 +1981,23 @@
     "image": "/birds/rufous-capped-warbler.jpg",
     "audio": "/audio/rufous-capped-warbler.mp3",
     "funFact": "Despite its name, the rufous-capped warbler does not actually warble — its courtship song is a rapid, accelerating series of chipping notes."
+  },
+  {
+    "id": 110,
+    "commonName": "Wedge-billed Woodcreeper",
+    "scientificName": "Glyphorynchus spirurus",
+    "frequency": "",
+    "family": "Furnariidae",
+    "habitat": [
+      "Tropical evergreen forest",
+      "Rainforest",
+      "Secondary forest"
+    ],
+    "description": "The smallest woodcreeper at 13-16 cm, with a distinctive short upturned wedge-shaped bill. It has a russet-brown crown, rich brown upperparts, cinnamon-rufous rump and tail, and olive-brown underparts with fulvous spots and streaks on the breast. It hitches up tree trunks in the lower to middle levels of the forest, often in mixed-species flocks.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/wedge-billed-woodcreeper.jpg",
+    "audio": "/audio/wedge-billed-woodcreeper.mp3",
+    "funFact": "The wedge-billed woodcreeper is the only member of its genus and is the smallest of all woodcreepers, easily recognized by its short wedge-shaped bill."
   }
 ]
