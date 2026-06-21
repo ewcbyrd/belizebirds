@@ -1799,5 +1799,24 @@
     "image": "/birds/tawny-winged-woodcreeper.jpg",
     "audio": "/audio/tawny-winged-woodcreeper.mp3",
     "funFact": "This species is a near-obligate follower of army ant swarms, capturing arthropods that flee from the advancing ants."
+  },
+  {
+    "id": 100,
+    "commonName": "Rusty Sparrow",
+    "scientificName": "Aimophila rufescens",
+    "frequency": "",
+    "family": "Passerellidae",
+    "habitat": [
+      "Pine-oak forest",
+      "Forest edges",
+      "Scrublands",
+      "Secondary forest"
+    ],
+    "description": "A large sparrow with a chestnut crown streaked with black, brown upperparts with bold black streaks, chestnut wings and tail, and grayish buff underparts with a dark stripe on the side of the throat. Both sexes share the same plumage. Found from Mexico to Costa Rica.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "image": "/birds/rusty-sparrow.jpg",
+    "audio": "/audio/rusty-sparrow.mp3",
+    "funFact": "Its song has been described as a rich, liquid \"cheet-cheet-swing-you!\" or \"sweet-sweet-to'you!\""
   }
 ]
