@@ -1471,5 +1471,22 @@
     "image": "/birds/white-whiskered-puffbird.jpg",
     "audio": "/audio/white-whiskered-puffbird.mp3",
     "funFact": "This puffbird hunts using a watch-and-wait technique, sitting motionless before darting to catch large invertebrates and small vertebrates like frogs and lizards."
+  },
+  {
+    "id": 82,
+    "commonName": "Crimson-collared Tanager",
+    "scientificName": "Ramphocelus sanguinolentus",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Humid evergreen forest edges",
+      "Second growth"
+    ],
+    "description": "The crimson-collared tanager averages 19-20 cm (7.5-8 in) long. Adult plumage is black with a vivid red collar covering the nape, neck, and breast, and red tail coverts. Its bill is striking pale blue and legs are blue-gray. Females average slightly duller than males but are sometimes indistinguishable.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "image": "/birds/crimson-collared-tanager.jpg",
+    "audio": "/audio/crimson-collared-tanager.mp3",
+    "funFact": "Its specific epithet sanguinolentus means 'bloodied' in Latin, referring to its striking red plumage."
   }
 ]
