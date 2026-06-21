@@ -1325,5 +1325,23 @@
     "image": "/birds/greenish-elaenia.jpg",
     "audio": "/audio/greenish-elaenia.mp3",
     "funFact": "The greenish elaenia is the only species in the genus Myiopagis found from Mexico through Central America and across much of South America, with 10 recognized subspecies."
+  },
+  {
+    "id": 74,
+    "commonName": "Pale-vented Pigeon",
+    "scientificName": "Patagioenas cayennensis",
+    "frequency": "",
+    "family": "Columbidae",
+    "habitat": [
+      "Forest edges",
+      "Riverbanks",
+      "Open areas with trees"
+    ],
+    "description": "A large pigeon, 30-32 cm long, with a dull purple head and breast, copper gloss on the nape, and pale grey underparts. The bill is black and the legs, iris, and eyering are red. Found from southern Mexico to northern Argentina in forest edges and partially open areas.",
+    "size": "Medium",
+    "diet": "Frugivore",
+    "image": "/birds/pale-vented-pigeon.jpg",
+    "audio": "/audio/pale-vented-pigeon.mp3",
+    "funFact": "Its call is a distinctive row of soft notes \u2014 \"kuk kuk croo-ooo\" \u2014 where the initial short \"kuk\" is characteristic of the cayennensis group of Patagioenas pigeons."
   }
 ]
