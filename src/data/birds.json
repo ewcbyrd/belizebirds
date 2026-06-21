@@ -1818,5 +1818,23 @@
     "image": "/birds/rusty-sparrow.jpg",
     "audio": "/audio/rusty-sparrow.mp3",
     "funFact": "Its song has been described as a rich, liquid \"cheet-cheet-swing-you!\" or \"sweet-sweet-to'you!\""
+  },
+  {
+    "id": 101,
+    "commonName": "Ornate Hawk-Eagle",
+    "scientificName": "Spizaetus ornatus",
+    "frequency": "",
+    "family": "Accipitridae",
+    "habitat": [
+      "Primary tropical forest",
+      "Humid lowland forest",
+      "Cloud forest"
+    ],
+    "description": "A medium-to-large raptor with a striking rufous cowl, black crown and long erectile crest, bold black barring on white underparts, and blackish upperparts with white-tipped shoulders. Juveniles are mostly white-headed with dark brown upperparts. Found in tall primary forests from Mexico to Argentina.",
+    "size": "Large",
+    "diet": "Carnivore",
+    "image": "/birds/ornate-hawk-eagle.jpg",
+    "audio": "/audio/ornate-hawk-eagle.mp3",
+    "funFact": "The juvenile gray-bellied hawk closely resembles the adult ornate hawk-eagle, likely a case of mimicry where a less powerful species mimics a more powerful raptor to avoid attack."
   }
 ]
