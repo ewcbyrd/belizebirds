@@ -5,7 +5,11 @@
     "scientificName": "Dives dives",
     "frequency": "45.03%",
     "family": "Icteridae",
-    "habitat": ["Urban areas", "Open woodland", "Gardens"],
+    "habitat": [
+      "Urban areas",
+      "Open woodland",
+      "Gardens"
+    ],
     "description": "A common bird throughout Belize, the Melodious Blackbird is often seen in towns, villages, and farmland. Males are entirely black with a glossy sheen, while females are duller brown-black.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -19,7 +23,11 @@
     "scientificName": "Amazilia tzacatl",
     "frequency": "38.75%",
     "family": "Trochilidae",
-    "habitat": ["Gardens", "Forest edges", "Open woodland"],
+    "habitat": [
+      "Gardens",
+      "Forest edges",
+      "Open woodland"
+    ],
     "description": "One of the most common hummingbirds in Central America. It has a green body, rufous tail, and straight red bill with a black tip.",
     "size": "Small",
     "diet": "Nectarivore",
@@ -33,7 +41,11 @@
     "scientificName": "Myiozetetes similis",
     "frequency": "37.74%",
     "family": "Tyrannidae",
-    "habitat": ["Open areas", "Urban areas", "Riverside"],
+    "habitat": [
+      "Open areas",
+      "Urban areas",
+      "Riverside"
+    ],
     "description": "A bold and noisy flycatcher often found in pairs or small groups. Has a distinctive white eyebrow, dark cap, and yellow belly.",
     "size": "Medium-small",
     "diet": "Insectivore",
@@ -47,7 +59,11 @@
     "scientificName": "Cyanocorax morio",
     "frequency": "34.56%",
     "family": "Corvidae",
-    "habitat": ["Forest", "Forest edges", "Woodland"],
+    "habitat": [
+      "Forest",
+      "Forest edges",
+      "Woodland"
+    ],
     "description": "A large, noisy jay with brown plumage, a pale belly, and a long tail. Often travels in small flocks through the forest canopy.",
     "size": "Large",
     "diet": "Omnivore",
@@ -61,7 +77,11 @@
     "scientificName": "Sporophila morelleti",
     "frequency": "26.51%",
     "family": "Thraupidae",
-    "habitat": ["Grasslands", "Agricultural areas", "Open country"],
+    "habitat": [
+      "Grasslands",
+      "Agricultural areas",
+      "Open country"
+    ],
     "description": "A small seedeater with sexual dimorphism: males have a distinctive black hood and white collar, while females are plain buffy-brown.",
     "size": "Small",
     "diet": "Granivore",
@@ -75,7 +95,11 @@
     "scientificName": "Pheugopedius maculipectus",
     "frequency": "23.01%",
     "family": "Troglodytidae",
-    "habitat": ["Thickets", "Woodland edges", "Secondary growth"],
+    "habitat": [
+      "Thickets",
+      "Woodland edges",
+      "Secondary growth"
+    ],
     "description": "A boldly patterned wren with heavy black spotting on white underparts and a distinctive barred tail often held upright.",
     "size": "Small",
     "diet": "Insectivore",
@@ -89,7 +113,11 @@
     "scientificName": "Ramphastos sulfuratus",
     "frequency": "21.04%",
     "family": "Ramphastidae",
-    "habitat": ["Rainforest", "Forest edges", "Plantations"],
+    "habitat": [
+      "Rainforest",
+      "Forest edges",
+      "Plantations"
+    ],
     "description": "The national bird of Belize! Unmistakable with its massive rainbow-colored bill, black plumage, yellow throat and chest, and red undertail.",
     "size": "Large",
     "diet": "Frugivore",
@@ -103,7 +131,11 @@
     "scientificName": "Driophlox fuscicauda",
     "frequency": "20.61%",
     "family": "Cardinalidae",
-    "habitat": ["Forest understory", "Dense thickets", "Woodland"],
+    "habitat": [
+      "Forest understory",
+      "Dense thickets",
+      "Woodland"
+    ],
     "description": "A skulking bird of the forest understory. Males are dull red with a brighter red throat patch, while females are olive-brown.",
     "size": "Medium",
     "diet": "Insectivore",
@@ -117,7 +149,11 @@
     "scientificName": "Pteroglossus torquatus",
     "frequency": "19.61%",
     "family": "Ramphastidae",
-    "habitat": ["Rainforest", "Forest edges", "Tall trees"],
+    "habitat": [
+      "Rainforest",
+      "Forest edges",
+      "Tall trees"
+    ],
     "description": "A smaller relative of the toucan with a colorful bill, black head, yellow underparts with a black chest band, and red rump.",
     "size": "Medium",
     "diet": "Frugivore",
@@ -131,7 +167,11 @@
     "scientificName": "Columbina talpacoti",
     "frequency": "19.11%",
     "family": "Columbidae",
-    "habitat": ["Open areas", "Farmland", "Gardens"],
+    "habitat": [
+      "Open areas",
+      "Farmland",
+      "Gardens"
+    ],
     "description": "A small, compact dove. Males are ruddy brown with a gray crown, while females are more uniformly gray-brown. Often seen on the ground.",
     "size": "Small",
     "diet": "Granivore",
@@ -145,7 +185,11 @@
     "scientificName": "Euphonia hirundinacea",
     "frequency": "18.82%",
     "family": "Fringillidae",
-    "habitat": ["Forest canopy", "Woodland", "Gardens"],
+    "habitat": [
+      "Forest canopy",
+      "Woodland",
+      "Gardens"
+    ],
     "description": "A tiny, colorful finch. Males have blue-black upperparts with a bright yellow forehead and underparts, while females are olive-green.",
     "size": "Small",
     "diet": "Frugivore",
@@ -159,7 +203,11 @@
     "scientificName": "Saltator atriceps",
     "frequency": "18.67%",
     "family": "Thraupidae",
-    "habitat": ["Forest edges", "Secondary growth", "Gardens"],
+    "habitat": [
+      "Forest edges",
+      "Secondary growth",
+      "Gardens"
+    ],
     "description": "A large, thick-billed songbird with a distinctive black head, white throat, and olive-green back. Often heard singing from cover.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -173,7 +221,11 @@
     "scientificName": "Volatinia jacarina",
     "frequency": "16.15%",
     "family": "Thraupidae",
-    "habitat": ["Grasslands", "Open fields", "Agricultural areas"],
+    "habitat": [
+      "Grasslands",
+      "Open fields",
+      "Agricultural areas"
+    ],
     "description": "A tiny grassland bird. Males are entirely glossy blue-black, while females are plain brown. Males perform spectacular jumping displays.",
     "size": "Very small",
     "diet": "Granivore",
@@ -187,7 +239,11 @@
     "scientificName": "Crotophaga sulcirostris",
     "frequency": "16.02%",
     "family": "Cuculidae",
-    "habitat": ["Open areas", "Farmland", "Pastures"],
+    "habitat": [
+      "Open areas",
+      "Farmland",
+      "Pastures"
+    ],
     "description": "An all-black bird with a distinctive long tail and grooved, parrot-like bill. Often seen in small groups in open country.",
     "size": "Medium",
     "diet": "Insectivore",
@@ -201,7 +257,11 @@
     "scientificName": "Eupsittula nana",
     "frequency": "15.87%",
     "family": "Psittacidae",
-    "habitat": ["Forest", "Woodland", "Plantations"],
+    "habitat": [
+      "Forest",
+      "Woodland",
+      "Plantations"
+    ],
     "description": "A small, mostly green parakeet with an olive throat and blue in the wings. Often seen in noisy flocks flying overhead.",
     "size": "Small-medium",
     "diet": "Frugivore",
@@ -215,7 +275,11 @@
     "scientificName": "Thraupis abbas",
     "frequency": "15.24%",
     "family": "Thraupidae",
-    "habitat": ["Forest edges", "Gardens", "Woodland"],
+    "habitat": [
+      "Forest edges",
+      "Gardens",
+      "Woodland"
+    ],
     "description": "A pale blue-gray tanager with distinctive yellow wing patches visible in flight. Often found in pairs or small groups.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -229,7 +293,11 @@
     "scientificName": "Piaya cayana",
     "frequency": "14.60%",
     "family": "Cuculidae",
-    "habitat": ["Forest", "Woodland", "Thickets"],
+    "habitat": [
+      "Forest",
+      "Woodland",
+      "Thickets"
+    ],
     "description": "A large, slender cuckoo with rufous upperparts, gray underparts, and a very long tail with white-tipped feathers.",
     "size": "Large",
     "diet": "Insectivore",
@@ -243,7 +311,11 @@
     "scientificName": "Xiphorhynchus flavigaster",
     "frequency": "13.41%",
     "family": "Furnariidae",
-    "habitat": ["Forest", "Woodland", "Plantations"],
+    "habitat": [
+      "Forest",
+      "Woodland",
+      "Plantations"
+    ],
     "description": "A brown woodcreeper with heavy streaking on the head and underparts, and a pale ivory-colored, slightly curved bill.",
     "size": "Medium",
     "diet": "Insectivore",
@@ -257,7 +329,11 @@
     "scientificName": "Tityra semifasciata",
     "frequency": "13.40%",
     "family": "Tityridae",
-    "habitat": ["Forest edges", "Open woodland", "Clearings"],
+    "habitat": [
+      "Forest edges",
+      "Open woodland",
+      "Clearings"
+    ],
     "description": "A distinctive bird with pale gray plumage, black face and cap, red bare skin around the eye, and a pink-based bill.",
     "size": "Medium",
     "diet": "Frugivore",
@@ -271,7 +347,11 @@
     "scientificName": "Megarynchus pitangua",
     "frequency": "13.35%",
     "family": "Tyrannidae",
-    "habitat": ["Open woodland", "Forest edges", "Riverside"],
+    "habitat": [
+      "Open woodland",
+      "Forest edges",
+      "Riverside"
+    ],
     "description": "A large flycatcher with a massive black bill, rufous-edged wings and tail, and yellow underparts. Similar to Social Flycatcher but larger.",
     "size": "Medium-large",
     "diet": "Insectivore",
@@ -284,7 +364,11 @@
     "commonName": "Lesser Greenlet",
     "scientificName": "Pachysylvia decurtata",
     "family": "Vireonidae",
-    "habitat": ["Forest", "Woodland", "Secondary forest"],
+    "habitat": [
+      "Forest",
+      "Woodland",
+      "Secondary forest"
+    ],
     "description": "A small bird with a gray-blue crown and upper face, olive-green upperparts, whitish chin, pale gray throat, very pale lemon-yellow breast, and whitish belly with greenish yellow flanks.",
     "size": "Very small",
     "diet": "Insectivore",
@@ -297,7 +381,11 @@
     "commonName": "Northern Tropical Pewee",
     "scientificName": "Contopus bogotensis",
     "family": "Tyrannidae",
-    "habitat": ["Forest edges", "Woodland", "Secondary forest"],
+    "habitat": [
+      "Forest edges",
+      "Woodland",
+      "Secondary forest"
+    ],
     "description": "A small flycatcher with a dark blackish gray crown, white eye-ring, sooty olive-gray back, dusky wings with two thin wing bars, white throat and chin, and white to yellowish white underparts.",
     "size": "Small",
     "diet": "Insectivore",
@@ -310,7 +398,11 @@
     "commonName": "Black-headed Trogon",
     "scientificName": "Trogon melanocephalus",
     "family": "Trogonidae",
-    "habitat": ["Forest edges", "Woodland", "Secondary forest"],
+    "habitat": [
+      "Forest edges",
+      "Woodland",
+      "Secondary forest"
+    ],
     "description": "Males have slate-black head, neck, and chest with a sky-blue eye ring, bright metallic bluish green to golden green upperparts, and cadmium to chrome yellow underparts. Females have dark slate upperparts instead of metallic green.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -323,7 +415,11 @@
     "commonName": "Blue-gray Tanager",
     "scientificName": "Thraupis episcopus",
     "family": "Thraupidae",
-    "habitat": ["Open woodland", "Gardens", "Secondary forest"],
+    "habitat": [
+      "Open woodland",
+      "Gardens",
+      "Secondary forest"
+    ],
     "description": "Adults have a light bluish head and underparts, with darker blue upperparts and a shoulder patch colored a different shade of blue. Sexes are similar, but immature birds are much duller.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -336,7 +432,11 @@
     "commonName": "White-bellied Emerald",
     "scientificName": "Chlorestes candida",
     "family": "Trochilidae",
-    "habitat": ["Forest", "Forest edges", "Woodland"],
+    "habitat": [
+      "Forest",
+      "Forest edges",
+      "Woodland"
+    ],
     "description": "Adults have metallic bronze to bronzy green upperparts, with white underparts and metallic bronzy green from the cheeks to the flanks. The tail is metallic bronze with darker bands.",
     "size": "Small",
     "diet": "Nectarivore",
@@ -349,7 +449,11 @@
     "commonName": "Olive-backed Euphonia",
     "scientificName": "Euphonia gouldi",
     "family": "Fringillidae",
-    "habitat": ["Forest", "Forest edges", "Secondary forest"],
+    "habitat": [
+      "Forest",
+      "Forest edges",
+      "Secondary forest"
+    ],
     "description": "Males have a yellow forehead, olive-green crown, nape, upperparts, and tail with a bluish gray gloss, and bright yellow underparts. Females have a rufous-chestnut forehead and mostly olive plumage with tawny-rufous underparts.",
     "size": "Small",
     "diet": "Frugivore",
@@ -362,7 +466,11 @@
     "commonName": "Southern House Wren",
     "scientificName": "Troglodytes musculus",
     "family": "Troglodytidae",
-    "habitat": ["Gardens", "Urban areas", "Forest"],
+    "habitat": [
+      "Gardens",
+      "Urban areas",
+      "Forest"
+    ],
     "description": "A very small wren with brownish plumage. The name troglodytes means hole dweller, referencing the bird's tendency to disappear into crevices when hunting insects or seeking shelter.",
     "size": "Very small",
     "diet": "Insectivore",
@@ -375,7 +483,11 @@
     "commonName": "White-breasted Wood-Wren",
     "scientificName": "Henicorhina leucosticta",
     "family": "Troglodytidae",
-    "habitat": ["Forest", "Secondary forest", "Woodland"],
+    "habitat": [
+      "Forest",
+      "Secondary forest",
+      "Woodland"
+    ],
     "description": "Has chestnut brown upperparts with a darker crown, pale eyebrows, black-and-white streaked sides of the head and neck, and white underparts becoming buff on the lower belly. Wings and very short tail are barred with black.",
     "size": "Small",
     "diet": "Insectivore",
@@ -388,7 +500,11 @@
     "commonName": "Lineated Woodpecker",
     "scientificName": "Dryocopus lineatus",
     "family": "Picidae",
-    "habitat": ["Forest borders", "Open woodland", "Forest edges"],
+    "habitat": [
+      "Forest borders",
+      "Open woodland",
+      "Forest edges"
+    ],
     "description": "A very large woodpecker, 31.5-36 cm long. Mainly black above with a red crest and whitish lines from the bill down the neck and shoulders. Underparts are whitish heavily barred with black. Adult males have a red line from the bill to the throat and a red forehead, while these features are black in females. The call is a loud, ringing wic-wic-wic.",
     "size": "Large",
     "diet": "Insectivore",
@@ -401,7 +517,11 @@
     "commonName": "Red-legged Honeycreeper",
     "scientificName": "Cyanerpes cyaneus",
     "family": "Thraupidae",
-    "habitat": ["Forest edges", "Open woodland", "Plantations"],
+    "habitat": [
+      "Forest edges",
+      "Open woodland",
+      "Plantations"
+    ],
     "description": "A small songbird, 12.2 cm long. Males are brilliant violet-blue with black wings, tail and back, bright red legs, and a turquoise crown. Females and immatures are mainly green with paler, faintly streaked underparts. The call is a thin, high-pitched tsip. Often found in small groups feeding on insects, seeds, fruit, and nectar.",
     "size": "Small",
     "diet": "Omnivore",
@@ -414,7 +534,12 @@
     "commonName": "Black-cowled Oriole",
     "scientificName": "Icterus prosthemelas",
     "family": "Icteridae",
-    "habitat": ["Forest edges", "Open woodland", "Plantations", "Gardens"],
+    "habitat": [
+      "Forest edges",
+      "Open woodland",
+      "Plantations",
+      "Gardens"
+    ],
     "description": "A medium-sized bird, 18.5-21 cm long. Adult males are mostly black with bright yellow patches on the shoulder, rump, belly, wing lining, and crissum. Females in the north have olive-yellow crown and upperparts with black face, throat, and wings; southern females resemble males. Both sexes have a slender, slightly decurved black bill with silvery base.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -427,7 +552,11 @@
     "commonName": "Lesson's Motmot",
     "scientificName": "Momotus lessonii",
     "family": "Momotidae",
-    "habitat": ["Forest", "Woodland", "Dense forest"],
+    "habitat": [
+      "Forest",
+      "Woodland",
+      "Dense forest"
+    ],
     "description": "A colorful near-passerine bird with a black central crown surrounded by a blue band and a black eyemask. Features distinctive tail feathers with racket-shaped tips. The call is a low owl-like ooo-doot. Often sits motionless in dense forest habitat, making them difficult to spot despite their size. Eats insects, lizards, and fruit.",
     "size": "Medium-large",
     "diet": "Omnivore",
@@ -440,7 +569,12 @@
     "commonName": "Yellow-olive Flatbill",
     "scientificName": "Tolmomyias sulphurescens",
     "family": "Tyrannidae",
-    "habitat": ["Rainforest", "Montane forest", "Secondary forest", "Woodland"],
+    "habitat": [
+      "Rainforest",
+      "Montane forest",
+      "Secondary forest",
+      "Woodland"
+    ],
     "description": "A small tyrant flycatcher, 12.5-14 cm long. Has a dark olive crown, thin white eye-ring, and olive-green upperparts. Wings are dusky with yellowish-olive edges forming two wing bars. Throat is pale greenish gray, breast grayish greenish olive, and belly bright yellow. Features a wide flat bill with black upper mandible and pale gray lower mandible. Tends to be sluggish, peering slowly around from a perch.",
     "size": "Small",
     "diet": "Insectivore",
@@ -453,7 +587,12 @@
     "commonName": "Pale-billed Woodpecker",
     "scientificName": "Campephilus guatemalensis",
     "family": "Picidae",
-    "habitat": ["Lowland tropical evergreen forest", "Tropical deciduous forest", "Mangroves", "Montane forest"],
+    "habitat": [
+      "Lowland tropical evergreen forest",
+      "Tropical deciduous forest",
+      "Mangroves",
+      "Montane forest"
+    ],
     "description": "A very large woodpecker, 35.5-38 cm long. Both sexes have black upperparts with vertical white or buffy white stripes on the sides of the neck forming a 'V' on the back. Throat and upper breast black, rest of underparts light yellowish buff with narrow black bars. Long ivory yellow chisel-like bill. Males have a red head with bushy crest; females have black forecrown and center of crown.",
     "size": "Large",
     "diet": "Insectivore",
@@ -466,7 +605,12 @@
     "commonName": "Common Tody-Flycatcher",
     "scientificName": "Todirostrum cinereum",
     "family": "Tyrannidae",
-    "habitat": ["Forest edges", "Secondary growth", "Gardens", "Open woodland"],
+    "habitat": [
+      "Forest edges",
+      "Secondary growth",
+      "Gardens",
+      "Open woodland"
+    ],
     "description": "A tiny flycatcher, 9-10 cm long. Has a black crown and nape, white supercilium, yellow iris, gray face and upperparts, bright yellow underparts, and a short black tail. The wings have two yellowish wing bars. Features a distinctive long, flat, black bill that is pale at the base of the lower mandible. Often perches sideways on vertical stems.",
     "size": "Very small",
     "diet": "Insectivore",
@@ -479,7 +623,12 @@
     "commonName": "Long-billed Hermit",
     "scientificName": "Phaethornis longirostris",
     "family": "Trochilidae",
-    "habitat": ["Rainforest", "Secondary forest", "Cloudforest", "Gallery forest"],
+    "habitat": [
+      "Rainforest",
+      "Secondary forest",
+      "Cloudforest",
+      "Gallery forest"
+    ],
     "description": "A hummingbird, 13-16 cm long. Males weigh 5-7.5 g, females 4-6.5 g. Has greenish-brown upperparts and brownish to grayish underparts. Uppertail coverts have dark and light ochre bands, and central tail feathers are long with long white tips. Features a long decurved bill, with females having a shorter but more curved bill than males.",
     "size": "Small",
     "diet": "Nectarivore",
@@ -492,7 +641,12 @@
     "commonName": "Gartered Trogon",
     "scientificName": "Trogon caligatus",
     "family": "Trogonidae",
-    "habitat": ["Forest edges", "Secondary forest", "Gallery forest", "Clearings"],
+    "habitat": [
+      "Forest edges",
+      "Secondary forest",
+      "Gallery forest",
+      "Clearings"
+    ],
     "description": "A colorful trogon, 23-25 cm long, weighing 38-57 g. Males have a violet-blue head, neck, and upper breast with black face and throat. A pale yellow ring surrounds the eye, and a narrow white band separates the upper breast from the bright yellow lower breast and belly. Upperparts are metallic green with a violet-blue tail. Females are gray above with duller yellow underparts.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -505,7 +659,12 @@
     "commonName": "Green-backed Sparrow",
     "scientificName": "Arremonops chloronotus",
     "family": "Passerellidae",
-    "habitat": ["Forest edges", "Savanna", "Secondary forest", "Semi-deciduous forest"],
+    "habitat": [
+      "Forest edges",
+      "Savanna",
+      "Secondary forest",
+      "Semi-deciduous forest"
+    ],
     "description": "A sparrow, 15-16 cm long, weighing 24-31 g. Has a mostly slate gray head with wide black stripes on each side of the crown, a black spot in front of the eye, and a long black stripe behind the eye. Upperparts, tail, and wings are bright olive green with canary yellow on the edge of the wings. Chin and throat are dull white, breast and sides grayish, belly white, and undertail coverts yellowish olive.",
     "size": "Small",
     "diet": "Omnivore",
@@ -518,7 +677,11 @@
     "commonName": "Northern Schiffornis",
     "scientificName": "Schiffornis veraepacis",
     "family": "Tityridae",
-    "habitat": ["Humid evergreen forest", "Wet evergreen forest", "Secondary forest"],
+    "habitat": [
+      "Humid evergreen forest",
+      "Wet evergreen forest",
+      "Secondary forest"
+    ],
     "description": "A small bird, 15.5-16.5 cm long, weighing 20-40 g. Has an indistinct pale ring around the eye on an otherwise dark brownish olive face. Upperparts and tail are dark brownish olive, wings are warmer brown. Throat and breast are brownish olive, belly and vent grayish olive. Both sexes have the same plumage.",
     "size": "Small",
     "diet": "Omnivore",
@@ -531,7 +694,12 @@
     "commonName": "Barred Antshrike",
     "scientificName": "Thamnophilus doliatus",
     "family": "Thamnophilidae",
-    "habitat": ["Scrublands", "Secondary forest", "Forest edges", "Riparian thickets"],
+    "habitat": [
+      "Scrublands",
+      "Secondary forest",
+      "Forest edges",
+      "Riparian thickets"
+    ],
     "description": "A bird, 15-18.5 cm long, weighing 24-32 g. Males are barred with alternating black and white throughout. Females have a cinnamon-rufous crest and upperparts with streaked black and white head and neck sides, buff chin, and ochraceous-buff underparts. Both sexes have a bushy crest and stout hooked bills.",
     "size": "Small",
     "diet": "Insectivore",
@@ -544,7 +712,11 @@
     "commonName": "Yellow-bellied Flycatcher",
     "scientificName": "Empidonax flaviventris",
     "family": "Tyrannidae",
-    "habitat": ["Wet northern woods", "Spruce bogs", "Forest"],
+    "habitat": [
+      "Wet northern woods",
+      "Spruce bogs",
+      "Forest"
+    ],
     "description": "A small flycatcher, 13-15 cm long, weighing 8.5-17 g. Has greenish upperparts and yellowish underparts with a dusky wash on the chest. Features a white or yellow eye ring, white or yellowish wing bars that contrast against black wings, and a broad flat bill. Upper mandible is dark while lower mandible is orange-pink.",
     "size": "Very small",
     "diet": "Insectivore",
@@ -557,7 +729,12 @@
     "commonName": "White-necked Jacobin",
     "scientificName": "Florisuga mellivora",
     "family": "Trochilidae",
-    "habitat": ["Humid forest canopy", "Forest edges", "Secondary forest", "Coffee and cacao plantations"],
+    "habitat": [
+      "Humid forest canopy",
+      "Forest edges",
+      "Secondary forest",
+      "Coffee and cacao plantations"
+    ],
     "description": "A medium-sized hummingbird, 11-12 cm long. Males weigh 7.4-9 g, females 6-9.2 g. Males are unmistakable with dark blue head and chest, white belly and tail with black tips, and a white band on the nape separating the blue head from the bright green back. Females are highly variable with green upperparts, blue-green throat and breast with white scales, white belly, and mostly green tail with blue end.",
     "size": "Small",
     "diet": "Nectarivore",
@@ -570,7 +747,12 @@
     "commonName": "White-crowned Parrot",
     "scientificName": "Pionus senilis",
     "family": "Psittacidae",
-    "habitat": ["Humid lowland forest", "Forest edges", "Secondary forest", "Plantations"],
+    "habitat": [
+      "Humid lowland forest",
+      "Forest edges",
+      "Secondary forest",
+      "Plantations"
+    ],
     "description": "A medium-sized parrot, 24 cm long, weighing 225-250 g. Has a mostly green plumage with a distinctive white forecrown and throat with bare pink skin. The crown ranges from deep white to bluish white, with a magenta spot on the throat and bronze-green to bluish-green ear coverts. Chest and belly are yellowish-olive with bluish edges, while the undertail coverts are red. Features dark blue flight feathers and tail with red undertail coverts.",
     "size": "Medium",
     "diet": "Frugivore",
@@ -583,7 +765,12 @@
     "commonName": "Olivaceous Woodcreeper",
     "scientificName": "Sittasomus griseicapillus",
     "family": "Furnariidae",
-    "habitat": ["Rainforest", "Secondary forest", "Gallery forest", "Plantations"],
+    "habitat": [
+      "Rainforest",
+      "Secondary forest",
+      "Gallery forest",
+      "Plantations"
+    ],
     "description": "One of the smallest woodcreepers, 13-19 cm long, with a slim body and short straight bill. Has mostly olivaceous plumage with rufous tail and flight feathers. Unlike most other woodcreepers, has no streaks or spots. Males weigh 9-18 g, females 8.6-16 g. Often seen hitching up tree trunks and along branches from mid-level to subcanopy.",
     "size": "Small",
     "diet": "Insectivore",
@@ -596,7 +783,12 @@
     "commonName": "Wedge-tailed Sabrewing",
     "scientificName": "Pampa curvipennis",
     "family": "Trochilidae",
-    "habitat": ["Humid evergreen forest", "Semi-deciduous forest", "Rainforest", "Forest edges"],
+    "habitat": [
+      "Humid evergreen forest",
+      "Semi-deciduous forest",
+      "Rainforest",
+      "Forest edges"
+    ],
     "description": "A hummingbird, 11.5-13.5 cm long. Males have a bright violet crown, metallic green to bronze green upperparts, and bluish green uppertail coverts. Face is dull grayish white to gray with a white spot behind the eye. Underparts are brownish gray. Females similar but with duller blue crown and pale cinnamon wash on underparts. Bill is straight, longish, and stout.",
     "size": "Small",
     "diet": "Nectarivore",
@@ -609,7 +801,12 @@
     "commonName": "Bat Falcon",
     "scientificName": "Falco rufigularis",
     "family": "Falconidae",
-    "habitat": ["Tropical forest", "Forest edges", "Gallery forest", "Wooded savanna"],
+    "habitat": [
+      "Tropical forest",
+      "Forest edges",
+      "Gallery forest",
+      "Wooded savanna"
+    ],
     "description": "A small falcon, 23-30 cm long. Adults have blue-black head and upperparts with grayish edges. Throat, upper breast, and neck sides are white to buff; rest of breast is black with fine white bars. Belly, thighs, and undertail coverts are chestnut-rufous. Long wings and longish tail with square tip. Bright yellow cere and bare skin around eye, orange-yellow legs and feet.",
     "size": "Small",
     "diet": "Carnivore",
@@ -622,7 +819,12 @@
     "commonName": "Black-cheeked Woodpecker",
     "scientificName": "Melanerpes pucherani",
     "family": "Picidae",
-    "habitat": ["Humid evergreen forest", "Mature secondary forest", "Abandoned plantations", "Clearings with scattered trees"],
+    "habitat": [
+      "Humid evergreen forest",
+      "Mature secondary forest",
+      "Abandoned plantations",
+      "Clearings with scattered trees"
+    ],
     "description": "A small-medium woodpecker, 17-19 cm long, weighing 42-68 g. Males have golden yellow forehead and red crown/nape. Females have white forehead, black central crown, and red hindcrown/nape. Both have black around eye extending down neck with white line behind eye. Barred upper back, white lower back. Whitish throat and breast with olive-buff tinge, buffish white underparts with wavy bars and red belly spot.",
     "size": "Small-medium",
     "diet": "Omnivore",
@@ -635,7 +837,11 @@
     "commonName": "Blue-black Grosbeak",
     "scientificName": "Cyanoloxia cyanoides",
     "family": "Cardinalidae",
-    "habitat": ["Dense forests", "Tall trees with undergrowth", "Broadleaf forest edges"],
+    "habitat": [
+      "Dense forests",
+      "Tall trees with undergrowth",
+      "Broadleaf forest edges"
+    ],
     "description": "A sexually dimorphic songbird. Males are dark blue with lighter blue eyebrows and shoulder patches on wings, and lighter blue forehead above beak. Females have dark brown plumage with slight reddish hue. Prefer to stay hidden in dense vegetation. Song consists of about six whistles with decreasing pitch.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -648,7 +854,12 @@
     "commonName": "Bright-rumped Attila",
     "scientificName": "Attila spadiceus",
     "family": "Tyrannidae",
-    "habitat": ["Forests", "Second growth", "Pasture with trees", "Shady gardens"],
+    "habitat": [
+      "Forests",
+      "Second growth",
+      "Pasture with trees",
+      "Shady gardens"
+    ],
     "description": "A large tyrant flycatcher, 18 cm long, weighing 40 g, with big head, hooked and slightly upturned bill, and upright stance. Head olive-green streaked with black, back chestnut or olive, rump bright yellow, tail brown. Wings dark brown with two pale wing bars. Whitish or yellow throat and yellow breast variably streaked darker. Belly white becoming yellow near tail. Red iris. Very variable plumage.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -661,7 +872,13 @@
     "commonName": "Scaly-breasted Hummingbird",
     "scientificName": "Phaeochroa cuvierii",
     "family": "Trochilidae",
-    "habitat": ["Dry forest", "Forest edges", "Mangroves", "Secondary forest", "Gardens"],
+    "habitat": [
+      "Dry forest",
+      "Forest edges",
+      "Mangroves",
+      "Secondary forest",
+      "Gardens"
+    ],
     "description": "A hummingbird 11.5-13 cm long, weighing 8-10 g. Mostly bronzy green with a grayish buff belly and distinctive scaly appearance created by buffy edges on underpart feathers. The tail is mostly bronzy with white tips on outer feathers. Has a mostly black bill with pink base.",
     "size": "Small",
     "diet": "Nectarivore",
@@ -674,7 +891,11 @@
     "commonName": "Short-billed Pigeon",
     "scientificName": "Patagioenas nigrirostris",
     "family": "Columbidae",
-    "habitat": ["Lowland forest", "Forest canopy", "Semi-open woodland"],
+    "habitat": [
+      "Lowland forest",
+      "Forest canopy",
+      "Semi-open woodland"
+    ],
     "description": "A large pigeon, 26.5 cm long, weighing 150 g. Mainly wine-purple in color with a black bill and purple-red eyes and legs. The belly is browner and the back is more olive-brown, with blackish tail and flight feathers. Forages in tree tops for mistletoe, fruits and berries.",
     "size": "Medium-large",
     "diet": "Frugivore",
@@ -687,7 +908,12 @@
     "commonName": "Yellow-billed Cacique",
     "scientificName": "Amblycercus holosericeus",
     "family": "Icteridae",
-    "habitat": ["Dense undergrowth", "Forest edges", "Clearings", "Secondary forest"],
+    "habitat": [
+      "Dense undergrowth",
+      "Forest edges",
+      "Clearings",
+      "Secondary forest"
+    ],
     "description": "A distinctive blackbird about 21.5 cm long. Both males and females are entirely black with a characteristic pale yellow bill that is chisel-shaped at the tip. Has a pale yellow iris and gray legs. Often feeds like a woodpecker, hammering and probing bamboo stems and rotten wood to extract insects.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -700,7 +926,12 @@
     "commonName": "Yellow-faced Grassquit",
     "scientificName": "Tiaris olivaceus",
     "family": "Thraupidae",
-    "habitat": ["Semi-open areas", "Roadsides", "Pastures", "Weedy fields"],
+    "habitat": [
+      "Semi-open areas",
+      "Roadsides",
+      "Pastures",
+      "Weedy fields"
+    ],
     "description": "A small bird, 10-10.7 cm long. Adult males have an olive-green back with black face and breast marked by a distinctive bright yellow throat, supercilia, and lower eyelid spot. The rest of the underparts are greyish olive. Females are dull olive-green above and paler grey below with a weaker yellow face pattern.",
     "size": "Very small",
     "diet": "Granivore",
@@ -713,7 +944,12 @@
     "commonName": "Cinnamon-bellied Saltator",
     "scientificName": "Saltator grandis",
     "family": "Thraupidae",
-    "habitat": ["Forest edges", "Secondary forest", "Gardens", "Open woodland"],
+    "habitat": [
+      "Forest edges",
+      "Secondary forest",
+      "Gardens",
+      "Open woodland"
+    ],
     "description": "A thick-billed songbird found from Mexico to Panama. Members of the saltator genus have robust bills, relatively long tails, and strong legs. This species has grey upperparts with cinnamon-colored underparts. Like other saltators, it forages for seeds, fruits, and insects in the canopy and mid-levels of trees.",
     "size": "Medium",
     "diet": "Omnivore",
@@ -726,7 +962,13 @@
     "commonName": "Golden-olive Woodpecker",
     "scientificName": "Colaptes rubiginosus",
     "family": "Picidae",
-    "habitat": ["Forest edges", "Rainforest", "Cloudforest", "Open woodland", "Plantations"],
+    "habitat": [
+      "Forest edges",
+      "Rainforest",
+      "Cloudforest",
+      "Open woodland",
+      "Plantations"
+    ],
     "description": "A medium-sized woodpecker, 18-23 cm long. Both sexes have mostly green upperparts with a bronze tinge and pale buffy yellow underparts barred with blackish olive. Males have a slate gray crown with a red border and nape and a wide red malar stripe. Females have red only on the nape. Forages from the mid-level to the canopy for ants, termites, and wood-boring beetles.",
     "size": "Medium",
     "diet": "Insectivore",
@@ -739,7 +981,13 @@
     "commonName": "Mangrove Swallow",
     "scientificName": "Tachycineta albilinea",
     "family": "Hirundinidae",
-    "habitat": ["Low-lying bodies of water", "Mangrove forests", "Rivers", "Lakes", "Intertidal zones"],
+    "habitat": [
+      "Low-lying bodies of water",
+      "Mangrove forests",
+      "Rivers",
+      "Lakes",
+      "Intertidal zones"
+    ],
     "description": "The mangrove swallow is a passerine bird found from Mexico through Central America to Panama. It has iridescent blue-green upperparts, white underparts, a white rump, and a black tail. It can be identified by the distinctive supraloral white streak near its eye, a feature shared only with two other Tachycineta species. Highly territorial when breeding, it nests in cavities near water and feeds on unusually large aerial prey for its size, including dragonflies and bees.",
     "size": "Small",
     "diet": "Insectivore",
@@ -752,7 +1000,12 @@
     "commonName": "White-collared Manakin",
     "scientificName": "Manacus candei",
     "family": "Pipridae",
-    "habitat": ["Forest edges", "Secondary forest", "Moist forest", "Plantations"],
+    "habitat": [
+      "Forest edges",
+      "Secondary forest",
+      "Moist forest",
+      "Plantations"
+    ],
     "description": "A compact, short-tailed bird with a heavy hooked bill and orange legs. Males have a black crown, wings, and tail, a white head, neck, and breast contrasting with a bright yellow belly. Females are olive-green with a yellow belly. Males perform elaborate lekking displays on the forest floor, using their modified wings to produce loud snapping sounds.",
     "size": "Small",
     "diet": "Omnivore",
@@ -765,12 +1018,38 @@
     "commonName": "Laughing Falcon",
     "scientificName": "Herpetotheres cachinnans",
     "family": "Falconidae",
-    "habitat": ["Forest edges", "Gallery forest", "Secondary forest", "Savanna", "Open woodland"],
+    "habitat": [
+      "Forest edges",
+      "Gallery forest",
+      "Secondary forest",
+      "Savanna",
+      "Open woodland"
+    ],
     "description": "A medium-sized bird of prey with creamy white underparts, a broad black face mask that wraps around the neck, and a small bushy crest. The wings and back are dusky black, and the tail has bold white bands. It has short, rounded wings and a long tail. Known for its loud, far-carrying laughing call, it is often seen perched conspicuously for hours watching for prey.",
     "size": "Medium",
     "diet": "Carnivore",
     "image": "/birds/laughing-falcon.jpg",
     "audio": "/audio/laughing-falcon.mp3",
     "funFact": "The laughing falcon specializes in hunting snakes, including venomous coral snakes, and its scientific name Herpetotheres cachinnans means 'snake mower' and 'laughing aloud'."
+  },
+  {
+    "id": 59,
+    "commonName": "Yellow-bellied Elaenia",
+    "scientificName": "Elaenia flavogaster",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Open woodland",
+      "Forest edges",
+      "Savanna",
+      "Scrublands",
+      "Urban areas",
+      "Gardens"
+    ],
+    "description": "A medium-sized flycatcher with a small head and bushy crest. It has brownish olive upperparts, whitish wing bars, a pale gray throat, olive gray breast, and yellow belly. Common in open and semi-open habitats from Mexico through Central and South America.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/yellow-bellied-elaenia.jpg",
+    "audio": "/audio/yellow-bellied-elaenia.mp3",
+    "funFact": "Its dawn song has been described as \"spud-deeer, spud-deer-dzz, spud-deer\", repeated over and over."
   }
 ]
