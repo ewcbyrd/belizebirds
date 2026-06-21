@@ -1945,5 +1945,23 @@
     "image": "/birds/vauxs-swift.jpg",
     "audio": "/audio/vauxs-swift.mp3",
     "funFact": "Named for William Sansom Vaux (pronounced 'vox'), this swift has a more varied call repertoire than others in its genus, mixing chattering, buzzes, squeaks, and chips."
+  },
+  {
+    "id": 108,
+    "commonName": "Violet Sabrewing",
+    "scientificName": "Campylopterus hemileucurus",
+    "frequency": "",
+    "family": "Trochilidae",
+    "habitat": [
+      "Humid evergreen montane forest",
+      "Secondary forest",
+      "Gardens"
+    ],
+    "description": "The largest hummingbird in Mexico and Central America at 13-15 cm. Males have a dusky crown with bluish green gloss, metallic violet blue underparts, and metallic green lower back. Females have metallic green upperparts, a violet blue throat, and gray underparts with a whiter belly. Found in humid evergreen forests and gardens from Mexico to Panama.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "image": "/birds/violet-sabrewing.jpg",
+    "audio": "/audio/violet-sabrewing.mp3",
+    "funFact": "The violet sabrewing is the largest hummingbird in Mexico and Central America, measuring 13 to 15 cm long, and males are known to aggressively defend flower patches from other hummingbirds."
   }
 ]
