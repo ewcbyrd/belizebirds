@@ -1435,5 +1435,23 @@
     "image": "/birds/mealy-amazon.jpg",
     "audio": "/audio/mealy-amazon.mp3",
     "funFact": "The name \"mealy\" comes from the whitish, flour-like powder on its back and nape \u2014 \"farinosa\" in Latin means \"sprinkled with flour.\""
+  },
+  {
+    "id": 80,
+    "commonName": "Northern Jacana",
+    "scientificName": "Jacana spinosa",
+    "frequency": "",
+    "family": "Jacanidae",
+    "habitat": [
+      "Freshwater marshes",
+      "Swamps",
+      "Ponds with floating vegetation"
+    ],
+    "description": "A striking wetland bird, 21-24 cm long, with a chestnut-maroon body, black head and neck, bright yellow bill, and a yellow fleshy forehead shield. Its most remarkable feature is its extremely long toes that allow it to walk on floating lily pads. Females are significantly larger than males. Found from Mexico to Panama in freshwater wetlands.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/northern-jacana.jpg",
+    "audio": "/audio/northern-jacana.mp3",
+    "funFact": "Its enormous feet let it walk on floating lily pads, earning it the nickname \"Jesus bird\" for appearing to walk on water."
   }
 ]
