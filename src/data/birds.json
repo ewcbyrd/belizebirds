@@ -1110,5 +1110,23 @@
     "image": "/birds/scrub-euphonia.jpg",
     "audio": "/audio/scrub-euphonia.mp3",
     "funFact": "The scrub euphonia feeds primarily on mistletoe berries, making it an important seed disperser for this parasitic plant."
+  },
+  {
+    "id": 63,
+    "commonName": "Montezuma Oropendola",
+    "scientificName": "Psarocolius montezuma",
+    "frequency": "",
+    "family": "Icteridae",
+    "habitat": [
+      "Forest canopy",
+      "Forest edges",
+      "Old plantations"
+    ],
+    "description": "A large chestnut bird with a blackish head and rump, bright yellow tail, bare blue cheek patch, pink wattle, and a long black-and-red bill. Males are nearly twice the size of females. It is found in the Caribbean lowlands from Mexico to central Panama.",
+    "size": "Medium-large",
+    "diet": "Omnivore",
+    "image": "/birds/montezuma-oropendola.jpg",
+    "audio": "/audio/montezuma-oropendola.mp3",
+    "funFact": "The Montezuma oropendola builds hanging woven nests up to 180 cm long, and a single colony can contain as many as 172 nests in one tree."
   }
 ]
