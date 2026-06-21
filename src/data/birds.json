@@ -1743,5 +1743,23 @@
     "image": "/birds/stub-tailed-spadebill.jpg",
     "audio": "/audio/stub-tailed-spadebill.mp3",
     "funFact": "Its greatly reduced or completely absent crown distinguishes it from all other members of the genus Platyrinchus."
+  },
+  {
+    "id": 97,
+    "commonName": "Yellow-tailed Oriole",
+    "scientificName": "Icterus mesomelas",
+    "frequency": "",
+    "family": "Icteridae",
+    "habitat": [
+      "Dense thickets",
+      "Swampy lowlands",
+      "Viny vegetation"
+    ],
+    "description": "A striking oriole that is mostly yellow with a black back, lower face, and upper breast, and black wings with yellow epaulets. The tail is black with yellow margins above and appears almost entirely yellow from below. It is the only oriole with prominent yellow in the tail.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/yellow-tailed-oriole.jpg",
+    "audio": "/audio/yellow-tailed-oriole.mp3",
+    "funFact": "This is the only oriole with prominent yellow in the tail, which gives the species its name."
   }
 ]
