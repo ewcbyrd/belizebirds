@@ -1398,5 +1398,23 @@
     "image": "/birds/russet-naped-wood-rail.jpg",
     "audio": "/audio/russet-naped-wood-rail.mp3",
     "funFact": "Its song is a rapid, crazed-sounding series of popping and clucking notes, most often heard at twilight and at night."
+  },
+  {
+    "id": 78,
+    "commonName": "Ferruginous Pygmy-Owl",
+    "scientificName": "Glaucidium brasilianum",
+    "frequency": "",
+    "family": "Strigidae",
+    "habitat": [
+      "Semi-open woodlands",
+      "Forest edges",
+      "Riparian areas"
+    ],
+    "description": "A tiny owl, only about 15 cm long, stocky with disproportionately large feet and talons. Its crown has elongated white streaks and its underparts are heavily streaked white. Two dark spots on the nape resemble false eyes. Color varies from grey-brown to rich rufous. Found in semi-open wooded habitats from the southern US to Argentina.",
+    "size": "Very small",
+    "diet": "Carnivore",
+    "image": "/birds/ferruginous-pygmy-owl.jpg",
+    "audio": "/audio/ferruginous-pygmy-owl.mp3",
+    "funFact": "The two dark spots on the back of its head look like eyes, a clever defense that helps fool both predators and small birds trying to mob it."
   }
 ]
