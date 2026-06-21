@@ -1070,5 +1070,24 @@
     "image": "/birds/stripe-throated-hermit.jpg",
     "audio": "/audio/stripe-throated-hermit.mp3",
     "funFact": "It is a \"trap-line\" feeder, visiting a regular circuit of flowers, and has been observed piercing flower bases to access nectar that would otherwise be out of reach."
+  },
+  {
+    "id": 61,
+    "commonName": "King Vulture",
+    "scientificName": "Sarcoramphus papa",
+    "frequency": "",
+    "family": "Cathartidae",
+    "habitat": [
+      "Tropical lowland forests",
+      "Savannas",
+      "Grasslands",
+      "Swamps"
+    ],
+    "description": "A large, predominantly white vulture with gray to black ruff, flight, and tail feathers. The head and neck are bald with colorful skin in yellow, orange, blue, purple, and red, and it has a distinctive orange fleshy caruncle on its beak.",
+    "size": "Large",
+    "diet": "Carnivore",
+    "image": "/birds/king-vulture.jpg",
+    "audio": "/audio/king-vulture.mp3",
+    "funFact": "The king vulture was revered in Maya mythology, often portrayed as a god carrying messages between humans and the other gods, and appears frequently in Maya codices."
   }
 ]
