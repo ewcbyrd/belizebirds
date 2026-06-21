@@ -1208,5 +1208,24 @@
     "image": "/birds/mayan-antthrush.jpg",
     "audio": "/audio/mayan-antthrush.mp3",
     "funFact": "The Mayan antthrush walks deliberately on the forest floor with its tail cocked upright like a little rail, and pasture gaps wider than 50 meters are significant barriers to its movement."
+  },
+  {
+    "id": 68,
+    "commonName": "Long-billed Gnatwren",
+    "scientificName": "Ramphocaenus melanurus",
+    "frequency": "",
+    "family": "Polioptilidae",
+    "habitat": [
+      "Dry forest",
+      "Secondary woodland",
+      "Undergrowth",
+      "Forest edges"
+    ],
+    "description": "A very small bird, 12 to 13 cm long, with a notably long thin bill and a short frequently cocked tail. Upperparts are grey-brown with rufous on the sides of the head, white throat shading to buff underparts, and a black tail with white tips. Forages actively in vegetation for insects and spiders.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/long-billed-gnatwren.jpg",
+    "audio": "/audio/long-billed-gnatwren.mp3",
+    "funFact": "This bird's long, thin bill is perfect for picking insects and spiders from foliage, and it frequently wags and cocks its short black tail with white-tipped feathers."
   }
 ]
