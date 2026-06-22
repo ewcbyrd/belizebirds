@@ -4,7 +4,7 @@ const Header = () => {
   
   return (
     <header 
-      className="relative w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] overflow-hidden bg-gray-900"
+      className="relative w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] overflow-hidden bg-lime-900"
     >
       {/* Background image - contain on large screens to prevent cropping */}
       <div 
