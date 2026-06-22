@@ -13,22 +13,7 @@ const Navigation = () => {
   return (
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between py-4 gap-4">
-          {/* Logo/Title */}
-          <div className="flex items-center gap-3">
-            <div className="text-4xl">🦜</div>
-            <div>
-              <h1 className="text-2xl font-bold text-belize-green">
-                Belize Birds
-              </h1>
-              <p className="text-sm text-gray-600">
-                Learn the birds of Belize
-              </p>
-            </div>
-          </div>
-
-          {/* Navigation Buttons */}
-          <div className="flex flex-wrap items-center gap-3">
+        <div className="flex items-center justify-center md:justify-end py-3 gap-3">
             {mode === 'gallery' ? (
               <>
                 <button
@@ -87,7 +72,6 @@ const Navigation = () => {
                 Back to Gallery
               </button>
             )}
-          </div>
         </div>
       </div>
     </nav>

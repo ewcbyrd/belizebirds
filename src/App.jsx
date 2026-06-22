@@ -1,4 +1,5 @@
 import { AppProvider, useAppContext } from './context/AppContext';
+import Header from './components/Header';
 import Navigation from './components/Navigation';
 import BirdGallery from './components/BirdGallery';
 import Quiz from './components/Quiz';
@@ -8,6 +9,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Header />
       <Navigation />
       {mode === 'gallery' ? <BirdGallery /> : <Quiz />}
     </div>
