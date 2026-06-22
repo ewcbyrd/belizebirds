@@ -1,8 +1,11 @@
 const Header = () => {
+  // Use correct base path for GitHub Pages
+  const basePath = import.meta.env.BASE_URL;
+  
   return (
     <header 
       className="relative w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] bg-cover bg-center"
-      style={{ backgroundImage: 'url(/hero-banner.jpg)' }}
+      style={{ backgroundImage: `url(${basePath}hero-banner.jpg)` }}
     >
       {/* Dark gradient overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50"></div>
