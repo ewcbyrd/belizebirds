@@ -2017,5 +2017,23 @@
     "image": "/birds/little-tinamou.jpg",
     "audio": "/audio/little-tinamou.mp3",
     "funFact": "The little tinamou is more closely related to ostriches and emus (both ratites) than to quail or grouse, despite looking similar — it belongs to the ancient group of palaeognath birds."
+  },
+  {
+    "id": 112,
+    "commonName": "Plain-breasted Ground Dove",
+    "scientificName": "Columbina minuta",
+    "frequency": "",
+    "family": "Columbidae",
+    "habitat": [
+      "Dry savanna",
+      "Dry shrubland",
+      "Open grassland"
+    ],
+    "description": "A very small dove about 14.5-16 cm long, possibly the smallest columbid by mass. It has dark grey to brown plumage, paler wings with dark violet spots, rufous underwings, a grey bill, pink legs, and reddish eyes. Unlike the similar common ground dove, it lacks scaling on the head and neck. Found in open dry areas from southern Mexico through Central and South America.",
+    "size": "Very small",
+    "diet": "Granivore",
+    "image": "/birds/plain-breasted-ground-dove.jpg",
+    "audio": "/audio/plain-breasted-ground-dove.mp3",
+    "funFact": "The plain-breasted ground dove may be the smallest of all pigeons and doves by mass, yet it can be found across an enormous range spanning 18.8 million square kilometers from Mexico to Argentina."
   }
 ]
