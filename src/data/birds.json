@@ -1999,5 +1999,23 @@
     "image": "/birds/wedge-billed-woodcreeper.jpg",
     "audio": "/audio/wedge-billed-woodcreeper.mp3",
     "funFact": "The wedge-billed woodcreeper is the only member of its genus and is the smallest of all woodcreepers, easily recognized by its short wedge-shaped bill."
+  },
+  {
+    "id": 111,
+    "commonName": "Little Tinamou",
+    "scientificName": "Crypturellus soui",
+    "frequency": "",
+    "family": "Tinamidae",
+    "habitat": [
+      "Tropical lowland forest",
+      "Secondary forest",
+      "Lowland shrubland"
+    ],
+    "description": "A small, secretive ground bird about 21-24 cm long with unbarred sooty-brown plumage, a greyish head, whitish foreneck, and cinnamon-buff underparts. It has a very short tail and can be grey, olive, or yellow legs. More often heard than seen, it inhabits tropical lowland forests from southern Mexico through Central America to South America.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/little-tinamou.jpg",
+    "audio": "/audio/little-tinamou.mp3",
+    "funFact": "The little tinamou is more closely related to ostriches and emus (both ratites) than to quail or grouse, despite looking similar — it belongs to the ancient group of palaeognath birds."
   }
 ]

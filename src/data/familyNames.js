@@ -3,6 +3,7 @@
 // Non-passerines first, then passerines in taxonomic order
 export const FAMILY_NAMES = {
   // Non-passerines (phylogenetic order)
+  'Tinamidae': 'Tinamous',
   'Ardeidae': 'Herons',
   'Cathartidae': 'New World Vultures',
   'Accipitridae': 'Hawks & Eagles',
