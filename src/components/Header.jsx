@@ -4,9 +4,14 @@ const Header = () => {
   
   return (
     <header 
-      className="relative w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] bg-cover bg-center"
-      style={{ backgroundImage: `url(${basePath}hero-banner.jpg)` }}
+      className="relative w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] overflow-hidden bg-gray-900"
     >
+      {/* Background image - contain on large screens to prevent cropping */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center md:bg-contain md:bg-no-repeat md:bg-center"
+        style={{ backgroundImage: `url(${basePath}hero-banner.jpg)` }}
+      ></div>
+      
       {/* Dark gradient overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50"></div>
       
