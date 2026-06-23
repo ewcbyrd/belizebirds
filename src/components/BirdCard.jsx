@@ -81,16 +81,16 @@ const BirdCard = ({ bird }) => {
             className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="relative h-80 bg-gradient-to-br from-belize-green-light to-belize-green overflow-hidden">
+            <div className="bg-gradient-to-br from-belize-green-light to-belize-green">
               {!imageError ? (
                 <img
                   src={bird.image}
                   alt={bird.commonName}
-                  className="w-full h-full object-contain"
+                  className="w-full"
                   onError={handleImageError}
                 />
               ) : (
-                <div className="w-full h-full flex items-center justify-center">
+                <div className="w-full aspect-[4/3] flex items-center justify-center">
                   <div className="text-center text-white p-4">
                     <svg
                       className="w-24 h-24 mx-auto mb-2 opacity-75"
