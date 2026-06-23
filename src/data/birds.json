@@ -2258,5 +2258,24 @@
     "image": "/birds/black-and-white-hawk-eagle.jpg",
     "audio": "/audio/black-and-white-hawk-eagle.mp3",
     "funFact": "Each black-and-white hawk-eagle requires a hunting territory of about 3,500 acres (1,400 hectares) and has been known to snatch prey in mid-air that was mobbing it."
+  },
+  {
+    "id": 125,
+    "commonName": "Rufous-breasted Spinetail",
+    "scientificName": "Synallaxis erythrothorax",
+    "frequency": "",
+    "family": "Furnariidae",
+    "habitat": [
+      "Lowland evergreen forest edges",
+      "Secondary forest",
+      "Second-growth scrublands",
+      "Brushy clearings"
+    ],
+    "description": "A spinetail 13-16 cm long with sepia brown upperparts, chestnut wings and tail, a slate black throat with white streaks, and a deep cinnamon rufous breast and sides. Found in dense vegetation from Mexico through Belize, Guatemala, El Salvador, and Honduras.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/rufous-breasted-spinetail.jpg",
+    "audio": "/audio/rufous-breasted-spinetail.mp3",
+    "funFact": "Builds a dome-shaped nest of thorny sticks with a tunnel entrance, sometimes half again as long as it is high, thatched with bark and leaf stems."
   }
 ]
