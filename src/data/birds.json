@@ -2053,5 +2053,23 @@
     "image": "/birds/great-black-hawk.jpg",
     "audio": "/audio/great-black-hawk.mp3",
     "funFact": "One Great Black Hawk became a famous vagrant in 2018, traveling from Texas to Maine — the first record in the ABA area — where it survived a winter before being rescued during a snowstorm."
+  },
+  {
+    "id": 114,
+    "commonName": "Dot-winged Antwren",
+    "scientificName": "Microrhopias quixensis",
+    "frequency": "",
+    "family": "Thamnophilidae",
+    "habitat": [
+      "Tropical evergreen forest",
+      "Secondary forest",
+      "Forest edges"
+    ],
+    "description": "A small antbird 10-12.5 cm long with a long graduated tail. Males are mostly black with a concealed white patch between the shoulders and white spots on the wing coverts. Females have a blackish gray head and upperparts, black throat, and rufous-chestnut underparts. Found actively foraging in vine tangles and forest edges from Mexico through Central America to South America.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/dot-winged-antwren.jpg",
+    "audio": "/audio/dot-winged-antwren.mp3",
+    "funFact": "The dot-winged antwren is the only member of its genus Microrhopias, and the male's striking black plumage with white wing dots makes it one of the most distinctive antwrens in its range."
   }
 ]
