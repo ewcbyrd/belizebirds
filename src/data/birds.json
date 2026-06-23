@@ -2183,5 +2183,24 @@
     "image": "/birds/white-collared-swift.jpg",
     "audio": "/audio/white-collared-swift.mp3",
     "funFact": "White-collared swifts attain flying speeds of 70-100 km/h (43-62 mph) and often feed in flocks of 200 or more, sometimes alongside other swift species."
+  },
+  {
+    "id": 121,
+    "commonName": "Eye-ringed Flatbill",
+    "scientificName": "Rhynchocyclus brevirostris",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Semi-deciduous forest",
+      "Cloudforest",
+      "Secondary forest"
+    ],
+    "description": "A tyrant flycatcher 15-17 cm long with olive-green upperparts, a bold white eye-ring, and a large wide flat bill. The throat and upper breast are dusky olive-green becoming paler with yellowish streaks on the lower breast, with a pale yellow belly. Found from Mexico through Central America into Colombia.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/eye-ringed-flatbill.jpg",
+    "audio": "/audio/eye-ringed-flatbill.mp3",
+    "funFact": "Builds a large pear-shaped nest with a downward-sloping tunnel entrance, suspended from a twig or vine over open space or water, and adults roost in the nest year-round."
   }
 ]
