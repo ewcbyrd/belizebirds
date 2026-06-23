@@ -2164,5 +2164,24 @@
     "image": "/birds/red-crowned-ant-tanager.jpg",
     "audio": "/audio/red-crowned-ant-tanager.mp3",
     "funFact": "Frequently follows army ant columns to snatch invertebrate prey startled by the ants, and also trails South American coatis on their feeding excursions."
+  },
+  {
+    "id": 120,
+    "commonName": "White-collared Swift",
+    "scientificName": "Streptoprocne zonaris",
+    "frequency": "",
+    "family": "Apodidae",
+    "habitat": [
+      "Montane evergreen forest",
+      "Lowland evergreen forest",
+      "Secondary forest",
+      "Scrublands"
+    ],
+    "description": "The largest swift in its range at 20-21.5 cm long with a 45-55 cm wingspan. Mostly black plumage with a distinctive white collar that circles the neck, broadest on the breast. The tail is slightly forked. Found from Mexico through Central America and the Caribbean to South America.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/white-collared-swift.jpg",
+    "audio": "/audio/white-collared-swift.mp3",
+    "funFact": "White-collared swifts attain flying speeds of 70-100 km/h (43-62 mph) and often feed in flocks of 200 or more, sometimes alongside other swift species."
   }
 ]
