@@ -2202,5 +2202,24 @@
     "image": "/birds/eye-ringed-flatbill.jpg",
     "audio": "/audio/eye-ringed-flatbill.mp3",
     "funFact": "Builds a large pear-shaped nest with a downward-sloping tunnel entrance, suspended from a twig or vine over open space or water, and adults roost in the nest year-round."
+  },
+  {
+    "id": 122,
+    "commonName": "Azure-crowned Hummingbird",
+    "scientificName": "Saucerottia cyanocephala",
+    "frequency": "",
+    "family": "Trochilidae",
+    "habitat": [
+      "Humid evergreen forest edges",
+      "Oak and pine-oak forest",
+      "Scrublands",
+      "Secondary forest"
+    ],
+    "description": "A hummingbird 10-11.5 cm long with a bright metallic blue crown, metallic bronze nape and back, and white underparts with metallic bronze green sides to the breast. Found from Mexico through Belize, Guatemala, El Salvador into Nicaragua.",
+    "size": "Very small",
+    "diet": "Nectarivore",
+    "image": "/birds/azure-crowned-hummingbird.jpg",
+    "audio": "/audio/azure-crowned-hummingbird.mp3",
+    "funFact": "In urban areas, azure-crowned hummingbirds have been known to build their nests on utility wires, a remarkable adaptation to human-altered environments."
   }
 ]
