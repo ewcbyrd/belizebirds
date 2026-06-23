@@ -2091,5 +2091,24 @@
     "image": "/birds/slate-headed-tody-flycatcher.jpg",
     "audio": "/audio/slate-headed-tody-flycatcher.mp3",
     "funFact": "Its nest is pear-shaped with a side entrance, woven from moss and plant fibers, and suspended from the tip of a branch about 3 meters above the ground."
+  },
+  {
+    "id": 116,
+    "commonName": "Northern Plain-Xenops",
+    "scientificName": "Xenops mexicanus",
+    "frequency": "",
+    "family": "Furnariidae",
+    "habitat": [
+      "Tropical lowland forest",
+      "Forest edges",
+      "Semideciduous forest",
+      "Mature secondary forest"
+    ],
+    "description": "A small furnariid 11-13 cm long with dull brown upperparts, a conspicuous buff supercilium, wide white malar stripe, and extensive rufous in the wings and tail. Its underparts are plain dull grayish brown with light spotting on the foreneck and breast. It has a distinctive wedge-shaped, slightly upturned bill. Found from southern Mexico through Central America to northern South America.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/northern-plain-xenops.jpg",
+    "audio": "/audio/northern-plain-xenops.mp3",
+    "funFact": "Uses its wedge-shaped, upturned bill to chisel and pry arthropod prey from dead branches, often foraging while hanging upside down like a nuthatch."
   }
 ]
