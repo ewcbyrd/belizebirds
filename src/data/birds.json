@@ -2035,5 +2035,23 @@
     "image": "/birds/plain-breasted-ground-dove.jpg",
     "audio": "/audio/plain-breasted-ground-dove.mp3",
     "funFact": "The plain-breasted ground dove may be the smallest of all pigeons and doves by mass, yet it can be found across an enormous range spanning 18.8 million square kilometers from Mexico to Argentina."
+  },
+  {
+    "id": 113,
+    "commonName": "Great Black Hawk",
+    "scientificName": "Buteogallus urubitinga",
+    "frequency": "",
+    "family": "Accipitridae",
+    "habitat": [
+      "Coastal areas",
+      "Forests",
+      "Open woodland near water"
+    ],
+    "description": "A large raptor 56-64 cm long with very broad wings, mainly black plumage, a short white tail with a broad black tip, a black bill, and yellow legs and cere. Immature birds are dark brown above with buff underparts and dark spots. Its call is a distinctive piping ooo-wheeeeee. Found from Mexico through Central America to northern Argentina.",
+    "size": "Large",
+    "diet": "Carnivore",
+    "image": "/birds/great-black-hawk.jpg",
+    "audio": "/audio/great-black-hawk.mp3",
+    "funFact": "One Great Black Hawk became a famous vagrant in 2018, traveling from Texas to Maine — the first record in the ABA area — where it survived a winter before being rescued during a snowstorm."
   }
 ]
