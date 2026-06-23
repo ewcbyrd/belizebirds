@@ -2146,5 +2146,23 @@
     "image": "/birds/tody-motmot.jpg",
     "audio": "/audio/tody-motmot.mp3",
     "funFact": "The tody motmot is the only species in its genus Hylomanes and is the smallest of all motmots, named for its resemblance to the todies of the Caribbean."
+  },
+  {
+    "id": 119,
+    "commonName": "Red-crowned Ant-Tanager",
+    "scientificName": "Habia rubica",
+    "frequency": "",
+    "family": "Cardinalidae",
+    "habitat": [
+      "Forest understory",
+      "Forest middle stratum",
+      "Thick undergrowth"
+    ],
+    "description": "A medium-sized passerine 17-19 cm long. The male is dull reddish brown with a brighter red throat and breast, featuring a black-bordered scarlet crown stripe that is raised when excited. The female is yellowish brown with a yellow throat and yellow-buff crown stripe. Found from Mexico through Central America to Paraguay and northern Argentina.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/red-crowned-ant-tanager.jpg",
+    "audio": "/audio/red-crowned-ant-tanager.mp3",
+    "funFact": "Frequently follows army ant columns to snatch invertebrate prey startled by the ants, and also trails South American coatis on their feeding excursions."
   }
 ]
