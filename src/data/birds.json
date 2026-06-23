@@ -2129,5 +2129,22 @@
     "image": "/birds/canivets-emerald.jpg",
     "audio": "/audio/canivets-emerald.mp3",
     "funFact": "Holds its tail partly open and wags it while feeding on nectar, often visiting small flowers that are ignored by other hummingbirds."
+  },
+  {
+    "id": 118,
+    "commonName": "Tody Motmot",
+    "scientificName": "Hylomanes momotula",
+    "frequency": "",
+    "family": "Momotidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Ravines"
+    ],
+    "description": "The smallest motmot at 16.5-18 cm long. It has a green crown, rufous neck, green back and rump, a blue supercilium, and a black mask with a white stripe below. Its throat is white, breast greenish with light streaks, and belly white. Found in humid evergreen forest from southern Mexico through Central America into Colombia.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/tody-motmot.jpg",
+    "audio": "/audio/tody-motmot.mp3",
+    "funFact": "The tody motmot is the only species in its genus Hylomanes and is the smallest of all motmots, named for its resemblance to the todies of the Caribbean."
   }
 ]
