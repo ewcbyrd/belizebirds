@@ -2221,5 +2221,24 @@
     "image": "/birds/azure-crowned-hummingbird.jpg",
     "audio": "/audio/azure-crowned-hummingbird.mp3",
     "funFact": "In urban areas, azure-crowned hummingbirds have been known to build their nests on utility wires, a remarkable adaptation to human-altered environments."
+  },
+  {
+    "id": 123,
+    "commonName": "White-browed Gnatcatcher",
+    "scientificName": "Polioptila bilineata",
+    "frequency": "",
+    "family": "Polioptilidae",
+    "habitat": [
+      "Humid tropical forest",
+      "Forest edges",
+      "Dry forests",
+      "Arid scrub"
+    ],
+    "description": "A tiny songbird with blue-gray upperparts, whitish underparts, and a long black tail with white outer feathers that is often held cocked. Males have a black cap with a striking white eyebrow; females have a blue-gray cap with a white eyebrow. Constantly in motion while foraging. Found from Mexico to northwestern Peru.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/white-browed-gnatcatcher.jpg",
+    "audio": "/audio/white-browed-gnatcatcher.mp3",
+    "funFact": "Formerly considered a subspecies of the Tropical Gnatcatcher, the White-browed Gnatcatcher was elevated to full species status based on genetic studies showing it is distinct."
   }
 ]
