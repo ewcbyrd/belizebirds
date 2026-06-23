@@ -2240,5 +2240,23 @@
     "image": "/birds/white-browed-gnatcatcher.jpg",
     "audio": "/audio/white-browed-gnatcatcher.mp3",
     "funFact": "Formerly considered a subspecies of the Tropical Gnatcatcher, the White-browed Gnatcatcher was elevated to full species status based on genetic studies showing it is distinct."
+  },
+  {
+    "id": 124,
+    "commonName": "Black-and-white Hawk-Eagle",
+    "scientificName": "Spizaetus melanoleucus",
+    "frequency": "",
+    "family": "Accipitridae",
+    "habitat": [
+      "Lowland forests",
+      "Closed-canopy forest",
+      "Forest edges"
+    ],
+    "description": "A striking raptor 51-61 cm long with a white head, neck and body, black wings with a white leading edge, and a brownish tail barred black-grey with a white tip. It has a small black crest on top of the head and black around the eyes. Found from southern Mexico to northern Argentina.",
+    "size": "Medium-large",
+    "diet": "Carnivore",
+    "image": "/birds/black-and-white-hawk-eagle.jpg",
+    "audio": "/audio/black-and-white-hawk-eagle.mp3",
+    "funFact": "Each black-and-white hawk-eagle requires a hunting territory of about 3,500 acres (1,400 hectares) and has been known to snatch prey in mid-air that was mobbing it."
   }
 ]
