@@ -2110,5 +2110,24 @@
     "image": "/birds/northern-plain-xenops.jpg",
     "audio": "/audio/northern-plain-xenops.mp3",
     "funFact": "Uses its wedge-shaped, upturned bill to chisel and pry arthropod prey from dead branches, often foraging while hanging upside down like a nuthatch."
+  },
+  {
+    "id": 117,
+    "commonName": "Canivet's Emerald",
+    "scientificName": "Cynanthus canivetii",
+    "frequency": "",
+    "family": "Trochilidae",
+    "habitat": [
+      "Forest edges and clearings",
+      "Secondary forest",
+      "Scrubby savannas",
+      "Gardens"
+    ],
+    "description": "A small hummingbird 7.5-9.3 cm long. Males have brilliant golden green upperparts and underparts, a red bill with black tip, and a long forked blue-black tail. Females have metallic green upperparts, light gray underparts, and a grayish white stripe behind the eye. Found in semi-open landscapes from Mexico through Central America.",
+    "size": "Very small",
+    "diet": "Nectarivore",
+    "image": "/birds/canivets-emerald.jpg",
+    "audio": "/audio/canivets-emerald.mp3",
+    "funFact": "Holds its tail partly open and wags it while feeding on nectar, often visiting small flowers that are ignored by other hummingbirds."
   }
 ]
