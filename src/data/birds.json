@@ -2334,5 +2334,24 @@
     "image": "/birds/ruddy-woodcreeper.jpg",
     "audio": "/audio/ruddy-woodcreeper.mp3",
     "funFact": "A near-obligate follower of army ant swarms, it clings to trunks up to 10 meters high and captures arthropod prey disturbed by the ants, but never feeds on the ants themselves."
+  },
+  {
+    "id": 129,
+    "commonName": "Gray-headed Dove",
+    "scientificName": "Leptotila plumbeiceps",
+    "frequency": "",
+    "family": "Columbidae",
+    "habitat": [
+      "Humid forest interior",
+      "Forest edges",
+      "Primary forest",
+      "Secondary forest"
+    ],
+    "description": "A large dove 23.5-26 cm long with a pale bluish gray forehead and crown, pinkish buff face, white throat and belly, and pale pink breast. Upperparts are olive brown with a rufous wash. Outer tail feathers are black with white tips. Found from Mexico to Colombia.",
+    "size": "Medium",
+    "diet": "Granivore",
+    "image": "/birds/gray-headed-dove.jpg",
+    "audio": "/audio/gray-headed-dove.mp3",
+    "funFact": "The gray-headed dove, gray-fronted dove, pallid dove, Azuero dove, and Grenada dove were once all thought to be a single species."
   }
 ]
