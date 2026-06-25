@@ -2315,5 +2315,24 @@
     "image": "/birds/northern-barred-woodcreeper.jpg",
     "audio": "/audio/northern-barred-woodcreeper.mp3",
     "funFact": "Often follows army ant swarms to feed on prey disturbed by the ants, perching on near-vertical trunks and making short flights to pick prey from the ground, trunks, and foliage."
+  },
+  {
+    "id": 128,
+    "commonName": "Ruddy Woodcreeper",
+    "scientificName": "Dendrocincla homochroa",
+    "frequency": "",
+    "family": "Furnariidae",
+    "habitat": [
+      "Lowland deciduous forest",
+      "Rainforest",
+      "Cloudforest",
+      "Gallery forest"
+    ],
+    "description": "A medium-sized woodcreeper 17.5-20.5 cm long with dark rufous to chestnut-brown upperparts, a brighter reddish crown, rufous chestnut wings and tail, cinnamon-buff throat, and rufous brown underparts with a paler belly. Has a straight bill and short tail. Found from Mexico to northern Colombia and Venezuela.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/ruddy-woodcreeper.jpg",
+    "audio": "/audio/ruddy-woodcreeper.mp3",
+    "funFact": "A near-obligate follower of army ant swarms, it clings to trunks up to 10 meters high and captures arthropod prey disturbed by the ants, but never feeds on the ants themselves."
   }
 ]
