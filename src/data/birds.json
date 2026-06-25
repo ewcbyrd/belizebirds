@@ -2464,5 +2464,24 @@
     "image": "/birds/white-necked-puffbird.jpg",
     "audio": "/audio/white-necked-puffbird.mp3",
     "funFact": "The white-necked puffbird nests in arboreal termitaria (termite nests), where both sexes excavate a cavity for their eggs."
+  },
+  {
+    "id": 136,
+    "commonName": "Great Tinamou",
+    "scientificName": "Tinamus major",
+    "frequency": "",
+    "family": "Tinamidae",
+    "habitat": [
+      "Rainforest",
+      "Lowland evergreen forest",
+      "Swamp forest",
+      "Cloud forest"
+    ],
+    "description": "A large ground bird 38-46 cm long, olive-green with a whitish throat and belly, flanks barred black, and a rufous crown and neck. Has blue-grey legs and a distinctive three-note piping call heard at dusk. Found from Mexico through Central America to South America.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "image": "/birds/great-tinamou.jpg",
+    "audio": "/audio/great-tinamou.mp3",
+    "funFact": "The great tinamou has the highest percentage of skeletal muscle devoted to locomotion of any bird (56.9% of body weight), yet has the smallest relative heart size of any bird (0.19%)."
   }
 ]
