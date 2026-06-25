@@ -2445,5 +2445,24 @@
     "image": "/birds/orange-breasted-falcon.jpg",
     "audio": "/audio/orange-breasted-falcon.mp3",
     "funFact": "The Peregrine Fund has been successfully captive-breeding and releasing orange-breasted falcons into the wild in Belize since 2007, with over 50 released and some pairing with wild birds."
+  },
+  {
+    "id": 135,
+    "commonName": "White-necked Puffbird",
+    "scientificName": "Notharchus hyperrhynchus",
+    "frequency": "",
+    "family": "Bucconidae",
+    "habitat": [
+      "Secondary forest",
+      "Primary forest edges",
+      "Open woodlands",
+      "Savanna"
+    ],
+    "description": "A puffbird about 25 cm long, mostly glossy black with a broad white forehead, throat, upper breast, and belly. A broad black band separates the white upper breast from the white belly, and the lower flanks are barred black and white. Has a very large black bill. Found from Mexico through Central America to South America.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/white-necked-puffbird.jpg",
+    "audio": "/audio/white-necked-puffbird.mp3",
+    "funFact": "The white-necked puffbird nests in arboreal termitaria (termite nests), where both sexes excavate a cavity for their eggs."
   }
 ]
