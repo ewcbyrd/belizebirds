@@ -2409,5 +2409,23 @@
     "image": "/birds/mangrove-vireo.jpg",
     "audio": "/audio/mangrove-vireo.mp3",
     "funFact": "On the Pacific coast, mangrove vireos are found almost exclusively in red mangroves, while Caribbean populations inhabit a wider variety of forest types."
+  },
+  {
+    "id": 133,
+    "commonName": "White-bellied Wren",
+    "scientificName": "Uropsila leucogastra",
+    "frequency": "",
+    "family": "Troglodytidae",
+    "habitat": [
+      "Semi-arid forest",
+      "Humid rainforest",
+      "Thickets"
+    ],
+    "description": "A small wren 9.5-10 cm long with medium brown upperparts, a gray-white supercilium, gray throat and chest, white belly, and buff flanks. The tail has many thin dark bars. Found in Mexico, Belize, Guatemala, and Honduras.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/white-bellied-wren.jpg",
+    "audio": "/audio/white-bellied-wren.mp3",
+    "funFact": "Builds a retort-shaped nest — an oval ball with a downward-pointing funnel entrance — often placed in spiny locations like Bromelia thickets or Acacia trees."
   }
 ]
