@@ -2277,5 +2277,24 @@
     "image": "/birds/rufous-breasted-spinetail.jpg",
     "audio": "/audio/rufous-breasted-spinetail.mp3",
     "funFact": "Builds a dome-shaped nest of thorny sticks with a tunnel entrance, sometimes half again as long as it is high, thatched with bark and leaf stems."
+  },
+  {
+    "id": 126,
+    "commonName": "Purple-crowned Fairy",
+    "scientificName": "Heliothryx barroti",
+    "frequency": "",
+    "family": "Trochilidae",
+    "habitat": [
+      "Humid lowland forest canopy",
+      "Forest edges",
+      "Shady plantations",
+      "Mature secondary forest"
+    ],
+    "description": "A slender hummingbird 9-13 cm long with bright emerald green upperparts, pure white underparts, and a long pointed tail with blue-black central and white outer feathers. The male has a metallic violet forecrown. Found from Mexico through Central America to northern Peru.",
+    "size": "Very small",
+    "diet": "Nectarivore",
+    "image": "/birds/purple-crowned-fairy.jpg",
+    "audio": "/audio/purple-crowned-fairy.mp3",
+    "funFact": "Unlike most hummingbirds, the purple-crowned fairy does not catch insects in flight — it hovers and gleans them from foliage, and will pierce the base of flowers to 'rob' nectar."
   }
 ]
