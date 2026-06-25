@@ -2296,5 +2296,24 @@
     "image": "/birds/purple-crowned-fairy.jpg",
     "audio": "/audio/purple-crowned-fairy.mp3",
     "funFact": "Unlike most hummingbirds, the purple-crowned fairy does not catch insects in flight — it hovers and gleans them from foliage, and will pierce the base of flowers to 'rob' nectar."
+  },
+  {
+    "id": 127,
+    "commonName": "Northern Barred-Woodcreeper",
+    "scientificName": "Dendrocolaptes sanctithomae",
+    "frequency": "",
+    "family": "Furnariidae",
+    "habitat": [
+      "Humid tall evergreen forest",
+      "Gallery forest",
+      "Semi-deciduous forest",
+      "Mature secondary forest"
+    ],
+    "description": "A large woodcreeper 25-29 cm long with a cinnamon-brown face, rufescent crown, olive-brown back with black barring, cinnamon-rufous tail, and golden to cinnamon-buff underparts with narrow black barring. Has a long tail and medium-length straight bill. Found from Mexico through Central America to Colombia and Ecuador.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/northern-barred-woodcreeper.jpg",
+    "audio": "/audio/northern-barred-woodcreeper.mp3",
+    "funFact": "Often follows army ant swarms to feed on prey disturbed by the ants, perching on near-vertical trunks and making short flights to pick prey from the ground, trunks, and foliage."
   }
 ]
