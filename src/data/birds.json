@@ -2390,5 +2390,24 @@
     "image": "/birds/chestnut-colored-woodpecker.jpg",
     "audio": "/audio/chestnut-colored-woodpecker.mp3",
     "funFact": "The male chestnut-colored woodpecker is distinguished by bright red plumage from the lores to behind the eye and down to the throat — the female has none."
+  },
+  {
+    "id": 132,
+    "commonName": "Mangrove Vireo",
+    "scientificName": "Vireo pallens",
+    "frequency": "",
+    "family": "Vireonidae",
+    "habitat": [
+      "Mangroves",
+      "Scrubby woodlands",
+      "Secondary forest",
+      "Forest edges"
+    ],
+    "description": "A small vireo 11-12 cm long with greenish brown upperparts, yellowish white wing bars, a whitish yellow chin, and grayish underparts with a faint yellow tinge on the belly. Found in Mexico and Central America.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/mangrove-vireo.jpg",
+    "audio": "/audio/mangrove-vireo.mp3",
+    "funFact": "On the Pacific coast, mangrove vireos are found almost exclusively in red mangroves, while Caribbean populations inhabit a wider variety of forest types."
   }
 ]
