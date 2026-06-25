@@ -2353,5 +2353,23 @@
     "image": "/birds/gray-headed-dove.jpg",
     "audio": "/audio/gray-headed-dove.mp3",
     "funFact": "The gray-headed dove, gray-fronted dove, pallid dove, Azuero dove, and Grenada dove were once all thought to be a single species."
+  },
+  {
+    "id": 130,
+    "commonName": "Gray-headed Tanager",
+    "scientificName": "Eucometis penicillata",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Tropical moist lowland forest",
+      "Swamps",
+      "Dense forest understory"
+    ],
+    "description": "A lowland tanager with yellowish olive plumage over much of its body and a conspicuous gray head and crest. Has a somewhat conical bill with a rounded notch on the upper mandible. Usually travels in pairs in dense forest understory. Found from Mexico to Paraguay.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/gray-headed-tanager.jpg",
+    "audio": "/audio/gray-headed-tanager.mp3",
+    "funFact": "The gray-headed tanager is the only member of its genus Eucometis and is known to follow army ant swarms to feed on insects fleeing from the ants."
   }
 ]
