@@ -2427,5 +2427,23 @@
     "image": "/birds/white-bellied-wren.jpg",
     "audio": "/audio/white-bellied-wren.mp3",
     "funFact": "Builds a retort-shaped nest — an oval ball with a downward-pointing funnel entrance — often placed in spiny locations like Bromelia thickets or Acacia trees."
+  },
+  {
+    "id": 134,
+    "commonName": "Orange-breasted Falcon",
+    "scientificName": "Falco deiroleucus",
+    "frequency": "",
+    "family": "Falconidae",
+    "habitat": [
+      "Tropical rainforest",
+      "Semi-deciduous forest",
+      "Cliffs"
+    ],
+    "description": "A raptor 35-40 cm long with a black head, bluish black upperparts, white throat, buffy rufous orange upper breast, and a black lower breast with coarse reddish brown bars. The belly and thighs are buffy rufous orange. Females are significantly larger than males. Found from Mexico through Central America to South America.",
+    "size": "Medium",
+    "diet": "Carnivore",
+    "image": "/birds/orange-breasted-falcon.jpg",
+    "audio": "/audio/orange-breasted-falcon.mp3",
+    "funFact": "The Peregrine Fund has been successfully captive-breeding and releasing orange-breasted falcons into the wild in Belize since 2007, with over 50 released and some pairing with wild birds."
   }
 ]
