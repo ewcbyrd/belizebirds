@@ -2371,5 +2371,24 @@
     "image": "/birds/gray-headed-tanager.jpg",
     "audio": "/audio/gray-headed-tanager.mp3",
     "funFact": "The gray-headed tanager is the only member of its genus Eucometis and is known to follow army ant swarms to feed on insects fleeing from the ants."
+  },
+  {
+    "id": 131,
+    "commonName": "Chestnut-colored Woodpecker",
+    "scientificName": "Celeus castaneus",
+    "frequency": "",
+    "family": "Picidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Semi-deciduous forest",
+      "Forest edges",
+      "Mangroves"
+    ],
+    "description": "A woodpecker 21.5-25 cm long with rufous-chestnut upperparts, a cinnamon-buff rump, black bars on the back, and chestnut underparts heavily marked with black V shapes. The head is dull ochraceous with a pointed crest. Male has bright red from the lores to behind the eye and down to the throat. Found from Mexico to Panama.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/chestnut-colored-woodpecker.jpg",
+    "audio": "/audio/chestnut-colored-woodpecker.mp3",
+    "funFact": "The male chestnut-colored woodpecker is distinguished by bright red plumage from the lores to behind the eye and down to the throat — the female has none."
   }
 ]
