@@ -2619,5 +2619,25 @@
     "image": "/birds/cabaniss-wren.jpg",
     "audio": "/audio/cabaniss-wren.mp3",
     "funFact": "Cabanis's wren was formerly lumped with the canebrake wren and isthmian wren as a single species called the 'plain wren,' until they were split in 2016 based on differences in vocalizations and genetics."
+  },
+  {
+    "id": 144,
+    "commonName": "Tropical Royal Flycatcher",
+    "scientificName": "Onychorhynchus coronatus",
+    "frequency": "",
+    "family": "Onychorhynchidae",
+    "habitat": [
+      "Humid lowland forest",
+      "Primary evergreen forest",
+      "Second growth forest",
+      "Stream edges",
+      "Várzea forest"
+    ],
+    "description": "A small flycatcher 12.5-18 cm (5-7 in) long with an erectile fan-shaped crest. The male's crest is red with blue tips; the female's is yellow or orange. Upperparts are dark brown with narrow black and buffy bars, rump is cinnamon-rufous, and underparts are warm buff with narrow black barring on the breast.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/tropical-royal-flycatcher.jpg",
+    "audio": "/audio/tropical-royal-flycatcher.mp3",
+    "funFact": "The tropical royal flycatcher's spectacular erectile fan-shaped crest — scarlet with blue tips in males, yellow or orange in females — is displayed during courtship and when the bird is alarmed."
   }
 ]

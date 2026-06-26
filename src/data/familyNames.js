@@ -42,5 +42,6 @@ export const FAMILY_NAMES = {
   'Cardinalidae': 'Cardinals & Allies',
   'Icteridae': 'New World Blackbirds',
   'Fringillidae': 'Finches',
-  'Passerellidae': 'New World Sparrows'
+  'Passerellidae': 'New World Sparrows',
+  'Onychorhynchidae': 'Royal Flycatchers'
 };
