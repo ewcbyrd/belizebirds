@@ -2639,5 +2639,25 @@
     "image": "/birds/tropical-royal-flycatcher.jpg",
     "audio": "/audio/tropical-royal-flycatcher.mp3",
     "funFact": "The tropical royal flycatcher's spectacular erectile fan-shaped crest — scarlet with blue tips in males, yellow or orange in females — is displayed during courtship and when the bird is alarmed."
+  },
+  {
+    "id": 145,
+    "commonName": "Northern Potoo",
+    "scientificName": "Nyctibius jamaicensis",
+    "frequency": "",
+    "family": "Nyctibiidae",
+    "habitat": [
+      "Lowland woodland",
+      "Scrubland",
+      "Clearings",
+      "Farmland with scattered trees",
+      "Urban areas"
+    ],
+    "description": "A nocturnal bird 38-46 cm (15-18 in) long with grey-brown plumage intricately patterned with black, grey, and cream. It has a large head, long tail, and large yellow eyes. Often seen perched motionless upright on branches or posts, camouflaged as a broken branch.",
+    "size": "Medium-large",
+    "diet": "Insectivore",
+    "image": "/birds/northern-potoo.jpg",
+    "audio": "/audio/northern-potoo.mp3",
+    "funFact": "The Mopan Maya of Belize believe that if a northern potoo flies over a house repeatedly at night, someone in that family will die, and they chase the birds away with lighted sticks."
   }
 ]
