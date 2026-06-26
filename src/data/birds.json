@@ -2659,5 +2659,25 @@
     "image": "/birds/northern-potoo.jpg",
     "audio": "/audio/northern-potoo.mp3",
     "funFact": "The Mopan Maya of Belize believe that if a northern potoo flies over a house repeatedly at night, someone in that family will die, and they chase the birds away with lighted sticks."
+  },
+  {
+    "id": 146,
+    "commonName": "Lesser Yellow-headed Vulture",
+    "scientificName": "Cathartes burrovianus",
+    "frequency": "",
+    "family": "Cathartidae",
+    "habitat": [
+      "Seasonally wet grasslands",
+      "Swamps",
+      "Mangroves",
+      "Degraded forest",
+      "Savannas"
+    ],
+    "description": "A medium-large vulture 53-66 cm (21-26 in) long with a 150-165 cm (59-65 in) wingspan. Plumage is black with a green sheen. The featherless head and neck are pale orange with red or blue areas. It feeds on carrion and locates food by both sight and smell.",
+    "size": "Medium-large",
+    "diet": "Carnivore",
+    "image": "/birds/lesser-yellow-headed-vulture.jpg",
+    "audio": "/audio/lesser-yellow-headed-vulture.mp3",
+    "funFact": "Like other New World vultures, the lesser yellow-headed vulture practices urohidrosis — urinating on its legs to cool them by evaporation."
   }
 ]
