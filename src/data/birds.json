@@ -2539,5 +2539,24 @@
     "image": "/birds/smoky-brown-woodpecker.jpg",
     "audio": "/audio/smoky-brown-woodpecker.mp3",
     "funFact": "The smoky-brown woodpecker has an exceptionally wide elevational range, found from near sea level up to 2,800 meters (9,200 ft) in the Andes."
+  },
+  {
+    "id": 140,
+    "commonName": "Hook-billed Kite",
+    "scientificName": "Chondrohierax uncinatus",
+    "frequency": "",
+    "family": "Accipitridae",
+    "habitat": [
+      "Forests",
+      "Woodlands",
+      "Tropical lowlands",
+      "Swamp forests"
+    ],
+    "description": "A mid-sized, slender raptor 38-42 cm (15-16.5 in) long with a large, strongly hooked bill. Extreme variation in plumage: males appear blackish or gray from below, while females are brown or brick-red. Specializes in feeding on tree snails, using its hooked bill to pry open the shells.",
+    "size": "Medium",
+    "diet": "Carnivore",
+    "image": "/birds/hook-billed-kite.jpg",
+    "audio": "/audio/hook-billed-kite.mp3",
+    "funFact": "The hook-billed kite's beak has adapted in size and shape across different regions in response to the species of tree snail available in each area, a remarkable example of local adaptation."
   }
 ]
