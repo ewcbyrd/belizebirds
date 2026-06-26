@@ -2518,5 +2518,26 @@
     "image": "/birds/golden-hooded-tanager.jpg",
     "audio": "/audio/golden-hooded-tanager.mp3",
     "funFact": "The golden-hooded tanager is often double-brooded, and young birds from the first clutch assist with feeding the second brood of chicks."
+  },
+  {
+    "id": 139,
+    "commonName": "Smoky-brown Woodpecker",
+    "scientificName": "Leuconotopicus fumigatus",
+    "frequency": "",
+    "family": "Picidae",
+    "habitat": [
+      "Humid forest",
+      "Cloudforest",
+      "Gallery forest",
+      "Secondary forest",
+      "Forest edges",
+      "Coffee plantations"
+    ],
+    "description": "About 18 cm long with olive-brown upperparts, a thin white supercilium, black moustache stripe, and olive-brown underparts. The male has a red crown from forehead to nape; the female has a dark brown crown. Inhabits a wide variety of wooded landscapes from Mexico to Argentina.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/smoky-brown-woodpecker.jpg",
+    "audio": "/audio/smoky-brown-woodpecker.mp3",
+    "funFact": "The smoky-brown woodpecker has an exceptionally wide elevational range, found from near sea level up to 2,800 meters (9,200 ft) in the Andes."
   }
 ]
