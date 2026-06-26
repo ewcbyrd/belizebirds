@@ -2499,5 +2499,24 @@
     "image": "/birds/gray-chested-dove.jpg",
     "audio": "/audio/gray-chested-dove.mp3",
     "funFact": "The gray-chested dove builds a shallow platform nest of twigs and straw, placed 1-5 meters above ground on a tree branch or in a vine tangle."
+  },
+  {
+    "id": 138,
+    "commonName": "Golden-hooded Tanager",
+    "scientificName": "Stilpnia larvata",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Forest canopy",
+      "Clearings",
+      "Second growth",
+      "Gardens"
+    ],
+    "description": "A tanager 13 cm long. The male has a golden head with a black eyemask edged with violet blue, black upperparts with turquoise shoulders, rump and wing edges, blue flanks, and a white central belly. The female has a greenish tinge to the head. Found from Mexico to Ecuador.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/golden-hooded-tanager.jpg",
+    "audio": "/audio/golden-hooded-tanager.mp3",
+    "funFact": "The golden-hooded tanager is often double-brooded, and young birds from the first clutch assist with feeding the second brood of chicks."
   }
 ]
