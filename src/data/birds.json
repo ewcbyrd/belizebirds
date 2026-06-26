@@ -2483,5 +2483,21 @@
     "image": "/birds/great-tinamou.jpg",
     "audio": "/audio/great-tinamou.mp3",
     "funFact": "The great tinamou has the highest percentage of skeletal muscle devoted to locomotion of any bird (56.9% of body weight), yet has the smallest relative heart size of any bird (0.19%)."
+  },
+  {
+    "id": 137,
+    "commonName": "Gray-chested Dove",
+    "scientificName": "Leptotila cassinii",
+    "frequency": "",
+    "family": "Columbidae",
+    "habitat": [
+      "Secondary forest"
+    ],
+    "description": "A dove 22.5-28 cm long with a pinkish gray forehead and face, dark brown crown and nape, iridescent grayish purple hindneck, olive-brown upperparts, white throat, reddish gray breast, and reddish belly. Has a yellow eye surrounded by bare gray skin and red legs. Found from Mexico to Colombia.",
+    "size": "Medium",
+    "diet": "Granivore",
+    "image": "/birds/gray-chested-dove.jpg",
+    "audio": "/audio/gray-chested-dove.mp3",
+    "funFact": "The gray-chested dove builds a shallow platform nest of twigs and straw, placed 1-5 meters above ground on a tree branch or in a vine tangle."
   }
 ]
