@@ -2578,5 +2578,26 @@
     "image": "/birds/brown-hooded-parrot.jpg",
     "audio": "/audio/brown-hooded-parrot.mp3",
     "funFact": "The brown-hooded parrot and the rose-faced parrot were once considered the same species and are now regarded as sister species."
+  },
+  {
+    "id": 142,
+    "commonName": "Black-crowned Tityra",
+    "scientificName": "Tityra inquisitor",
+    "frequency": "",
+    "family": "Tityridae",
+    "habitat": [
+      "Lowland evergreen forest",
+      "Secondary forest",
+      "Forest canopy",
+      "Forest edges",
+      "Clearings",
+      "Plantations"
+    ],
+    "description": "A medium-sized passerine 16.5-20.5 cm (6.5-8 in) long. The male has a black crown, whitish-gray upperparts, black wings and tail, and white underparts. The female has a black cap on a chestnut face with buffy forehead. Found from Mexico to South America.",
+    "size": "Small-medium",
+    "diet": "Frugivore",
+    "image": "/birds/black-crowned-tityra.jpg",
+    "audio": "/audio/black-crowned-tityra.mp3",
+    "funFact": "The black-crowned tityra has a complicated taxonomic history — originally described as a shrike, it was later placed with tyrant flycatchers before being assigned to its own family Tityridae."
   }
 ]
