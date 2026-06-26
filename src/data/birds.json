@@ -2599,5 +2599,25 @@
     "image": "/birds/black-crowned-tityra.jpg",
     "audio": "/audio/black-crowned-tityra.mp3",
     "funFact": "The black-crowned tityra has a complicated taxonomic history — originally described as a shrike, it was later placed with tyrant flycatchers before being assigned to its own family Tityridae."
+  },
+  {
+    "id": 143,
+    "commonName": "Cabanis's Wren",
+    "scientificName": "Cantorchilus modestus",
+    "frequency": "",
+    "family": "Troglodytidae",
+    "habitat": [
+      "Forest edges",
+      "Second growth",
+      "Gardens",
+      "Dry areas",
+      "Humid areas"
+    ],
+    "description": "A small wren 12.5-14 cm (5-5.5 in) long with a dark gray-brown crown, rufous-brown back, orange-rufous rump, and white supercilium. The throat is white, chest pale grayish buff, and belly buffy white. Found from Mexico to Costa Rica.",
+    "size": "Very small",
+    "diet": "Insectivore",
+    "image": "/birds/cabaniss-wren.jpg",
+    "audio": "/audio/cabaniss-wren.mp3",
+    "funFact": "Cabanis's wren was formerly lumped with the canebrake wren and isthmian wren as a single species called the 'plain wren,' until they were split in 2016 based on differences in vocalizations and genetics."
   }
 ]
