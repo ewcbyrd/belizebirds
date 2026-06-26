@@ -2558,5 +2558,25 @@
     "image": "/birds/hook-billed-kite.jpg",
     "audio": "/audio/hook-billed-kite.mp3",
     "funFact": "The hook-billed kite's beak has adapted in size and shape across different regions in response to the species of tree snail available in each area, a remarkable example of local adaptation."
+  },
+  {
+    "id": 141,
+    "commonName": "Brown-hooded Parrot",
+    "scientificName": "Pyrilia haematotis",
+    "frequency": "",
+    "family": "Psittacidae",
+    "habitat": [
+      "Humid evergreen forest",
+      "Cloudforest",
+      "Secondary forest",
+      "Forest canopy",
+      "Forest edges"
+    ],
+    "description": "A small parrot 21-23 cm (8-9 in) long with a reddish brown hood, pinkish red patch behind the eye, and white eye ring. The nape and breast are dull olive-yellow with red flanks, and most of the body is green with blue on the wing edge. Found from Mexico to Colombia.",
+    "size": "Small",
+    "diet": "Frugivore",
+    "image": "/birds/brown-hooded-parrot.jpg",
+    "audio": "/audio/brown-hooded-parrot.mp3",
+    "funFact": "The brown-hooded parrot and the rose-faced parrot were once considered the same species and are now regarded as sister species."
   }
 ]
