@@ -2679,5 +2679,25 @@
     "image": "/birds/lesser-yellow-headed-vulture.jpg",
     "audio": "/audio/lesser-yellow-headed-vulture.mp3",
     "funFact": "Like other New World vultures, the lesser yellow-headed vulture practices urohidrosis — urinating on its legs to cool them by evaporation."
+  },
+  {
+    "id": 147,
+    "commonName": "Orange-billed Sparrow",
+    "scientificName": "Arremon aurantiirostris",
+    "frequency": "",
+    "family": "Passerellidae",
+    "habitat": [
+      "Humid primary forest",
+      "Secondary evergreen forest",
+      "Forest understory",
+      "Forest edges",
+      "Plantations"
+    ],
+    "description": "A small sparrow 14.5-16.5 cm (5.7-6.5 in) long with a bright orange bill. It has a black crown with a gray central stripe, a wide white supercilium on a black face, olive-green upperparts, and a white throat with a broad black band across the upper breast. Found from Mexico to Peru.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "image": "/birds/orange-billed-sparrow.jpg",
+    "audio": "/audio/orange-billed-sparrow.mp3",
+    "funFact": "The orange-billed sparrow builds a bulky ball-shaped nest with a side entrance, usually placed on the ground, constructed from coarse plant material and lined with finer fibers."
   }
 ]
