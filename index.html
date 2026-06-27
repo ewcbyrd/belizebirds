@@ -16,23 +16,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script type="module">
-      // Register Service Worker for offline support
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          const basePath = import.meta.env.BASE_URL;
-          const swPath = basePath + 'service-worker.js';
-          const swScope = basePath;
-          
-          navigator.serviceWorker.register(swPath, {
-            scope: swScope
-          }).then((registration) => {
-            console.log('[App] Service Worker registered:', registration);
-          }).catch((error) => {
-            console.error('[App] Service Worker registration failed:', error);
-          });
-        });
-      }
-    </script>
   </body>
 </html>
