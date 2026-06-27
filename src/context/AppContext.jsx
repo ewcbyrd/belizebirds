@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import birdsData from '../data/birds.json';
+import { cacheManager } from '../utils/cacheManager';
 
 const AppContext = createContext();
 
@@ -22,6 +23,12 @@ export const AppProvider = ({ children }) => {
   // App Mode: 'gallery' or 'quiz'
   const [mode, setMode] = useState('gallery');
 
+  // Offline state
+  const [isOnline, setIsOnline] = useState(
+    typeof navigator !== 'undefined' ? navigator.onLine : true
+  );
+  const [lastSyncTime, setLastSyncTime] = useState(null);
+
   // Birds data with BASE_URL prepended to image and audio paths
   const [birds] = useState(() =>
     birdsData.map(bird => ({
@@ -30,6 +37,42 @@ export const AppProvider = ({ children }) => {
       audio: getAssetPath(bird.audio)
     }))
   );
+
+  // Initialize cache and listen for online/offline events
+  useEffect(() => {
+    // Initialize cache manager
+    const initCache = async () => {
+      await cacheManager.init();
+      // Cache the birds data
+      await cacheManager.cacheBirds(birds);
+      // Update last sync time
+      const syncTime = await cacheManager.getFormattedLastSync();
+      setLastSyncTime(syncTime);
+    };
+
+    initCache();
+
+    // Handle online/offline events
+    const handleOnline = () => {
+      console.log('[App] Back online');
+      setIsOnline(true);
+      // Optionally trigger cache refresh
+      initCache();
+    };
+
+    const handleOffline = () => {
+      console.log('[App] Gone offline');
+      setIsOnline(false);
+    };
+
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, [birds]);
 
   // Search and Filter state
   const [searchTerm, setSearchTerm] = useState('');
@@ -152,6 +195,10 @@ export const AppProvider = ({ children }) => {
     // Mode
     mode,
     setMode,
+
+    // Offline state
+    isOnline,
+    lastSyncTime,
 
     // Birds data
     birds,
