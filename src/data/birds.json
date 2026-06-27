@@ -2716,5 +2716,23 @@
     "image": "/birds/sulphur-rumped-flycatcher.jpg",
     "audio": "/audio/sulphur-rumped-flycatcher.mp3",
     "funFact": "This bird often displays its bright sulphur-yellow rump patch by fanning its tail and dropping its wings, and frequently joins mixed-species flocks foraging near streams in the forest understory."
+  },
+  {
+    "id": 149,
+    "commonName": "Thick-billed Seed-Finch",
+    "scientificName": "Sporophila funerea",
+    "frequency": "",
+    "family": "Thraupidae",
+    "habitat": [
+      "Shrubby areas",
+      "Grassy areas",
+      "Forest edges"
+    ],
+    "description": "A small seed finch measuring 11.5 cm (4.5 in). The male is almost entirely black with a small white wing patch, while the female is a rich brown all over. It has a notably large bill with a straight culmen, distinguishing it from similar species. Found in shrubby and grassy areas from southern Mexico through Central America to Colombia and Ecuador.",
+    "size": "Small",
+    "diet": "Granivore",
+    "image": "/birds/thick-billed-seed-finch.jpg",
+    "audio": "/audio/thick-billed-seed-finch.mp3",
+    "funFact": "The male is almost entirely black with a small white wing patch, while the female is a completely different-looking rich brown, making them appear to be different species."
   }
 ]
