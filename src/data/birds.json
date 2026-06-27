@@ -2811,5 +2811,24 @@
     "image": "/birds/barred-forest-falcon.jpg",
     "audio": "/audio/barred-forest-falcon.mp3",
     "funFact": "Like Accipiter hawks, it often waits quietly on tree branches to ambush prey, but it also hunts on foot and follows army ant swarms to flush insects and small animals."
+  },
+  {
+    "id": 154,
+    "commonName": "Yellow-backed Oriole",
+    "scientificName": "Icterus chrysater",
+    "frequency": "",
+    "family": "Icteridae",
+    "habitat": [
+      "Pine-oak woodland",
+      "Dry scrub forest",
+      "Forest edges",
+      "Plantations"
+    ],
+    "description": "A medium-sized oriole about 21.5 cm (8.5 in) long with bold black-and-yellow plumage. Adult males have black wings, tail, shoulders, throat, and face contrasting with a bright yellow back and underparts; females are similar but slightly greener. Common in open pine-oak woodlands and dry scrub throughout Belize and Central America, usually below 900 m elevation.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "image": "/birds/yellow-backed-oriole.jpg",
+    "audio": "/audio/yellow-backed-oriole.mp3",
+    "funFact": "Builds a shallow, dangling basket nest that it often attaches to the tips of palm fronds, woven from fine grasses that give the nest a springy texture."
   }
 ]
