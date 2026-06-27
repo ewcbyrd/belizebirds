@@ -2830,5 +2830,24 @@
     "image": "/birds/yellow-backed-oriole.jpg",
     "audio": "/audio/yellow-backed-oriole.mp3",
     "funFact": "Builds a shallow, dangling basket nest that it often attaches to the tips of palm fronds, woven from fine grasses that give the nest a springy texture."
+  },
+  {
+    "id": 155,
+    "commonName": "Northern Emerald-Toucanet",
+    "scientificName": "Aulacorhynchus prasinus",
+    "frequency": "",
+    "family": "Ramphastidae",
+    "habitat": [
+      "Montane forest",
+      "Humid forest",
+      "Secondary forest",
+      "Plantations"
+    ],
+    "description": "A small toucan 29-37 cm (11-15 in) long with mostly green plumage, a white throat, and a distinctive bill with a black mandible and yellow maxilla marked with black and white. Found in humid montane and secondary forest from southern Mexico through Belize and Central America, from near sea level to about 3,000 m elevation.",
+    "size": "Medium",
+    "diet": "Frugivore",
+    "image": "/birds/northern-emerald-toucanet.jpg",
+    "audio": "/audio/northern-emerald-toucanet.mp3",
+    "funFact": "Despite its small size compared to larger toucans, it nests in tree cavities up to 27 m (89 ft) above the ground and gives a loud, nasal barking call of repeated \"Wok!\" notes."
   }
 ]
