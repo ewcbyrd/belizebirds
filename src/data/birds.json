@@ -2773,5 +2773,24 @@
     "image": "/birds/crested-guan.jpg",
     "audio": "/audio/crested-guan.mp3",
     "funFact": "The crested guan's dawn song is a powerful steam-whistle call ending in a low growl: \"ku LEEErrr!\", and it performs display flights at dawn during breeding season with dramatic wing-drumming."
+  },
+  {
+    "id": 152,
+    "commonName": "Collared Trogon",
+    "scientificName": "Trogon collaris",
+    "frequency": "",
+    "family": "Trogonidae",
+    "habitat": [
+      "Humid lowland evergreen forest",
+      "Montane forest",
+      "Secondary forest",
+      "Semideciduous forest"
+    ],
+    "description": "A colorful trogon 25-29 cm (9.8-11.4 in) long. The male has a bright metallic green crown, nape, back, and rump with a black face and throat, a white band separating the green breast from the bright red belly. The female is olive brown where the male is green with a duller red belly. Found from Mexico through Central America to northern South America.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "image": "/birds/collared-trogon.jpg",
+    "audio": "/audio/collared-trogon.mp3",
+    "funFact": "The collared trogon often nests in cavities in decaying wood or arboreal termite nests, and the cavity is often so shallow that much of the bird remains visible while incubating."
   }
 ]
