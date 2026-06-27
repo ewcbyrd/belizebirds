@@ -2867,5 +2867,23 @@
     "image": "/birds/fawn-throated-foliage-gleaner.jpg",
     "audio": "/audio/fawn-throated-foliage-gleaner.mp3",
     "funFact": "Often joins mixed-species feeding flocks and forages by pulling prey from clumps of dead leaves as it hops along branches, vines, and the forest floor."
+  },
+  {
+    "id": 157,
+    "commonName": "Sepia-capped Flycatcher",
+    "scientificName": "Leptopogon amaurocephalus",
+    "frequency": "",
+    "family": "Tyrannidae",
+    "habitat": [
+      "Lowland evergreen forest",
+      "Secondary forest",
+      "Plantations"
+    ],
+    "description": "A small flycatcher 11.5-14 cm (4.5-5.5 in) long with a sepia-brown crown, olive-green upperparts, grayish-olive throat, and yellowish belly. Found in lowland evergreen and secondary forest from southern Mexico through Belize and Central America, usually foraging within about 8 m of the ground in the forest understory to mid-level.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/sepia-capped-flycatcher.jpg",
+    "audio": "/audio/sepia-capped-flycatcher.mp3",
+    "funFact": "Builds a mossy globe nest with a side entrance that it hangs from a vine or exposed root beneath an overhanging log, rock, or stream bank."
   }
 ]
