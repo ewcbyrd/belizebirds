@@ -2753,5 +2753,25 @@
     "image": "/birds/thicket-tinamou.jpg",
     "audio": "/audio/thicket-tinamou.mp3",
     "funFact": "The thicket tinamou has a monotonous voice sounding like a steam engine, and like most tinamous, it prefers to walk rather than fly."
+  },
+  {
+    "id": 151,
+    "commonName": "Crested Guan",
+    "scientificName": "Penelope purpurascens",
+    "frequency": "",
+    "family": "Cracidae",
+    "habitat": [
+      "Tropical evergreen forest",
+      "Subtropical deciduous forest",
+      "Cloudforest",
+      "Gallery forest",
+      "Montane forest"
+    ],
+    "description": "A large turkey-like bird 76-91.5 cm (30-36 in) long, mostly dusky olive brown with a faint greenish or purplish iridescence. The belly and crissum are chestnut, breast and belly feathers have white edges, and the throat has a small red wattle. Found from Mexico through Central America to Colombia, Ecuador, Peru, and Venezuela.",
+    "size": "Large",
+    "diet": "Frugivore",
+    "image": "/birds/crested-guan.jpg",
+    "audio": "/audio/crested-guan.mp3",
+    "funFact": "The crested guan's dawn song is a powerful steam-whistle call ending in a low growl: \"ku LEEErrr!\", and it performs display flights at dawn during breeding season with dramatic wing-drumming."
   }
 ]

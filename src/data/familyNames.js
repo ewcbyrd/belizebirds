@@ -44,5 +44,6 @@ export const FAMILY_NAMES = {
   'Fringillidae': 'Finches',
   'Passerellidae': 'New World Sparrows',
   'Onychorhynchidae': 'Royal Flycatchers',
-  'Nyctibiidae': 'Potoos'
+  'Nyctibiidae': 'Potoos',
+  'Cracidae': 'Guans, Chachalacas & Curassows'
 };
