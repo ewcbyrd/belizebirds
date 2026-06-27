@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import BirdGallery from './components/BirdGallery';
 import Quiz from './components/Quiz';
+import OfflineIndicator from './components/OfflineIndicator';
 
 function AppContent() {
   const { mode } = useAppContext();
@@ -12,6 +13,7 @@ function AppContent() {
       <Header />
       <Navigation />
       {mode === 'gallery' ? <BirdGallery /> : <Quiz />}
+      <OfflineIndicator />
     </div>
   );
 }
