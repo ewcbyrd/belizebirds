@@ -1,6 +1,6 @@
 // Service Worker for Belize Birds PWA
-// Pre-caches ALL 147 bird images + app on first install for complete offline functionality
-// Cache-only strategy: serves everything from cache, syncs when online
+// Pre-caches bird images + app shell on first install for offline field use.
+// App shell (HTML/JS/CSS): network-first. Bird images: cache-first.
 
 const CACHE_VERSION = 'v1';
 const CACHE_NAME = `belizebirds-${CACHE_VERSION}`;
@@ -233,40 +233,66 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch event - cache-only strategy
+// App shell (HTML, JS, CSS) uses network-first so deploys and data updates are picked up.
+// Bird images and other static assets use cache-first for offline field use.
+function isAppShellRequest(request) {
+  if (request.mode === 'navigate') return true;
+
+  const url = new URL(request.url);
+  const path = url.pathname;
+
+  return (
+    path.endsWith('.html') ||
+    path.endsWith('.js') ||
+    path.endsWith('.css') ||
+    path.includes('/assets/')
+  );
+}
+
+async function networkFirst(request) {
+  try {
+    const networkResponse = await fetch(request);
+    if (networkResponse.ok) {
+      const cache = await caches.open(CACHE_NAME);
+      cache.put(request, networkResponse.clone()).catch(() => {});
+    }
+    return networkResponse;
+  } catch (error) {
+    const cachedResponse = await caches.match(request);
+    if (cachedResponse) return cachedResponse;
+    throw error;
+  }
+}
+
+async function cacheFirst(request) {
+  const cachedResponse = await caches.match(request);
+  if (cachedResponse) return cachedResponse;
+
+  const networkResponse = await fetch(request);
+  if (networkResponse.ok) {
+    const cache = await caches.open(CACHE_NAME);
+    cache.put(request, networkResponse.clone()).catch(() => {});
+  }
+  return networkResponse;
+}
+
 self.addEventListener('fetch', (event) => {
   const { request } = event;
-  
+
   if (request.method !== 'GET') {
     return;
   }
-  
+
   event.respondWith(
     (async () => {
       try {
-        // Always try cache first
-        const cachedResponse = await caches.match(request);
-        if (cachedResponse) {
-          return cachedResponse;
+        if (isAppShellRequest(request)) {
+          return networkFirst(request);
         }
-        
-        // Not cached, try network
-        const networkResponse = await fetch(request);
-        
-        // If online and got a response, opportunistically cache new resources
-        if (networkResponse.ok) {
-          const cache = await caches.open(CACHE_NAME);
-          cache.put(request, networkResponse.clone()).catch(() => {
-            // Silently fail if cache put fails
-          });
-        }
-        
-        return networkResponse;
+        return cacheFirst(request);
       } catch (error) {
-        // Offline and not in cache
         console.log('[Service Worker] Offline - no cache:', request.url);
-        
-        // Placeholder for missing images
+
         if (request.destination === 'image') {
           return new Response(
             '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="#e5e7eb" width="100" height="100"/><text x="50" y="50" text-anchor="middle" dy=".3em" fill="#9ca3af" font-size="10" font-family="system-ui">Offline</text></svg>',
@@ -276,7 +302,7 @@ self.addEventListener('fetch', (event) => {
             }
           );
         }
-        
+
         throw error;
       }
     })()
