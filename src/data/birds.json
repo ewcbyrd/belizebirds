@@ -2734,5 +2734,24 @@
     "image": "/birds/thick-billed-seed-finch.jpg",
     "audio": "/audio/thick-billed-seed-finch.mp3",
     "funFact": "The male is almost entirely black with a small white wing patch, while the female is a completely different-looking rich brown, making them appear to be different species."
+  },
+  {
+    "id": 150,
+    "commonName": "Thicket Tinamou",
+    "scientificName": "Crypturellus cinnamomeus",
+    "frequency": "",
+    "family": "Tinamidae",
+    "habitat": [
+      "Moist lowland forest",
+      "Gallery forest",
+      "Deciduous forest",
+      "Secondary forest"
+    ],
+    "description": "A medium-sized tinamou 27-29 cm (11-11.5 in) long with brown upperparts heavily barred blackish on back, rump, and wings. The lowerparts are pale brown with a cinnamon breast, greyer belly, and whitish undertail with dark barring. The head is brown with a prominent buff supercilium. Found from Mexico to Costa Rica in moist lowland and gallery forests.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "image": "/birds/thicket-tinamou.jpg",
+    "audio": "/audio/thicket-tinamou.mp3",
+    "funFact": "The thicket tinamou has a monotonous voice sounding like a steam engine, and like most tinamous, it prefers to walk rather than fly."
   }
 ]
