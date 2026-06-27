@@ -2849,5 +2849,23 @@
     "image": "/birds/northern-emerald-toucanet.jpg",
     "audio": "/audio/northern-emerald-toucanet.mp3",
     "funFact": "Despite its small size compared to larger toucans, it nests in tree cavities up to 27 m (89 ft) above the ground and gives a loud, nasal barking call of repeated \"Wok!\" notes."
+  },
+  {
+    "id": 156,
+    "commonName": "Fawn-throated Foliage-gleaner",
+    "scientificName": "Automolus cervinigularis",
+    "frequency": "",
+    "family": "Furnariidae",
+    "habitat": [
+      "Lowland rainforest",
+      "Secondary forest",
+      "Coffee plantations"
+    ],
+    "description": "A fairly large foliage-gleaner 18-20 cm (7-8 in) long with dark brown upperparts, a deep buff throat, and dusky-scaled buff breast and belly. Found in lowland rainforest and secondary forest from southern Mexico through western Belize, foraging acrobatically in dense undergrowth while gleaning insects from epiphytes and clumps of dead leaves.",
+    "size": "Small-medium",
+    "diet": "Insectivore",
+    "image": "/birds/fawn-throated-foliage-gleaner.jpg",
+    "audio": "/audio/fawn-throated-foliage-gleaner.mp3",
+    "funFact": "Often joins mixed-species feeding flocks and forages by pulling prey from clumps of dead leaves as it hops along branches, vines, and the forest floor."
   }
 ]
