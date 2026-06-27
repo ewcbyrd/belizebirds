@@ -1980,7 +1980,7 @@
     "diet": "Insectivore",
     "image": "/birds/rufous-capped-warbler.jpg",
     "audio": "/audio/rufous-capped-warbler.mp3",
-    "funFact": "Despite its name, the rufous-capped warbler does not actually warble — its courtship song is a rapid, accelerating series of chipping notes."
+    "funFact": "Despite its name, the rufous-capped warbler does not actually warble \u2014 its courtship song is a rapid, accelerating series of chipping notes."
   },
   {
     "id": 110,
@@ -2016,7 +2016,7 @@
     "diet": "Omnivore",
     "image": "/birds/little-tinamou.jpg",
     "audio": "/audio/little-tinamou.mp3",
-    "funFact": "The little tinamou is more closely related to ostriches and emus (both ratites) than to quail or grouse, despite looking similar — it belongs to the ancient group of palaeognath birds."
+    "funFact": "The little tinamou is more closely related to ostriches and emus (both ratites) than to quail or grouse, despite looking similar \u2014 it belongs to the ancient group of palaeognath birds."
   },
   {
     "id": 112,
@@ -2052,7 +2052,7 @@
     "diet": "Carnivore",
     "image": "/birds/great-black-hawk.jpg",
     "audio": "/audio/great-black-hawk.mp3",
-    "funFact": "One Great Black Hawk became a famous vagrant in 2018, traveling from Texas to Maine — the first record in the ABA area — where it survived a winter before being rescued during a snowstorm."
+    "funFact": "One Great Black Hawk became a famous vagrant in 2018, traveling from Texas to Maine \u2014 the first record in the ABA area \u2014 where it survived a winter before being rescued during a snowstorm."
   },
   {
     "id": 114,
@@ -2295,7 +2295,7 @@
     "diet": "Nectarivore",
     "image": "/birds/purple-crowned-fairy.jpg",
     "audio": "/audio/purple-crowned-fairy.mp3",
-    "funFact": "Unlike most hummingbirds, the purple-crowned fairy does not catch insects in flight — it hovers and gleans them from foliage, and will pierce the base of flowers to 'rob' nectar."
+    "funFact": "Unlike most hummingbirds, the purple-crowned fairy does not catch insects in flight \u2014 it hovers and gleans them from foliage, and will pierce the base of flowers to 'rob' nectar."
   },
   {
     "id": 127,
@@ -2389,7 +2389,7 @@
     "diet": "Insectivore",
     "image": "/birds/chestnut-colored-woodpecker.jpg",
     "audio": "/audio/chestnut-colored-woodpecker.mp3",
-    "funFact": "The male chestnut-colored woodpecker is distinguished by bright red plumage from the lores to behind the eye and down to the throat — the female has none."
+    "funFact": "The male chestnut-colored woodpecker is distinguished by bright red plumage from the lores to behind the eye and down to the throat \u2014 the female has none."
   },
   {
     "id": 132,
@@ -2426,7 +2426,7 @@
     "diet": "Insectivore",
     "image": "/birds/white-bellied-wren.jpg",
     "audio": "/audio/white-bellied-wren.mp3",
-    "funFact": "Builds a retort-shaped nest — an oval ball with a downward-pointing funnel entrance — often placed in spiny locations like Bromelia thickets or Acacia trees."
+    "funFact": "Builds a retort-shaped nest \u2014 an oval ball with a downward-pointing funnel entrance \u2014 often placed in spiny locations like Bromelia thickets or Acacia trees."
   },
   {
     "id": 134,
@@ -2598,7 +2598,7 @@
     "diet": "Frugivore",
     "image": "/birds/black-crowned-tityra.jpg",
     "audio": "/audio/black-crowned-tityra.mp3",
-    "funFact": "The black-crowned tityra has a complicated taxonomic history — originally described as a shrike, it was later placed with tyrant flycatchers before being assigned to its own family Tityridae."
+    "funFact": "The black-crowned tityra has a complicated taxonomic history \u2014 originally described as a shrike, it was later placed with tyrant flycatchers before being assigned to its own family Tityridae."
   },
   {
     "id": 143,
@@ -2631,14 +2631,14 @@
       "Primary evergreen forest",
       "Second growth forest",
       "Stream edges",
-      "Várzea forest"
+      "V\u00e1rzea forest"
     ],
     "description": "A small flycatcher 12.5-18 cm (5-7 in) long with an erectile fan-shaped crest. The male's crest is red with blue tips; the female's is yellow or orange. Upperparts are dark brown with narrow black and buffy bars, rump is cinnamon-rufous, and underparts are warm buff with narrow black barring on the breast.",
     "size": "Small",
     "diet": "Insectivore",
     "image": "/birds/tropical-royal-flycatcher.jpg",
     "audio": "/audio/tropical-royal-flycatcher.mp3",
-    "funFact": "The tropical royal flycatcher's spectacular erectile fan-shaped crest — scarlet with blue tips in males, yellow or orange in females — is displayed during courtship and when the bird is alarmed."
+    "funFact": "The tropical royal flycatcher's spectacular erectile fan-shaped crest \u2014 scarlet with blue tips in males, yellow or orange in females \u2014 is displayed during courtship and when the bird is alarmed."
   },
   {
     "id": 145,
@@ -2678,7 +2678,7 @@
     "diet": "Carnivore",
     "image": "/birds/lesser-yellow-headed-vulture.jpg",
     "audio": "/audio/lesser-yellow-headed-vulture.mp3",
-    "funFact": "Like other New World vultures, the lesser yellow-headed vulture practices urohidrosis — urinating on its legs to cool them by evaporation."
+    "funFact": "Like other New World vultures, the lesser yellow-headed vulture practices urohidrosis \u2014 urinating on its legs to cool them by evaporation."
   },
   {
     "id": 147,
@@ -2699,5 +2699,22 @@
     "image": "/birds/orange-billed-sparrow.jpg",
     "audio": "/audio/orange-billed-sparrow.mp3",
     "funFact": "The orange-billed sparrow builds a bulky ball-shaped nest with a side entrance, usually placed on the ground, constructed from coarse plant material and lined with finer fibers."
+  },
+  {
+    "id": 148,
+    "commonName": "Sulphur-rumped Flycatcher",
+    "scientificName": "Myiobius sulphurepygius",
+    "frequency": "",
+    "family": "Onychorhynchidae",
+    "habitat": [
+      "Subtropical or tropical moist lowland forests",
+      "Near streams"
+    ],
+    "description": "A small flycatcher measuring 12 cm (4.7 in) with an olive-brown head and upper back, blackish wings and tail, and a tawny breast and sides. The face and eye ring are grey, the throat is whitish, and the namesake sulphur-yellow rump patch extends from the lower back to the belly. Found in humid lowland forests from Mexico to Ecuador.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "image": "/birds/sulphur-rumped-flycatcher.jpg",
+    "audio": "/audio/sulphur-rumped-flycatcher.mp3",
+    "funFact": "This bird often displays its bright sulphur-yellow rump patch by fanning its tail and dropping its wings, and frequently joins mixed-species flocks foraging near streams in the forest understory."
   }
 ]
