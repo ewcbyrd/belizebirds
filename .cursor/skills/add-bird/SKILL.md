@@ -1,11 +1,11 @@
 ---
 name: add-bird
-description: Add or update a bird species in the Belize Birds database with automatic image processing
+description: Add or update a bird species in the Cayo District, Belize field guide database with automatic image processing
 ---
 
 ## What I do
 
-I help you add or update bird species in the Belize Birds database with the following capabilities:
+I help you add or update bird species in the Cayo District field guide database with the following capabilities:
 
 - Add new bird species with all required fields
 - Update existing bird species
@@ -61,11 +61,11 @@ Use the WebFetch tool to gather information about the bird from Wikipedia:
 - `slug` - Auto-generate from common name (lowercase, hyphens, no apostrophes; must match image filename)
 
 **Optional fields:**
-- `frequency` - eBird reporting rate for Belize (e.g. `"45.03%"`). Encouraged for field guide use when data is available.
+- `frequency` - Cayo District eBird reporting rate (e.g. `"45.03%"`)
 - `fieldMarks` - Array of key identification features (e.g. `["Yellow belly", "White eyebrow"]`)
 - `voice` - Vocalization description for the Voice section
 - `status` - `"Resident"`, `"Migrant"`, or `"Rare"`
-- `regions` - Array of Belize regions where found (e.g. `["Countrywide", "Coastal"]`)
+- `regions` - Optional Cayo sub-zones from `CANONICAL_REGIONS` in `src/data/regionTaxonomy.js`. Omit or use `["Throughout Cayo"]` unless the species is tied to a specific hotspot within the district.
 - `similarSpecies` - Array of slugs for confusion species already in the database
 
 If the image URL was already provided by the user, skip to step 3. Otherwise, ask for it.
@@ -256,7 +256,7 @@ Each bird object in `birds.json` should follow this structure:
   "fieldMarks": ["Black and white head pattern", "Rufous wings and tail", "Yellow belly"],
   "voice": "Loud \"Kiskadee!\" calls",
   "status": "Resident",
-  "regions": ["Countrywide"],
+  "regions": ["Throughout Cayo"],
   "similarSpecies": ["social-flycatcher", "boat-billed-flycatcher"]
 }
 ```

@@ -1,7 +1,7 @@
 {
   "name": "Belize Birds",
   "short_name": "Birds",
-  "description": "A field guide to the birds of Belize. Browse, search, and identify species — works offline in the field.",
+  "description": "A field guide to the birds of Cayo District, Belize. Browse, search, and identify species — works offline in the field.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
