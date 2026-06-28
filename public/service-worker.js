@@ -2,13 +2,12 @@
 // Pre-caches bird images + app shell on first install for offline field use.
 // App shell (HTML/JS/CSS): network-first. Bird images: cache-first.
 
-const CACHE_VERSION = 'v1';
+// Bump when deploy changes hashed JS/CSS so clients drop stale app-shell caches.
+const CACHE_VERSION = 'v2';
 const CACHE_NAME = `belizebirds-${CACHE_VERSION}`;
 
-// Main shell assets
+// Static shell assets only — never pre-cache index.html (hashed asset URLs change each build).
 const SHELL_ASSETS = [
-  './',
-  './index.html',
   './manifest.json',
   './favicon.svg',
   './icons.svg',

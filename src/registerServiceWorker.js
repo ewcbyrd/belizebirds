@@ -13,9 +13,30 @@ if ('serviceWorker' in navigator && import.meta.env.PROD) {
       .register(swPath, { scope: swScope })
       .then((registration) => {
         console.log('[App] Service Worker registered:', registration);
+
+        registration.addEventListener('updatefound', () => {
+          const newWorker = registration.installing;
+          if (!newWorker) return;
+
+          newWorker.addEventListener('statechange', () => {
+            if (
+              newWorker.state === 'installed' &&
+              navigator.serviceWorker.controller
+            ) {
+              newWorker.postMessage({ type: 'SKIP_WAITING' });
+            }
+          });
+        });
       })
       .catch((error) => {
         console.error('[App] Service Worker registration failed:', error);
       });
+
+    let refreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (refreshing) return;
+      refreshing = true;
+      window.location.reload();
+    });
   });
 }

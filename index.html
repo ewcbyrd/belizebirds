@@ -9,18 +9,26 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Belize Birds" />
-    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="%BASE_URL%icons/icon-192.svg" />
+    <link rel="manifest" href="%BASE_URL%manifest.json" />
     <title>Belize Birds</title>
     <script>
-      // Run before any modules load so a stale service worker cannot break Vite dev/HMR.
+      // Run before any modules load so a stale service worker cannot break Vite dev/HMR
+      // or serve cached index.html with outdated hashed asset URLs after a deploy.
       (function () {
         var isDev =
           location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-        if (!isDev || !('serviceWorker' in navigator)) return;
+        if (!('serviceWorker' in navigator)) return;
+
+        var cacheVersionKey = 'belizebirds-sw-cache-version';
+        var cacheVersion = 'v2';
+        var shouldReset =
+          isDev || localStorage.getItem(cacheVersionKey) !== cacheVersion;
+
+        if (!shouldReset) return;
 
         navigator.serviceWorker.getRegistrations().then(function (regs) {
-          if (regs.length === 0) return;
+          if (regs.length === 0 && isDev) return;
 
           var wasControlled = !!navigator.serviceWorker.controller;
           return Promise.all(regs.map(function (r) { return r.unregister(); }))
@@ -32,7 +40,8 @@
               }
             })
             .then(function () {
-              if (wasControlled) location.reload();
+              localStorage.setItem(cacheVersionKey, cacheVersion);
+              if (wasControlled || !isDev) location.reload();
             });
         });
       })();
