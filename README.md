@@ -1,17 +1,22 @@
 # Belize Birds Field Guide
 
-A modern, offline-capable field guide to the birds of **Cayo District, Belize**. Built with React, Vite, and Tailwind CSS.
+A modern, offline-capable field guide to the birds of **Belize**, covering all six districts. Built with React, Vite, and Tailwind CSS.
 
 **Live Site:** [https://ewcbyrd.github.io/belizebirds/](https://ewcbyrd.github.io/belizebirds/)
 
 ## Scope
 
-This guide lists **160 species recorded in Cayo District** per eBird. Reporting rates and species inclusion are based on Cayo District eBird data. Sub-zones within Cayo (San Ignacio, Mountain Pine Ridge, etc.) may be added later for hotspot filtering.
+The guide includes **160 curated species** from Cayo District with full identification content, plus additional species discovered via **eBird build-time sync** across all Belize districts (Belize, Cayo, Corozal, Orange Walk, Stann Creek, Toledo).
+
+- **District filter** — show species recorded in each district per eBird
+- **Reporting rates** — Cayo District all-time eBird rates for curated species (`frequency` in `birds.json`)
+
+See [docs/ebird-sync.md](docs/ebird-sync.md) for syncing eBird data locally and in CI.
 
 ## Features
 
 ### Bird Gallery
-- Browse 160+ bird species found in Cayo District
+- Browse species for your selected Belize district
 - Card-based layout with species photos
 - **Shareable species pages** at `/species/[slug]` for each bird
 - **Personal checklist** — mark species seen in the field (saved locally)
@@ -25,13 +30,15 @@ This guide lists **160 species recorded in Cayo District** per eBird. Reporting 
   - Status (when available)
   - Similar species links
   - Field notes on behavior and identification
-  - eBird reporting rate for Cayo District (when available)
+  - **Reporting rate** for curated Cayo species (when Cayo district is selected)
+  - District presence from eBird sync
 
 ### Search & Filter
+- **District selector** — filter species by Belize district
 - Real-time search by common or scientific name
 - Filter by habitat (25 canonical terms), family, size, and diet
 - Filter checklist by seen / unseen
-- Sort by taxonomic order, A–Z, or most common
+- Sort by taxonomic order, A–Z, or reporting rate (Cayo curated species)
 - View filtered results count
 - Easy-to-use clear filters button
 
@@ -83,6 +90,12 @@ npm install
 3. Start the development server:
 ```bash
 npm run dev
+```
+
+**eBird sync (optional for local dev):** Copy `.env.local.example` to `.env.local`, add your [eBird API key](https://ebird.org/api/keygen), then:
+
+```bash
+npm run sync:ebird
 ```
 
 4. Open your browser and navigate to `http://localhost:5173`
@@ -263,10 +276,11 @@ Modify these to match your preferred color scheme.
 ## Future Enhancement Ideas (Phase 3)
 
 - **Bird comparison**: View multiple species side-by-side
-- **Location-based filters**: Filter by Cayo hotspot (optional sub-zones in `src/data/regionTaxonomy.js`)
+- **Hotspot filters**: Filter by eBird hotspots within a district
 - **Audio library**: Populate bird call recordings for all species
 - **Dark mode**: Toggle for light/dark theme
 - **Checklist export**: Export life list or sync with eBird
+- **Recent sightings**: Bake eBird recent/notable observations at build time
 
 ## Contributing
 

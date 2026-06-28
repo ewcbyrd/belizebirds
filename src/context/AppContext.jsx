@@ -1,12 +1,16 @@
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect, useMemo } from 'react';
 import birdsData from '../data/birds.json';
+import districtSpeciesData from '../data/generated/district-species.json';
 import { cacheManager } from '../utils/cacheManager';
 import { useChecklist } from '../hooks/useChecklist';
+import { useDistrict } from '../hooks/useDistrict';
 import { CANONICAL_HABITATS } from '../data/habitatTaxonomy';
+import { mergeBirdData, getDataGeneratedAt } from '../utils/mergeBirdData';
 
 const AppContext = createContext();
 
 const getAssetPath = (path) => {
+  if (!path) return '';
   const cleanPath = path.replace(/^\//, '');
   return import.meta.env.BASE_URL + cleanPath;
 };
@@ -15,6 +19,13 @@ export const parseFrequency = (frequency) => {
   if (!frequency) return -1;
   const num = parseFloat(frequency.replace('%', ''));
   return isNaN(num) ? -1 : num;
+};
+
+export const parseReportingRate = (bird) => {
+  if (bird.reportingRate != null && bird.reportingRate >= 0) {
+    return bird.reportingRate;
+  }
+  return parseFrequency(bird.frequency) / 100;
 };
 
 export const useAppContext = () => {
@@ -32,14 +43,35 @@ export const AppProvider = ({ children }) => {
   const [lastSyncTime, setLastSyncTime] = useState(null);
 
   const { isSeen, toggleSeen, seenCount, clearChecklist } = useChecklist();
+  const { selectedDistrict, setSelectedDistrict } = useDistrict();
 
-  const [birds] = useState(() =>
-    birdsData.map(bird => ({
-      ...bird,
-      image: getAssetPath(bird.image),
-      audio: getAssetPath(bird.audio)
-    }))
+  const curatedBirds = useMemo(
+    () =>
+      birdsData.map((bird) => ({
+        ...bird,
+        image: getAssetPath(bird.image),
+        audio: getAssetPath(bird.audio),
+      })),
+    []
   );
+
+  const birds = useMemo(
+    () =>
+      mergeBirdData({
+        curatedBirds,
+        districtSpecies: districtSpeciesData,
+        selectedDistrict,
+      }).map((bird) => ({
+        ...bird,
+        image: bird.image?.startsWith('http')
+          ? bird.image
+          : getAssetPath(bird.image || '/birds/placeholder.jpg'),
+        audio: bird.audio ? getAssetPath(bird.audio) : '',
+      })),
+    [curatedBirds, selectedDistrict]
+  );
+
+  const dataGeneratedAt = getDataGeneratedAt(districtSpeciesData);
 
   useEffect(() => {
     const initCache = async () => {
@@ -67,7 +99,7 @@ export const AppProvider = ({ children }) => {
       window.removeEventListener('online', handleOnline);
       window.removeEventListener('offline', handleOffline);
     };
-  }, [birds]);
+  }, [birds, dataGeneratedAt]);
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedHabitats, setSelectedHabitats] = useState([]);
@@ -81,7 +113,7 @@ export const AppProvider = ({ children }) => {
   const [filteredBirds, setFilteredBirds] = useState(birds);
 
   useEffect(() => {
-    let result = birds;
+    let result = birds.filter((bird) => bird.inDistrict !== false);
 
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
@@ -94,7 +126,7 @@ export const AppProvider = ({ children }) => {
 
     if (selectedHabitats.length > 0) {
       result = result.filter((bird) =>
-        bird.habitat.some((h) => selectedHabitats.includes(h))
+        bird.habitat?.some((h) => selectedHabitats.includes(h))
       );
     }
 
@@ -150,6 +182,7 @@ export const AppProvider = ({ children }) => {
   const value = {
     isOnline,
     lastSyncTime,
+    dataGeneratedAt,
     birds,
     filteredBirds,
     searchTerm,
@@ -174,10 +207,14 @@ export const AppProvider = ({ children }) => {
     currentlyPlaying,
     setCurrentlyPlaying,
     parseFrequency,
+    parseReportingRate,
     isSeen,
     toggleSeen,
     seenCount,
     clearChecklist,
+    selectedDistrict,
+    setSelectedDistrict,
+    districtSpecies: districtSpeciesData,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

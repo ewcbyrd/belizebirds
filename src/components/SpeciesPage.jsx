@@ -2,13 +2,14 @@ import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useAppContext } from '../context/AppContext';
 import { findBirdBySlug } from '../utils/birdSlugs';
-import { FAMILY_NAMES } from '../data/familyNames';
+import { getDistrictShortName } from '../data/districtTaxonomy';
+import { getFamilyDisplayName, getFamilyScientificName } from '../utils/taxonomyLookup';
 import AudioPlayer from './AudioPlayer';
 import NotFound from './NotFound';
 
 const SpeciesPage = () => {
   const { slug } = useParams();
-  const { birds, isSeen, toggleSeen } = useAppContext();
+  const { birds, isSeen, toggleSeen, selectedDistrict } = useAppContext();
   const bird = findBirdBySlug(birds, slug);
   const [imageError, setImageError] = useState(false);
 
@@ -16,8 +17,10 @@ const SpeciesPage = () => {
     return <NotFound />;
   }
 
-  const familyCommonName = FAMILY_NAMES[bird.family] || bird.family;
-  const hasFrequency = bird.frequency && bird.frequency.trim() !== '';
+  const familyCommonName = getFamilyDisplayName(bird);
+  const familyScientific = getFamilyScientificName(bird);
+  const hasReportingRate =
+    bird.frequency && bird.frequency.trim() !== '' && selectedDistrict === 'BZ-CY';
   const fieldMarks = bird.fieldMarks?.length ? bird.fieldMarks : null;
   const similarBirds = (bird.similarSpecies ?? [])
     .map((s) => findBirdBySlug(birds, s))
@@ -89,7 +92,7 @@ const SpeciesPage = () => {
             <div>
               <p className="text-sm font-semibold text-gray-700 mb-1">Family</p>
               <p className="text-gray-900">
-                <span className="italic">{bird.family}</span>
+                <span className="italic">{familyScientific}</span>
                 {' — '}
                 {familyCommonName}
               </p>
@@ -106,7 +109,7 @@ const SpeciesPage = () => {
               <p className="text-sm font-semibold text-gray-700 mb-1">Habitat</p>
               <p className="text-gray-900">{bird.habitat.join(', ')}</p>
             </div>
-            {hasFrequency && (
+            {hasReportingRate && (
               <div>
                 <p className="text-sm font-semibold text-gray-700 mb-1">
                   Reporting rate
@@ -114,8 +117,25 @@ const SpeciesPage = () => {
                 <p className="text-gray-900">
                   {bird.frequency}
                   <span className="block text-xs text-gray-500 font-normal mt-0.5">
-                    Cayo District eBird reporting rate
+                    Cayo District eBird all-time reporting rate
                   </span>
+                </p>
+              </div>
+            )}
+            {bird.districts?.length > 0 && (
+              <div className="col-span-2">
+                <p className="text-sm font-semibold text-gray-700 mb-1">
+                  Districts recorded
+                </p>
+                <p className="text-gray-900">
+                  {bird.districts.map(getDistrictShortName).join(', ')}
+                </p>
+              </div>
+            )}
+            {bird.enrichmentStatus === 'pending' && (
+              <div className="col-span-2">
+                <p className="text-sm text-amber-800 bg-amber-50 rounded-lg px-3 py-2">
+                  Identification content pending — species list from eBird sync.
                 </p>
               </div>
             )}
@@ -160,11 +180,13 @@ const SpeciesPage = () => {
               {bird.voice && (
                 <p className="text-gray-900 leading-relaxed mb-4">{bird.voice}</p>
               )}
-              <AudioPlayer
-                audioSrc={bird.audio}
-                birdId={bird.id}
-                birdName={bird.commonName}
-              />
+              {bird.audio && (
+                <AudioPlayer
+                  audioSrc={bird.audio}
+                  birdId={bird.id}
+                  birdName={bird.commonName}
+                />
+              )}
             </div>
           )}
 
