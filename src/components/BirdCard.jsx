@@ -1,9 +1,13 @@
 import { useState } from 'react';
 import AudioPlayer from './AudioPlayer';
+import { FAMILY_NAMES } from '../data/familyNames';
 
 const BirdCard = ({ bird }) => {
   const [showDetails, setShowDetails] = useState(false);
   const [imageError, setImageError] = useState(false);
+
+  const familyCommonName = FAMILY_NAMES[bird.family] || bird.family;
+  const hasFrequency = bird.frequency && bird.frequency.trim() !== '';
 
   const handleImageError = () => {
     setImageError(true);
@@ -42,6 +46,11 @@ const BirdCard = ({ bird }) => {
               </div>
             </div>
           )}
+          {hasFrequency && (
+            <span className="absolute top-2 left-2 text-xs bg-white/90 text-gray-800 px-2 py-1 rounded font-medium">
+              {bird.frequency}
+            </span>
+          )}
         </div>
         <div className="p-4">
           <h3 className="text-xl font-bold text-gray-900 mb-1">
@@ -52,10 +61,13 @@ const BirdCard = ({ bird }) => {
           </p>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
-              {bird.family}
+              {familyCommonName}
             </span>
             <span className="text-xs bg-belize-sand text-gray-700 px-2 py-1 rounded">
               {bird.size}
+            </span>
+            <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+              {bird.diet}
             </span>
           </div>
           <p className="text-sm text-gray-700 line-clamp-2 mb-3">
@@ -71,17 +83,16 @@ const BirdCard = ({ bird }) => {
         </div>
       </div>
 
-      {/* Detail Modal */}
       {showDetails && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
           onClick={() => setShowDetails(false)}
         >
           <div
-            className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+            className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="bg-gradient-to-br from-belize-green-light to-belize-green">
+            <div className="bg-gradient-to-br from-belize-green-light to-belize-green relative">
               {!imageError ? (
                 <img
                   src={bird.image}
@@ -144,7 +155,11 @@ const BirdCard = ({ bird }) => {
                   <p className="text-sm font-semibold text-gray-700 mb-1">
                     Family
                   </p>
-                  <p className="text-gray-900">{bird.family}</p>
+                  <p className="text-gray-900">
+                    <span className="italic">{bird.family}</span>
+                    {' — '}
+                    {familyCommonName}
+                  </p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-700 mb-1">
@@ -164,6 +179,14 @@ const BirdCard = ({ bird }) => {
                   </p>
                   <p className="text-gray-900">{bird.habitat.join(', ')}</p>
                 </div>
+                {hasFrequency && (
+                  <div>
+                    <p className="text-sm font-semibold text-gray-700 mb-1">
+                      Reporting rate
+                    </p>
+                    <p className="text-gray-900">{bird.frequency}</p>
+                  </div>
+                )}
               </div>
 
               <div className="mb-6">
@@ -177,7 +200,7 @@ const BirdCard = ({ bird }) => {
 
               <div className="mb-6">
                 <p className="text-sm font-semibold text-gray-700 mb-2">
-                  Fun Fact
+                  Field Notes
                 </p>
                 <p className="text-gray-900 leading-relaxed bg-belize-sand p-3 rounded-lg">
                   {bird.funFact}

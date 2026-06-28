@@ -1,50 +1,42 @@
-# Belize Birds Learning App 🦜
+# Belize Birds Field Guide
 
-A modern, interactive web application for learning about the most common birds of Belize. Built with React, Vite, and Tailwind CSS.
+A modern, offline-capable field guide to the birds of Belize. Built with React, Vite, and Tailwind CSS.
 
 **Live Site:** [https://ewcbyrd.github.io/belizebirds/](https://ewcbyrd.github.io/belizebirds/)
 
 ## Features
 
-### 🎨 Bird Gallery
-- Browse the most common birds of Belize
-- Beautiful card-based layout with bird images
-- Detailed information including:
+### Bird Gallery
+- Browse 160+ bird species found in Belize
+- Card-based layout with species photos
+- Detailed species accounts including:
   - Common and scientific names
-  - Family classification
+  - Family classification (scientific and common names)
   - Habitat preferences
   - Diet and size information
-  - Fun facts about each species
-  - Bird call frequency data (when available)
+  - Field notes on behavior, voice, and identification
+  - eBird reporting rate (when available)
 
-### 🔍 Search & Filter
+### Search & Filter
 - Real-time search by common or scientific name
-- Filter by habitat type
-- Filter by bird family
+- Filter by habitat, family, size, and diet
+- Sort by taxonomic order, A–Z, or most common
 - View filtered results count
 - Easy-to-use clear filters button
 
-### 🎵 Audio Player
+### Audio Player
 - Listen to bird calls for each species (when available)
 - Play/stop controls
 - Visual feedback when audio is playing
 - Only one audio plays at a time
 - Buttons are disabled when audio is not available
 
-### 🎯 Interactive Quiz
-Two quiz modes to test your knowledge:
+### Offline Field Use
+- Progressive Web App (PWA) with offline image caching
+- Works in the field without a network connection
+- Install to home screen on mobile devices
 
-1. **Identify the Bird**: View a bird image and select the correct name from 4 options
-2. **Match the Call**: Listen to a bird call and identify which bird it belongs to (for species with audio)
-
-Quiz features:
-- Randomized questions
-- Progress tracking
-- Score display
-- Visual feedback for correct/incorrect answers
-- Retry option
-
-### 📱 Responsive Design
+### Responsive Design
 - Mobile-first approach
 - Works seamlessly on phones, tablets, and desktops
 - Touch-friendly interface
@@ -163,13 +155,12 @@ belizebirds/
 │   │   ├── AudioPlayer.jsx     # Audio playback component
 │   │   ├── BirdCard.jsx        # Individual bird card with details modal
 │   │   ├── BirdGallery.jsx     # Main gallery grid view
-│   │   ├── Navigation.jsx      # App header and navigation
-│   │   ├── Quiz.jsx            # Quiz mode component
-│   │   └── SearchBar.jsx       # Search and filter controls
+│   │   └── SearchBar.jsx       # Search, filter, and sort controls
 │   ├── context/
 │   │   └── AppContext.jsx      # Global state management
 │   ├── data/
-│   │   └── birds.json          # Bird data
+│   │   ├── birds.json          # Bird data
+│   │   └── familyNames.js      # Family common names
 │   ├── App.jsx                 # Main app component
 │   ├── main.jsx                # React entry point
 │   └── index.css               # Global styles + Tailwind
@@ -184,13 +175,13 @@ belizebirds/
 
 ## Bird Species Database
 
-The app includes bird data for common species found in Belize. Each bird entry includes:
+The app includes bird data for species found in Belize. Each bird entry includes:
 - Common and scientific names
 - Family classification
 - Habitat preferences
 - Physical description
 - Size and diet information
-- Fun facts
+- Field notes (behavior, voice, identification tips)
 - Observation frequency (when available, based on eBird data)
 
 **Note:** The database is designed to be easily expandable. See the "Adding More Birds" section below for instructions on adding new species.
@@ -201,10 +192,10 @@ The app includes bird data for common species found in Belize. Each bird entry i
 
 To add more birds to the app, you can use the built-in add-bird skill:
 
-1. **Using OpenCode Skill** (Recommended):
-   - The repository includes a custom skill at `.opencode/skills/add-bird/`
+1. **Using Cursor Skill** (Recommended):
+   - The repository includes a custom skill at `.cursor/skills/add-bird/`
    - This skill automates the process of adding birds with images
-   - It downloads images, processes them to 800x600, and updates the database
+   - It downloads images, processes them to 4:3 ratio, and updates the database
    - See `QUICKSTART.md` for details on using the skill
 
 2. **Manual Method**:
@@ -224,7 +215,7 @@ To add more birds to the app, you can use the built-in add-bird skill:
   "diet": "Nectarivore/Insectivore/Frugivore/Granivore/Omnivore/Carnivore",
   "image": "/birds/bird-name.jpg",
   "audio": "/audio/bird-name.mp3",
-  "funFact": "An interesting fact..."
+  "funFact": "A field note on behavior, voice, or identification..."
 }
 ```
 
@@ -253,15 +244,14 @@ Modify these to match your preferred color scheme.
 
 ## Future Enhancement Ideas
 
-- **LocalStorage**: Save quiz high scores and favorites
-- **Dark Mode**: Toggle for light/dark theme
-- **Bird Comparison**: View multiple birds side-by-side
-- **Location-based**: Filter by region within Belize
-- **Advanced Filters**: Size, diet, behavior
-- **PWA Support**: Offline functionality
-- **Export Results**: Share quiz scores
-- **Learning Paths**: Guided tours through bird families
-- **Sighting Log**: Track birds you've seen in the wild
+- **Shareable species pages**: URL routing for individual species
+- **Expanded ID data**: Structured field marks, similar species, status
+- **Checklist / life list**: Track species seen in the field
+- **Bird comparison**: View multiple species side-by-side
+- **Location-based filters**: Filter by region within Belize
+- **Habitat normalization**: Standardize habitat taxonomy for reliable filtering
+- **Audio library**: Populate bird call recordings for all species
+- **Dark mode**: Toggle for light/dark theme
 
 ## Contributing
 

@@ -3,12 +3,38 @@ import BirdCard from './BirdCard';
 import SearchBar from './SearchBar';
 import { FAMILY_NAMES } from '../data/familyNames';
 
-const BirdGallery = () => {
-  const { filteredBirds } = useAppContext();
+const sortBirdsAlpha = (birds) =>
+  [...birds].sort((a, b) => a.commonName.localeCompare(b.commonName));
 
-  // Group birds by family and sort by taxonomic order (order in FAMILY_NAMES)
+const sortBirdsByFrequency = (birds, parseFrequency) =>
+  [...birds].sort(
+    (a, b) => parseFrequency(b.frequency) - parseFrequency(a.frequency)
+  );
+
+const BirdGallery = () => {
+  const { filteredBirds, sortBy, parseFrequency } = useAppContext();
+
   const familyGroups = (() => {
-    // First, group birds by family
+    if (sortBy === 'alpha') {
+      return [
+        {
+          family: null,
+          familyCommonName: null,
+          birds: sortBirdsAlpha(filteredBirds),
+        },
+      ];
+    }
+
+    if (sortBy === 'frequency') {
+      return [
+        {
+          family: null,
+          familyCommonName: null,
+          birds: sortBirdsByFrequency(filteredBirds, parseFrequency),
+        },
+      ];
+    }
+
     const grouped = filteredBirds.reduce((groups, bird) => {
       if (!groups[bird.family]) {
         groups[bird.family] = [];
@@ -17,25 +43,21 @@ const BirdGallery = () => {
       return groups;
     }, {});
 
-    // Get the taxonomic order from FAMILY_NAMES (order of keys)
     const familyOrder = Object.keys(FAMILY_NAMES);
-    
-    // Convert to array and sort by taxonomic order
+
     return Object.keys(grouped)
       .sort((a, b) => {
         const indexA = familyOrder.indexOf(a);
         const indexB = familyOrder.indexOf(b);
-        // Families in FAMILY_NAMES come first in their order
-        // Families not in FAMILY_NAMES come last
         if (indexA === -1 && indexB === -1) return 0;
         if (indexA === -1) return 1;
         if (indexB === -1) return -1;
         return indexA - indexB;
       })
-      .map(family => ({
+      .map((family) => ({
         family,
         familyCommonName: FAMILY_NAMES[family] || family,
-        birds: grouped[family]
+        birds: sortBirdsAlpha(grouped[family]),
       }));
   })();
 
@@ -70,13 +92,21 @@ const BirdGallery = () => {
         ) : (
           <div className="space-y-12">
             {familyGroups.map((group) => (
-              <section key={group.family} className="family-section">
-                <div className="mb-6">
-                  <h2 className="text-2xl font-bold text-gray-800 border-b-2 border-green-600 pb-2">
-                    <span className="italic">{group.family}</span>
-                    <span className="text-gray-600"> - {group.familyCommonName}</span>
-                  </h2>
-                </div>
+              <section
+                key={group.family ?? 'all'}
+                className="family-section"
+              >
+                {group.family && (
+                  <div className="mb-6">
+                    <h2 className="text-2xl font-bold text-gray-800 border-b-2 border-green-600 pb-2">
+                      <span className="italic">{group.family}</span>
+                      <span className="text-gray-600">
+                        {' '}
+                        - {group.familyCommonName}
+                      </span>
+                    </h2>
+                  </div>
+                )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                   {group.birds.map((bird) => (
                     <BirdCard key={bird.id} bird={bird} />
