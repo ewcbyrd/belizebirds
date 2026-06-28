@@ -2885,5 +2885,23 @@
     "image": "/birds/sepia-capped-flycatcher.jpg",
     "audio": "/audio/sepia-capped-flycatcher.mp3",
     "funFact": "Builds a mossy globe nest with a side entrance that it hangs from a vine or exposed root beneath an overhanging log, rock, or stream bank."
+  },
+  {
+    "id": 158,
+    "commonName": "Double-toothed Kite",
+    "scientificName": "Harpagus bidentatus",
+    "frequency": "",
+    "family": "Accipitridae",
+    "habitat": [
+      "Mature tropical forest",
+      "Forest interior",
+      "Secondary forest"
+    ],
+    "description": "A small forest raptor 29-35 cm (11-14 in) long with a dark gray head, white throat with a central dark stripe, gray upperparts, and rufous breast and barred belly. Found in the interior of mature tropical forest from southern Mexico through Belize and Central America, hunting from a perch and diving for insects and small vertebrates.",
+    "size": "Medium",
+    "diet": "Carnivore",
+    "image": "/birds/double-toothed-kite.jpg",
+    "audio": "/audio/double-toothed-kite.mp3",
+    "funFact": "Gets its name from tooth-like notches on its upper bill and regularly follows troops of monkeys to catch prey flushed from the forest floor."
   }
 ]
