@@ -1609,8 +1609,21 @@
     "diet": "Frugivore",
     "image": "/birds/short-billed-pigeon.jpg",
     "audio": "/audio/short-billed-pigeon.mp3",
-    "funFact": "Named for its proportionally short bill compared to other pigeons in its genus. Has a complex, loud and high-pitched call that is slower and more complex than its close relative, the ruddy pigeon.",
-    "frequency": "7.28%"
+    "funFact": "Forages in canopy for mistletoe and fruit; listen for calls before scanning treetops.",
+    "frequency": "7.28%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Wine-purple plumage with olive-brown back",
+      "Black bill and tail",
+      "Large canopy pigeon"
+    ],
+    "voice": "Complex loud high-pitched calls slower than related pigeons.",
+    "similarSpecies": [
+      "pale-vented-pigeon"
+    ]
   },
   {
     "slug": "yellow-billed-cacique",
@@ -1629,8 +1642,19 @@
     "diet": "Omnivore",
     "image": "/birds/yellow-billed-cacique.jpg",
     "audio": "/audio/yellow-billed-cacique.mp3",
-    "funFact": "Pairs duet together with complex vocalizations, and this bird feeds like a woodpecker by hammering into bamboo and inserting its closed bill into substrates then opening it to expose hidden prey!",
-    "frequency": "7.15%"
+    "funFact": "Hammering into bamboo and rotten wood is a good clue; pairs often forage together in understory.",
+    "frequency": "7.15%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Entirely black with pale yellow chisel-tipped bill",
+      "Pale yellow iris",
+      "Woodpecker-like feeding behavior"
+    ],
+    "voice": "Complex duetting vocalizations from dense cover.",
+    "similarSpecies": []
   },
   {
     "slug": "yellow-faced-grassquit",
@@ -1647,8 +1671,22 @@
     "diet": "Granivore",
     "image": "/birds/yellow-faced-grassquit.jpg",
     "audio": "/audio/yellow-faced-grassquit.mp3",
-    "funFact": "Builds a roughly globular nest with a side entrance placed usually less than 30 cm above the ground among grass or weeds. During courtship, males vibrate their wings while singing just inches away from the female!",
-    "frequency": "7.08%"
+    "funFact": "Common in weedy fields and roadsides; males sing from low grass and fence lines.",
+    "frequency": "7.08%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: black face and breast with bright yellow throat and eyering",
+      "Olive-green back",
+      "Female: duller with weak yellow face"
+    ],
+    "voice": "High buzzy trill from low perches in grass.",
+    "similarSpecies": [
+      "blue-black-grassquit",
+      "variable-seedeater"
+    ]
   },
   {
     "slug": "cinnamon-bellied-saltator",
@@ -1667,8 +1705,22 @@
     "diet": "Omnivore",
     "image": "/birds/cinnamon-bellied-saltator.jpg",
     "audio": "/audio/cinnamon-bellied-saltator.mp3",
-    "funFact": "In El Salvador, this bird is affectionately known as 'dichosofui' after its elaborate call, which sounds like the Spanish phrase '¡dichoso fui!' meaning 'I was happy!'",
-    "frequency": "7.02%"
+    "funFact": "Look in canopy and mid-levels at forest edge and gardens; listen for rich whistled song.",
+    "frequency": "7.02%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Gray upperparts",
+      "Cinnamon underparts",
+      "Thick finch-like bill"
+    ],
+    "voice": "Musical whistled phrases; elaborate dawn song.",
+    "similarSpecies": [
+      "black-headed-saltator",
+      "buff-throated-saltator"
+    ]
   },
   {
     "slug": "golden-olive-woodpecker",
@@ -1688,8 +1740,22 @@
     "diet": "Insectivore",
     "image": "/birds/golden-olive-woodpecker.jpg",
     "audio": "/audio/golden-olive-woodpecker.mp3",
-    "funFact": "This woodpecker has been observed eating Müllerian bodies - specialized food structures that Cecropia plants produce to feed their symbiotic ants!",
-    "frequency": "7.01%"
+    "funFact": "Mid-canopy woodpecker of forest edge and clearings; green back separates it from larger species.",
+    "frequency": "7.01%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Mostly green upperparts with bronze tinge",
+      "Barred buffy underparts",
+      "Male: red nape and malar stripe"
+    ],
+    "voice": "Rolling calls and drumming on dead wood.",
+    "similarSpecies": [
+      "black-cheeked-woodpecker",
+      "smoky-brown-woodpecker"
+    ]
   },
   {
     "slug": "mangrove-swallow",
@@ -1709,8 +1775,20 @@
     "diet": "Insectivore",
     "image": "/birds/mangrove-swallow.jpg",
     "audio": "/audio/mangrove-swallow.mp3",
-    "funFact": "The mangrove swallow feeds on unusually large prey for its size, including dragonflies and bees, and typically forages within 100 meters of its nest when feeding its young.",
-    "frequency": "6.80%"
+    "funFact": "Scan rivers, lagoons, and mangroves for fast low flight; white supraloral streak is key.",
+    "frequency": "6.80%",
+    "status": "Resident",
+    "regions": [
+      "Coastal",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Iridescent blue-green upperparts",
+      "White underparts and rump",
+      "Distinctive white streak above eye"
+    ],
+    "voice": "High twittering flight calls.",
+    "similarSpecies": []
   },
   {
     "slug": "white-collared-manakin",
@@ -1729,8 +1807,21 @@
     "diet": "Omnivore",
     "image": "/birds/white-collared-manakin.jpg",
     "audio": "/audio/white-collared-manakin.mp3",
-    "funFact": "Males clear a patch of forest floor up to 120 cm across to bare earth for their display courts, leaping to and fro between thin upright sticks while giving loud wing snaps.",
-    "frequency": "6.74%"
+    "funFact": "Listen for snapping wings on forest floor display courts at forest edge.",
+    "frequency": "6.74%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: black crown and wings, white head and breast, yellow belly",
+      "Female: olive-green with yellow belly",
+      "Short tail, heavy bill"
+    ],
+    "voice": "Loud wing snaps at display courts; soft calls in understory.",
+    "similarSpecies": [
+      "red-capped-manakin"
+    ]
   },
   {
     "slug": "laughing-falcon",
@@ -1750,8 +1841,20 @@
     "diet": "Carnivore",
     "image": "/birds/laughing-falcon.jpg",
     "audio": "/audio/laughing-falcon.mp3",
-    "funFact": "The laughing falcon specializes in hunting snakes, including venomous coral snakes, and its scientific name Herpetotheres cachinnans means 'snake mower' and 'laughing aloud'.",
-    "frequency": "6.63%"
+    "funFact": "Often perched conspicuously for long periods; specializes on snakes including coral snakes.",
+    "frequency": "6.63%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Creamy white underparts",
+      "Broad black face mask",
+      "Dusky wings, banded tail",
+      "Long tail, short rounded wings"
+    ],
+    "voice": "Far-carrying laughing hah-hah-hah call.",
+    "similarSpecies": []
   },
   {
     "slug": "yellow-bellied-elaenia",
@@ -1772,8 +1875,22 @@
     "diet": "Omnivore",
     "image": "/birds/yellow-bellied-elaenia.jpg",
     "audio": "/audio/yellow-bellied-elaenia.mp3",
-    "funFact": "Its dawn song has been described as \"spud-deeer, spud-deer-dzz, spud-deer\", repeated over and over.",
-    "frequency": "6.50%"
+    "funFact": "Common in open country, gardens, and savanna; crest and yellow belly visible at distance.",
+    "frequency": "6.50%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Bushy crest",
+      "Olive upperparts with wing bars",
+      "Yellow belly",
+      "Pale gray throat"
+    ],
+    "voice": "Repeated spud-deeer dawn song.",
+    "similarSpecies": [
+      "greenish-elaenia"
+    ]
   },
   {
     "slug": "stripe-throated-hermit",
@@ -1793,8 +1910,22 @@
     "diet": "Nectarivore",
     "image": "/birds/stripe-throated-hermit.jpg",
     "audio": "/audio/stripe-throated-hermit.mp3",
-    "funFact": "It is a \"trap-line\" feeder, visiting a regular circuit of flowers, and has been observed piercing flower bases to access nectar that would otherwise be out of reach.",
-    "frequency": "6.23%"
+    "funFact": "Understory hummer of edges and gardens; smaller and more masked than Long-billed Hermit.",
+    "frequency": "6.23%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very small with long decurved bill",
+      "Bandit-mask face with whitish stripes",
+      "Pale rufous rump",
+      "Buff belly"
+    ],
+    "voice": "High chips along flower trap-lines.",
+    "similarSpecies": [
+      "long-billed-hermit"
+    ]
   },
   {
     "slug": "king-vulture",
@@ -1814,7 +1945,20 @@
     "diet": "Carnivore",
     "image": "/birds/king-vulture.jpg",
     "audio": "/audio/king-vulture.mp3",
-    "funFact": "The king vulture was revered in Maya mythology, often portrayed as a god carrying messages between humans and the other gods, and appears frequently in Maya codices."
+    "funFact": "Soars high over forest; white wings and colorful head stand out against Turkey and Black vultures.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Mostly white body with black flight feathers and tail",
+      "Colorful bare head (yellow, orange, red, purple)",
+      "Orange fleshy bill caruncle"
+    ],
+    "voice": "Mostly silent; occasional croaks at carcasses.",
+    "similarSpecies": [
+      "lesser-yellow-headed-vulture"
+    ]
   },
   {
     "slug": "scrub-euphonia",
@@ -1836,7 +1980,21 @@
     "diet": "Frugivore",
     "image": "/birds/scrub-euphonia.jpg",
     "audio": "/audio/scrub-euphonia.mp3",
-    "funFact": "The scrub euphonia feeds primarily on mistletoe berries, making it an important seed disperser for this parasitic plant."
+    "funFact": "Look at mistletoe and fruiting trees in scrub and forest edge.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: yellow forecrown, blue-black head and back, yellow underparts",
+      "Female: olive-yellow with gray crown",
+      "Tiny stubby bill"
+    ],
+    "voice": "Sweet whistled notes, often in pairs.",
+    "similarSpecies": [
+      "yellow-throated-euphonia",
+      "olive-backed-euphonia"
+    ]
   },
   {
     "slug": "montezuma-oropendola",
@@ -1855,7 +2013,19 @@
     "diet": "Omnivore",
     "image": "/birds/montezuma-oropendola.jpg",
     "audio": "/audio/montezuma-oropendola.mp3",
-    "funFact": "The Montezuma oropendola builds hanging woven nests up to 180 cm long, and a single colony can contain as many as 172 nests in one tree."
+    "funFact": "Look for hanging nest colonies in large trees; males much larger than females.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Chestnut body with black head and rump",
+      "Bright yellow tail",
+      "Bare blue cheek patch and pink wattle",
+      "Long bill"
+    ],
+    "voice": "Bizarre liquid gurgling display calls from colonies.",
+    "similarSpecies": []
   },
   {
     "slug": "northern-bentbill",
@@ -1875,7 +2045,19 @@
     "diet": "Insectivore",
     "image": "/birds/northern-bentbill.jpg",
     "audio": "/audio/northern-bentbill.mp3",
-    "funFact": "The northern bentbill's call is described as a rapid toad-like trill, and it gets its name from its distinctive downcurved bill."
+    "funFact": "Skulks low in thickets; bent bill is visible when it briefly perches mid-height.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very small with distinctive downcurved bill",
+      "Pale gray head",
+      "Olive upperparts",
+      "Pale lemon-yellow belly"
+    ],
+    "voice": "Rapid toad-like trill from dense undergrowth.",
+    "similarSpecies": []
   },
   {
     "slug": "tropical-mockingbird",
@@ -1896,7 +2078,18 @@
     "diet": "Omnivore",
     "image": "/birds/tropical-mockingbird.jpg",
     "audio": "/audio/tropical-mockingbird.mp3",
-    "funFact": "Despite being a mockingbird, the tropical mockingbird rarely mimics other species, unlike its well-known northern relative."
+    "funFact": "Common around towns and open country; runs on ground and sings from wires and rooftops.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Gray overall with white eyebrow and wing bars",
+      "Long dark tail with white tips",
+      "Pale underparts"
+    ],
+    "voice": "Varied mimicry and repeated phrases; often sings from exposed perches.",
+    "similarSpecies": []
   },
   {
     "slug": "dusky-antbird",
@@ -1916,7 +2109,18 @@
     "diet": "Insectivore",
     "image": "/birds/dusky-antbird.jpg",
     "audio": "/audio/dusky-antbird.mp3",
-    "funFact": "This antbird regularly attends army ant swarms to catch insects fleeing from the ants, and both parents share incubation and feeding duties."
+    "funFact": "Follows army ant swarms and attends forest edge tangles; white scapular patch on male is distinctive.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: slate gray with white scapular patch",
+      "Female: olive-gray above, tawny-buff below",
+      "Rich chocolate-brown iris"
+    ],
+    "voice": "Sharp chips and duetting song at forest edge.",
+    "similarSpecies": []
   },
   {
     "slug": "mayan-antthrush",
@@ -1936,7 +2140,20 @@
     "diet": "Insectivore",
     "image": "/birds/mayan-antthrush.jpg",
     "audio": "/audio/mayan-antthrush.mp3",
-    "funFact": "The Mayan antthrush walks deliberately on the forest floor with its tail cocked upright like a little rail, and pasture gaps wider than 50 meters are significant barriers to its movement."
+    "funFact": "Walks slowly on forest floor with tail cocked; more often heard than seen.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black face and throat",
+      "Bare bluish skin around eye",
+      "Rufous neck sides",
+      "Gray underparts",
+      "Walks on forest floor"
+    ],
+    "voice": "Long whistled song, often at dawn.",
+    "similarSpecies": []
   },
   {
     "slug": "long-billed-gnatwren",
@@ -1956,7 +2173,21 @@
     "diet": "Insectivore",
     "image": "/birds/long-billed-gnatwren.jpg",
     "audio": "/audio/long-billed-gnatwren.mp3",
-    "funFact": "This bird's long, thin bill is perfect for picking insects and spiders from foliage, and it frequently wags and cocks its short black tail with white-tipped feathers."
+    "funFact": "Active in understory tangles at forest edge; long bill and cocked tail help ID.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very small with notably long thin bill",
+      "Gray-brown above, buff below",
+      "Black tail with white tips",
+      "Short cocked tail"
+    ],
+    "voice": "Buzzing and rattling song from dense tangles.",
+    "similarSpecies": [
+      "white-browed-gnatcatcher"
+    ]
   },
   {
     "slug": "slaty-tailed-trogon",
@@ -1977,7 +2208,23 @@
     "diet": "Omnivore",
     "image": "/birds/slaty-tailed-trogon.jpg",
     "audio": "/audio/slaty-tailed-trogon.mp3",
-    "funFact": "This trogon often follows white-faced capuchin monkeys to snatch insects they flush, and nests in cavities excavated in active termite nests high in trees."
+    "funFact": "Sits quietly in midstory of humid forest; red belly and slaty tail separate from smaller trogons.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: metallic green upperparts, red belly, slate gray undertail",
+      "Orange-red bill",
+      "Female: gray where male is green",
+      "Large trogon"
+    ],
+    "voice": "Soft cooing notes.",
+    "similarSpecies": [
+      "black-headed-trogon",
+      "gartered-trogon",
+      "collared-trogon"
+    ]
   },
   {
     "slug": "ochre-bellied-flycatcher",
@@ -1999,7 +2246,18 @@
     "diet": "Omnivore",
     "image": "/birds/ochre-bellied-flycatcher.jpg",
     "audio": "/audio/ochre-bellied-flycatcher.mp3",
-    "funFact": "Males court at leks, singing and flashing their wings, and the female builds a pear-shaped moss-covered nest with a side entrance suspended from a vine."
+    "funFact": "Forages at middle levels, hover-gleaning fruit and insects; warm buff belly is distinctive.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Greenish olive upperparts",
+      "Rich cinnamon-buff underparts",
+      "Buffy wing edges"
+    ],
+    "voice": "Soft whistled notes from mid-level perches.",
+    "similarSpecies": []
   },
   {
     "slug": "red-capped-manakin",
@@ -2017,7 +2275,20 @@
     "diet": "Frugivore",
     "image": "/birds/red-capped-manakin.jpg",
     "audio": "/audio/red-capped-manakin.mp3",
-    "funFact": "The male's courtship display includes shuffling rapidly backwards along a branch like a moonwalk, earning it the nickname 'the Michael Jackson bird.' Its digestive system can process fruit in less than 18 minutes."
+    "funFact": "Male displays on low branches in humid forest; red cap flashes in dark understory.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: velvety black with brilliant red cap and yellow thighs",
+      "Female: olive-green above, yellowish below",
+      "Tiny understory manakin"
+    ],
+    "voice": "Soft calls; wing snaps at leks.",
+    "similarSpecies": [
+      "white-collared-manakin"
+    ]
   },
   {
     "slug": "gray-crowned-yellowthroat",
@@ -2037,7 +2308,18 @@
     "diet": "Insectivore",
     "image": "/birds/gray-crowned-yellowthroat.jpg",
     "audio": "/audio/gray-crowned-yellowthroat.mp3",
-    "funFact": "Unlike most yellowthroats, the gray-crowned yellowthroat has scarcely any black on its face, with the black usually restricted to just the lores and behind the eye."
+    "funFact": "Favors grassy fields and scrub; perches low in open habitats.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Olive upperparts, yellow underparts",
+      "Male: gray crown, black only at lores and behind eye",
+      "Female: lacks black face marks"
+    ],
+    "voice": "Sharp chack calls; musical song from grass and shrubs.",
+    "similarSpecies": []
   },
   {
     "slug": "greenish-elaenia",
@@ -2057,7 +2339,21 @@
     "diet": "Omnivore",
     "image": "/birds/greenish-elaenia.jpg",
     "audio": "/audio/greenish-elaenia.mp3",
-    "funFact": "The greenish elaenia is the only species in the genus Myiopagis found from Mexico through Central America and across much of South America, with 10 recognized subspecies."
+    "funFact": "Common in varied wooded habitats; crown stripe may flash when excited.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Greenish olive upperparts",
+      "Concealed yellow crown stripe",
+      "Pale yellow underparts",
+      "Partial white eyering"
+    ],
+    "voice": "Pee-wee and whistled phrases.",
+    "similarSpecies": [
+      "yellow-bellied-elaenia"
+    ]
   },
   {
     "slug": "pale-vented-pigeon",
@@ -2076,7 +2372,21 @@
     "diet": "Frugivore",
     "image": "/birds/pale-vented-pigeon.jpg",
     "audio": "/audio/pale-vented-pigeon.mp3",
-    "funFact": "Its call is a distinctive row of soft notes — \"kuk kuk croo-ooo\" — where the initial short \"kuk\" is characteristic of the cayennensis group of Patagioenas pigeons."
+    "funFact": "Look along rivers and forest edge; pale gray belly separates it from darker pigeons.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Dull purple head and breast",
+      "Pale gray belly",
+      "Copper gloss on nape",
+      "Red legs and eyering"
+    ],
+    "voice": "Soft kuk kuk croo-ooo series.",
+    "similarSpecies": [
+      "short-billed-pigeon"
+    ]
   },
   {
     "slug": "amazon-kingfisher",
@@ -2095,7 +2405,19 @@
     "diet": "Carnivore",
     "image": "/birds/amazon-kingfisher.jpg",
     "audio": "/audio/amazon-kingfisher.mp3",
-    "funFact": "The Amazon kingfisher hunts by plunging into water from a perch, but also hovers like a helicopter before diving for fish."
+    "funFact": "Perches over rivers and lagoons; may hover before plunging for fish.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large with bronzy green upperparts",
+      "White collar",
+      "Long heavy black bill",
+      "Male: rufous breast; female: green breast"
+    ],
+    "voice": "Harsh rattling calls along waterways.",
+    "similarSpecies": []
   },
   {
     "slug": "white-hawk",
@@ -2113,7 +2435,18 @@
     "diet": "Carnivore",
     "image": "/birds/white-hawk.jpg",
     "audio": "/audio/white-hawk.mp3",
-    "funFact": "The white hawk often follows foraging groups of tufted capuchin monkeys and coatis to snatch prey startled by these animals."
+    "funFact": "Soars over forest and follows monkey troops to catch flushed prey; unmistakable when seen well.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Mostly white head, body, and underwings",
+      "Black upper wings",
+      "Short black tail with broad white band"
+    ],
+    "voice": "High whistled calls in flight.",
+    "similarSpecies": []
   },
   {
     "slug": "russet-naped-wood-rail",
@@ -2132,7 +2465,20 @@
     "diet": "Omnivore",
     "image": "/birds/russet-naped-wood-rail.jpg",
     "audio": "/audio/russet-naped-wood-rail.mp3",
-    "funFact": "Its song is a rapid, crazed-sounding series of popping and clucking notes, most often heard at twilight and at night."
+    "funFact": "Skulks in dense wetlands and mangroves; often heard at dusk rather than seen.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Slate gray crown",
+      "Chestnut nape patch",
+      "White chin",
+      "Tawny cinnamon underparts",
+      "Red eye and legs"
+    ],
+    "voice": "Rapid popping and clucking song at twilight.",
+    "similarSpecies": []
   },
   {
     "slug": "ferruginous-pygmy-owl",
@@ -2151,7 +2497,19 @@
     "diet": "Carnivore",
     "image": "/birds/ferruginous-pygmy-owl.jpg",
     "audio": "/audio/ferruginous-pygmy-owl.mp3",
-    "funFact": "The two dark spots on the back of its head look like eyes, a clever defense that helps fool both predators and small birds trying to mob it."
+    "funFact": "Diurnal and often mobbed by songbirds; listen for toots at forest edge and scan for mobbing flocks.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Tiny owl ~15 cm",
+      "White streaked crown",
+      "Heavily white-streaked underparts",
+      "Two dark nape spots (false eyes)"
+    ],
+    "voice": "Regular tooting song by day.",
+    "similarSpecies": []
   },
   {
     "slug": "mealy-amazon",
@@ -2170,7 +2528,21 @@
     "diet": "Frugivore",
     "image": "/birds/mealy-amazon.jpg",
     "audio": "/audio/mealy-amazon.mp3",
-    "funFact": "The name \"mealy\" comes from the whitish, flour-like powder on its back and nape — \"farinosa\" in Latin means \"sprinkled with flour.\""
+    "funFact": "Large green parrot of humid forest; whitish nape and red speculum visible in flight.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large green parrot with whitish powdery nape",
+      "Red wing speculum",
+      "Broad white eye-ring",
+      "Pale yellow tail tips"
+    ],
+    "voice": "Harsh screeching calls; noisy flocks in flight.",
+    "similarSpecies": [
+      "white-crowned-parrot"
+    ]
   },
   {
     "slug": "northern-jacana",
@@ -2187,7 +2559,19 @@
     "diet": "Omnivore",
     "image": "/birds/northern-jacana.jpg",
     "audio": "/audio/northern-jacana.mp3",
-    "funFact": "Its enormous feet let it walk on floating lily pads, earning it the nickname \"Jesus bird\" for appearing to walk on water."
+    "funFact": "Walks on floating vegetation in freshwater wetlands; long toes and yellow shield are unmistakable.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Chestnut body",
+      "Black head and neck",
+      "Yellow bill and forehead shield",
+      "Extremely long toes"
+    ],
+    "voice": "Metallic notes and calls from lily pads.",
+    "similarSpecies": []
   },
   {
     "slug": "white-whiskered-puffbird",
