@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useAppContext } from '../context/AppContext';
 import { FAMILY_NAMES } from '../data/familyNames';
+import { DISTRICTS } from '../data/districtTaxonomy';
+import { getDistrictShortName } from '../data/districtTaxonomy';
 
 const FilterDropdown = ({
   label,
@@ -93,6 +95,8 @@ const SearchBar = () => {
     seenCount,
     filteredBirds,
     birds,
+    selectedDistrict,
+    setSelectedDistrict,
   } = useAppContext();
 
   const [openFilter, setOpenFilter] = useState(null);
@@ -135,6 +139,33 @@ const SearchBar = () => {
   return (
     <div className="bg-white shadow-md rounded-lg p-4 mb-6">
       <div className="flex flex-col gap-4">
+        <div className="flex flex-col sm:flex-row sm:items-end gap-3 pb-3 border-b border-gray-100">
+          <div className="flex-1 min-w-[160px]">
+            <label
+              htmlFor="district-select"
+              className="block text-xs font-semibold text-gray-600 mb-1"
+            >
+              District
+            </label>
+            <select
+              id="district-select"
+              value={selectedDistrict}
+              onChange={(e) => setSelectedDistrict(e.target.value)}
+              className="w-full text-sm font-medium border border-gray-200 bg-gray-50 text-gray-700 rounded-lg px-3 py-2 focus:ring-2 focus:ring-belize-green focus:border-transparent"
+            >
+              {DISTRICTS.map((d) => (
+                <option key={d.code} value={d.code}>
+                  {d.shortName}
+                </option>
+              ))}
+            </select>
+          </div>
+          <p className="text-xs text-gray-500 sm:pb-2">
+            Showing species recorded in {getDistrictShortName(selectedDistrict)}.
+            Cayo reporting rates appear when Cayo is selected.
+          </p>
+        </div>
+
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex-1">
             <div className="relative">
@@ -275,7 +306,7 @@ const SearchBar = () => {
             >
               <option value="taxonomic">Taxonomic</option>
               <option value="alpha">A–Z</option>
-              <option value="frequency">Most common</option>
+              <option value="frequency">Reporting rate</option>
             </select>
           </div>
         </div>

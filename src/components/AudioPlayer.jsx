@@ -6,11 +6,16 @@ const AudioPlayer = ({ audioSrc, birdId, birdName }) => {
   const { currentlyPlaying, setCurrentlyPlaying } = useAppContext();
   const [isPlaying, setIsPlaying] = useState(false);
   const [audioAvailable, setAudioAvailable] = useState(false);
+  const hasAudioSrc = Boolean(audioSrc);
 
   const isThisPlaying = currentlyPlaying === birdId;
 
-  // Check if audio file exists
   useEffect(() => {
+    if (!hasAudioSrc) {
+      setAudioAvailable(false);
+      return;
+    }
+
     const audio = audioRef.current;
     if (!audio) return;
 
@@ -25,14 +30,13 @@ const AudioPlayer = ({ audioSrc, birdId, birdName }) => {
     audio.addEventListener('canplay', handleCanPlay);
     audio.addEventListener('error', handleError);
 
-    // Trigger load to check if file exists
     audio.load();
 
     return () => {
       audio.removeEventListener('canplay', handleCanPlay);
       audio.removeEventListener('error', handleError);
     };
-  }, [audioSrc]);
+  }, [audioSrc, hasAudioSrc]);
 
   useEffect(() => {
     // If another bird is playing, stop this one
@@ -57,7 +61,8 @@ const AudioPlayer = ({ audioSrc, birdId, birdName }) => {
   }, [setCurrentlyPlaying]);
 
   const togglePlay = (e) => {
-    e.stopPropagation(); // Prevent card click when clicking play button
+    e.stopPropagation();
+    if (!hasAudioSrc) return;
     const audio = audioRef.current;
     if (!audio) return;
 
@@ -77,19 +82,21 @@ const AudioPlayer = ({ audioSrc, birdId, birdName }) => {
 
   return (
     <div className="audio-player">
-      <audio ref={audioRef} src={audioSrc} preload="metadata" />
+      {hasAudioSrc && (
+        <audio ref={audioRef} src={audioSrc} preload="metadata" />
+      )}
       <button
         onClick={togglePlay}
-        disabled={!audioAvailable}
+        disabled={!hasAudioSrc || !audioAvailable}
         className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-          !audioAvailable
+          !hasAudioSrc || !audioAvailable
             ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
             : isThisPlaying
             ? 'bg-belize-red text-white hover:bg-red-700'
             : 'bg-belize-green text-white hover:bg-belize-green-dark'
         }`}
         aria-label={
-          !audioAvailable
+          !hasAudioSrc || !audioAvailable
             ? `Audio not available for ${birdName}`
             : isThisPlaying
             ? `Stop ${birdName} call`

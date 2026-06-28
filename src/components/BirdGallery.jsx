@@ -2,17 +2,18 @@ import { useAppContext } from '../context/AppContext';
 import BirdCard from './BirdCard';
 import SearchBar from './SearchBar';
 import { FAMILY_NAMES } from '../data/familyNames';
+import { getFamilyDisplayName, getFamilyScientificName } from '../utils/taxonomyLookup';
 
 const sortBirdsAlpha = (birds) =>
   [...birds].sort((a, b) => a.commonName.localeCompare(b.commonName));
 
-const sortBirdsByFrequency = (birds, parseFrequency) =>
+const sortBirdsByReportingRate = (birds, parseReportingRate) =>
   [...birds].sort(
-    (a, b) => parseFrequency(b.frequency) - parseFrequency(a.frequency)
+    (a, b) => parseReportingRate(b) - parseReportingRate(a)
   );
 
 const BirdGallery = () => {
-  const { filteredBirds, sortBy, parseFrequency } = useAppContext();
+  const { filteredBirds, sortBy, parseReportingRate } = useAppContext();
 
   const familyGroups = (() => {
     if (sortBy === 'alpha') {
@@ -30,16 +31,17 @@ const BirdGallery = () => {
         {
           family: null,
           familyCommonName: null,
-          birds: sortBirdsByFrequency(filteredBirds, parseFrequency),
+          birds: sortBirdsByReportingRate(filteredBirds, parseReportingRate),
         },
       ];
     }
 
     const grouped = filteredBirds.reduce((groups, bird) => {
-      if (!groups[bird.family]) {
-        groups[bird.family] = [];
+      const family = getFamilyScientificName(bird);
+      if (!groups[family]) {
+        groups[family] = [];
       }
-      groups[bird.family].push(bird);
+      groups[family].push(bird);
       return groups;
     }, {});
 
@@ -56,7 +58,7 @@ const BirdGallery = () => {
       })
       .map((family) => ({
         family,
-        familyCommonName: FAMILY_NAMES[family] || family,
+        familyCommonName: getFamilyDisplayName(grouped[family][0]),
         birds: sortBirdsAlpha(grouped[family]),
       }));
   })();
@@ -109,7 +111,7 @@ const BirdGallery = () => {
                 )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                   {group.birds.map((bird) => (
-                    <BirdCard key={bird.id} bird={bird} />
+                    <BirdCard key={bird.slug} bird={bird} />
                   ))}
                 </div>
               </section>

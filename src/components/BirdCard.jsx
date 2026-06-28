@@ -2,15 +2,16 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import AudioPlayer from './AudioPlayer';
 import { useAppContext } from '../context/AppContext';
-import { FAMILY_NAMES } from '../data/familyNames';
+import { getFamilyDisplayName } from '../utils/taxonomyLookup';
 
 const BirdCard = ({ bird }) => {
   const { isSeen } = useAppContext();
   const [imageError, setImageError] = useState(false);
 
-  const familyCommonName = FAMILY_NAMES[bird.family] || bird.family;
-  const hasFrequency = bird.frequency && bird.frequency.trim() !== '';
+  const familyCommonName = getFamilyDisplayName(bird);
+  const reportingRateLabel = bird.reportingRateLabel;
   const seen = isSeen(bird.slug);
+  const isPending = bird.enrichmentStatus === 'pending';
 
   return (
     <Link to={`/species/${bird.slug}`} className="card block hover:shadow-lg transition-shadow">
@@ -41,9 +42,14 @@ const BirdCard = ({ bird }) => {
             </div>
           </div>
         )}
-        {hasFrequency && (
+        {reportingRateLabel && (
           <span className="absolute top-2 left-2 text-xs bg-white/90 text-gray-800 px-2 py-1 rounded font-medium">
-            {bird.frequency}
+            {reportingRateLabel}
+          </span>
+        )}
+        {isPending && (
+          <span className="absolute bottom-2 left-2 text-xs bg-amber-100 text-amber-900 px-2 py-1 rounded font-medium">
+            Content pending
           </span>
         )}
         {seen && (
@@ -77,11 +83,13 @@ const BirdCard = ({ bird }) => {
           {bird.description}
         </p>
         <div onClick={(e) => e.preventDefault()}>
-          <AudioPlayer
-            audioSrc={bird.audio}
-            birdId={bird.id}
-            birdName={bird.commonName}
-          />
+          {bird.audio ? (
+            <AudioPlayer
+              audioSrc={bird.audio}
+              birdId={bird.id}
+              birdName={bird.commonName}
+            />
+          ) : null}
         </div>
       </div>
     </Link>
