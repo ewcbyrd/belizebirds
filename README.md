@@ -25,7 +25,7 @@ A modern, offline-capable field guide to the birds of Belize. Built with React, 
 
 ### Search & Filter
 - Real-time search by common or scientific name
-- Filter by habitat, family, size, and diet
+- Filter by habitat (25 canonical terms), family, size, and diet
 - Filter checklist by seen / unseen
 - Sort by taxonomic order, A–Z, or most common
 - View filtered results count
@@ -173,7 +173,8 @@ belizebirds/
 │   │   └── AppContext.jsx      # Global state management
 │   ├── data/
 │   │   ├── birds.json          # Bird data
-│   │   └── familyNames.js      # Family common names
+│   │   ├── familyNames.js      # Family common names
+│   │   └── habitatTaxonomy.js  # Canonical habitat terms
 │   ├── App.jsx                 # Main app component
 │   ├── main.jsx                # React entry point
 │   └── index.css               # Global styles + Tailwind
@@ -259,7 +260,6 @@ Modify these to match your preferred color scheme.
 
 - **Bird comparison**: View multiple species side-by-side
 - **Location-based filters**: Filter by region within Belize (once `regions` data is backfilled)
-- **Habitat normalization**: Standardize habitat taxonomy for reliable filtering
 - **Audio library**: Populate bird call recordings for all species
 - **Dark mode**: Toggle for light/dark theme
 - **Checklist export**: Export life list or sync with eBird

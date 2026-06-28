@@ -40,7 +40,7 @@ Use the WebFetch tool to gather information about the bird from Wikipedia:
 2. Extract the following information from the Wikipedia page:
    - Scientific name
    - Family
-   - Habitat (convert to array format, focusing on habitats relevant to Belize/Central America)
+   - Habitat (select from the canonical list in `src/data/habitatTaxonomy.js` — use only `CANONICAL_HABITATS` values)
    - Physical description
    - Size (categorize as: "Very small", "Small", "Small-medium", "Medium", "Medium-large", "Large")
    - Diet (categorize as: "Nectarivore", "Insectivore", "Frugivore", "Granivore", "Omnivore", "Carnivore")
@@ -53,7 +53,7 @@ Use the WebFetch tool to gather information about the bird from Wikipedia:
 - `commonName` - Already provided by user
 - `scientificName` - From Wikipedia
 - `family` - From Wikipedia  
-- `habitat` - Array of habitats from Wikipedia
+- `habitat` - Array of canonical habitat terms from `CANONICAL_HABITATS` in `src/data/habitatTaxonomy.js` (1–4 terms typical; see file for allowed values)
 - `description` - Detailed description based on Wikipedia info
 - `size` - Categorize based on length/weight info
 - `diet` - From Wikipedia behavior/ecology section
