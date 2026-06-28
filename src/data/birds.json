@@ -643,8 +643,21 @@
     "diet": "Insectivore",
     "image": "/birds/lesser-greenlet.jpg",
     "audio": "/audio/lesser-greenlet.mp3",
-    "funFact": "Often joins mixed-species feeding flocks and sometimes hangs upside-down to feed.",
-    "frequency": "13.19%"
+    "funFact": "Joins mixed-species flocks in mid-canopy; may hang upside-down while foraging.",
+    "frequency": "13.19%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Gray-blue crown and pale lemon-yellow breast",
+      "Olive-green upperparts",
+      "Whitish belly with yellowish flanks"
+    ],
+    "voice": "Short whistled phrases; often heard in mixed flocks.",
+    "similarSpecies": [
+      "ochre-crowned-greenlet"
+    ]
   },
   {
     "slug": "northern-tropical-pewee",
@@ -662,8 +675,20 @@
     "diet": "Insectivore",
     "image": "/birds/northern-tropical-pewee.jpg",
     "audio": "/audio/northern-tropical-pewee.mp3",
-    "funFact": "Sits erect on exposed perches and catches insects in mid-air, returning to the same perch and shivers its tail upon landing.",
-    "frequency": "12.98%"
+    "funFact": "Sits erect on exposed perches at forest edge; sallies out for insects and returns to same perch.",
+    "frequency": "12.98%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Dark gray crown with white eye-ring",
+      "Sooty olive-gray back",
+      "Two thin wing bars",
+      "White to yellowish white underparts"
+    ],
+    "voice": "Soft whistled pee-wee; tail shivers on landing.",
+    "similarSpecies": []
   },
   {
     "slug": "black-headed-trogon",
@@ -681,8 +706,22 @@
     "diet": "Omnivore",
     "image": "/birds/black-headed-trogon.jpg",
     "audio": "/audio/black-headed-trogon.mp3",
-    "funFact": "Nests in active termite mounds, with both parents excavating the nest cavity in termitaria.",
-    "frequency": "12.50%"
+    "funFact": "Perches quietly at mid-level in woodland; yellow belly and dark head pattern stand out in shade.",
+    "frequency": "12.50%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: black head and chest, metallic green back, yellow belly",
+      "Sky-blue eye ring",
+      "Female: dark slate upperparts, duller yellow below"
+    ],
+    "voice": "Low purring and cooing notes.",
+    "similarSpecies": [
+      "gartered-trogon",
+      "slaty-tailed-trogon"
+    ]
   },
   {
     "slug": "blue-gray-tanager",
@@ -700,8 +739,22 @@
     "diet": "Omnivore",
     "image": "/birds/blue-gray-tanager.jpg",
     "audio": "/audio/blue-gray-tanager.mp3",
-    "funFact": "Often called blue jean in Trinidad and Tobago, this confiding species thrives around human habitation.",
-    "frequency": "12.20%"
+    "funFact": "One of the most common tanagers around human habitation; look on fruiting trees and wires.",
+    "frequency": "12.20%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Light bluish head and underparts",
+      "Darker blue upperparts",
+      "Contrasting blue shoulder patch"
+    ],
+    "voice": "High thin chips; confiding around gardens and villages.",
+    "similarSpecies": [
+      "yellow-winged-tanager",
+      "golden-hooded-tanager"
+    ]
   },
   {
     "slug": "white-bellied-emerald",
@@ -719,8 +772,23 @@
     "diet": "Nectarivore",
     "image": "/birds/white-bellied-emerald.jpg",
     "audio": "/audio/white-bellied-emerald.mp3",
-    "funFact": "Males sing in leks and are believed to be polygynous, with females building cup nests decorated with lichen and moss.",
-    "frequency": "12.01%"
+    "funFact": "Common at forest edge flowers; white belly separates it from mostly green hummingbirds.",
+    "frequency": "12.01%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Metallic bronzy green upperparts",
+      "White underparts",
+      "Bronzy green on cheeks and flanks",
+      "Bronze tail with darker bands"
+    ],
+    "voice": "High chips and buzzy song from perches.",
+    "similarSpecies": [
+      "rufous-tailed-hummingbird",
+      "canivets-emerald"
+    ]
   },
   {
     "slug": "olive-backed-euphonia",
@@ -738,8 +806,21 @@
     "diet": "Frugivore",
     "image": "/birds/olive-backed-euphonia.jpg",
     "audio": "/audio/olive-backed-euphonia.mp3",
-    "funFact": "Builds a globe-shaped nest with a side entrance made from moss, roots, and plant fibers, typically placed in a clump of moss or epiphytes.",
-    "frequency": "11.53%"
+    "funFact": "Look for pairs at mistletoe and fruiting trees in forest edge and secondary growth.",
+    "frequency": "11.53%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: yellow forehead, olive upperparts, bright yellow underparts",
+      "Female: rufous forehead, olive plumage, tawny-rufous below"
+    ],
+    "voice": "Sweet whistled notes, often in pairs.",
+    "similarSpecies": [
+      "yellow-throated-euphonia",
+      "scrub-euphonia"
+    ]
   },
   {
     "slug": "southern-house-wren",
@@ -757,8 +838,19 @@
     "diet": "Insectivore",
     "image": "/birds/southern-house-wren.jpg",
     "audio": "/audio/southern-house-wren.mp3",
-    "funFact": "Formerly considered the same species as the Northern House Wren but was split based on genetic divergence, differences in vocalizations, and morphology.",
-    "frequency": "11.24%"
+    "funFact": "Common around buildings, gardens, and forest edge; explores crevices and tangles.",
+    "frequency": "11.24%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very small plain brown wren",
+      "Short tail often cocked",
+      "Faint barring on wings and tail"
+    ],
+    "voice": "Bubbling energetic song; sharp chittering calls.",
+    "similarSpecies": []
   },
   {
     "slug": "white-breasted-wood-wren",
@@ -776,8 +868,22 @@
     "diet": "Insectivore",
     "image": "/birds/white-breasted-wood-wren.jpg",
     "audio": "/audio/white-breasted-wood-wren.mp3",
-    "funFact": "Pairs often sing in duets, and the song has been compared to the opening bars of Beethoven's Fifth Symphony by ornithologist Luis Baptista.",
-    "frequency": "10.89%"
+    "funFact": "Stays low in humid forest understory; listen for duets when the bird is hard to see.",
+    "frequency": "10.89%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Chestnut brown upperparts",
+      "White underparts",
+      "Black-and-white streaked head sides",
+      "Barred wings and short tail"
+    ],
+    "voice": "Loud duetting song in dense forest; musical whistled phrases.",
+    "similarSpecies": [
+      "spot-breasted-wren"
+    ]
   },
   {
     "slug": "lineated-woodpecker",
@@ -794,8 +900,22 @@
     "diet": "Insectivore",
     "image": "/birds/lineated-woodpecker.jpg",
     "audio": "/audio/lineated-woodpecker.mp3",
-    "funFact": "Uses its strong bill to chip out large holes while searching for insects, especially ant and beetle larvae. Both males and females drum loudly on trees to communicate and establish territory.",
-    "frequency": "10.86%"
+    "funFact": "Our largest common woodpecker; look for white neck stripes and red crest at forest edge.",
+    "frequency": "10.86%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very large black woodpecker with red crest",
+      "White lines on neck and shoulders",
+      "Heavily barred underparts",
+      "Male: red line to throat"
+    ],
+    "voice": "Loud ringing wic-wic-wic; strong drumming.",
+    "similarSpecies": [
+      "pale-billed-woodpecker"
+    ]
   },
   {
     "slug": "red-legged-honeycreeper",
@@ -845,8 +965,19 @@
     "diet": "Omnivore",
     "image": "/birds/black-cowled-oriole.jpg",
     "audio": "/audio/black-cowled-oriole.mp3",
-    "funFact": "Builds a shallow pendant nest stitched to the underside of large leaves like heliconia or banana, making holes in the leaf and lacing fibers through them to hang the nest!",
-    "frequency": "10.31%"
+    "funFact": "Favors gardens, plantations, and open woodland; yellow patches flash in flight.",
+    "frequency": "10.31%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: mostly black with bright yellow shoulder, rump, and belly patches",
+      "Slender decurved bill",
+      "Female: olive-yellow with black face and wings (northern form)"
+    ],
+    "voice": "Clear whistled phrases and chattering calls.",
+    "similarSpecies": []
   },
   {
     "slug": "lessons-motmot",
@@ -863,8 +994,21 @@
     "diet": "Omnivore",
     "image": "/birds/lessons-motmot.jpg",
     "audio": "/audio/lessons-motmot.mp3",
-    "funFact": "Nests in tunnels dug into banks, laying 3-4 white eggs. The unique racket-shaped tail feathers are created when the barbs naturally fall off the central portion of the tail!",
-    "frequency": "10.15%"
+    "funFact": "Often sits motionless in shaded forest; tail rattles are a key ID feature when seen.",
+    "frequency": "10.15%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Blue crown band and black eye mask",
+      "Racket-shaped tail tips",
+      "Green body, stout bill"
+    ],
+    "voice": "Low owl-like ooo-doot.",
+    "similarSpecies": [
+      "tody-motmot"
+    ]
   },
   {
     "slug": "yellow-olive-flatbill",
@@ -883,8 +1027,20 @@
     "diet": "Insectivore",
     "image": "/birds/yellow-olive-flatbill.jpg",
     "audio": "/audio/yellow-olive-flatbill.mp3",
-    "funFact": "Builds a distinctive pear-shaped bag nest with a tube entrance that slopes upward! Made from rootlets, fungal rhizomorphs, grass, and spider web, adults roost in it even outside breeding season.",
-    "frequency": "10.11%"
+    "funFact": "Sluggish canopy flycatcher; peers slowly from mid-level perches in humid forest.",
+    "frequency": "10.11%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Olive crown with thin white eye-ring",
+      "Two yellowish wing bars",
+      "Bright yellow belly",
+      "Wide flat bill"
+    ],
+    "voice": "Whistled whee-up or similar phrases.",
+    "similarSpecies": []
   },
   {
     "slug": "pale-billed-woodpecker",
@@ -903,8 +1059,22 @@
     "diet": "Insectivore",
     "image": "/birds/pale-billed-woodpecker.jpg",
     "audio": "/audio/pale-billed-woodpecker.mp3",
-    "funFact": "Requires large trees for foraging and disappears from heavily deforested areas. Its characteristic call sounds like a nasal squeeze toy: 'kip kip kip kip-hey'eh'eh'!",
-    "frequency": "9.99%"
+    "funFact": "Needs large trees; listen for squeaky toy calls in mature forest and mangroves.",
+    "frequency": "9.99%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very large with long ivory-yellow bill",
+      "White V-shaped stripes on back",
+      "Barred buff underparts",
+      "Male: red crest; female: black crown center"
+    ],
+    "voice": "Nasal kip kip kip-hey calls.",
+    "similarSpecies": [
+      "lineated-woodpecker"
+    ]
   },
   {
     "slug": "common-tody-flycatcher",
@@ -923,8 +1093,20 @@
     "diet": "Insectivore",
     "image": "/birds/common-tody-flycatcher.jpg",
     "audio": "/audio/common-tody-flycatcher.mp3",
-    "funFact": "Builds a hanging pouch nest with a side entrance, often decorated with bits of lichen and spider webs. Both parents incubate and feed the young!",
-    "frequency": "9.93%"
+    "funFact": "One of the smallest flycatchers; often perches sideways on vertical stems at forest edge.",
+    "frequency": "9.93%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Tiny with black cap and white supercilium",
+      "Bright yellow underparts",
+      "Long flat black bill",
+      "Yellow iris"
+    ],
+    "voice": "High sharp tseek or trilled calls.",
+    "similarSpecies": []
   },
   {
     "slug": "long-billed-hermit",
@@ -943,8 +1125,22 @@
     "diet": "Nectarivore",
     "image": "/birds/long-billed-hermit.jpg",
     "audio": "/audio/long-billed-hermit.mp3",
-    "funFact": "Males sing in communal leks of up to 25 birds and wiggle their long tails in display. Competitive lek singing can occupy half of the daylight hours to attract females!",
-    "frequency": "9.89%"
+    "funFact": "Forest understory hummer; follows trap-line of flowers along shaded trails.",
+    "frequency": "9.89%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Long decurved bill",
+      "Greenish-brown upperparts",
+      "Long central tail feathers with white tips",
+      "Buff-gray underparts"
+    ],
+    "voice": "Chipping calls at forest leks; males sing persistently.",
+    "similarSpecies": [
+      "stripe-throated-hermit"
+    ]
   },
   {
     "slug": "gartered-trogon",
@@ -963,8 +1159,22 @@
     "diet": "Omnivore",
     "image": "/birds/gartered-trogon.jpg",
     "audio": "/audio/gartered-trogon.mp3",
-    "funFact": "Nests in wasp, ant, or termite arboreal nests or holes in rotten trees. Its diet includes more fruit than most other trogons, supplemented with many types of insects!",
-    "frequency": "9.74%"
+    "funFact": "Common at forest edge and clearings; compare violet head with Black-headed Trogon.",
+    "frequency": "9.74%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: violet-blue head and upper breast, metallic green back, yellow belly",
+      "White band between breast and belly",
+      "Female: gray above, duller yellow below"
+    ],
+    "voice": "Soft cooing and purring notes.",
+    "similarSpecies": [
+      "black-headed-trogon",
+      "slaty-tailed-trogon"
+    ]
   },
   {
     "slug": "green-backed-sparrow",
@@ -983,8 +1193,20 @@
     "diet": "Omnivore",
     "image": "/birds/green-backed-sparrow.jpg",
     "audio": "/audio/green-backed-sparrow.mp3",
-    "funFact": "Builds a dome-shaped nest on the ground with a side entrance, made from plant fibers, leaves, and bark. Forages on the ground, usually singly or in pairs!",
-    "frequency": "9.70%"
+    "funFact": "Forages on or near the ground at forest edge and scrub; olive back is distinctive.",
+    "frequency": "9.70%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Slate gray head with black crown stripes",
+      "Bright olive-green upperparts",
+      "Gray breast, white belly",
+      "Yellow wing edges"
+    ],
+    "voice": "Musical whistled song from low vegetation.",
+    "similarSpecies": []
   },
   {
     "slug": "northern-schiffornis",
@@ -1001,8 +1223,20 @@
     "diet": "Omnivore",
     "image": "/birds/northern-schiffornis.jpg",
     "audio": "/audio/northern-schiffornis.mp3",
-    "funFact": "Sings mostly in the early morning with a sequence of 2-4 clear, rich musical whistles! The female alone incubates eggs for 20-21 days and provisions nestlings by herself.",
-    "frequency": "9.26%"
+    "funFact": "Skulks in mid-story of humid forest; presence often detected by morning song.",
+    "frequency": "9.26%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Uniform dark brownish olive plumage",
+      "Indistinct pale eye ring",
+      "Both sexes alike",
+      "Thick tanager-like bill"
+    ],
+    "voice": "Clear rich whistles, mostly at dawn.",
+    "similarSpecies": []
   },
   {
     "slug": "barred-antshrike",
@@ -1020,8 +1254,19 @@
     "diet": "Insectivore",
     "image": "/birds/barred-antshrike.jpg",
     "audio": "/audio/barred-antshrike.mp3",
-    "funFact": "Pairs vigorously defend year-round territories and sing duets while stretching their necks, bowing forward, and pumping their tails up and down!",
-    "frequency": "8.93%"
+    "funFact": "Common in thickets and second growth; pairs defend territories year-round.",
+    "frequency": "8.93%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: black-and-white barring throughout",
+      "Female: cinnamon crest, streaked head, buff underparts",
+      "Bushy crest and hooked bill"
+    ],
+    "voice": "Loud duetting grating song; pairs pump tails while singing.",
+    "similarSpecies": []
   },
   {
     "slug": "yellow-bellied-flycatcher",
@@ -1070,8 +1315,19 @@
     "diet": "Nectarivore",
     "image": "/birds/white-necked-jacobin.jpg",
     "audio": "/audio/white-necked-jacobin.mp3",
-    "funFact": "Builds a shallow cup nest of plant down and cobweb on the upper surface of a leaf where another leaf provides a 'roof'! Several may feed in one tree and are aggressive to each other.",
-    "frequency": "8.62%"
+    "funFact": "Conspicuous at canopy flowers; males are unmistakable in good light.",
+    "frequency": "8.62%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: dark blue head and chest, white belly and nape band, green back",
+      "Female: variable; green above with scaled blue-green throat",
+      "White tail tips on male"
+    ],
+    "voice": "Sharp chips; aggressive at flowering trees.",
+    "similarSpecies": []
   },
   {
     "slug": "white-crowned-parrot",
@@ -1090,8 +1346,23 @@
     "diet": "Frugivore",
     "image": "/birds/white-crowned-parrot.jpg",
     "audio": "/audio/white-crowned-parrot.mp3",
-    "funFact": "When disturbed, these parrots make a distinctive musky odor! They travel in flocks of 10-40 birds and can become very tame in captivity, though wild-caught birds are protected by CITES.",
-    "frequency": "8.45%"
+    "funFact": "Look for white crown and red undertail in fast-flying flocks over forest edge.",
+    "frequency": "8.45%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "White forecrown and throat",
+      "Mostly green with red undertail coverts",
+      "Dark blue flight feathers",
+      "Bare pink facial skin"
+    ],
+    "voice": "Harsh screeching calls; noisy flocks in flight.",
+    "similarSpecies": [
+      "brown-hooded-parrot",
+      "mealy-amazon"
+    ]
   },
   {
     "slug": "olivaceous-woodcreeper",
@@ -1110,8 +1381,23 @@
     "diet": "Insectivore",
     "image": "/birds/olivaceous-woodcreeper.jpg",
     "audio": "/audio/olivaceous-woodcreeper.mp3",
-    "funFact": "Often follows army ant swarms to catch insects fleeing from the ants, and frequently joins mixed-species feeding flocks where it may even form a core species!",
-    "frequency": "8.45%"
+    "funFact": "Often with mixed flocks and ant swarms; plain olive plumage and rufous tail are key.",
+    "frequency": "8.45%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Small plain olivaceous woodcreeper",
+      "Rufous tail and wings",
+      "No streaking (unlike most woodcreepers)",
+      "Short straight bill"
+    ],
+    "voice": "High thin whistles from trunks.",
+    "similarSpecies": [
+      "ivory-billed-woodcreeper",
+      "wedge-billed-woodcreeper"
+    ]
   },
   {
     "slug": "wedge-tailed-sabrewing",
@@ -1129,8 +1415,20 @@
     "diet": "Nectarivore",
     "image": "/birds/wedge-tailed-sabrewing.jpg",
     "audio": "/audio/wedge-tailed-sabrewing.mp3",
-    "funFact": "Males sing the most complex song of any hummingbird, even comparable to songbirds! They display at leks and sing from bare twigs in the forest understory.",
-    "frequency": "7.66%"
+    "funFact": "Listen in humid forest for long musical phrases from low perches.",
+    "frequency": "7.66%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: bright violet crown, metallic green upperparts",
+      "Grayish underparts",
+      "Stout straight bill",
+      "Female: duller blue crown"
+    ],
+    "voice": "Complex whistled song for a hummingbird; sings from understory perches.",
+    "similarSpecies": []
   },
   {
     "slug": "bat-falcon",
@@ -1149,8 +1447,20 @@
     "diet": "Carnivore",
     "image": "/birds/bat-falcon.jpg",
     "audio": "/audio/bat-falcon.mp3",
-    "funFact": "Named for their habit of hunting bats! They are most active around dawn and dusk, often hunting well past sunset from high, open perches.",
-    "frequency": "7.61%"
+    "funFact": "Perches high on snags at forest edge; most active around dawn and dusk.",
+    "frequency": "7.61%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Small falcon with long pointed wings",
+      "Black upperparts, white throat",
+      "Barred black-and-white breast",
+      "Chestnut belly and legs"
+    ],
+    "voice": "High kek-kek-kek calls.",
+    "similarSpecies": []
   },
   {
     "slug": "black-cheeked-woodpecker",
@@ -1169,8 +1479,21 @@
     "diet": "Omnivore",
     "image": "/birds/black-cheeked-woodpecker.jpg",
     "audio": "/audio/black-cheeked-woodpecker.mp3",
-    "funFact": "Very active and agile forager that sometimes clings to the underside of branches! Feeds on everything from insects to fruits to flower nectar.",
-    "frequency": "7.35%"
+    "funFact": "Active in clearings and second growth; smaller and more colorful than Lineated Woodpecker.",
+    "frequency": "7.35%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Golden yellow forehead, red crown (male)",
+      "Black cheek patch with white line behind eye",
+      "Barred back, red belly spot"
+    ],
+    "voice": "Rolling churrs and rattling calls.",
+    "similarSpecies": [
+      "lineated-woodpecker"
+    ]
   },
   {
     "slug": "blue-black-grosbeak",
@@ -1188,8 +1511,19 @@
     "diet": "Omnivore",
     "image": "/birds/blue-black-grosbeak.jpg",
     "audio": "/audio/blue-black-grosbeak.mp3",
-    "funFact": "Often not seen because they prefer to stay hidden in vegetation - their presence is usually known only by their distinctive song of about six whistles with decreasing pitch!",
-    "frequency": "7.33%"
+    "funFact": "Usually hidden in dense understory; learn the song to find it.",
+    "frequency": "7.33%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: dark blue with lighter blue eyebrows and wing patches",
+      "Female: dark brown",
+      "Heavy silver bill"
+    ],
+    "voice": "Series of about six whistles descending in pitch.",
+    "similarSpecies": []
   },
   {
     "slug": "bright-rumped-attila",
@@ -1208,8 +1542,21 @@
     "diet": "Omnivore",
     "image": "/birds/bright-rumped-attila.jpg",
     "audio": "/audio/bright-rumped-attila.mp3",
-    "funFact": "Active, aggressive, and noisy! Will pursue prey on foot and follow army ant columns. Known for its loud 'beat-it, beat-it' call and plaintive whistled song.",
-    "frequency": "7.32%"
+    "funFact": "Noisy and aggressive in thickets; bright yellow rump visible when it flies.",
+    "frequency": "7.32%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large flycatcher with hooked upturned bill",
+      "Bright yellow rump",
+      "Olive head streaked black",
+      "Red iris",
+      "Variable yellow breast streaking"
+    ],
+    "voice": "Loud beat-it, beat-it call and plaintive whistles.",
+    "similarSpecies": []
   },
   {
     "slug": "scaly-breasted-hummingbird",
@@ -1229,8 +1576,22 @@
     "diet": "Nectarivore",
     "image": "/birds/scaly-breasted-hummingbird.jpg",
     "audio": "/audio/scaly-breasted-hummingbird.mp3",
-    "funFact": "Males display for females at leks during breeding season. This hummingbird aggressively defends patches of flowers and dominates smaller hummingbirds at feeding sites!",
-    "frequency": "7.31%"
+    "funFact": "Favors drier edge habitats and mangroves; scaly underpart pattern is distinctive.",
+    "frequency": "7.31%",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Bronzy green above",
+      "Gray-buff belly with scaly feather edges",
+      "Bronze tail with white tips on outer feathers",
+      "Black bill with pink base"
+    ],
+    "voice": "Chips and buzzy display notes at leks.",
+    "similarSpecies": [
+      "white-bellied-emerald"
+    ]
   },
   {
     "slug": "short-billed-pigeon",
