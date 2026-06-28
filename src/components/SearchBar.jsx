@@ -88,6 +88,9 @@ const SearchBar = () => {
     sortBy,
     setSortBy,
     resetFilters,
+    checklistFilter,
+    setChecklistFilter,
+    seenCount,
     filteredBirds,
     birds,
   } = useAppContext();
@@ -111,7 +114,8 @@ const SearchBar = () => {
     selectedHabitats.length > 0 ||
     selectedFamilies.length > 0 ||
     selectedSizes.length > 0 ||
-    selectedDiets.length > 0;
+    selectedDiets.length > 0 ||
+    checklistFilter !== 'all';
 
   const checkboxOption = (item, selected, setSelected, label = item) => (
     <label
@@ -224,23 +228,45 @@ const SearchBar = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-          <div className="text-sm text-gray-600">
-            Showing {filteredBirds.length} of {birds.length} birds
+          <div className="text-sm text-gray-600 space-y-1">
+            <div>
+              Showing {filteredBirds.length} of {birds.length} birds
+            </div>
+            <div>
+              {seenCount} of {birds.length} species seen
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <label htmlFor="sort-by" className="text-sm text-gray-600">
-              Sort by:
-            </label>
-            <select
-              id="sort-by"
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-belize-green focus:border-transparent"
-            >
-              <option value="taxonomic">Taxonomic</option>
-              <option value="alpha">A–Z</option>
-              <option value="frequency">Most common</option>
-            </select>
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="flex items-center gap-2">
+              <label htmlFor="checklist-filter" className="text-sm text-gray-600">
+                Checklist:
+              </label>
+              <select
+                id="checklist-filter"
+                value={checklistFilter}
+                onChange={(e) => setChecklistFilter(e.target.value)}
+                className="text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-belize-green focus:border-transparent"
+              >
+                <option value="all">All</option>
+                <option value="seen">Seen</option>
+                <option value="unseen">Unseen</option>
+              </select>
+            </div>
+            <div className="flex items-center gap-2">
+              <label htmlFor="sort-by" className="text-sm text-gray-600">
+                Sort by:
+              </label>
+              <select
+                id="sort-by"
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-belize-green focus:border-transparent"
+              >
+                <option value="taxonomic">Taxonomic</option>
+                <option value="alpha">A–Z</option>
+                <option value="frequency">Most common</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>

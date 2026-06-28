@@ -9,17 +9,24 @@ A modern, offline-capable field guide to the birds of Belize. Built with React, 
 ### Bird Gallery
 - Browse 160+ bird species found in Belize
 - Card-based layout with species photos
+- **Shareable species pages** at `/species/[slug]` for each bird
+- **Personal checklist** — mark species seen in the field (saved locally)
 - Detailed species accounts including:
   - Common and scientific names
   - Family classification (scientific and common names)
+  - Structured identification (field marks when available)
+  - Voice description and audio playback
   - Habitat preferences
   - Diet and size information
-  - Field notes on behavior, voice, and identification
+  - Status and regions (when available)
+  - Similar species links
+  - Field notes on behavior and identification
   - eBird reporting rate (when available)
 
 ### Search & Filter
 - Real-time search by common or scientific name
 - Filter by habitat, family, size, and diet
+- Filter checklist by seen / unseen
 - Sort by taxonomic order, A–Z, or most common
 - View filtered results count
 - Easy-to-use clear filters button
@@ -153,9 +160,15 @@ belizebirds/
 ├── src/
 │   ├── components/
 │   │   ├── AudioPlayer.jsx     # Audio playback component
-│   │   ├── BirdCard.jsx        # Individual bird card with details modal
+│   │   ├── BirdCard.jsx        # Gallery card linking to species page
 │   │   ├── BirdGallery.jsx     # Main gallery grid view
+│   │   ├── SpeciesPage.jsx     # Full species account page
+│   │   ├── NotFound.jsx        # Unknown route / species
 │   │   └── SearchBar.jsx       # Search, filter, and sort controls
+│   ├── hooks/
+│   │   └── useChecklist.js     # LocalStorage life list
+│   ├── utils/
+│   │   └── birdSlugs.js        # Slug helpers
 │   ├── context/
 │   │   └── AppContext.jsx      # Global state management
 │   ├── data/
@@ -242,16 +255,14 @@ colors: {
 
 Modify these to match your preferred color scheme.
 
-## Future Enhancement Ideas
+## Future Enhancement Ideas (Phase 3)
 
-- **Shareable species pages**: URL routing for individual species
-- **Expanded ID data**: Structured field marks, similar species, status
-- **Checklist / life list**: Track species seen in the field
 - **Bird comparison**: View multiple species side-by-side
-- **Location-based filters**: Filter by region within Belize
+- **Location-based filters**: Filter by region within Belize (once `regions` data is backfilled)
 - **Habitat normalization**: Standardize habitat taxonomy for reliable filtering
 - **Audio library**: Populate bird call recordings for all species
 - **Dark mode**: Toggle for light/dark theme
+- **Checklist export**: Export life list or sync with eBird
 
 ## Contributing
 
