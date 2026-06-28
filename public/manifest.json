@@ -1,7 +1,7 @@
 {
   "name": "Belize Birds",
   "short_name": "Birds",
-  "description": "Learn about the most common birds found in Belize. Browse, search, and quiz yourself on bird identification. Works offline for field birding.",
+  "description": "A field guide to the birds of Belize. Browse, search, and identify species — works offline in the field.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -34,7 +34,7 @@
       "purpose": "maskable"
     }
   ],
-  "categories": ["education", "reference"],
+  "categories": ["reference", "lifestyle"],
   "screenshots": [
     {
       "src": "./icons/screenshot-1.png",

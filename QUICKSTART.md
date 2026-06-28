@@ -20,24 +20,18 @@
 
 ## What You Can Do Now
 
-### Explore the Gallery
-- Browse all 20 Belize bird species
-- Click any bird card to see detailed information
-- Use search to find birds by name
-- Filter by habitat or family
-
-### Take a Quiz
-- Click "Start Quiz" in the navigation
-- Choose between:
-  - **Identify the Bird**: Match images to names
-  - **Match the Call**: Identify birds by their sounds
-- Track your progress and score
+### Browse the Field Guide
+- Browse 160+ bird species of Belize
+- Click any bird card to see a detailed species account
+- Search by common or scientific name
+- Filter by habitat, family, size, or diet
+- Sort by taxonomic order, A–Z, or most common (eBird reporting rate)
 
 ## Next Steps
 
 ### Add Real Bird Media
 
-The app currently uses placeholder images. To add real photos and audio:
+The app currently uses placeholder images for some species. To add real photos and audio:
 
 1. **Download bird images** from sources like:
    - [Macaulay Library](https://www.macaulaylibrary.org/)
@@ -56,9 +50,8 @@ The app currently uses placeholder images. To add real photos and audio:
 
 ### Customize the App
 
-- **Add more birds**: Edit `src/data/birds.json`
+- **Add more birds**: Edit `src/data/birds.json` or use the add-bird skill
 - **Change colors**: Update the `@theme` section in `src/index.css`
-- **Modify quiz length**: Change the number `10` in `Navigation.jsx` (line with `startQuiz`)
 
 ## Troubleshooting
 
@@ -77,15 +70,14 @@ The app currently uses placeholder images. To add real photos and audio:
 
 ## Features Overview
 
-- ✅ Responsive design (mobile, tablet, desktop)
-- ✅ Search & filter functionality
-- ✅ Interactive bird cards with details
-- ✅ Audio player with controls
-- ✅ Two quiz modes
-- ✅ Score tracking
-- ✅ State management with React Context
-- ✅ Tailwind CSS styling
+- Responsive design (mobile, tablet, desktop)
+- Search, filter, and sort functionality
+- Interactive bird cards with species detail modal
+- Audio player with controls
+- Offline PWA support for field use
+- State management with React Context
+- Tailwind CSS styling
 
 For full documentation, see [README.md](./README.md)
 
-Happy birding! 🦜
+Happy birding!

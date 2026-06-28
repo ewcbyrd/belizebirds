@@ -4,11 +4,15 @@ import { cacheManager } from '../utils/cacheManager';
 
 const AppContext = createContext();
 
-// Helper function to get full path for public assets
 const getAssetPath = (path) => {
-  // Remove leading slash if present and prepend BASE_URL
   const cleanPath = path.replace(/^\//, '');
   return import.meta.env.BASE_URL + cleanPath;
+};
+
+const parseFrequency = (frequency) => {
+  if (!frequency) return -1;
+  const num = parseFloat(frequency.replace('%', ''));
+  return isNaN(num) ? -1 : num;
 };
 
 export const useAppContext = () => {
@@ -20,16 +24,11 @@ export const useAppContext = () => {
 };
 
 export const AppProvider = ({ children }) => {
-  // App Mode: 'gallery' or 'quiz'
-  const [mode, setMode] = useState('gallery');
-
-  // Offline state
   const [isOnline, setIsOnline] = useState(
     typeof navigator !== 'undefined' ? navigator.onLine : true
   );
   const [lastSyncTime, setLastSyncTime] = useState(null);
 
-  // Birds data with BASE_URL prepended to image and audio paths
   const [birds] = useState(() =>
     birdsData.map(bird => ({
       ...bird,
@@ -38,30 +37,22 @@ export const AppProvider = ({ children }) => {
     }))
   );
 
-  // Initialize cache and listen for online/offline events
   useEffect(() => {
-    // Initialize cache manager
     const initCache = async () => {
       await cacheManager.init();
-      // Cache the birds data
       await cacheManager.cacheBirds(birds);
-      // Update last sync time
       const syncTime = await cacheManager.getFormattedLastSync();
       setLastSyncTime(syncTime);
     };
 
     initCache();
 
-    // Handle online/offline events
     const handleOnline = () => {
-      console.log('[App] Back online');
       setIsOnline(true);
-      // Optionally trigger cache refresh
       initCache();
     };
 
     const handleOffline = () => {
-      console.log('[App] Gone offline');
       setIsOnline(false);
     };
 
@@ -74,30 +65,19 @@ export const AppProvider = ({ children }) => {
     };
   }, [birds]);
 
-  // Search and Filter state
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedHabitats, setSelectedHabitats] = useState([]);
   const [selectedFamilies, setSelectedFamilies] = useState([]);
+  const [selectedSizes, setSelectedSizes] = useState([]);
+  const [selectedDiets, setSelectedDiets] = useState([]);
+  const [sortBy, setSortBy] = useState('taxonomic');
 
-  // Audio state (to prevent multiple audio playing at once)
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
-
-  // Quiz state
-  const [quizMode, setQuizMode] = useState('identify'); // 'identify' or 'match-call'
-  const [quizQuestions, setQuizQuestions] = useState([]);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [answers, setAnswers] = useState([]);
-  const [quizComplete, setQuizComplete] = useState(false);
-  const [score, setScore] = useState(0);
-
-  // Filtered birds based on search and filters
   const [filteredBirds, setFilteredBirds] = useState(birds);
 
-  // Filter birds whenever search or filter changes
   useEffect(() => {
     let result = birds;
 
-    // Apply search term
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
       result = result.filter(
@@ -107,129 +87,67 @@ export const AppProvider = ({ children }) => {
       );
     }
 
-    // Apply habitat filter
     if (selectedHabitats.length > 0) {
       result = result.filter((bird) =>
         bird.habitat.some((h) => selectedHabitats.includes(h))
       );
     }
 
-    // Apply family filter
     if (selectedFamilies.length > 0) {
       result = result.filter((bird) =>
         selectedFamilies.includes(bird.family)
       );
     }
 
+    if (selectedSizes.length > 0) {
+      result = result.filter((bird) => selectedSizes.includes(bird.size));
+    }
+
+    if (selectedDiets.length > 0) {
+      result = result.filter((bird) => selectedDiets.includes(bird.diet));
+    }
+
     setFilteredBirds(result);
-  }, [searchTerm, selectedHabitats, selectedFamilies, birds]);
+  }, [searchTerm, selectedHabitats, selectedFamilies, selectedSizes, selectedDiets, birds]);
 
-  // Get all unique habitats from birds data
   const allHabitats = [...new Set(birds.flatMap((bird) => bird.habitat))].sort();
-
-  // Get all unique families from birds data
   const allFamilies = [...new Set(birds.map((bird) => bird.family))].sort();
+  const allSizes = [...new Set(birds.map((bird) => bird.size))].sort();
+  const allDiets = [...new Set(birds.map((bird) => bird.diet))].sort();
 
-  // Reset filters
   const resetFilters = () => {
     setSearchTerm('');
     setSelectedHabitats([]);
     setSelectedFamilies([]);
-  };
-
-  // Quiz functions
-  const startQuiz = (mode = 'identify', numQuestions = 10) => {
-    setQuizMode(mode);
-    setCurrentQuestionIndex(0);
-    setAnswers([]);
-    setQuizComplete(false);
-    setScore(0);
-
-    // Generate random questions from birds
-    const shuffled = [...birds].sort(() => 0.5 - Math.random());
-    const questions = shuffled.slice(0, Math.min(numQuestions, birds.length));
-    setQuizQuestions(questions);
-    setMode('quiz');
-  };
-
-  const answerQuestion = (birdId, selectedAnswer) => {
-    const currentBird = quizQuestions[currentQuestionIndex];
-    const isCorrect = currentBird.id === selectedAnswer;
-
-    setAnswers([
-      ...answers,
-      {
-        questionIndex: currentQuestionIndex,
-        birdId: currentBird.id,
-        selectedAnswer,
-        isCorrect,
-      },
-    ]);
-
-    if (isCorrect) {
-      setScore(score + 1);
-    }
-
-    // Move to next question or complete quiz
-    if (currentQuestionIndex + 1 >= quizQuestions.length) {
-      setQuizComplete(true);
-    } else {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-    }
-  };
-
-  const restartQuiz = () => {
-    startQuiz(quizMode, quizQuestions.length);
-  };
-
-  const exitQuiz = () => {
-    setMode('gallery');
-    setQuizQuestions([]);
-    setCurrentQuestionIndex(0);
-    setAnswers([]);
-    setQuizComplete(false);
-    setScore(0);
+    setSelectedSizes([]);
+    setSelectedDiets([]);
   };
 
   const value = {
-    // Mode
-    mode,
-    setMode,
-
-    // Offline state
     isOnline,
     lastSyncTime,
-
-    // Birds data
     birds,
     filteredBirds,
-
-    // Search and filters
     searchTerm,
     setSearchTerm,
     selectedHabitats,
     setSelectedHabitats,
     selectedFamilies,
     setSelectedFamilies,
+    selectedSizes,
+    setSelectedSizes,
+    selectedDiets,
+    setSelectedDiets,
     allHabitats,
     allFamilies,
+    allSizes,
+    allDiets,
+    sortBy,
+    setSortBy,
     resetFilters,
-
-    // Audio
     currentlyPlaying,
     setCurrentlyPlaying,
-
-    // Quiz
-    quizMode,
-    quizQuestions,
-    currentQuestionIndex,
-    answers,
-    quizComplete,
-    score,
-    startQuiz,
-    answerQuestion,
-    restartQuiz,
-    exitQuiz,
+    parseFrequency,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
