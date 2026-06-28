@@ -2903,5 +2903,23 @@
     "image": "/birds/double-toothed-kite.jpg",
     "audio": "/audio/double-toothed-kite.mp3",
     "funFact": "Gets its name from tooth-like notches on its upper bill and regularly follows troops of monkeys to catch prey flushed from the forest floor."
+  },
+  {
+    "id": 159,
+    "commonName": "Great Curassow",
+    "scientificName": "Crax rubra",
+    "frequency": "",
+    "family": "Cracidae",
+    "habitat": [
+      "Lowland rainforest",
+      "Tropical evergreen forest",
+      "Forest floor"
+    ],
+    "description": "A very large cracid 78-100 cm (31-39 in) long and up to 4.8 kg (10.6 lb). Males are black with a curly crest, white belly, and yellow bill knob; females occur in barred, rufous, or black morphs. Found in Neotropical rainforests from eastern Mexico through Belize and Central America, foraging mainly on the ground for fallen fruit and arthropods.",
+    "size": "Large",
+    "diet": "Omnivore",
+    "image": "/birds/great-curassow.jpg",
+    "audio": "/audio/great-curassow.mp3",
+    "funFact": "When a predator approaches its chicks, the great curassow performs a distraction display by feigning injury to draw the threat away from its offspring."
   }
 ]
