@@ -21,11 +21,11 @@
 ## What You Can Do Now
 
 ### Browse the Field Guide
-- Browse 160+ bird species of Belize
-- Click any bird card to see a detailed species account
+- Browse 160+ curated bird species plus eBird-synced species across all Belize districts
+- Click any bird card to open its shareable species page at `/species/[slug]`
 - Search by common or scientific name
-- Filter by habitat, family, size, or diet
-- Sort by taxonomic order, A–Z, or most common (eBird reporting rate)
+- Filter by district, habitat, family, size, or diet; filter checklist by seen/unseen
+- Sort by taxonomic order, A–Z, or most common (eBird reporting rate for Cayo curated species)
 
 ## Next Steps
 
@@ -72,7 +72,7 @@ The app currently uses placeholder images for some species. To add real photos a
 
 - Responsive design (mobile, tablet, desktop)
 - Search, filter, and sort functionality
-- Interactive bird cards with species detail modal
+- Interactive bird cards linking to species pages
 - Audio player with controls
 - Offline PWA support for field use
 - State management with React Context

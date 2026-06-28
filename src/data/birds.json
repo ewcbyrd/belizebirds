@@ -5210,5 +5210,1646 @@
     ],
     "voice": "Distinctive whistled duet.",
     "similarSpecies": []
+  },
+  {
+    "slug": "black-bellied-whistling-duck",
+    "commonName": "Black-bellied Whistling-Duck",
+    "scientificName": "Dendrocygna autumnalis",
+    "family": "Anatidae",
+    "habitat": [
+      "Wetlands",
+      "Lakes",
+      "Agricultural areas",
+      "Rivers & streams"
+    ],
+    "description": "A distinctive long-legged duck with a bright pink bill and coral-red legs. Adults are chestnut below with a black belly patch, gray face, and bold white wing stripe visible in flight. Often perches in trees and feeds in shallow wetlands and rice fields.",
+    "size": "Medium-large",
+    "diet": "Omnivore",
+    "funFact": "Flocks give whistling calls from treetops at dawn and dusk; often seen walking on muddy banks rather than swimming.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Bright pink bill and coral-red legs",
+      "Chestnut breast, black belly patch",
+      "Bold white wing stripe in flight"
+    ],
+    "voice": "Clear whistling calls, often from treetops.",
+    "similarSpecies": [],
+    "id": 161,
+    "image": "/birds/black-bellied-whistling-duck.jpg",
+    "audio": "/audio/black-bellied-whistling-duck.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "muscovy-duck",
+    "commonName": "Muscovy Duck",
+    "scientificName": "Cairina moschata",
+    "family": "Anatidae",
+    "habitat": [
+      "Wetlands",
+      "Rivers & streams",
+      "Agricultural areas",
+      "Urban areas"
+    ],
+    "description": "A large, heavy-bodied duck with a distinctive red facial caruncle on males. Wild-type birds are mostly black with white wing patches; domestic forms vary widely. Perches readily in trees near water.",
+    "size": "Large",
+    "diet": "Omnivore",
+    "funFact": "Often seen along rivers and village ponds; males show prominent red warty facial skin.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large size, heavy body",
+      "Red facial caruncles on male",
+      "Dark plumage with white wing patches (wild type)"
+    ],
+    "voice": "Low hisses and puffing displays; usually quiet.",
+    "similarSpecies": [],
+    "id": 162,
+    "image": "/birds/muscovy-duck.jpg",
+    "audio": "/audio/muscovy-duck.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "blue-winged-teal",
+    "commonName": "Blue-winged Teal",
+    "scientificName": "Spatula discors",
+    "family": "Anatidae",
+    "habitat": [
+      "Wetlands",
+      "Lakes",
+      "Agricultural areas"
+    ],
+    "description": "A small dabbling duck. Breeding males have a white crescent in front of the eye and a speckled blue forewing. Females are mottled brown with a dark eyeline. Common on shallow ponds and flooded fields in winter.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "funFact": "Look for the white crescent on males and powder-blue shoulder patch in flight.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: white crescent in front of eye",
+      "Powder-blue forewing patch in flight",
+      "Small compact dabbling duck"
+    ],
+    "voice": "Peeping calls from flocks on wetlands.",
+    "similarSpecies": [
+      "cinnamon-teal",
+      "northern-shoveler"
+    ],
+    "id": 163,
+    "image": "/birds/blue-winged-teal.jpg",
+    "audio": "/audio/blue-winged-teal.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "cinnamon-teal",
+    "commonName": "Cinnamon Teal",
+    "scientificName": "Spatula cyanoptera",
+    "family": "Anatidae",
+    "habitat": [
+      "Wetlands",
+      "Lakes",
+      "Agricultural areas"
+    ],
+    "description": "A small dabbling duck. Males are rich cinnamon-red with a red eye and dark back; females are mottled brown resembling other teal. Found on shallow freshwater marshes and ponds.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "funFact": "Male cinnamon body and red eye are distinctive among Belize ducks when present.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: rich cinnamon-red body, red eye",
+      "Female: warm brown mottling, dark eyeline",
+      "Small dabbling duck on shallow wetlands"
+    ],
+    "voice": "Soft quacking; less vocal than larger ducks.",
+    "similarSpecies": [
+      "blue-winged-teal"
+    ],
+    "id": 164,
+    "image": "/birds/cinnamon-teal.jpg",
+    "audio": "/audio/cinnamon-teal.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "northern-shoveler",
+    "commonName": "Northern Shoveler",
+    "scientificName": "Spatula clypeata",
+    "family": "Anatidae",
+    "habitat": [
+      "Wetlands",
+      "Lakes",
+      "Agricultural areas"
+    ],
+    "description": "A distinctive dabbling duck with an oversized spoon-shaped bill. Breeding males have green head, white breast, and chestnut flanks; females are mottled brown with a large bill. Filters food from shallow water by bill sweeping.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "The enormous bill is the best field mark at any distance.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Oversized spoon-shaped bill",
+      "Male: green head, white breast, chestnut sides",
+      "Female: large bill, mottled brown"
+    ],
+    "voice": "Soft quacking; often silent on wintering grounds.",
+    "similarSpecies": [
+      "blue-winged-teal"
+    ],
+    "id": 165,
+    "image": "/birds/northern-shoveler.jpg",
+    "audio": "/audio/northern-shoveler.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "american-wigeon",
+    "commonName": "American Wigeon",
+    "scientificName": "Mareca americana",
+    "family": "Anatidae",
+    "habitat": [
+      "Wetlands",
+      "Lakes",
+      "Agricultural areas"
+    ],
+    "description": "A medium-sized dabbling duck. Males have a green eye patch, whitish crown, and pinkish-brown body; females are gray-brown. Often grazes on land and shows a black-bordered white wing patch in flight.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "Note the pale crown on males and white forewing in flight on flooded fields and lagoons.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: green eye patch, whitish crown",
+      "White wing patch with black trailing edge",
+      "Short bluish bill with black tip"
+    ],
+    "voice": "Soft whistled wheezy calls.",
+    "similarSpecies": [],
+    "id": 166,
+    "image": "/birds/american-wigeon.jpg",
+    "audio": "/audio/american-wigeon.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "northern-pintail",
+    "commonName": "Northern Pintail",
+    "scientificName": "Anas acuta",
+    "family": "Anatidae",
+    "habitat": [
+      "Wetlands",
+      "Lakes",
+      "Agricultural areas"
+    ],
+    "description": "An elegant, slender duck with a long pointed tail. Males have chocolate-brown head, white neck stripe, and gray body; females are mottled brown with a pointed tail. Feeds by dabbling in open shallow wetlands.",
+    "size": "Medium-large",
+    "diet": "Omnivore",
+    "funFact": "Slender shape and long tail distinguish it from other dabbling ducks in flight.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Long pointed tail (both sexes)",
+      "Male: brown head, white neck stripe, gray body",
+      "Slender graceful profile"
+    ],
+    "voice": "Soft whistling calls from males; quacking from females.",
+    "similarSpecies": [],
+    "id": 167,
+    "image": "/birds/northern-pintail.jpg",
+    "audio": "/audio/northern-pintail.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "ring-necked-duck",
+    "commonName": "Ring-necked Duck",
+    "scientificName": "Aythya collaris",
+    "family": "Anatidae",
+    "habitat": [
+      "Lakes",
+      "Wetlands"
+    ],
+    "description": "A compact diving duck. Males are blackish with a white ring on the bill and gray sides; the chestnut neck ring is usually hidden. Females are brown with a white eyering and pale cheek patch.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "Look for the white bill ring on males and peaked head shape when diving on lagoons.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: white ring on bill, black back, gray sides",
+      "Peaked head shape",
+      "Female: brown with white eyering"
+    ],
+    "voice": "Quiet grunts; usually silent.",
+    "similarSpecies": [
+      "lesser-scaup"
+    ],
+    "id": 168,
+    "image": "/birds/ring-necked-duck.jpg",
+    "audio": "/audio/ring-necked-duck.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "lesser-scaup",
+    "commonName": "Lesser Scaup",
+    "scientificName": "Aythya affinis",
+    "family": "Anatidae",
+    "habitat": [
+      "Lakes",
+      "Wetlands"
+    ],
+    "description": "A small diving duck. Males have a black head with purple gloss, black breast, and gray back; females are brown with white at the base of the bill. Often forms large rafts on open water in winter.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "Rafts on open lagoons; male head can look black or purplish depending on light.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: black head, gray back, small size for Aythya",
+      "Female: brown with white at bill base",
+      "Peaked rear crown"
+    ],
+    "voice": "Soft grunts during display; mostly silent in Belize.",
+    "similarSpecies": [
+      "ring-necked-duck"
+    ],
+    "id": 169,
+    "image": "/birds/lesser-scaup.jpg",
+    "audio": "/audio/lesser-scaup.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "plain-chachalaca",
+    "commonName": "Plain Chachalaca",
+    "scientificName": "Ortalis vetula",
+    "family": "Cracidae",
+    "habitat": [
+      "Forest edges",
+      "Secondary forest",
+      "Scrub & thicket",
+      "Rivers & streams"
+    ],
+    "description": "A long-tailed, chicken-like bird of wooded edges and riparian thickets. Mostly olive-brown with a buff belly and bare red throat skin. Noisy groups run along branches and give loud chorus calls at dawn.",
+    "size": "Medium-large",
+    "diet": "Omnivore",
+    "funFact": "Listen for raucous chachalaca choruses at dawn in river-edge woodland.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Long tail, chicken-like shape",
+      "Olive-brown above, buff belly",
+      "Bare red throat patch"
+    ],
+    "voice": "Loud rhythmic chachalaca chorus, especially at dawn.",
+    "similarSpecies": [
+      "crested-guan"
+    ],
+    "id": 170,
+    "image": "/birds/plain-chachalaca.jpg",
+    "audio": "/audio/plain-chachalaca.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "black-throated-bobwhite",
+    "commonName": "Black-throated Bobwhite",
+    "scientificName": "Colinus nigrogularis",
+    "family": "Odontophoridae",
+    "habitat": [
+      "Scrub & thicket",
+      "Agricultural areas",
+      "Savanna",
+      "Open woodland"
+    ],
+    "description": "A small round quail of open scrub and field edges. Males have a black throat and eyebrow with buff underparts; females are buffier and more mottled. Usually seen in coveys flushing with whirring wings.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "funFact": "Coveys flush explosively from roadside scrub; male black throat is distinctive.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: black throat and eyebrow, buff underparts",
+      "Female: buff mottling, no black throat",
+      "Small round quail, short crest"
+    ],
+    "voice": "Clear whistled bob-WHITE calls from males.",
+    "similarSpecies": [
+      "spotted-wood-quail"
+    ],
+    "id": 171,
+    "image": "/birds/black-throated-bobwhite.jpg",
+    "audio": "/audio/black-throated-bobwhite.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "rock-pigeon",
+    "commonName": "Rock Pigeon",
+    "scientificName": "Columba livia",
+    "family": "Columbidae",
+    "habitat": [
+      "Urban areas",
+      "Coastal areas",
+      "Open areas"
+    ],
+    "description": "The familiar feral pigeon of towns and villages. Variable plumage but often blue-gray with two dark wing bars and iridescent neck. Strong direct flight on broad wings.",
+    "size": "Medium",
+    "diet": "Granivore",
+    "funFact": "Common around settlements; wild-type birds show pale wing bars and dark wing tips.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Blue-gray body (typical wild type)",
+      "Two black wing bars",
+      "Broad rounded tail with dark band"
+    ],
+    "voice": "Low cooing from rooftops and town squares.",
+    "similarSpecies": [
+      "red-billed-pigeon",
+      "pale-vented-pigeon"
+    ],
+    "id": 172,
+    "image": "/birds/rock-pigeon.jpg",
+    "audio": "/audio/rock-pigeon.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "scaled-pigeon",
+    "commonName": "Scaled Pigeon",
+    "scientificName": "Patagioenas speciosa",
+    "family": "Columbidae",
+    "habitat": [
+      "Forest canopy",
+      "Forest edges",
+      "Secondary forest"
+    ],
+    "description": "A large forest pigeon. Dark maroon-brown overall with a scaly pattern on the neck and a red bill with pale tip. Often flushed from canopy with loud wing claps.",
+    "size": "Medium-large",
+    "diet": "Frugivore",
+    "funFact": "Listen for wing claps when birds flush from tall forest; scaly neck pattern is distinctive.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Dark maroon-brown plumage",
+      "Scaly pattern on neck sides",
+      "Red bill with pale tip"
+    ],
+    "voice": "Deep hooting calls in forest canopy.",
+    "similarSpecies": [
+      "red-billed-pigeon",
+      "pale-vented-pigeon"
+    ],
+    "id": 173,
+    "image": "/birds/scaled-pigeon.jpg",
+    "audio": "/audio/scaled-pigeon.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "white-crowned-pigeon",
+    "commonName": "White-crowned Pigeon",
+    "scientificName": "Patagioenas leucocephala",
+    "family": "Columbidae",
+    "habitat": [
+      "Coastal areas",
+      "Mangroves",
+      "Forest edges"
+    ],
+    "description": "A large dark pigeon with a crisp white cap and pale eye. Body is dark gray with iridescent green on the back. Strong flier between coastal mangroves and inland feeding areas.",
+    "size": "Medium-large",
+    "diet": "Frugivore",
+    "funFact": "White crown and pale eye stand out on dark body; often flies high between coast and forest.",
+    "status": "Resident",
+    "regions": [
+      "Coastal areas",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Crisp white crown",
+      "Pale iris on dark gray body",
+      "Iridescent green on back in good light"
+    ],
+    "voice": "Low hooting calls; wings audible in flight.",
+    "similarSpecies": [
+      "red-billed-pigeon"
+    ],
+    "id": 174,
+    "image": "/birds/white-crowned-pigeon.jpg",
+    "audio": "/audio/white-crowned-pigeon.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "red-billed-pigeon",
+    "commonName": "Red-billed Pigeon",
+    "scientificName": "Patagioenas flavirostris",
+    "family": "Columbidae",
+    "habitat": [
+      "Forest canopy",
+      "Forest edges",
+      "Secondary forest"
+    ],
+    "description": "A large purple-brown pigeon with a red bill and yellowish tip. Tail is gray without white markings. Common in forest and woodland, often seen flying overhead in pairs.",
+    "size": "Medium-large",
+    "diet": "Frugivore",
+    "funFact": "Purple-brown body and red-and-yellow bill distinguish it from short-billed and pale-vented pigeons.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Purple-brown body",
+      "Red bill with yellow tip",
+      "Plain gray tail, no white band"
+    ],
+    "voice": "Low whooing calls from canopy.",
+    "similarSpecies": [
+      "short-billed-pigeon",
+      "pale-vented-pigeon",
+      "scaled-pigeon"
+    ],
+    "id": 175,
+    "image": "/birds/red-billed-pigeon.jpg",
+    "audio": "/audio/red-billed-pigeon.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "eurasian-collared-dove",
+    "commonName": "Eurasian Collared-Dove",
+    "scientificName": "Streptopelia decaocto",
+    "family": "Columbidae",
+    "habitat": [
+      "Urban areas",
+      "Agricultural areas",
+      "Open areas",
+      "Gardens"
+    ],
+    "description": "A pale sandy-gray dove with a narrow black collar on the hindneck and a squared tail with white corners in flight. Larger and paler than Common Ground-Dove; spread widely in towns and farmland.",
+    "size": "Medium",
+    "diet": "Granivore",
+    "funFact": "Three-note cooing song and black collar are easy field marks in villages and open country.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Pale sandy-gray plumage",
+      "Narrow black collar on hindneck",
+      "White tail corners in flight"
+    ],
+    "voice": "Three-note cooing: cu-COO-coo.",
+    "similarSpecies": [
+      "mourning-dove",
+      "white-winged-dove"
+    ],
+    "id": 176,
+    "image": "/birds/eurasian-collared-dove.jpg",
+    "audio": "/audio/eurasian-collared-dove.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "common-ground-dove",
+    "commonName": "Common Ground Dove",
+    "scientificName": "Columbina passerina",
+    "family": "Columbidae",
+    "habitat": [
+      "Open areas",
+      "Gardens",
+      "Agricultural areas",
+      "Scrub & thicket"
+    ],
+    "description": "A tiny dove of open ground and bare paths. Ruddy brown with scaled appearance on the head and breast; short tail shows rufous in flight. Often flushes with whistling wing beats.",
+    "size": "Very small",
+    "diet": "Granivore",
+    "funFact": "Tiny size and scaled plumage distinguish it from Ruddy Ground-Dove on open ground.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very small dove on the ground",
+      "Scaled head and breast pattern",
+      "Rufous in wings and tail in flight"
+    ],
+    "voice": "Soft cooing; wings whistle on flush.",
+    "similarSpecies": [
+      "ruddy-ground-dove",
+      "blue-ground-dove"
+    ],
+    "id": 177,
+    "image": "/birds/common-ground-dove.jpg",
+    "audio": "/audio/common-ground-dove.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "ruddy-quail-dove",
+    "commonName": "Ruddy Quail-Dove",
+    "scientificName": "Geotrygon montana",
+    "family": "Columbidae",
+    "habitat": [
+      "Forest understory",
+      "Secondary forest",
+      "Forest edges"
+    ],
+    "description": "A shy forest dove walking on the ground. Warm ruddy brown with a pale stripe below the eye and iridescent purple on the back. Usually seen alone, flushing briefly from trails.",
+    "size": "Small-medium",
+    "diet": "Frugivore",
+    "funFact": "Walks quietly on forest floor; brief views when flushed show ruddy body and pale face stripe.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Warm ruddy brown body",
+      "Pale stripe below eye",
+      "Purple iridescence on back"
+    ],
+    "voice": "Soft whooing from dense understory.",
+    "similarSpecies": [
+      "blue-ground-dove"
+    ],
+    "id": 178,
+    "image": "/birds/ruddy-quail-dove.jpg",
+    "audio": "/audio/ruddy-quail-dove.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "white-tipped-dove",
+    "commonName": "White-tipped Dove",
+    "scientificName": "Leptotila verreauxi",
+    "family": "Columbidae",
+    "habitat": [
+      "Forest edges",
+      "Secondary forest",
+      "Gardens",
+      "Scrub & thicket"
+    ],
+    "description": "A large gray-brown ground dove. Shows a white tail tip in flight and has a pale blue orbital ring. Common in woodland edges, gardens, and secondary growth.",
+    "size": "Medium",
+    "diet": "Frugivore",
+    "funFact": "White tail corners flash when it flushes; pale blue eyering visible at close range.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Gray-brown body",
+      "White tail tip visible in flight",
+      "Pale blue eyering"
+    ],
+    "voice": "Deep whooing, often repeated from cover.",
+    "similarSpecies": [
+      "gray-chested-dove"
+    ],
+    "id": 179,
+    "image": "/birds/white-tipped-dove.jpg",
+    "audio": "/audio/white-tipped-dove.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "white-winged-dove",
+    "commonName": "White-winged Dove",
+    "scientificName": "Zenaida asiatica",
+    "family": "Columbidae",
+    "habitat": [
+      "Urban areas",
+      "Scrub & thicket",
+      "Agricultural areas",
+      "Forest edges"
+    ],
+    "description": "A slender brown dove with a bold white wing patch in flight and blue eyering. Tail is squared with white corners. Common in towns, scrub, and open woodland.",
+    "size": "Medium",
+    "diet": "Granivore",
+    "funFact": "Bold white wing patch in flight and whooing song in settled areas.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Bold white wing patch in flight",
+      "Brown body, blue eyering",
+      "White tail corners"
+    ],
+    "voice": "Soft whoo-hoo-HOO-HOO pattern.",
+    "similarSpecies": [
+      "mourning-dove",
+      "eurasian-collared-dove"
+    ],
+    "id": 180,
+    "image": "/birds/white-winged-dove.jpg",
+    "audio": "/audio/white-winged-dove.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "mourning-dove",
+    "commonName": "Mourning Dove",
+    "scientificName": "Zenaida macroura",
+    "family": "Columbidae",
+    "habitat": [
+      "Open areas",
+      "Agricultural areas",
+      "Urban areas",
+      "Scrub & thicket"
+    ],
+    "description": "A slim tan-brown dove with a long pointed tail and black spots on the wings. Common in open country and towns. Flight is swift and direct with whistling wing beats.",
+    "size": "Medium",
+    "diet": "Granivore",
+    "funFact": "Long pointed tail and whistling wings on flush; mournful cooing song.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Slim tan-brown body",
+      "Long pointed tail",
+      "Black spots on wings"
+    ],
+    "voice": "Mournful cooing: oo-AH cooo cooo.",
+    "similarSpecies": [
+      "white-winged-dove",
+      "eurasian-collared-dove"
+    ],
+    "id": 181,
+    "image": "/birds/mourning-dove.jpg",
+    "audio": "/audio/mourning-dove.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "striped-cuckoo",
+    "commonName": "Striped Cuckoo",
+    "scientificName": "Tapera naevia",
+    "family": "Cuculidae",
+    "habitat": [
+      "Scrub & thicket",
+      "Grassland",
+      "Agricultural areas",
+      "Open areas"
+    ],
+    "description": "A slender crested cuckoo of open country. Buff below with bold black streaking; long tail and shaggy crest. Often sits conspicuously on fence posts and wires.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Crested profile and streaked underparts; listen for ascending whistled song from open scrub.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Shaggy crest",
+      "Buff underparts with black streaks",
+      "Long graduated tail"
+    ],
+    "voice": "Ascending whistled series, often from exposed perch.",
+    "similarSpecies": [
+      "groove-billed-ani"
+    ],
+    "id": 182,
+    "image": "/birds/striped-cuckoo.jpg",
+    "audio": "/audio/striped-cuckoo.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "yellow-billed-cuckoo",
+    "commonName": "Yellow-billed Cuckoo",
+    "scientificName": "Coccyzus americanus",
+    "family": "Cuculidae",
+    "habitat": [
+      "Forest edges",
+      "Secondary forest",
+      "Open woodland",
+      "Scrub & thicket"
+    ],
+    "description": "A long-tailed brown cuckoo with a yellow lower mandible and bold white tail spots from below. Secretive in foliage but often detected by its knocking call in migration and breeding season.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "White tail spots from below and yellow bill base; listen for slow knocking song.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Brown above, white below",
+      "Yellow lower mandible",
+      "Large white tail spots from below"
+    ],
+    "voice": "Slow knocking cu-cu-cu series.",
+    "similarSpecies": [
+      "mangrove-cuckoo",
+      "black-billed-cuckoo",
+      "common-squirrel-cuckoo"
+    ],
+    "id": 183,
+    "image": "/birds/yellow-billed-cuckoo.jpg",
+    "audio": "/audio/yellow-billed-cuckoo.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "mangrove-cuckoo",
+    "commonName": "Mangrove Cuckoo",
+    "scientificName": "Coccyzus minor",
+    "family": "Cuculidae",
+    "habitat": [
+      "Mangroves",
+      "Coastal areas",
+      "Scrub & thicket",
+      "Forest edges"
+    ],
+    "description": "A buff-breasted cuckoo with a black mask, yellow lower mandible, and plain buff undertail. Favors coastal thickets and mangroves but occurs inland in scrub. More often heard than seen.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Black mask and buff breast; guttural gwa calls from dense coastal scrub.",
+    "status": "Resident",
+    "regions": [
+      "Coastal areas",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black mask through eye",
+      "Buff breast, yellow lower mandible",
+      "Plain buff undertail (no bold spots)"
+    ],
+    "voice": "Guttural gwa-gwa-gwa calls.",
+    "similarSpecies": [
+      "yellow-billed-cuckoo",
+      "black-billed-cuckoo"
+    ],
+    "id": 184,
+    "image": "/birds/mangrove-cuckoo.jpg",
+    "audio": "/audio/mangrove-cuckoo.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "black-billed-cuckoo",
+    "commonName": "Black-billed Cuckoo",
+    "scientificName": "Coccyzus erythropthalmus",
+    "family": "Cuculidae",
+    "habitat": [
+      "Forest edges",
+      "Secondary forest",
+      "Scrub & thicket"
+    ],
+    "description": "A slim brown-and-white cuckoo with a completely black bill and small white tail spots. Red orbital ring is often hidden. Less common than Yellow-billed Cuckoo on migration.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "All-black bill separates it from Yellow-billed; small white tail spots from below.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "All-black bill",
+      "Brown upperparts, white underparts",
+      "Small white tail spots (not large patches)"
+    ],
+    "voice": "Soft cooing and rapid cu-cu-cu when agitated.",
+    "similarSpecies": [
+      "yellow-billed-cuckoo",
+      "mangrove-cuckoo"
+    ],
+    "id": 185,
+    "image": "/birds/black-billed-cuckoo.jpg",
+    "audio": "/audio/black-billed-cuckoo.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "lesser-nighthawk",
+    "commonName": "Lesser Nighthawk",
+    "scientificName": "Chordeiles acutipennis",
+    "family": "Caprimulgidae",
+    "habitat": [
+      "Open areas",
+      "Agricultural areas",
+      "Scrub & thicket",
+      "Urban areas"
+    ],
+    "description": "A small nighthawk of open country, often seen hawking insects at dusk over fields and towns. Mottled gray-brown with a white wing bar; male has a white throat. Flight is buoyant and bat-like, usually low over the ground.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Feeds at dusk over open fields and roads; white wing bar flashes in low flight.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Mottled gray-brown plumage",
+      "White wing bar",
+      "Male: white throat patch"
+    ],
+    "voice": "Soft peenting calls at dusk.",
+    "similarSpecies": [
+      "common-nighthawk"
+    ],
+    "id": 186,
+    "image": "/birds/lesser-nighthawk.jpg",
+    "audio": "/audio/lesser-nighthawk.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "common-nighthawk",
+    "commonName": "Common Nighthawk",
+    "scientificName": "Chordeiles minor",
+    "family": "Caprimulgidae",
+    "habitat": [
+      "Open areas",
+      "Urban areas",
+      "Agricultural areas",
+      "Forest edges"
+    ],
+    "description": "A widespread nighthawk with long pointed wings and a white wing patch. Mottled gray with a white throat on males. Often seen at dusk over towns and open woodland, sometimes perching on gravel rooftops.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Bold white wing patches visible in flight at dusk over villages and clearings.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Long pointed wings",
+      "Bold white wing patch",
+      "Male: white throat"
+    ],
+    "voice": "Nasal peent calls; booming display dive in breeding areas.",
+    "similarSpecies": [
+      "lesser-nighthawk"
+    ],
+    "id": 187,
+    "image": "/birds/common-nighthawk.jpg",
+    "audio": "/audio/common-nighthawk.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "common-pauraque",
+    "commonName": "Common Pauraque",
+    "scientificName": "Nyctidromus albicollis",
+    "family": "Caprimulgidae",
+    "habitat": [
+      "Scrub & thicket",
+      "Forest edges",
+      "Open woodland",
+      "Agricultural areas"
+    ],
+    "description": "A ground-dwelling nightjar of open woodland and scrub. Intricately patterned in browns with a black chest collar and long tail. Sits on dirt roads at night, eyes reflecting red in headlights.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Freezes on forest roads at night; red eyeshine and whirring song at dusk.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black chest collar",
+      "Long rufous tail",
+      "Intricate brown mottling"
+    ],
+    "voice": "Whirring pauraque song at dusk and dawn.",
+    "similarSpecies": [
+      "chuck-wills-widow",
+      "yucatan-nightjar"
+    ],
+    "id": 188,
+    "image": "/birds/common-pauraque.jpg",
+    "audio": "/audio/common-pauraque.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "chuck-wills-widow",
+    "commonName": "Chuck-will's-widow",
+    "scientificName": "Antrostomus carolinensis",
+    "family": "Caprimulgidae",
+    "habitat": [
+      "Forest edges",
+      "Open woodland",
+      "Scrub & thicket"
+    ],
+    "description": "A large nightjar with a big head and wide gape. Cryptically patterned in browns and grays; lacks the pauraque chest collar. Often heard calling from wooded edges on migration and in winter.",
+    "size": "Medium-large",
+    "diet": "Insectivore",
+    "funFact": "Named for its loud chuck-WILL-widow song from wooded edges at night.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large head, cryptic brown plumage",
+      "No black chest collar",
+      "Long rounded tail"
+    ],
+    "voice": "Loud chuck-WILL-widow song.",
+    "similarSpecies": [
+      "common-pauraque",
+      "yucatan-nightjar"
+    ],
+    "id": 189,
+    "image": "/birds/chuck-wills-widow.jpg",
+    "audio": "/audio/chuck-wills-widow.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "yucatan-nightjar",
+    "commonName": "Yucatan Nightjar",
+    "scientificName": "Antrostomus badius",
+    "family": "Caprimulgidae",
+    "habitat": [
+      "Scrub & thicket",
+      "Dry forest",
+      "Forest edges"
+    ],
+    "description": "A medium nightjar of dry scrub and open pine-oak areas. Warm brown with less contrast than Common Pauraque; male has white tail corners. Endemic to the Yucatan Peninsula including northern Belize.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Look for it in dry scrub of northern Belize; male shows white tail corners in flight.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Warm brown cryptic plumage",
+      "Male: white tail corners",
+      "No bold chest collar"
+    ],
+    "voice": "Rapid churring song from scrub at night.",
+    "similarSpecies": [
+      "common-pauraque",
+      "chuck-wills-widow"
+    ],
+    "id": 190,
+    "image": "/birds/yucatan-nightjar.jpg",
+    "audio": "/audio/yucatan-nightjar.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "chimney-swift",
+    "commonName": "Chimney Swift",
+    "scientificName": "Chaetura pelagica",
+    "family": "Apodidae",
+    "habitat": [
+      "Urban areas",
+      "Open areas",
+      "Forest edges"
+    ],
+    "description": "A small dark swift with cigar-shaped body and stiff rapid wingbeats. Tail is short with projecting spines. Often seen in twittering flocks over towns and open country, especially on migration.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "funFact": "Cigar-shaped body and chittering flocks over towns; all-dark except pale throat.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Cigar-shaped body",
+      "Stiff rapid wingbeats",
+      "Short tail with spines"
+    ],
+    "voice": "High chittering calls from feeding flocks.",
+    "similarSpecies": [
+      "lesser-swallow-tailed-swift"
+    ],
+    "id": 191,
+    "image": "/birds/chimney-swift.jpg",
+    "audio": "/audio/chimney-swift.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "ruby-throated-hummingbird",
+    "commonName": "Ruby-throated Hummingbird",
+    "scientificName": "Archilochus colubris",
+    "family": "Trochilidae",
+    "habitat": [
+      "Forest edges",
+      "Gardens",
+      "Open woodland",
+      "Secondary forest"
+    ],
+    "description": "A small hummingbird. Males have an iridescent ruby-red throat and emerald back; females are green above and whitish below. Common on migration and in winter in gardens and forest edge.",
+    "size": "Very small",
+    "diet": "Nectarivore",
+    "funFact": "Male ruby gorget flashes in good light; common winter visitor to flowering gardens.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: ruby-red throat, emerald back",
+      "Female: green above, whitish below",
+      "Short bill, small size"
+    ],
+    "voice": "Soft chipping calls; wings hum in flight.",
+    "similarSpecies": [
+      "rufous-tailed-hummingbird",
+      "scaly-breasted-hummingbird"
+    ],
+    "id": 192,
+    "image": "/birds/ruby-throated-hummingbird.jpg",
+    "audio": "/audio/ruby-throated-hummingbird.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "cinnamon-hummingbird",
+    "commonName": "Cinnamon Hummingbird",
+    "scientificName": "Amazilia rutila",
+    "family": "Trochilidae",
+    "habitat": [
+      "Scrub & thicket",
+      "Forest edges",
+      "Gardens",
+      "Dry forest"
+    ],
+    "description": "A medium-sized hummingbird with bronzy-green upperparts and cinnamon underparts. Red bill with dark tip. Common in dry scrub, gardens, and open woodland throughout the region.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "funFact": "Cinnamon underparts and red bill make it one of the easier Amazilia hummingbirds to identify.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Cinnamon underparts",
+      "Bronzy-green back",
+      "Red bill with dark tip"
+    ],
+    "voice": "Dry chipping and buzzy song from perches.",
+    "similarSpecies": [
+      "buff-bellied-hummingbird",
+      "rufous-tailed-hummingbird"
+    ],
+    "id": 193,
+    "image": "/birds/cinnamon-hummingbird.jpg",
+    "audio": "/audio/cinnamon-hummingbird.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "buff-bellied-hummingbird",
+    "commonName": "Buff-bellied Hummingbird",
+    "scientificName": "Amazilia yucatanensis",
+    "family": "Trochilidae",
+    "habitat": [
+      "Forest edges",
+      "Scrub & thicket",
+      "Gardens",
+      "Secondary forest"
+    ],
+    "description": "A medium hummingbird with bronzy-green upperparts, buff belly, and rufous tail corners. Red bill. Favors forest edge and flowering trees in the Yucatan region including Belize.",
+    "size": "Small",
+    "diet": "Nectarivore",
+    "funFact": "Rufous tail corners and buff belly distinguish it from Cinnamon Hummingbird.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Buff belly",
+      "Rufous tail corners",
+      "Red bill, bronzy-green back"
+    ],
+    "voice": "Chipping calls and squeaky song from canopy.",
+    "similarSpecies": [
+      "cinnamon-hummingbird",
+      "rufous-tailed-hummingbird"
+    ],
+    "id": 194,
+    "image": "/birds/buff-bellied-hummingbird.jpg",
+    "audio": "/audio/buff-bellied-hummingbird.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "spotted-rail",
+    "commonName": "Spotted Rail",
+    "scientificName": "Pardirallus maculatus",
+    "family": "Rallidae",
+    "habitat": [
+      "Wetlands",
+      "Mangroves",
+      "Agricultural areas"
+    ],
+    "description": "A large secretive rail of marshes and wet fields. Blackish with bold white spotting and a coral-red bill and legs. Rarely seen but sometimes flushes from dense wet grass.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "Bold white spots on dark body and coral bill; flushes briefly from wet marsh edge.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black with bold white spots",
+      "Coral-red bill and legs",
+      "Large rail shape"
+    ],
+    "voice": "Grunting and whinnying calls from dense cover.",
+    "similarSpecies": [
+      "sora",
+      "uniform-crake"
+    ],
+    "id": 195,
+    "image": "/birds/spotted-rail.jpg",
+    "audio": "/audio/spotted-rail.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "uniform-crake",
+    "commonName": "Uniform Crake",
+    "scientificName": "Amaurolimnas concolor",
+    "family": "Rallidae",
+    "habitat": [
+      "Wetlands",
+      "Forest understory",
+      "Scrub & thicket"
+    ],
+    "description": "A plain dark rail of wet thickets and forest floor. Uniform dark brown with a greenish bill; very secretive. More often heard than seen, walking under dense cover near water.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "funFact": "Plain dark rail of wet thickets; listen for whistled calls at dawn.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Uniform dark brown plumage",
+      "Greenish bill",
+      "Secretive ground bird"
+    ],
+    "voice": "Whistled and grunting calls from dense cover.",
+    "similarSpecies": [
+      "spotted-rail",
+      "sora"
+    ],
+    "id": 196,
+    "image": "/birds/uniform-crake.jpg",
+    "audio": "/audio/uniform-crake.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "sora",
+    "commonName": "Sora",
+    "scientificName": "Porzana carolina",
+    "family": "Rallidae",
+    "habitat": [
+      "Wetlands",
+      "Agricultural areas",
+      "Mangroves"
+    ],
+    "description": "A small rail of marshes and wet fields. Brown upperparts, gray face and breast, and black bib on breeding birds. Short yellow bill. Often detected by whinnying call in winter.",
+    "size": "Small",
+    "diet": "Omnivore",
+    "funFact": "Gray face and whinnying call from marsh edges; black bib on breeding plumage.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Gray face and breast",
+      "Black bib (breeding)",
+      "Short yellow bill"
+    ],
+    "voice": "Distinctive whinnying descending call.",
+    "similarSpecies": [
+      "spotted-rail",
+      "russet-naped-wood-rail"
+    ],
+    "id": 197,
+    "image": "/birds/sora.jpg",
+    "audio": "/audio/sora.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "common-gallinule",
+    "commonName": "Common Gallinule",
+    "scientificName": "Gallinula galeata",
+    "family": "Rallidae",
+    "habitat": [
+      "Wetlands",
+      "Lakes",
+      "Mangroves",
+      "Rivers & streams"
+    ],
+    "description": "A medium marsh bird with dark plumage, white flank stripe, and a red frontal shield on the bill. Swims and walks on floating vegetation. Yellow-tipped red bill and greenish legs.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "Red shield on bill and white flank stripe on dark body; common on lily pads and marsh edge.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Red frontal shield on bill",
+      "White flank stripe",
+      "Dark body, yellow-tipped bill"
+    ],
+    "voice": "Krek-krek calls and clucking from marshes.",
+    "similarSpecies": [
+      "purple-gallinule",
+      "american-coot"
+    ],
+    "id": 198,
+    "image": "/birds/common-gallinule.jpg",
+    "audio": "/audio/common-gallinule.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "american-coot",
+    "commonName": "American Coot",
+    "scientificName": "Fulica americana",
+    "family": "Rallidae",
+    "habitat": [
+      "Lakes",
+      "Wetlands",
+      "Agricultural areas"
+    ],
+    "description": "A dark duck-like bird with a white bill and frontal shield. Lobed toes, not webbed feet. Swims on open water and grazes on shorelines; often in large flocks in winter.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "White bill and dark body; lobed toes visible when climbing onto banks.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Dark gray body",
+      "White bill and frontal shield",
+      "Lobed toes (not webbed)"
+    ],
+    "voice": "Various clucks and croaks from flocks on water.",
+    "similarSpecies": [
+      "common-gallinule"
+    ],
+    "id": 199,
+    "image": "/birds/american-coot.jpg",
+    "audio": "/audio/american-coot.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "purple-gallinule",
+    "commonName": "Purple Gallinule",
+    "scientificName": "Porphyrio martinica",
+    "family": "Rallidae",
+    "habitat": [
+      "Wetlands",
+      "Mangroves",
+      "Lakes"
+    ],
+    "description": "A spectacular marsh bird with purple-blue plumage, green back, red bill with yellow tip, and huge yellow feet. Climbs on floating vegetation in freshwater marshes and lily pads.",
+    "size": "Medium",
+    "diet": "Omnivore",
+    "funFact": "Iridescent purple-blue body and giant yellow feet on floating vegetation.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Purple-blue body, green back",
+      "Red bill with yellow tip",
+      "Large yellow feet"
+    ],
+    "voice": "Harsh cackling and grunting from marsh cover.",
+    "similarSpecies": [
+      "common-gallinule"
+    ],
+    "id": 200,
+    "image": "/birds/purple-gallinule.jpg",
+    "audio": "/audio/purple-gallinule.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "sungrebe",
+    "commonName": "Sungrebe",
+    "scientificName": "Heliornis fulica",
+    "family": "Heliornithidae",
+    "habitat": [
+      "Rivers & streams",
+      "Wetlands",
+      "Forest edges"
+    ],
+    "description": "A small secretive waterbird of quiet forest streams and ponds. Brown with bold black-and-white striped neck and a striped face pattern. Male has pouches to carry chicks. Rarely seen, slipping into cover.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "funFact": "Striped neck and face on quiet forest ponds; slips into cover when disturbed.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Bold striped neck pattern",
+      "Striped face",
+      "Small brown waterbird"
+    ],
+    "voice": "Soft whistling and clicking from streamside cover.",
+    "similarSpecies": [],
+    "id": 201,
+    "image": "/birds/sungrebe.jpg",
+    "audio": "/audio/sungrebe.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "limpkin",
+    "commonName": "Limpkin",
+    "scientificName": "Aramus guarauna",
+    "family": "Aramidae",
+    "habitat": [
+      "Wetlands",
+      "Rivers & streams",
+      "Lakes",
+      "Mangroves"
+    ],
+    "description": "A large brown wading bird with white spots on the upperparts and a long decurved bill. Walks along marsh edges and streams hunting apple snails. Loud wailing calls carry at night.",
+    "size": "Large",
+    "diet": "Carnivore",
+    "funFact": "Spotted brown body and screaming calls at night; hunts snails along marshy streams.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Brown with white spots",
+      "Long decurved bill",
+      "Long legs, heron-like walk"
+    ],
+    "voice": "Loud wailing and screaming calls, especially at night.",
+    "similarSpecies": [],
+    "id": 202,
+    "image": "/birds/limpkin.jpg",
+    "audio": "/audio/limpkin.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "black-necked-stilt",
+    "commonName": "Black-necked Stilt",
+    "scientificName": "Himantopus mexicanus",
+    "family": "Recurvirostridae",
+    "habitat": [
+      "Wetlands",
+      "Coastal areas",
+      "Agricultural areas",
+      "Lakes"
+    ],
+    "description": "A slender black-and-white shorebird with extraordinarily long pink legs and a thin straight black bill. Forages in shallow water on mudflats and rice fields.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Impossibly long pink legs and black-and-white plumage on shallow mudflats.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black back and neck, white underparts",
+      "Very long pink legs",
+      "Thin straight black bill"
+    ],
+    "voice": "Sharp yapping calls in flight.",
+    "similarSpecies": [
+      "american-avocet"
+    ],
+    "id": 203,
+    "image": "/birds/black-necked-stilt.jpg",
+    "audio": "/audio/black-necked-stilt.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "american-avocet",
+    "commonName": "American Avocet",
+    "scientificName": "Recurvirostra americana",
+    "family": "Recurvirostridae",
+    "habitat": [
+      "Wetlands",
+      "Coastal areas",
+      "Lakes"
+    ],
+    "description": "A elegant black-and-white shorebird with a unique upturned bill and long bluish legs. Breeding birds have cinnamon on the head and neck. Swings bill side to side while feeding in shallow water.",
+    "size": "Medium-large",
+    "diet": "Insectivore",
+    "funFact": "Upturned bill and graceful feeding motion in shallow lagoons.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Upturned bill",
+      "Black-and-white body",
+      "Long bluish legs"
+    ],
+    "voice": "Soft wheeups and alarm calls.",
+    "similarSpecies": [
+      "black-necked-stilt"
+    ],
+    "id": 204,
+    "image": "/birds/american-avocet.jpg",
+    "audio": "/audio/american-avocet.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "black-bellied-plover",
+    "commonName": "Black-bellied Plover",
+    "scientificName": "Pluvialis squatarola",
+    "family": "Charadriidae",
+    "habitat": [
+      "Coastal areas",
+      "Wetlands",
+      "Open areas"
+    ],
+    "description": "A large chunky plover. Breeding adults are black below with white cap and black face; winter birds are gray-brown with a black armpit patch in flight. Runs and stops on mudflats and open shores.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Black armpit patch in flight; winter birds gray with bold black-and-white wings.",
+    "status": "Migrant",
+    "regions": [
+      "Coastal areas",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Chunky plover shape",
+      "Black armpit patch in flight",
+      "Winter: gray-brown above"
+    ],
+    "voice": "Clear whistled calls in flight.",
+    "similarSpecies": [
+      "american-golden-plover"
+    ],
+    "id": 205,
+    "image": "/birds/black-bellied-plover.jpg",
+    "audio": "/audio/black-bellied-plover.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "american-golden-plover",
+    "commonName": "American Golden-Plover",
+    "scientificName": "Pluvialis dominica",
+    "family": "Charadriidae",
+    "habitat": [
+      "Open areas",
+      "Agricultural areas",
+      "Grassland",
+      "Coastal areas"
+    ],
+    "description": "A medium plover with golden-spangled upperparts in breeding plumage; winter birds are gray-brown. Slenderer than Black-bellied Plover with no black armpit patch. Often on open fields and airfields.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Golden speckling on back in breeding plumage; gray-brown on open fields in winter.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Golden-spangled upperparts (breeding)",
+      "Slender build",
+      "No black armpit patch"
+    ],
+    "voice": "Melodious whistled calls.",
+    "similarSpecies": [
+      "black-bellied-plover"
+    ],
+    "id": 206,
+    "image": "/birds/american-golden-plover.jpg",
+    "audio": "/audio/american-golden-plover.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "killdeer",
+    "commonName": "Killdeer",
+    "scientificName": "Charadrius vociferus",
+    "family": "Charadriidae",
+    "habitat": [
+      "Open areas",
+      "Agricultural areas",
+      "Wetlands",
+      "Urban areas"
+    ],
+    "description": "A familiar plover of open ground with two black breast bands and a red eye ring. Runs on lawns, fields, and mudflats; performs broken-wing distraction display near nests.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Two black breast bands and loud kill-DEE calls from open fields and gravel areas.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Two black breast bands",
+      "Red eye ring",
+      "Brown upperparts, white underparts"
+    ],
+    "voice": "Loud kill-DEE kill-DEE calls.",
+    "similarSpecies": [
+      "semipalmated-plover",
+      "collared-plover"
+    ],
+    "id": 207,
+    "image": "/birds/killdeer.jpg",
+    "audio": "/audio/killdeer.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "semipalmated-plover",
+    "commonName": "Semipalmated Plover",
+    "scientificName": "Charadrius semipalmatus",
+    "family": "Charadriidae",
+    "habitat": [
+      "Coastal areas",
+      "Wetlands",
+      "Open areas"
+    ],
+    "description": "A small dark plover with one black breast band and orange legs. Bill is orange with black tip. Common on mudflats and beaches in winter flocks.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "funFact": "Single breast band and orange legs on mudflats; smaller than Killdeer.",
+    "status": "Migrant",
+    "regions": [
+      "Coastal areas",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Single black breast band",
+      "Orange legs",
+      "Orange bill with black tip"
+    ],
+    "voice": "Soft chu-wee calls.",
+    "similarSpecies": [
+      "killdeer",
+      "collared-plover"
+    ],
+    "id": 208,
+    "image": "/birds/semipalmated-plover.jpg",
+    "audio": "/audio/semipalmated-plover.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "collared-plover",
+    "commonName": "Collared Plover",
+    "scientificName": "Anarhynchus collaris",
+    "family": "Charadriidae",
+    "habitat": [
+      "Coastal areas",
+      "Rivers & streams",
+      "Open areas",
+      "Agricultural areas"
+    ],
+    "description": "A small pale plover of sandy shores and river bars. Gray-brown above and white below with a narrow black collar across the breast. Pink legs and dark bill.",
+    "size": "Small",
+    "diet": "Insectivore",
+    "funFact": "Narrow black collar and pale sandy appearance on river sandbars and beaches.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Narrow black breast collar",
+      "Pale sandy brown upperparts",
+      "Pink legs"
+    ],
+    "voice": "Soft whistled calls.",
+    "similarSpecies": [
+      "semipalmated-plover",
+      "killdeer"
+    ],
+    "id": 209,
+    "image": "/birds/collared-plover.jpg",
+    "audio": "/audio/collared-plover.mp3",
+    "frequency": ""
+  },
+  {
+    "slug": "upland-sandpiper",
+    "commonName": "Upland Sandpiper",
+    "scientificName": "Bartramia longicauda",
+    "family": "Scolopacidae",
+    "habitat": [
+      "Grassland",
+      "Agricultural areas",
+      "Open areas",
+      "Savanna"
+    ],
+    "description": "A long-necked sandpiper of open grasslands and airfields. Buffy with dark streaking above, large eye, and small head on a long neck. Flight shows cinnamon wing linings and fluttering style.",
+    "size": "Medium",
+    "diet": "Insectivore",
+    "funFact": "Long neck and fluttering song flight over open fields; cinnamon wing linings in flight.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Long neck, small head",
+      "Large eye",
+      "Cinnamon wing linings in flight"
+    ],
+    "voice": "Wolf-whistle song in display flight over grasslands.",
+    "similarSpecies": [],
+    "id": 210,
+    "image": "/birds/upland-sandpiper.jpg",
+    "audio": "/audio/upland-sandpiper.mp3",
+    "frequency": ""
   }
 ]

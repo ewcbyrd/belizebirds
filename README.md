@@ -206,16 +206,34 @@ belizebirds/
 
 ## Bird Species Database
 
-The app includes bird data for species found in Cayo District. Each bird entry includes:
+The app includes bird data for species found across Belize. Each curated bird entry includes:
 - Common and scientific names
 - Family classification
 - Habitat preferences
 - Physical description
 - Size and diet information
 - Field notes (behavior, voice, identification tips)
-- Observation frequency based on Cayo District eBird reporting rates
+- Observation frequency based on Cayo District eBird reporting rates (curated species)
 
 **Note:** The database is designed to be easily expandable. See the "Adding More Birds" section below for instructions on adding new species.
+
+### Enrichment sprints (eBird stubs)
+
+Build-time eBird sync adds species recorded in each district. Species without curated content in `birds.json` appear as **Content pending** stubs until promoted.
+
+**Prioritized backlog:**
+
+```bash
+npm run enrichment:backlog -- --tier 1 --limit 30
+```
+
+- **Tier 1** — species in all 6 districts (highest priority)
+- **Tier 2** — 5 districts
+- **Tier 3** — 4 or fewer districts (migrants and rarities)
+
+Output is written to `docs/enrichment-backlog.json`. Promote stubs with the add-bird skill (`.cursor/skills/add-bird/`) or `/add-bird` command: add full entries to `birds.json`, then run `npm run sync:ebird` so stub counts drop automatically.
+
+Work in batches of ~20–30 species per PR for manageable reviews.
 
 ## Customization
 

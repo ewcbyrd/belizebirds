@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:23:20.637Z",
+  "generatedAt": "2026-06-28T18:50:08.172Z",
   "districts": {
     "BZ-BZ": {
       "name": "Belize District",
@@ -3828,8 +3828,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "fuwduc": {
       "slug": "fulvous-whistling-duck",
@@ -3880,8 +3879,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "buwtea": {
       "slug": "blue-winged-teal",
@@ -3895,8 +3893,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "cintea": {
       "slug": "cinnamon-teal",
@@ -3910,8 +3907,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "norsho": {
       "slug": "northern-shoveler",
@@ -3925,8 +3921,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "gadwal": {
       "slug": "gadwall",
@@ -3952,8 +3947,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "norpin": {
       "slug": "northern-pintail",
@@ -3967,8 +3961,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "gnwtea": {
       "slug": "green-winged-teal",
@@ -3996,8 +3989,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "lessca": {
       "slug": "lesser-scaup",
@@ -4011,8 +4003,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "rebmer": {
       "slug": "red-breasted-merganser",
@@ -4088,8 +4079,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "helgui": {
       "slug": "helmeted-guineafowl",
@@ -4113,8 +4103,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "rocpig": {
       "slug": "rock-pigeon",
@@ -4128,8 +4117,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "pavpig2": {
       "slug": "pale-vented-pigeon",
@@ -4157,8 +4145,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "whcpig2": {
       "slug": "white-crowned-pigeon",
@@ -4172,8 +4159,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "rebpig1": {
       "slug": "red-billed-pigeon",
@@ -4187,8 +4173,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "shbpig": {
       "slug": "short-billed-pigeon",
@@ -4216,8 +4201,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "incdov": {
       "slug": "inca-dove",
@@ -4243,8 +4227,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "pbgdov1": {
       "slug": "plain-breasted-ground-dove",
@@ -4300,8 +4283,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "whtdov": {
       "slug": "white-tipped-dove",
@@ -4315,8 +4297,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "cardov1": {
       "slug": "caribbean-dove",
@@ -4369,8 +4350,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "moudov": {
       "slug": "mourning-dove",
@@ -4384,8 +4364,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "smbani": {
       "slug": "smooth-billed-ani",
@@ -4425,8 +4404,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "phecuc1": {
       "slug": "pheasant-cuckoo",
@@ -4468,8 +4446,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "mancuc": {
       "slug": "mangrove-cuckoo",
@@ -4483,8 +4460,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "bkbcuc": {
       "slug": "black-billed-cuckoo",
@@ -4498,8 +4474,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "lesnig": {
       "slug": "lesser-nighthawk",
@@ -4513,8 +4488,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "comnig": {
       "slug": "common-nighthawk",
@@ -4528,8 +4502,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "compau": {
       "slug": "common-pauraque",
@@ -4543,8 +4516,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "yucpoo1": {
       "slug": "yucatan-poorwill",
@@ -4571,8 +4543,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "yucnig1": {
       "slug": "yucatan-nightjar",
@@ -4586,8 +4557,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "easwpw1": {
       "slug": "eastern-whip-poor-will",
@@ -4655,8 +4625,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "vauswi": {
       "slug": "vauxs-swift",
@@ -4779,8 +4748,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "caneme1": {
       "slug": "canivets-emerald",
@@ -4875,8 +4843,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "bubhum": {
       "slug": "buff-bellied-hummingbird",
@@ -4890,8 +4857,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "rtlhum": {
       "slug": "rufous-tailed-hummingbird",
@@ -4946,8 +4912,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "unicra1": {
       "slug": "uniform-crake",
@@ -4961,8 +4926,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "rnwrai1": {
       "slug": "rufous-necked-wood-rail",
@@ -5003,8 +4967,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "comgal1": {
       "slug": "common-gallinule",
@@ -5018,8 +4981,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "y00475": {
       "slug": "american-coot",
@@ -5033,8 +4995,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "purgal2": {
       "slug": "purple-gallinule",
@@ -5048,8 +5009,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "yebcra1": {
       "slug": "yellow-breasted-crake",
@@ -5119,8 +5079,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "limpki": {
       "slug": "limpkin",
@@ -5134,8 +5093,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "bknsti": {
       "slug": "black-necked-stilt",
@@ -5149,8 +5107,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "ameavo": {
       "slug": "american-avocet",
@@ -5164,8 +5121,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "ameoys": {
       "slug": "american-oystercatcher",
@@ -5192,8 +5148,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "amgplo": {
       "slug": "american-golden-plover",
@@ -5207,8 +5162,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "killde": {
       "slug": "killdeer",
@@ -5222,8 +5176,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "semplo": {
       "slug": "semipalmated-plover",
@@ -5237,8 +5190,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "soulap1": {
       "slug": "southern-lapwing",
@@ -5280,8 +5232,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "snoplo5": {
       "slug": "snowy-plover",
@@ -5320,8 +5271,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "whimbr3": {
       "slug": "hudsonian-whimbrel",
@@ -12237,21 +12187,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "black-bellied-whistling-duck",
-      "ebirdCode": "bbwduc",
-      "commonName": "Black-bellied Whistling-Duck",
-      "scientificName": "Dendrocygna autumnalis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "fulvous-whistling-duck",
       "ebirdCode": "fuwduc",
       "commonName": "Fulvous Whistling-Duck",
@@ -12289,66 +12224,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "muscovy-duck",
-      "ebirdCode": "musduc",
-      "commonName": "Muscovy Duck",
-      "scientificName": "Cairina moschata",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "blue-winged-teal",
-      "ebirdCode": "buwtea",
-      "commonName": "Blue-winged Teal",
-      "scientificName": "Spatula discors",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "cinnamon-teal",
-      "ebirdCode": "cintea",
-      "commonName": "Cinnamon Teal",
-      "scientificName": "Spatula cyanoptera",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "northern-shoveler",
-      "ebirdCode": "norsho",
-      "commonName": "Northern Shoveler",
-      "scientificName": "Spatula clypeata",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "gadwall",
       "ebirdCode": "gadwal",
       "commonName": "Gadwall",
@@ -12357,36 +12232,6 @@
         "BZ-BZ",
         "BZ-CY",
         "BZ-OW"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "american-wigeon",
-      "ebirdCode": "amewig",
-      "commonName": "American Wigeon",
-      "scientificName": "Mareca americana",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "northern-pintail",
-      "ebirdCode": "norpin",
-      "commonName": "Northern Pintail",
-      "scientificName": "Anas acuta",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
     },
@@ -12401,36 +12246,6 @@
         "BZ-CZL",
         "BZ-OW",
         "BZ-SC"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "ring-necked-duck",
-      "ebirdCode": "rinduc",
-      "commonName": "Ring-necked Duck",
-      "scientificName": "Aythya collaris",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "lesser-scaup",
-      "ebirdCode": "lessca",
-      "commonName": "Lesser Scaup",
-      "scientificName": "Aythya affinis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
     },
@@ -12470,117 +12285,12 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "plain-chachalaca",
-      "ebirdCode": "placha",
-      "commonName": "Plain Chachalaca",
-      "scientificName": "Ortalis vetula",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "helmeted-guineafowl",
       "ebirdCode": "helgui",
       "commonName": "Helmeted Guineafowl",
       "scientificName": "Numida meleagris",
       "districts": [
         "BZ-BZ"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "black-throated-bobwhite",
-      "ebirdCode": "bltbob1",
-      "commonName": "Black-throated Bobwhite",
-      "scientificName": "Colinus nigrogularis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "rock-pigeon",
-      "ebirdCode": "rocpig",
-      "commonName": "Rock Pigeon",
-      "scientificName": "Columba livia",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "scaled-pigeon",
-      "ebirdCode": "scapig2",
-      "commonName": "Scaled Pigeon",
-      "scientificName": "Patagioenas speciosa",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "white-crowned-pigeon",
-      "ebirdCode": "whcpig2",
-      "commonName": "White-crowned Pigeon",
-      "scientificName": "Patagioenas leucocephala",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "red-billed-pigeon",
-      "ebirdCode": "rebpig1",
-      "commonName": "Red-billed Pigeon",
-      "scientificName": "Patagioenas flavirostris",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "eurasian-collared-dove",
-      "ebirdCode": "eucdov",
-      "commonName": "Eurasian Collared-Dove",
-      "scientificName": "Streptopelia decaocto",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
     },
@@ -12592,51 +12302,6 @@
       "districts": [
         "BZ-BZ",
         "BZ-CY",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "common-ground-dove",
-      "ebirdCode": "cogdov",
-      "commonName": "Common Ground Dove",
-      "scientificName": "Columbina passerina",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "ruddy-quail-dove",
-      "ebirdCode": "ruqdov",
-      "commonName": "Ruddy Quail-Dove",
-      "scientificName": "Geotrygon montana",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "white-tipped-dove",
-      "ebirdCode": "whtdov",
-      "commonName": "White-tipped Dove",
-      "scientificName": "Leptotila verreauxi",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
         "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
@@ -12654,36 +12319,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "white-winged-dove",
-      "ebirdCode": "whwdov",
-      "commonName": "White-winged Dove",
-      "scientificName": "Zenaida asiatica",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "mourning-dove",
-      "ebirdCode": "moudov",
-      "commonName": "Mourning Dove",
-      "scientificName": "Zenaida macroura",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "smooth-billed-ani",
       "ebirdCode": "smbani",
       "commonName": "Smooth-billed Ani",
@@ -12692,21 +12327,6 @@
         "BZ-BZ",
         "BZ-CZL",
         "BZ-SC"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "striped-cuckoo",
-      "ebirdCode": "strcuc1",
-      "commonName": "Striped Cuckoo",
-      "scientificName": "Tapera naevia",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
     },
@@ -12725,96 +12345,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "yellow-billed-cuckoo",
-      "ebirdCode": "yebcuc",
-      "commonName": "Yellow-billed Cuckoo",
-      "scientificName": "Coccyzus americanus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "mangrove-cuckoo",
-      "ebirdCode": "mancuc",
-      "commonName": "Mangrove Cuckoo",
-      "scientificName": "Coccyzus minor",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "black-billed-cuckoo",
-      "ebirdCode": "bkbcuc",
-      "commonName": "Black-billed Cuckoo",
-      "scientificName": "Coccyzus erythropthalmus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "lesser-nighthawk",
-      "ebirdCode": "lesnig",
-      "commonName": "Lesser Nighthawk",
-      "scientificName": "Chordeiles acutipennis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "common-nighthawk",
-      "ebirdCode": "comnig",
-      "commonName": "Common Nighthawk",
-      "scientificName": "Chordeiles minor",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "common-pauraque",
-      "ebirdCode": "compau",
-      "commonName": "Common Pauraque",
-      "scientificName": "Nyctidromus albicollis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "yucatan-poorwill",
       "ebirdCode": "yucpoo1",
       "commonName": "Yucatan Poorwill",
@@ -12824,36 +12354,6 @@
         "BZ-CY",
         "BZ-CZL",
         "BZ-OW"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "chuck-wills-widow",
-      "ebirdCode": "chwwid",
-      "commonName": "Chuck-will's-widow",
-      "scientificName": "Antrostomus carolinensis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "yucatan-nightjar",
-      "ebirdCode": "yucnig1",
-      "commonName": "Yucatan Nightjar",
-      "scientificName": "Antrostomus badius",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
     },
@@ -12884,21 +12384,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "chimney-swift",
-      "ebirdCode": "chiswi",
-      "commonName": "Chimney Swift",
-      "scientificName": "Chaetura pelagica",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "brown-violetear",
       "ebirdCode": "brvear1",
       "commonName": "Brown Violetear",
@@ -12906,21 +12391,6 @@
       "districts": [
         "BZ-BZ",
         "BZ-CY",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "ruby-throated-hummingbird",
-      "ebirdCode": "rthhum",
-      "commonName": "Ruby-throated Hummingbird",
-      "scientificName": "Archilochus colubris",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
@@ -12942,36 +12412,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "cinnamon-hummingbird",
-      "ebirdCode": "cinhum1",
-      "commonName": "Cinnamon Hummingbird",
-      "scientificName": "Amazilia rutila",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "buff-bellied-hummingbird",
-      "ebirdCode": "bubhum",
-      "commonName": "Buff-bellied Hummingbird",
-      "scientificName": "Amazilia yucatanensis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "clapper-rail",
       "ebirdCode": "clarai11",
       "commonName": "Clapper Rail",
@@ -12985,36 +12425,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "spotted-rail",
-      "ebirdCode": "sporai",
-      "commonName": "Spotted Rail",
-      "scientificName": "Pardirallus maculatus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "uniform-crake",
-      "ebirdCode": "unicra1",
-      "commonName": "Uniform Crake",
-      "scientificName": "Amaurolimnas concolor",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "rufous-necked-wood-rail",
       "ebirdCode": "rnwrai1",
       "commonName": "Rufous-necked Wood-Rail",
@@ -13022,66 +12432,6 @@
       "districts": [
         "BZ-BZ",
         "BZ-CZL",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "sora",
-      "ebirdCode": "sora",
-      "commonName": "Sora",
-      "scientificName": "Porzana carolina",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "common-gallinule",
-      "ebirdCode": "comgal1",
-      "commonName": "Common Gallinule",
-      "scientificName": "Gallinula galeata",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "american-coot",
-      "ebirdCode": "y00475",
-      "commonName": "American Coot",
-      "scientificName": "Fulica americana",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "purple-gallinule",
-      "ebirdCode": "purgal2",
-      "commonName": "Purple Gallinule",
-      "scientificName": "Porphyrio martinica",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
       ],
@@ -13130,66 +12480,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "sungrebe",
-      "ebirdCode": "sungre1",
-      "commonName": "Sungrebe",
-      "scientificName": "Heliornis fulica",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "limpkin",
-      "ebirdCode": "limpki",
-      "commonName": "Limpkin",
-      "scientificName": "Aramus guarauna",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "black-necked-stilt",
-      "ebirdCode": "bknsti",
-      "commonName": "Black-necked Stilt",
-      "scientificName": "Himantopus mexicanus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "american-avocet",
-      "ebirdCode": "ameavo",
-      "commonName": "American Avocet",
-      "scientificName": "Recurvirostra americana",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "american-oystercatcher",
       "ebirdCode": "ameoys",
       "commonName": "American Oystercatcher",
@@ -13197,66 +12487,6 @@
       "districts": [
         "BZ-BZ",
         "BZ-CZL",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "black-bellied-plover",
-      "ebirdCode": "bkbplo",
-      "commonName": "Black-bellied Plover",
-      "scientificName": "Pluvialis squatarola",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "american-golden-plover",
-      "ebirdCode": "amgplo",
-      "commonName": "American Golden-Plover",
-      "scientificName": "Pluvialis dominica",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "killdeer",
-      "ebirdCode": "killde",
-      "commonName": "Killdeer",
-      "scientificName": "Charadrius vociferus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "semipalmated-plover",
-      "ebirdCode": "semplo",
-      "commonName": "Semipalmated Plover",
-      "scientificName": "Charadrius semipalmatus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
       ],
@@ -13291,21 +12521,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "collared-plover",
-      "ebirdCode": "colplo1",
-      "commonName": "Collared Plover",
-      "scientificName": "Anarhynchus collaris",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "snowy-plover",
       "ebirdCode": "snoplo5",
       "commonName": "Snowy Plover",
@@ -13313,21 +12528,6 @@
       "districts": [
         "BZ-BZ",
         "BZ-CZL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "upland-sandpiper",
-      "ebirdCode": "uplsan",
-      "commonName": "Upland Sandpiper",
-      "scientificName": "Bartramia longicauda",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
     },
@@ -18490,9 +17690,9 @@
   ],
   "unmatchedBirds": [],
   "stats": {
-    "curatedBirds": 160,
+    "curatedBirds": 210,
     "ebirdSpeciesInBelize": 616,
-    "newSpeciesCount": 456,
+    "newSpeciesCount": 406,
     "unmatchedCuratedCount": 0
   }
 }

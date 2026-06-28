@@ -33,6 +33,25 @@ Check if the bird already exists in `src/data/birds.json`:
 - If it exists, inform the user: "This bird already exists. I'll update its information."
 - If it's new, inform the user: "Adding new bird: [Common Name]"
 
+**Stub promotion (eBird enrichment):**
+
+Before researching from scratch, check `src/data/generated/district-species.json` → `newSpecies` for a matching stub (by `commonName`, `slug`, or `scientificName`):
+
+- If a stub exists, this is a **promote stub → curated** workflow. Prefill from the stub:
+  - `slug`, `scientificName`, `ebirdCode`, and `districts` (display only — do not write to `birds.json`)
+  - Inform the user: "Promoting eBird stub: [Common Name] ([slug]) — currently content pending in [N] districts."
+- Do **not** regenerate `slug` or `scientificName` when the stub already defines them.
+- After adding to `birds.json`, run `npm run sync:ebird` (or note that CI will run it on merge) so the stub is removed from `newSpecies`.
+- Report stub count before/after: read `district-species.json` → `stats.newSpeciesCount` or `newSpecies.length`.
+
+**Pick next stub from backlog (optional):**
+
+```bash
+node scripts/enrichment-backlog.mjs --tier 1 --limit 30
+```
+
+Use the ranked output in `docs/enrichment-backlog.json` to choose the next enrichment batch.
+
 ### 2. Research Bird Information
 
 Use the WebFetch tool to gather information about the bird from Wikipedia:
@@ -216,6 +235,7 @@ Commit the changes to git:
 Display a success message:
 - For updates: "✓ Updated [Common Name] (#[ID])"
 - For new birds: "✓ Added [Common Name] (#[ID])"
+- For stub promotion: "✓ Promoted stub [Common Name] — run `npm run sync:ebird` to refresh generated data (stub count will decrease)"
 - If family mapping was updated: "✓ Added family mapping: [Scientific Family] - [Common Name]"
 - Show the image path: "Image saved to: public/birds/[FILENAME].jpg (4:3 ratio)"
 - Confirm the commit: "✓ Changes committed to git"

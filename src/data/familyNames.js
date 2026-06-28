@@ -46,5 +46,12 @@ export const FAMILY_NAMES = {
   'Onychorhynchidae': 'Royal Flycatchers',
   'Nyctibiidae': 'Potoos',
   'Cracidae': 'Guans, Chachalacas & Curassows',
-  'Odontophoridae': 'New World Quail'
+  'Odontophoridae': 'New World Quail',
+  'Anatidae': 'Ducks, Geese & Waterfowl',
+  'Caprimulgidae': 'Nightjars & Allies',
+  'Heliornithidae': 'Finfoots',
+  'Aramidae': 'Limpkin',
+  'Recurvirostridae': 'Stilts & Avocets',
+  'Charadriidae': 'Plovers & Lapwings',
+  'Scolopacidae': 'Sandpipers & Allies'
 };

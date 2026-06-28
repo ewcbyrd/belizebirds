@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-06-28T18:50:04.443Z",
+  "totalStubs": 406,
+  "tierCounts": {
+    "1": 203,
+    "2": 49,
+    "3": 154
+  },
+  "filters": {
+    "tier": 1,
+    "limit": 5,
+    "district": null
+  },
+  "backlog": [
+    {
+      "slug": "marbled-godwit",
+      "commonName": "Marbled Godwit",
+      "scientificName": "Limosa fedoa",
+      "ebirdCode": "margod",
+      "districts": [
+        "BZ-BZ",
+        "BZ-CY",
+        "BZ-CZL",
+        "BZ-OW",
+        "BZ-SC",
+        "BZ-TOL"
+      ],
+      "districtCount": 6,
+      "tier": 1,
+      "family": "Sandpipers and Allies",
+      "familyScientific": "Scolopacidae",
+      "taxonomicOrder": 2056
+    },
+    {
+      "slug": "short-billed-dowitcher",
+      "commonName": "Short-billed Dowitcher",
+      "scientificName": "Limnodromus griseus",
+      "ebirdCode": "shbdow",
+      "districts": [
+        "BZ-BZ",
+        "BZ-CY",
+        "BZ-CZL",
+        "BZ-OW",
+        "BZ-SC",
+        "BZ-TOL"
+      ],
+      "districtCount": 6,
+      "tier": 1,
+      "family": "Sandpipers and Allies",
+      "familyScientific": "Scolopacidae",
+      "taxonomicOrder": 2058
+    },
+    {
+      "slug": "long-billed-dowitcher",
+      "commonName": "Long-billed Dowitcher",
+      "scientificName": "Limnodromus scolopaceus",
+      "ebirdCode": "lobdow",
+      "districts": [
+        "BZ-BZ",
+        "BZ-CY",
+        "BZ-CZL",
+        "BZ-OW",
+        "BZ-SC",
+        "BZ-TOL"
+      ],
+      "districtCount": 6,
+      "tier": 1,
+      "family": "Sandpipers and Allies",
+      "familyScientific": "Scolopacidae",
+      "taxonomicOrder": 2059
+    },
+    {
+      "slug": "wilsons-snipe",
+      "commonName": "Wilson's Snipe",
+      "scientificName": "Gallinago delicata",
+      "ebirdCode": "wilsni1",
+      "districts": [
+        "BZ-BZ",
+        "BZ-CY",
+        "BZ-CZL",
+        "BZ-OW",
+        "BZ-SC",
+        "BZ-TOL"
+      ],
+      "districtCount": 6,
+      "tier": 1,
+      "family": "Sandpipers and Allies",
+      "familyScientific": "Scolopacidae",
+      "taxonomicOrder": 2085
+    },
+    {
+      "slug": "wilsons-phalarope",
+      "commonName": "Wilson's Phalarope",
+      "scientificName": "Phalaropus tricolor",
+      "ebirdCode": "wilpha",
+      "districts": [
+        "BZ-BZ",
+        "BZ-CY",
+        "BZ-CZL",
+        "BZ-OW",
+        "BZ-SC",
+        "BZ-TOL"
+      ],
+      "districtCount": 6,
+      "tier": 1,
+      "family": "Sandpipers and Allies",
+      "familyScientific": "Scolopacidae",
+      "taxonomicOrder": 2092
+    }
+  ]
+}
