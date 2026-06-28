@@ -2590,7 +2590,21 @@
     "diet": "Insectivore",
     "image": "/birds/white-whiskered-puffbird.jpg",
     "audio": "/audio/white-whiskered-puffbird.mp3",
-    "funFact": "This puffbird hunts using a watch-and-wait technique, sitting motionless before darting to catch large invertebrates and small vertebrates like frogs and lizards."
+    "funFact": "Sits motionless on low perches at forest edges; watch for sudden darting sallies after insects and small prey.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "White whisker tufts at bill base",
+      "Brown to chestnut upperparts",
+      "Large bill, sit-and-wait posture"
+    ],
+    "voice": "Low whistled notes from a perch.",
+    "similarSpecies": [
+      "white-necked-puffbird"
+    ]
   },
   {
     "slug": "crimson-collared-tanager",
@@ -2608,7 +2622,22 @@
     "diet": "Omnivore",
     "image": "/birds/crimson-collared-tanager.jpg",
     "audio": "/audio/crimson-collared-tanager.mp3",
-    "funFact": "Its specific epithet sanguinolentus means 'bloodied' in Latin, referring to its striking red plumage."
+    "funFact": "Often in pairs at forest edges and clearings; the crimson collar and rump flash when it flies.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black body with crimson collar and rump",
+      "Heavy silver-gray bill",
+      "Red flashes in flight"
+    ],
+    "voice": "Sharp chip notes, often in pairs.",
+    "similarSpecies": [
+      "golden-hooded-tanager",
+      "yellow-winged-tanager"
+    ]
   },
   {
     "slug": "bare-throated-tiger-heron",
@@ -2627,7 +2656,19 @@
     "diet": "Carnivore",
     "image": "/birds/bare-throated-tiger-heron.jpg",
     "audio": "/audio/bare-throated-tiger-heron.mp3",
-    "funFact": "Males give a booming hrrrowwr! call at sunset, during which the beak opens wide and undulations can be seen along the throat."
+    "funFact": "Stands motionless along river and lake banks; listen for the booming call at dusk from gallery forest.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide",
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Large heron with barred upperparts",
+      "Bare yellow-orange throat",
+      "Black crown, motionless along water"
+    ],
+    "voice": "Booming hrrrowwr! at sunset.",
+    "similarSpecies": []
   },
   {
     "slug": "rufous-tailed-jacamar",
@@ -2646,7 +2687,19 @@
     "diet": "Insectivore",
     "image": "/birds/rufous-tailed-jacamar.jpg",
     "audio": "/audio/rufous-tailed-jacamar.mp3",
-    "funFact": "This bird can distinguish between edible and unpalatable butterflies mainly by their body shape."
+    "funFact": "Perches horizontally with bill tilted up at woodland edges; sallies out for flying insects.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Metallic green above, rufous tail and belly",
+      "Long straight black bill",
+      "Male white throat; female buff throat"
+    ],
+    "voice": "High-pitched peeping calls.",
+    "similarSpecies": []
   },
   {
     "slug": "black-faced-grosbeak",
@@ -2665,7 +2718,22 @@
     "diet": "Omnivore",
     "image": "/birds/black-faced-grosbeak.jpg",
     "audio": "/audio/black-faced-grosbeak.mp3",
-    "funFact": "Forms noisy flocks of up to 20 birds, often mixing with honeycreepers and tanagers in mixed-species feeding flocks."
+    "funFact": "Noisy flocks of up to 20 birds often mix with honeycreepers and tanagers at fruiting trees.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Black face, yellow head and breast",
+      "Olive back and wings",
+      "Heavy pale bill"
+    ],
+    "voice": "Loud calls in canopy flocks.",
+    "similarSpecies": [
+      "blue-black-grosbeak",
+      "yellow-winged-tanager"
+    ]
   },
   {
     "slug": "black-hawk-eagle",
@@ -2684,7 +2752,22 @@
     "diet": "Carnivore",
     "image": "/birds/black-hawk-eagle.jpg",
     "audio": "/audio/black-hawk-eagle.mp3",
-    "funFact": "Its popular name in Brazil is Gavião-pega-macaco, meaning hawk catching-monkey, as it frequently preys on monkeys."
+    "funFact": "Soars high over rainforest; scan the sky above primary forest for the long barred tail.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "All-dark plumage with barred wings",
+      "Long tail with gray bars",
+      "Powerful broad-winged silhouette"
+    ],
+    "voice": "Whistled screams in flight.",
+    "similarSpecies": [
+      "ornate-hawk-eagle",
+      "black-and-white-hawk-eagle"
+    ]
   },
   {
     "slug": "fork-tailed-flycatcher",
@@ -2704,7 +2787,22 @@
     "diet": "Insectivore",
     "image": "/birds/fork-tailed-flycatcher.jpg",
     "audio": "/audio/fork-tailed-flycatcher.mp3",
-    "funFact": "Can reach speeds up to 105 km/h (65 mph), using its long forked tail for quick turns and stops while pursuing flying insects."
+    "funFact": "Open pastures and savannas; tail streamers make it unmistakable even at a distance in flight.",
+    "status": "Migrant",
+    "regions": [
+      "Open areas",
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Gray back, white underparts, black cap",
+      "Extremely long forked tail streamers",
+      "Slender build in open country"
+    ],
+    "voice": "Harsh churrs and squeaky notes.",
+    "similarSpecies": [
+      "social-flycatcher",
+      "boat-billed-flycatcher"
+    ]
   },
   {
     "slug": "variable-seedeater",
@@ -2724,7 +2822,23 @@
     "diet": "Granivore",
     "image": "/birds/variable-seedeater.jpg",
     "audio": "/audio/variable-seedeater.mp3",
-    "funFact": "The subspecies found in Belize (Sporophila c. corvina) has entirely black males apart from a small white wing patch."
+    "funFact": "Belize males (S. c. corvina) are all black except a white wing patch; common in gardens and weedy edges.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Belize male all black with small white wing patch",
+      "Black conical bill",
+      "Female olive-brown above, paler below"
+    ],
+    "voice": "Sweet whistled song from exposed perch.",
+    "similarSpecies": [
+      "morelets-seedeater",
+      "yellow-faced-grassquit",
+      "blue-black-grassquit"
+    ]
   },
   {
     "slug": "collared-forest-falcon",
@@ -2743,7 +2857,22 @@
     "diet": "Carnivore",
     "image": "/birds/collared-forest-falcon.jpg",
     "audio": "/audio/collared-forest-falcon.mp3",
-    "funFact": "Its distinctive low, almost human-like ow or ahr call can be heard at great distances through the dense forest canopy."
+    "funFact": "Hear the eerie call at dawn from dense forest; rarely seen despite being vocally common.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Long tail, dark back, white collar",
+      "Three color morphs (pale, tawny, dark)",
+      "Secretive in dense forest"
+    ],
+    "voice": "Low human-like ow or ahr call.",
+    "similarSpecies": [
+      "barred-forest-falcon",
+      "laughing-falcon"
+    ]
   },
   {
     "slug": "green-honeycreeper",
@@ -2761,7 +2890,21 @@
     "diet": "Frugivore",
     "image": "/birds/green-honeycreeper.jpg",
     "audio": "/audio/green-honeycreeper.mp3",
-    "funFact": "Unlike other honeycreepers, it depends less on nectar — fruit and seeds make up about 60% of its diet."
+    "funFact": "Canopy frugivore; male black hood and decurved bill distinguish it from similarly colored tanagers.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Forest canopy"
+    ],
+    "fieldMarks": [
+      "Male blue-green with black head, yellow bill",
+      "Female all grass-green",
+      "Long decurved bill"
+    ],
+    "voice": "Sharp tseet calls in canopy.",
+    "similarSpecies": [
+      "red-legged-honeycreeper"
+    ]
   },
   {
     "slug": "band-backed-wren",
@@ -2780,7 +2923,7 @@
     "diet": "Insectivore",
     "image": "/birds/band-backed-wren.jpg",
     "audio": "/audio/band-backed-wren.mp3",
-    "funFact": "After breeding, family groups of 4-12 birds sleep together in dormitory nests used throughout the year.",
+    "funFact": "Noisy family groups in scrub and forest edge; bold barred back and rufous underparts distinguish from other wrens.",
     "status": "Resident",
     "regions": [
       "Northern Belize",
@@ -2811,7 +2954,20 @@
     "diet": "Insectivore",
     "image": "/birds/lesser-swallow-tailed-swift.jpg",
     "audio": "/audio/lesser-swallow-tailed-swift.mp3",
-    "funFact": "Its nest is a long tube made of plant material felted with saliva, wider at the top with the entrance at the base, attached to a vertical surface or tree branch."
+    "funFact": "Flies fast and high above forest; white throat patch helps separate it from other dark swifts.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Long forked tail, slender body",
+      "Black with white throat and upper breast",
+      "Very fast flight above canopy"
+    ],
+    "voice": "Mostly silent in flight.",
+    "similarSpecies": [
+      "white-collared-swift"
+    ]
   },
   {
     "slug": "green-breasted-mango",
@@ -2831,7 +2987,23 @@
     "diet": "Nectarivore",
     "image": "/birds/green-breasted-mango.jpg",
     "audio": "/audio/green-breasted-mango.mp3",
-    "funFact": "Despite being a tropical species, it has wandered as far north as Wisconsin and North Carolina as a vagrant to the United States."
+    "funFact": "Gardens and semi-open edges; male velvety black throat and chest stripe is distinctive in good light.",
+    "status": "Resident",
+    "regions": [
+      "Coastal",
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "Male bronze-green with velvety black chest stripe",
+      "Female white-tipped outer tail feathers",
+      "Slightly decurved black bill"
+    ],
+    "voice": "Sharp chip notes at flowers.",
+    "similarSpecies": [
+      "rufous-tailed-hummingbird",
+      "canivets-emerald",
+      "scaly-breasted-hummingbird"
+    ]
   },
   {
     "slug": "buff-throated-saltator",
@@ -2850,7 +3022,22 @@
     "diet": "Omnivore",
     "image": "/birds/buff-throated-saltator.jpg",
     "audio": "/audio/buff-throated-saltator.mp3",
-    "funFact": "Males duet melodiously with a warbled \"cheery cheery\" answered by \"cheery to you.\""
+    "funFact": "Pairs sing antiphonal duets from understory at forest edges; thick bill is saltator hallmark.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Slate-gray head, white supercilium",
+      "Buff throat edged with black",
+      "Thick convex black bill"
+    ],
+    "voice": "Melodious cheery cheery duets.",
+    "similarSpecies": [
+      "black-headed-saltator",
+      "cinnamon-bellied-saltator"
+    ]
   },
   {
     "slug": "yellow-bellied-tyrannulet",
@@ -2870,7 +3057,23 @@
     "diet": "Insectivore",
     "image": "/birds/yellow-bellied-tyrannulet.jpg",
     "audio": "/audio/yellow-bellied-tyrannulet.mp3",
-    "funFact": "Despite being a flycatcher, its active foraging behavior resembles that of a warbler or vireo as it gleans arthropods from leaves and twigs."
+    "funFact": "Active leaf-gleaning in canopy; warbler-like foraging unlike typical sit-and-wait flycatchers.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Tiny flycatcher, bright yellow belly",
+      "Slate-gray crown, white forehead",
+      "Olive upperparts"
+    ],
+    "voice": "High peevish peet notes.",
+    "similarSpecies": [
+      "greenish-elaenia",
+      "yellow-bellied-elaenia",
+      "common-tody-flycatcher"
+    ]
   },
   {
     "slug": "stub-tailed-spadebill",
@@ -2889,7 +3092,22 @@
     "diet": "Omnivore",
     "image": "/birds/stub-tailed-spadebill.jpg",
     "audio": "/audio/stub-tailed-spadebill.mp3",
-    "funFact": "Its greatly reduced or completely absent crown distinguishes it from all other members of the genus Platyrinchus."
+    "funFact": "Forest understory specialist; flat spade bill and nearly absent crown separate it from other spadebills.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Broad flat bill, yellow breast",
+      "Very short stubby tail",
+      "No crown patch (unique in genus here)"
+    ],
+    "voice": "Soft whistled notes in understory.",
+    "similarSpecies": [
+      "common-tody-flycatcher",
+      "northern-bentbill"
+    ]
   },
   {
     "slug": "yellow-tailed-oriole",
@@ -2908,7 +3126,21 @@
     "diet": "Omnivore",
     "image": "/birds/yellow-tailed-oriole.jpg",
     "audio": "/audio/yellow-tailed-oriole.mp3",
-    "funFact": "This is the only oriole with prominent yellow in the tail, which gives the species its name."
+    "funFact": "Only oriole with prominent yellow in the tail; often in open country with scattered trees.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide",
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Mostly yellow with black back and wings",
+      "Yellow margins in tail (unique among orioles)",
+      "Black lower face and upper breast"
+    ],
+    "voice": "Mellow whistled song.",
+    "similarSpecies": [
+      "black-cowled-oriole"
+    ]
   },
   {
     "slug": "blue-ground-dove",
@@ -2928,7 +3160,21 @@
     "diet": "Omnivore",
     "image": "/birds/blue-ground-dove.jpg",
     "audio": "/audio/blue-ground-dove.mp3",
-    "funFact": "In most regions where it occurs, a blue-grey and a brown bird flying through the trees together is almost certainly this species."
+    "funFact": "Pairs flush from forest floor; a blue-gray and brown bird flying together through understory is diagnostic.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior"
+    ],
+    "fieldMarks": [
+      "Male blue-gray with black-spotted wings",
+      "Female brown with chestnut tail and wing spots",
+      "Red or yellow iris, green eyering"
+    ],
+    "voice": "Soft cooing from forest floor.",
+    "similarSpecies": [
+      "ruddy-ground-dove",
+      "plain-breasted-ground-dove"
+    ]
   },
   {
     "slug": "tawny-winged-woodcreeper",
@@ -2948,7 +3194,23 @@
     "diet": "Insectivore",
     "image": "/birds/tawny-winged-woodcreeper.jpg",
     "audio": "/audio/tawny-winged-woodcreeper.mp3",
-    "funFact": "This species is a near-obligate follower of army ant swarms, capturing arthropods that flee from the advancing ants."
+    "funFact": "Near-obligate army-ant follower; look for it hopping near ant swarms on the forest floor.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Straight bill, tawny wing panels",
+      "Cinnamon belly, ruffled nape",
+      "Buffy supercilium"
+    ],
+    "voice": "Rapid descending trill.",
+    "similarSpecies": [
+      "olivaceous-woodcreeper",
+      "ivory-billed-woodcreeper",
+      "wedge-billed-woodcreeper"
+    ]
   },
   {
     "slug": "rusty-sparrow",
@@ -2968,7 +3230,21 @@
     "diet": "Omnivore",
     "image": "/birds/rusty-sparrow.jpg",
     "audio": "/audio/rusty-sparrow.mp3",
-    "funFact": "Its song has been described as a rich, liquid \"cheet-cheet-swing-you!\" or \"sweet-sweet-to'you!\""
+    "funFact": "Large sparrow of scrub and forest edge in the north; sings from exposed perches.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "Chestnut crown streaked black",
+      "Bold black-streaked brown upperparts",
+      "Grayish buff underparts"
+    ],
+    "voice": "Rich cheet-cheet-swing-you song.",
+    "similarSpecies": [
+      "green-backed-sparrow"
+    ]
   },
   {
     "slug": "ornate-hawk-eagle",
@@ -2986,7 +3262,22 @@
     "diet": "Carnivore",
     "image": "/birds/ornate-hawk-eagle.jpg",
     "audio": "/audio/ornate-hawk-eagle.mp3",
-    "funFact": "The juvenile gray-bellied hawk closely resembles the adult ornate hawk-eagle, likely a case of mimicry where a less powerful species mimics a more powerful raptor to avoid attack."
+    "funFact": "Primary rainforest raptor; crest and rufous nape visible when perched below a canopy gap.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Rufous cowl and long erectile crest",
+      "Bold black barring on white underparts",
+      "White-tipped shoulders on dark upperparts"
+    ],
+    "voice": "Whistled screams overhead.",
+    "similarSpecies": [
+      "black-hawk-eagle",
+      "black-and-white-hawk-eagle"
+    ]
   },
   {
     "slug": "blue-bunting",
@@ -3005,7 +3296,19 @@
     "diet": "Omnivore",
     "image": "/birds/blue-bunting.jpg",
     "audio": "/audio/blue-bunting.mp3",
-    "funFact": "The male's song has been described as \"a sweet, rather sad warble.\""
+    "funFact": "Skulks in dense tangles; male electric blue is startling when it sings from a low perch.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Male deep blue with sky-blue forehead",
+      "Female plain brown with reddish belly",
+      "Skulks in dense understory"
+    ],
+    "voice": "Sweet, rather sad warbled song.",
+    "similarSpecies": []
   },
   {
     "slug": "mottled-owl",
@@ -3025,7 +3328,19 @@
     "diet": "Carnivore",
     "image": "/birds/mottled-owl.jpg",
     "audio": "/audio/mottled-owl.mp3",
-    "funFact": "The mottled owl shows the greatest degree of sexual dimorphism of any owl species, with females considerably larger than males."
+    "funFact": "Calls from woodland edge at night; dark eyes help separate from many other Neotropical owls.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "No ear tufts, round head",
+      "Brown mottled upperparts",
+      "Bold vertical streaks on whitish underparts",
+      "Dark brown eyes"
+    ],
+    "voice": "Who-cooks-for-you owl call at night.",
+    "similarSpecies": []
   },
   {
     "slug": "ruddy-crake",
@@ -3043,7 +3358,20 @@
     "diet": "Omnivore",
     "image": "/birds/ruddy-crake.jpg",
     "audio": "/audio/ruddy-crake.mp3",
-    "funFact": "After no sightings for two decades in Costa Rica, it was listed as possibly extinct there until rediscovered in 2007 at the La Selva Biological Research Station."
+    "funFact": "Wet marsh edges; bright rufous bird darting through vegetation—listen for rattling calls.",
+    "status": "Resident",
+    "regions": [
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Bright chestnut body",
+      "Gray head with blackish crown",
+      "Olive-green legs and feet"
+    ],
+    "voice": "Sharp rattling calls from dense cover.",
+    "similarSpecies": [
+      "russet-naped-wood-rail"
+    ]
   },
   {
     "slug": "ochre-crowned-greenlet",
@@ -3060,7 +3388,21 @@
     "diet": "Insectivore",
     "image": "/birds/ochre-crowned-greenlet.jpg",
     "audio": "/audio/ochre-crowned-greenlet.mp3",
-    "funFact": "Its genus name Tunchiornis derives from 'El Tunche,' the whistling jungle spirit of Amazonian mythology, referring to its simple whistled song."
+    "funFact": "Understory acrobat often hangs upside-down; ochre crown and gray face separate it from other greenlets.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Yellow-brown crown, olive upperparts",
+      "Ochraceous breast, bright yellow belly",
+      "Active acrobat in understory"
+    ],
+    "voice": "Simple whistled song.",
+    "similarSpecies": [
+      "lesser-greenlet"
+    ]
   },
   {
     "slug": "black-throated-shrike-tanager",
@@ -3077,7 +3419,23 @@
     "diet": "Omnivore",
     "image": "/birds/black-throated-shrike-tanager.jpg",
     "audio": "/audio/black-throated-shrike-tanager.mp3",
-    "funFact": "It is replaced geographically by its close relative the White-throated Shrike-Tanager further south in Central America."
+    "funFact": "Aggressive canopy tanager with shrike-like bill; male black hood is bold in good light.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Male yellow-orange with black hood, wings, and tail",
+      "Female olive with gray head",
+      "Relatively large hooked bill"
+    ],
+    "voice": "Loud sharp calls in canopy.",
+    "similarSpecies": [
+      "yellow-winged-tanager",
+      "golden-hooded-tanager",
+      "crimson-collared-tanager"
+    ]
   },
   {
     "slug": "vauxs-swift",
@@ -3096,7 +3454,21 @@
     "diet": "Insectivore",
     "image": "/birds/vauxs-swift.jpg",
     "audio": "/audio/vauxs-swift.mp3",
-    "funFact": "Named for William Sansom Vaux (pronounced 'vox'), this swift has a more varied call repertoire than others in its genus, mixing chattering, buzzes, squeaks, and chips."
+    "funFact": "Winters in Belize in flocks over forest and towns; smaller and browner than White-collared Swift.",
+    "status": "Migrant",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Tiny cigar-shaped body",
+      "Long crescent wings, squared tail",
+      "Pale gray throat, dusky above"
+    ],
+    "voice": "Varied chattering chips in flocks.",
+    "similarSpecies": [
+      "white-collared-swift",
+      "lesser-swallow-tailed-swift"
+    ]
   },
   {
     "slug": "violet-sabrewing",
@@ -3115,7 +3487,22 @@
     "diet": "Nectarivore",
     "image": "/birds/violet-sabrewing.jpg",
     "audio": "/audio/violet-sabrewing.mp3",
-    "funFact": "The violet sabrewing is the largest hummingbird in Mexico and Central America, measuring 13 to 15 cm long, and males are known to aggressively defend flower patches from other hummingbirds."
+    "funFact": "Largest regional hummer; males aggressively defend flower patches in humid forest and gardens.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Largest hummingbird in Central America",
+      "Male violet-blue underparts, green upperparts",
+      "Female green with violet-blue throat"
+    ],
+    "voice": "Loud chips at flower patches.",
+    "similarSpecies": [
+      "wedge-tailed-sabrewing",
+      "white-necked-jacobin"
+    ]
   },
   {
     "slug": "rufous-capped-warbler",
@@ -3134,7 +3521,21 @@
     "diet": "Insectivore",
     "image": "/birds/rufous-capped-warbler.jpg",
     "audio": "/audio/rufous-capped-warbler.mp3",
-    "funFact": "Despite its name, the rufous-capped warbler does not actually warble — its courtship song is a rapid, accelerating series of chipping notes."
+    "funFact": "Pine-oak scrub and thickets in the north; cocked tail and loud chipping song reveal this skulker.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "Rufous cap, white eyebrow, dark eyeline",
+      "Yellow throat and chest, white belly",
+      "Long tail often cocked upright"
+    ],
+    "voice": "Rapid accelerating chip series (not a warble).",
+    "similarSpecies": [
+      "gray-crowned-yellowthroat"
+    ]
   },
   {
     "slug": "wedge-billed-woodcreeper",
@@ -3152,7 +3553,22 @@
     "diet": "Insectivore",
     "image": "/birds/wedge-billed-woodcreeper.jpg",
     "audio": "/audio/wedge-billed-woodcreeper.mp3",
-    "funFact": "The wedge-billed woodcreeper is the only member of its genus and is the smallest of all woodcreepers, easily recognized by its short wedge-shaped bill."
+    "funFact": "Tiny woodcreeper in mixed flocks; upturned wedge-shaped bill is unique among local woodcreepers.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Smallest woodcreeper (~13–16 cm)",
+      "Short upturned wedge-shaped bill",
+      "Fulvous spots and streaks on breast"
+    ],
+    "voice": "High thin trills.",
+    "similarSpecies": [
+      "olivaceous-woodcreeper",
+      "tawny-winged-woodcreeper"
+    ]
   },
   {
     "slug": "little-tinamou",
@@ -3171,7 +3587,22 @@
     "diet": "Omnivore",
     "image": "/birds/little-tinamou.jpg",
     "audio": "/audio/little-tinamou.mp3",
-    "funFact": "The little tinamou is more closely related to ostriches and emus (both ratites) than to quail or grouse, despite looking similar — it belongs to the ancient group of palaeognath birds."
+    "funFact": "Walks quietly on forest floor; listen for soft whistles at dawn and dusk in humid lowland forest.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Small sooty-brown ground bird",
+      "Greyish head, cinnamon-buff underparts",
+      "Very short tail, secretive"
+    ],
+    "voice": "Low mournful whistles, more often heard than seen.",
+    "similarSpecies": [
+      "thicket-tinamou",
+      "great-tinamou"
+    ]
   },
   {
     "slug": "plain-breasted-ground-dove",
@@ -3190,7 +3621,21 @@
     "diet": "Granivore",
     "image": "/birds/plain-breasted-ground-dove.jpg",
     "audio": "/audio/plain-breasted-ground-dove.mp3",
-    "funFact": "The plain-breasted ground dove may be the smallest of all pigeons and doves by mass, yet it can be found across an enormous range spanning 18.8 million square kilometers from Mexico to Argentina."
+    "funFact": "Open dry grassland and scrub; lacks the scaled neck pattern of Ruddy Ground-Dove.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Very small dove, possibly smallest by mass",
+      "Plain brown head and breast (no scaling)",
+      "Dark violet wing spots, rufous underwings"
+    ],
+    "voice": "Soft cooing on open ground.",
+    "similarSpecies": [
+      "ruddy-ground-dove",
+      "blue-ground-dove"
+    ]
   },
   {
     "slug": "great-black-hawk",
@@ -3209,7 +3654,21 @@
     "diet": "Carnivore",
     "image": "/birds/great-black-hawk.jpg",
     "audio": "/audio/great-black-hawk.mp3",
-    "funFact": "One Great Black Hawk became a famous vagrant in 2018, traveling from Texas to Maine — the first record in the ABA area — where it survived a winter before being rescued during a snowstorm."
+    "funFact": "Perches along rivers and coast; white tail base and black tip visible in flight.",
+    "status": "Resident",
+    "regions": [
+      "Coastal",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large all-black hawk",
+      "Short white tail with broad black tip",
+      "Yellow legs and cere, very broad wings"
+    ],
+    "voice": "Distinctive piping ooo-wheeeeee.",
+    "similarSpecies": [
+      "white-hawk"
+    ]
   },
   {
     "slug": "dot-winged-antwren",
@@ -3228,7 +3687,22 @@
     "diet": "Insectivore",
     "image": "/birds/dot-winged-antwren.jpg",
     "audio": "/audio/dot-winged-antwren.mp3",
-    "funFact": "The dot-winged antwren is the only member of its genus Microrhopias, and the male's striking black plumage with white wing dots makes it one of the most distinctive antwrens in its range."
+    "funFact": "Pairs forage actively in vine tangles at forest edge; male white wing spots are distinctive.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "Male black with white wing dots",
+      "Female gray above, black throat, rufous underparts",
+      "Long graduated tail, active in vine tangles"
+    ],
+    "voice": "Sharp chips in understory pairs.",
+    "similarSpecies": [
+      "barred-antshrike",
+      "dusky-antbird"
+    ]
   },
   {
     "slug": "slate-headed-tody-flycatcher",
@@ -3249,7 +3723,22 @@
     "diet": "Insectivore",
     "image": "/birds/slate-headed-tody-flycatcher.jpg",
     "audio": "/audio/slate-headed-tody-flycatcher.mp3",
-    "funFact": "Its nest is pear-shaped with a side entrance, woven from moss and plant fibers, and suspended from the tip of a branch about 3 meters above the ground."
+    "funFact": "Dense scrub at forest edge and secondary growth; smaller and grayer-crowned than Common Tody-Flycatcher.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Tiny flycatcher, gray crown and nape",
+      "Olive back, yellowish wing bars",
+      "Grayish white streaked underparts"
+    ],
+    "voice": "High thin calls from dense scrub.",
+    "similarSpecies": [
+      "common-tody-flycatcher",
+      "northern-bentbill"
+    ]
   },
   {
     "slug": "northern-plain-xenops",
@@ -3269,7 +3758,21 @@
     "diet": "Insectivore",
     "image": "/birds/northern-plain-xenops.jpg",
     "audio": "/audio/northern-plain-xenops.mp3",
-    "funFact": "Uses its wedge-shaped, upturned bill to chisel and pry arthropod prey from dead branches, often foraging while hanging upside down like a nuthatch."
+    "funFact": "Chisels dead branches like a nuthatch, often hanging upside-down; buff eyebrow and rufous wings help ID.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Buff supercilium, white malar stripe",
+      "Rufous wings and tail",
+      "Wedge-shaped slightly upturned bill"
+    ],
+    "voice": "Sharp notes while foraging on branches.",
+    "similarSpecies": [
+      "wedge-billed-woodcreeper"
+    ]
   },
   {
     "slug": "canivets-emerald",
@@ -3289,7 +3792,23 @@
     "diet": "Nectarivore",
     "image": "/birds/canivets-emerald.jpg",
     "audio": "/audio/canivets-emerald.mp3",
-    "funFact": "Holds its tail partly open and wags it while feeding on nectar, often visiting small flowers that are ignored by other hummingbirds."
+    "funFact": "Semi-open edges and gardens; wags partly spread tail while feeding at small flowers.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Brilliant golden-green male",
+      "Red bill with black tip, long forked tail",
+      "Female gray below with pale eye stripe"
+    ],
+    "voice": "Chipping calls at flowers.",
+    "similarSpecies": [
+      "green-breasted-mango",
+      "white-bellied-emerald",
+      "rufous-tailed-hummingbird"
+    ]
   },
   {
     "slug": "tody-motmot",
@@ -3307,7 +3826,21 @@
     "diet": "Insectivore",
     "image": "/birds/tody-motmot.jpg",
     "audio": "/audio/tody-motmot.mp3",
-    "funFact": "The tody motmot is the only species in its genus Hylomanes and is the smallest of all motmots, named for its resemblance to the todies of the Caribbean."
+    "funFact": "Humid forest understory; tiny motmot with tody-like proportions—listen for soft hoots.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Smallest motmot (~17 cm)",
+      "Green crown, rufous neck, blue supercilium",
+      "Black mask with white stripe below"
+    ],
+    "voice": "Soft hooting notes in understory.",
+    "similarSpecies": [
+      "lessons-motmot"
+    ]
   },
   {
     "slug": "red-crowned-ant-tanager",
@@ -3325,7 +3858,22 @@
     "diet": "Insectivore",
     "image": "/birds/red-crowned-ant-tanager.jpg",
     "audio": "/audio/red-crowned-ant-tanager.mp3",
-    "funFact": "Frequently follows army ant columns to snatch invertebrate prey startled by the ants, and also trails South American coatis on their feeding excursions."
+    "funFact": "Regular army-ant follower in understory; raised scarlet crown stripe visible when agitated.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Male dull red-brown with scarlet crown stripe",
+      "Female yellow-brown with buff crown stripe",
+      "Crown stripe raised when excited"
+    ],
+    "voice": "Harsh chattering calls near ant swarms.",
+    "similarSpecies": [
+      "red-throated-ant-tanager",
+      "gray-headed-tanager"
+    ]
   },
   {
     "slug": "white-collared-swift",
@@ -3345,7 +3893,21 @@
     "diet": "Insectivore",
     "image": "/birds/white-collared-swift.jpg",
     "audio": "/audio/white-collared-swift.mp3",
-    "funFact": "White-collared swifts attain flying speeds of 70-100 km/h (43-62 mph) and often feed in flocks of 200 or more, sometimes alongside other swift species."
+    "funFact": "Huge fast-flying flocks over forest and towns; white collar visible even at distance.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Largest swift in range (~21 cm)",
+      "Black with bold white collar",
+      "Slightly forked tail, long wings"
+    ],
+    "voice": "Screaming calls in large flocks.",
+    "similarSpecies": [
+      "vauxs-swift",
+      "lesser-swallow-tailed-swift"
+    ]
   },
   {
     "slug": "eye-ringed-flatbill",
@@ -3365,7 +3927,22 @@
     "diet": "Insectivore",
     "image": "/birds/eye-ringed-flatbill.jpg",
     "audio": "/audio/eye-ringed-flatbill.mp3",
-    "funFact": "Builds a large pear-shaped nest with a downward-sloping tunnel entrance, suspended from a twig or vine over open space or water, and adults roost in the nest year-round."
+    "funFact": "Midstory flycatcher with conspicuous eye-ring; wide flat bill separates from other flycatchers.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Bold white eye-ring",
+      "Large wide flat bill",
+      "Olive-green upperparts, pale yellow belly"
+    ],
+    "voice": "Whistled notes from midstory.",
+    "similarSpecies": [
+      "yellow-olive-flatbill",
+      "ochre-bellied-flycatcher"
+    ]
   },
   {
     "slug": "azure-crowned-hummingbird",
@@ -3385,7 +3962,22 @@
     "diet": "Nectarivore",
     "image": "/birds/azure-crowned-hummingbird.jpg",
     "audio": "/audio/azure-crowned-hummingbird.mp3",
-    "funFact": "In urban areas, azure-crowned hummingbirds have been known to build their nests on utility wires, a remarkable adaptation to human-altered environments."
+    "funFact": "Pine-oak foothills and forest edge in the north; blue crown gleams in good light.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "Bright metallic blue crown",
+      "Bronze nape and back",
+      "White underparts with bronze-green sides"
+    ],
+    "voice": "Chipping at flowers and feeders.",
+    "similarSpecies": [
+      "canivets-emerald",
+      "scaly-breasted-hummingbird"
+    ]
   },
   {
     "slug": "white-browed-gnatcatcher",
@@ -3405,7 +3997,21 @@
     "diet": "Insectivore",
     "image": "/birds/white-browed-gnatcatcher.jpg",
     "audio": "/audio/white-browed-gnatcatcher.mp3",
-    "funFact": "Formerly considered a subspecies of the Tropical Gnatcatcher, the White-browed Gnatcatcher was elevated to full species status based on genetic studies showing it is distinct."
+    "funFact": "Hyperactive pairs in scrub and forest edge; tail often cocked while gleaning insects.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Tiny, constantly moving",
+      "Male black cap with white eyebrow",
+      "Long black tail with white outer feathers"
+    ],
+    "voice": "Thin wheezy calls while foraging.",
+    "similarSpecies": [
+      "long-billed-gnatwren"
+    ]
   },
   {
     "slug": "black-and-white-hawk-eagle",
@@ -3423,7 +4029,23 @@
     "diet": "Carnivore",
     "image": "/birds/black-and-white-hawk-eagle.jpg",
     "audio": "/audio/black-and-white-hawk-eagle.mp3",
-    "funFact": "Each black-and-white hawk-eagle requires a hunting territory of about 3,500 acres (1,400 hectares) and has been known to snatch prey in mid-air that was mobbing it."
+    "funFact": "Soars over tall forest; unmistakable black-and-white pattern unlike any other local raptor.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Striking white head and body",
+      "Black wings with white leading edge",
+      "Small black crest, barred tail"
+    ],
+    "voice": "Whistled screams over forest.",
+    "similarSpecies": [
+      "white-hawk",
+      "black-hawk-eagle",
+      "ornate-hawk-eagle"
+    ]
   },
   {
     "slug": "rufous-breasted-spinetail",
@@ -3443,7 +4065,21 @@
     "diet": "Insectivore",
     "image": "/birds/rufous-breasted-spinetail.jpg",
     "audio": "/audio/rufous-breasted-spinetail.mp3",
-    "funFact": "Builds a dome-shaped nest of thorny sticks with a tunnel entrance, sometimes half again as long as it is high, thatched with bark and leaf stems."
+    "funFact": "Dense scrub and edge tangles; rufous breast and streaked black throat are distinctive.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Deep cinnamon-rufous breast",
+      "Sepia brown upperparts, chestnut wings and tail",
+      "Black throat with white streaks"
+    ],
+    "voice": "Scratchy duets from dense tangles.",
+    "similarSpecies": [
+      "fawn-throated-foliage-gleaner"
+    ]
   },
   {
     "slug": "purple-crowned-fairy",
@@ -3463,7 +4099,22 @@
     "diet": "Nectarivore",
     "image": "/birds/purple-crowned-fairy.jpg",
     "audio": "/audio/purple-crowned-fairy.mp3",
-    "funFact": "Unlike most hummingbirds, the purple-crowned fairy does not catch insects in flight — it hovers and gleans them from foliage, and will pierce the base of flowers to 'rob' nectar."
+    "funFact": "Canopy hummer; long white-edged tail and violet crown (male) visible at forest gaps.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Forest canopy"
+    ],
+    "fieldMarks": [
+      "Emerald green above, white below",
+      "Long pointed tail, blue-black center",
+      "Male violet forecrown"
+    ],
+    "voice": "Soft chips in canopy.",
+    "similarSpecies": [
+      "long-billed-hermit",
+      "white-necked-jacobin"
+    ]
   },
   {
     "slug": "northern-barred-woodcreeper",
@@ -3483,7 +4134,23 @@
     "diet": "Insectivore",
     "image": "/birds/northern-barred-woodcreeper.jpg",
     "audio": "/audio/northern-barred-woodcreeper.mp3",
-    "funFact": "Often follows army ant swarms to feed on prey disturbed by the ants, perching on near-vertical trunks and making short flights to pick prey from the ground, trunks, and foliage."
+    "funFact": "Army-ant follower on vertical trunks; larger and more heavily barred than Olivaceous Woodcreeper.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Large woodcreeper (~27 cm)",
+      "Barred olive-brown back and buff underparts",
+      "Long tail, straight bill"
+    ],
+    "voice": "Loud descending whistles.",
+    "similarSpecies": [
+      "ivory-billed-woodcreeper",
+      "olivaceous-woodcreeper",
+      "tawny-winged-woodcreeper"
+    ]
   },
   {
     "slug": "ruddy-woodcreeper",
@@ -3503,7 +4170,22 @@
     "diet": "Insectivore",
     "image": "/birds/ruddy-woodcreeper.jpg",
     "audio": "/audio/ruddy-woodcreeper.mp3",
-    "funFact": "A near-obligate follower of army ant swarms, it clings to trunks up to 10 meters high and captures arthropod prey disturbed by the ants, but never feeds on the ants themselves."
+    "funFact": "Army-ant follower clinging to trunks; all-rufous plumage unlike barred or olive woodcreepers.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Uniform rufous-chestnut plumage",
+      "Brighter reddish crown",
+      "Straight bill, short tail"
+    ],
+    "voice": "Single sharp whistle.",
+    "similarSpecies": [
+      "tawny-winged-woodcreeper",
+      "olivaceous-woodcreeper"
+    ]
   },
   {
     "slug": "gray-headed-dove",
@@ -3523,7 +4205,23 @@
     "diet": "Granivore",
     "image": "/birds/gray-headed-dove.jpg",
     "audio": "/audio/gray-headed-dove.mp3",
-    "funFact": "The gray-headed dove, gray-fronted dove, pallid dove, Azuero dove, and Grenada dove were once all thought to be a single species."
+    "funFact": "Large understory dove; pale gray head and white-tipped tail flash when flushed from forest floor.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Pale bluish-gray crown",
+      "Pinkish buff face, white belly",
+      "Olive-brown upperparts, black tail with white tips"
+    ],
+    "voice": "Soft cooing from understory.",
+    "similarSpecies": [
+      "gray-chested-dove",
+      "short-billed-pigeon",
+      "pale-vented-pigeon"
+    ]
   },
   {
     "slug": "gray-headed-tanager",
@@ -3542,7 +4240,22 @@
     "diet": "Omnivore",
     "image": "/birds/gray-headed-tanager.jpg",
     "audio": "/audio/gray-headed-tanager.mp3",
-    "funFact": "The gray-headed tanager is the only member of its genus Eucometis and is known to follow army ant swarms to feed on insects fleeing from the ants."
+    "funFact": "Understory pairs often follow army ants; gray crested head stands out in dim forest.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Conspicuous gray head and crest",
+      "Yellowish olive body",
+      "Pairs in dense understory"
+    ],
+    "voice": "Soft chips near ant swarms.",
+    "similarSpecies": [
+      "red-crowned-ant-tanager",
+      "red-throated-ant-tanager"
+    ]
   },
   {
     "slug": "chestnut-colored-woodpecker",
@@ -3562,7 +4275,23 @@
     "diet": "Insectivore",
     "image": "/birds/chestnut-colored-woodpecker.jpg",
     "audio": "/audio/chestnut-colored-woodpecker.mp3",
-    "funFact": "The male chestnut-colored woodpecker is distinguished by bright red plumage from the lores to behind the eye and down to the throat — the female has none."
+    "funFact": "Humid forest and mangroves; male red face and throat; heavily marked chestnut underparts.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Rich chestnut body with black V marks below",
+      "Black bars on back, pointed crest",
+      "Male red from lores to throat"
+    ],
+    "voice": "Whinnying calls in forest.",
+    "similarSpecies": [
+      "pale-billed-woodpecker",
+      "golden-olive-woodpecker",
+      "lineated-woodpecker"
+    ]
   },
   {
     "slug": "mangrove-vireo",
@@ -3582,7 +4311,20 @@
     "diet": "Insectivore",
     "image": "/birds/mangrove-vireo.jpg",
     "audio": "/audio/mangrove-vireo.mp3",
-    "funFact": "On the Pacific coast, mangrove vireos are found almost exclusively in red mangroves, while Caribbean populations inhabit a wider variety of forest types."
+    "funFact": "Coastal mangroves and scrub; dull vireo best found by song in red mangrove stands.",
+    "status": "Resident",
+    "regions": [
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Small vireo, greenish brown above",
+      "Yellowish wing bars",
+      "Grayish underparts with faint yellow belly"
+    ],
+    "voice": "Slow whistled song.",
+    "similarSpecies": [
+      "lesser-greenlet"
+    ]
   },
   {
     "slug": "white-bellied-wren",
@@ -3601,7 +4343,23 @@
     "diet": "Insectivore",
     "image": "/birds/white-bellied-wren.jpg",
     "audio": "/audio/white-bellied-wren.mp3",
-    "funFact": "Builds a retort-shaped nest — an oval ball with a downward-pointing funnel entrance — often placed in spiny locations like Bromelia thickets or Acacia trees."
+    "funFact": "Thorny scrub and dry forest edge; white belly and gray breast separate from other small wrens.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "White belly, gray throat and chest",
+      "Brown upperparts, buff flanks",
+      "Barred tail, white supercilium"
+    ],
+    "voice": "Bubbling song from thickets.",
+    "similarSpecies": [
+      "southern-house-wren",
+      "white-breasted-wood-wren",
+      "spot-breasted-wren"
+    ]
   },
   {
     "slug": "orange-breasted-falcon",
@@ -3620,7 +4378,21 @@
     "diet": "Carnivore",
     "image": "/birds/orange-breasted-falcon.jpg",
     "audio": "/audio/orange-breasted-falcon.mp3",
-    "funFact": "The Peregrine Fund has been successfully captive-breeding and releasing orange-breasted falcons into the wild in Belize since 2007, with over 50 released and some pairing with wild birds."
+    "funFact": "Rare cliff and emergent-tree nester; orange breast and heavy build unlike smaller Bat Falcon.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Black head, bluish black upperparts",
+      "Buff-orange breast and belly",
+      "Black lower breast with reddish bars"
+    ],
+    "voice": "Loud screaming calls.",
+    "similarSpecies": [
+      "bat-falcon"
+    ]
   },
   {
     "slug": "white-necked-puffbird",
@@ -3640,7 +4412,21 @@
     "diet": "Insectivore",
     "image": "/birds/white-necked-puffbird.jpg",
     "audio": "/audio/white-necked-puffbird.mp3",
-    "funFact": "The white-necked puffbird nests in arboreal termitaria (termite nests), where both sexes excavate a cavity for their eggs."
+    "funFact": "More open than White-whiskered; bold black-and-white pattern visible on exposed snags.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Glossy black with broad white neck and breast",
+      "Black band between white upper breast and belly",
+      "Very large black bill"
+    ],
+    "voice": "Whistled calls from open perches.",
+    "similarSpecies": [
+      "white-whiskered-puffbird"
+    ]
   },
   {
     "slug": "great-tinamou",
@@ -3659,7 +4445,22 @@
     "diet": "Omnivore",
     "image": "/birds/great-tinamou.jpg",
     "audio": "/audio/great-tinamou.mp3",
-    "funFact": "The great tinamou has the highest percentage of skeletal muscle devoted to locomotion of any bird (56.9% of body weight), yet has the smallest relative heart size of any bird (0.19%)."
+    "funFact": "Listen for the three-note whistle at dusk in primary forest; usually walks rather than flies.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Large ground bird (~40 cm)",
+      "Olive-green with rufous crown and neck",
+      "Whitish throat and belly, barred flanks"
+    ],
+    "voice": "Three-note piping call at dusk.",
+    "similarSpecies": [
+      "little-tinamou",
+      "thicket-tinamou"
+    ]
   },
   {
     "slug": "gray-chested-dove",
@@ -3676,7 +4477,22 @@
     "diet": "Granivore",
     "image": "/birds/gray-chested-dove.jpg",
     "audio": "/audio/gray-chested-dove.mp3",
-    "funFact": "The gray-chested dove builds a shallow platform nest of twigs and straw, placed 1-5 meters above ground on a tree branch or in a vine tangle."
+    "funFact": "Secondary forest understory; reddish underparts and yellow eye distinguish from Gray-headed Dove.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Pinkish gray face, dark brown crown",
+      "Reddish gray breast, reddish belly",
+      "Yellow eye with bare gray skin"
+    ],
+    "voice": "Soft cooing from secondary forest.",
+    "similarSpecies": [
+      "gray-headed-dove",
+      "short-billed-pigeon"
+    ]
   },
   {
     "slug": "golden-hooded-tanager",
@@ -3696,7 +4512,7 @@
     "diet": "Omnivore",
     "image": "/birds/golden-hooded-tanager.jpg",
     "audio": "/audio/golden-hooded-tanager.mp3",
-    "funFact": "The golden-hooded tanager is often double-brooded, and young birds from the first clutch assist with feeding the second brood of chicks.",
+    "funFact": "Canopy and garden edges; golden head and turquoise shoulders flash in mixed flocks with Blue-gray Tanagers.",
     "status": "Resident",
     "regions": [
       "Countrywide"
@@ -3732,7 +4548,22 @@
     "diet": "Insectivore",
     "image": "/birds/smoky-brown-woodpecker.jpg",
     "audio": "/audio/smoky-brown-woodpecker.mp3",
-    "funFact": "The smoky-brown woodpecker has an exceptionally wide elevational range, found from near sea level up to 2,800 meters (9,200 ft) in the Andes."
+    "funFact": "Midstory woodpecker in varied forest types; plain brown plumage with red crown on male.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Uniform olive-brown plumage",
+      "Male red crown; female dark crown",
+      "Thin white supercilium"
+    ],
+    "voice": "Rattling calls in midstory.",
+    "similarSpecies": [
+      "golden-olive-woodpecker",
+      "lineated-woodpecker"
+    ]
   },
   {
     "slug": "hook-billed-kite",
@@ -3751,7 +4582,21 @@
     "diet": "Carnivore",
     "image": "/birds/hook-billed-kite.jpg",
     "audio": "/audio/hook-billed-kite.mp3",
-    "funFact": "The hook-billed kite's beak has adapted in size and shape across different regions in response to the species of tree snail available in each area, a remarkable example of local adaptation."
+    "funFact": "Snail specialist of forest and wetlands; oversized hooked bill is the key field mark.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Large strongly hooked bill",
+      "Slender kite shape, variable plumage",
+      "Male dark below; female brown or brick-red"
+    ],
+    "voice": "Whistled calls near snail-rich forest.",
+    "similarSpecies": [
+      "double-toothed-kite"
+    ]
   },
   {
     "slug": "brown-hooded-parrot",
@@ -3772,7 +4617,22 @@
     "diet": "Frugivore",
     "image": "/birds/brown-hooded-parrot.jpg",
     "audio": "/audio/brown-hooded-parrot.mp3",
-    "funFact": "The brown-hooded parrot and the rose-faced parrot were once considered the same species and are now regarded as sister species."
+    "funFact": "Small parrot of humid forest canopy; brown hood and red eye patch visible in flight.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Reddish brown hood",
+      "Green body with blue wing edge",
+      "Pink-red patch behind eye"
+    ],
+    "voice": "Harsh screeching calls in flight.",
+    "similarSpecies": [
+      "white-crowned-parrot",
+      "olive-throated-parakeet"
+    ]
   },
   {
     "slug": "black-crowned-tityra",
@@ -3794,7 +4654,7 @@
     "diet": "Frugivore",
     "image": "/birds/black-crowned-tityra.jpg",
     "audio": "/audio/black-crowned-tityra.mp3",
-    "funFact": "The black-crowned tityra has a complicated taxonomic history — originally described as a shrike, it was later placed with tyrant flycatchers before being assigned to its own family Tityridae.",
+    "funFact": "Fruit-eater of clearings and canopy; male black cap and pink bill visible on exposed perches.",
     "status": "Resident",
     "regions": [
       "Countrywide"
@@ -3826,7 +4686,22 @@
     "diet": "Insectivore",
     "image": "/birds/cabaniss-wren.jpg",
     "audio": "/audio/cabaniss-wren.mp3",
-    "funFact": "Cabanis's wren was formerly lumped with the canebrake wren and isthmian wren as a single species called the 'plain wren,' until they were split in 2016 based on differences in vocalizations and genetics."
+    "funFact": "Garden and forest edge wren; orange rump and gray crown help separate from House Wren.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Dark gray-brown crown",
+      "Rufous-brown back, orange-rufous rump",
+      "White supercilium, buffy white belly"
+    ],
+    "voice": "Rich melodious song.",
+    "similarSpecies": [
+      "southern-house-wren",
+      "spot-breasted-wren"
+    ]
   },
   {
     "slug": "tropical-royal-flycatcher",
@@ -3846,7 +4721,21 @@
     "diet": "Insectivore",
     "image": "/birds/tropical-royal-flycatcher.jpg",
     "audio": "/audio/tropical-royal-flycatcher.mp3",
-    "funFact": "The tropical royal flycatcher's spectacular erectile fan-shaped crest — scarlet with blue tips in males, yellow or orange in females — is displayed during courtship and when the bird is alarmed."
+    "funFact": "Understory near streams; spectacular fan crest usually hidden—look for cinnamon rump and barred back.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Erectile fan crest (red/blue in male)",
+      "Dark brown barred upperparts",
+      "Warm buff underparts with breast barring"
+    ],
+    "voice": "Soft whistles; crest raised when alarmed.",
+    "similarSpecies": [
+      "sulphur-rumped-flycatcher"
+    ]
   },
   {
     "slug": "northern-potoo",
@@ -3867,7 +4756,18 @@
     "diet": "Insectivore",
     "image": "/birds/northern-potoo.jpg",
     "audio": "/audio/northern-potoo.mp3",
-    "funFact": "The Mopan Maya of Belize believe that if a northern potoo flies over a house repeatedly at night, someone in that family will die, and they chase the birds away with lighted sticks."
+    "funFact": "Scan fence posts and dead snags at dusk; freezes upright and blends perfectly with bark.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large nocturnal bird, cryptic brown pattern",
+      "Huge yellow eyes",
+      "Perches upright like a broken branch"
+    ],
+    "voice": "Mournful wavering song at night.",
+    "similarSpecies": []
   },
   {
     "slug": "lesser-yellow-headed-vulture",
@@ -3888,7 +4788,21 @@
     "diet": "Carnivore",
     "image": "/birds/lesser-yellow-headed-vulture.jpg",
     "audio": "/audio/lesser-yellow-headed-vulture.mp3",
-    "funFact": "Like other New World vultures, the lesser yellow-headed vulture practices urohidrosis — urinating on its legs to cool them by evaporation."
+    "funFact": "Low-flying vulture of marshes and savanna; pale orange head unlike the King Vulture.",
+    "status": "Resident",
+    "regions": [
+      "Coastal",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black plumage with green sheen",
+      "Pale orange bare head and neck",
+      "Flies low over wetlands and savanna"
+    ],
+    "voice": "Hisses and grunts at carrion.",
+    "similarSpecies": [
+      "king-vulture"
+    ]
   },
   {
     "slug": "orange-billed-sparrow",
@@ -3909,7 +4823,22 @@
     "diet": "Omnivore",
     "image": "/birds/orange-billed-sparrow.jpg",
     "audio": "/audio/orange-billed-sparrow.mp3",
-    "funFact": "The orange-billed sparrow builds a bulky ball-shaped nest with a side entrance, usually placed on the ground, constructed from coarse plant material and lined with finer fibers."
+    "funFact": "Forest floor and understory; orange bill and black breast band are unmistakable.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Bright orange bill",
+      "Black crown with gray central stripe",
+      "White supercilium, black breast band"
+    ],
+    "voice": "Musical whistled song.",
+    "similarSpecies": [
+      "green-backed-sparrow",
+      "rusty-sparrow"
+    ]
   },
   {
     "slug": "sulphur-rumped-flycatcher",
@@ -3927,7 +4856,22 @@
     "diet": "Insectivore",
     "image": "/birds/sulphur-rumped-flycatcher.jpg",
     "audio": "/audio/sulphur-rumped-flycatcher.mp3",
-    "funFact": "This bird often displays its bright sulphur-yellow rump patch by fanning its tail and dropping its wings, and frequently joins mixed-species flocks foraging near streams in the forest understory."
+    "funFact": "Fans tail to flash yellow rump near forest streams; often in mixed-species understory flocks.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Namesake sulphur-yellow rump patch",
+      "Olive-brown head, tawny breast",
+      "Grey face and eye ring"
+    ],
+    "voice": "Soft calls in understory flocks.",
+    "similarSpecies": [
+      "tropical-royal-flycatcher",
+      "bright-rumped-attila"
+    ]
   },
   {
     "slug": "thick-billed-seed-finch",
@@ -3946,7 +4890,22 @@
     "diet": "Granivore",
     "image": "/birds/thick-billed-seed-finch.jpg",
     "audio": "/audio/thick-billed-seed-finch.mp3",
-    "funFact": "The male is almost entirely black with a small white wing patch, while the female is a completely different-looking rich brown, making them appear to be different species."
+    "funFact": "Grassy edges and scrub; massive bill and white wing patch on black male are distinctive.",
+    "status": "Resident",
+    "regions": [
+      "Forest edges",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male all black with small white wing patch",
+      "Female rich brown (very different)",
+      "Large straight-edged bill"
+    ],
+    "voice": "Sweet whistled song.",
+    "similarSpecies": [
+      "variable-seedeater",
+      "morelets-seedeater"
+    ]
   },
   {
     "slug": "thicket-tinamou",
@@ -3966,7 +4925,22 @@
     "diet": "Omnivore",
     "image": "/birds/thicket-tinamou.jpg",
     "audio": "/audio/thicket-tinamou.mp3",
-    "funFact": "The thicket tinamou has a monotonous voice sounding like a steam engine, and like most tinamous, it prefers to walk rather than fly."
+    "funFact": "Gallery and moist forest; barred upperparts and steam-engine song separate from Little Tinamou.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Medium brown tinamou with barred back",
+      "Cinnamon breast, buff supercilium",
+      "Heavily barred wings and rump"
+    ],
+    "voice": "Monotonous steam-engine-like song.",
+    "similarSpecies": [
+      "little-tinamou",
+      "great-tinamou"
+    ]
   },
   {
     "slug": "crested-guan",
@@ -3987,7 +4961,21 @@
     "diet": "Frugivore",
     "image": "/birds/crested-guan.jpg",
     "audio": "/audio/crested-guan.mp3",
-    "funFact": "The crested guan's dawn song is a powerful steam-whistle call ending in a low growl: \"ku LEEErrr!\", and it performs display flights at dawn during breeding season with dramatic wing-drumming."
+    "funFact": "Listen for the steam-whistle dawn song in tall forest; often perches high in canopy.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Large turkey-like bird",
+      "Dusky olive brown with chestnut belly",
+      "Small red throat wattle"
+    ],
+    "voice": "Powerful ku LEEErrr! dawn call.",
+    "similarSpecies": [
+      "great-curassow"
+    ]
   },
   {
     "slug": "collared-trogon",
@@ -4007,7 +4995,23 @@
     "diet": "Omnivore",
     "image": "/birds/collared-trogon.jpg",
     "audio": "/audio/collared-trogon.mp3",
-    "funFact": "The collared trogon often nests in cavities in decaying wood or arboreal termite nests, and the cavity is often so shallow that much of the bird remains visible while incubating."
+    "funFact": "Midstory sit-and-wait hunter; white collar between green breast and red belly on male.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Male green above, red belly",
+      "Black face and throat, white collar",
+      "Female olive-brown where male is green"
+    ],
+    "voice": "Soft cooing notes.",
+    "similarSpecies": [
+      "gartered-trogon",
+      "black-headed-trogon",
+      "slaty-tailed-trogon"
+    ]
   },
   {
     "slug": "barred-forest-falcon",
@@ -4027,7 +5031,22 @@
     "diet": "Carnivore",
     "image": "/birds/barred-forest-falcon.jpg",
     "audio": "/audio/barred-forest-falcon.mp3",
-    "funFact": "Like Accipiter hawks, it often waits quietly on tree branches to ambush prey, but it also hunts on foot and follows army ant swarms to flush insects and small animals."
+    "funFact": "Secretive forest raptor; fine barring on white underparts unlike Collared Forest-Falcon.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Dark slate upperparts",
+      "White underparts finely barred black",
+      "Tail tipped white with narrow bars"
+    ],
+    "voice": "Repeated ow calls at dawn.",
+    "similarSpecies": [
+      "collared-forest-falcon",
+      "laughing-falcon"
+    ]
   },
   {
     "slug": "yellow-backed-oriole",
@@ -4047,7 +5066,22 @@
     "diet": "Insectivore",
     "image": "/birds/yellow-backed-oriole.jpg",
     "audio": "/audio/yellow-backed-oriole.mp3",
-    "funFact": "Builds a shallow, dangling basket nest that it often attaches to the tips of palm fronds, woven from fine grasses that give the nest a springy texture."
+    "funFact": "Pine-oak woodlands in the north; yellow back contrasts with black wings and tail.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "Bright yellow back and underparts",
+      "Black wings, tail, throat, and face",
+      "Pine-oak and dry scrub specialist"
+    ],
+    "voice": "Clear whistled song.",
+    "similarSpecies": [
+      "yellow-tailed-oriole",
+      "black-cowled-oriole"
+    ]
   },
   {
     "slug": "northern-emerald-toucanet",
@@ -4067,7 +5101,22 @@
     "diet": "Frugivore",
     "image": "/birds/northern-emerald-toucanet.jpg",
     "audio": "/audio/northern-emerald-toucanet.mp3",
-    "funFact": "Despite its small size compared to larger toucans, it nests in tree cavities up to 27 m (89 ft) above the ground and gives a loud, nasal barking call of repeated \"Wok!\" notes."
+    "funFact": "Montane and secondary forest; much smaller than Keel-billed Toucan with colorful small bill.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Forest interior"
+    ],
+    "fieldMarks": [
+      "Mostly green small toucan",
+      "White throat",
+      "Bill black below, yellow above with black marks"
+    ],
+    "voice": "Nasal repeated Wok! calls.",
+    "similarSpecies": [
+      "keel-billed-toucan",
+      "collared-aracari"
+    ]
   },
   {
     "slug": "fawn-throated-foliage-gleaner",
@@ -4086,7 +5135,21 @@
     "diet": "Insectivore",
     "image": "/birds/fawn-throated-foliage-gleaner.jpg",
     "audio": "/audio/fawn-throated-foliage-gleaner.mp3",
-    "funFact": "Often joins mixed-species feeding flocks and forages by pulling prey from clumps of dead leaves as it hops along branches, vines, and the forest floor."
+    "funFact": "Pulls prey from dead leaf clumps in undergrowth; often with mixed-species flocks.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Large brown foliage-gleaner",
+      "Deep buff throat",
+      "Dusky-scaled buff breast and belly"
+    ],
+    "voice": "Chattering calls in mixed flocks.",
+    "similarSpecies": [
+      "rufous-breasted-spinetail"
+    ]
   },
   {
     "slug": "sepia-capped-flycatcher",
@@ -4105,7 +5168,22 @@
     "diet": "Insectivore",
     "image": "/birds/sepia-capped-flycatcher.jpg",
     "audio": "/audio/sepia-capped-flycatcher.mp3",
-    "funFact": "Builds a mossy globe nest with a side entrance that it hangs from a vine or exposed root beneath an overhanging log, rock, or stream bank."
+    "funFact": "Understory to mid-level forager; sepia cap and yellow belly distinguish from elaenias.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Sepia-brown crown",
+      "Olive-green upperparts",
+      "Yellowish belly, grayish-olive throat"
+    ],
+    "voice": "Whistled pee-tic notes.",
+    "similarSpecies": [
+      "ochre-bellied-flycatcher",
+      "yellow-bellied-tyrannulet"
+    ]
   },
   {
     "slug": "double-toothed-kite",
@@ -4124,7 +5202,22 @@
     "diet": "Carnivore",
     "image": "/birds/double-toothed-kite.jpg",
     "audio": "/audio/double-toothed-kite.mp3",
-    "funFact": "Gets its name from tooth-like notches on its upper bill and regularly follows troops of monkeys to catch prey flushed from the forest floor."
+    "funFact": "Follows monkey troops in canopy; small size and rufous breast unlike Hook-billed Kite.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Small forest raptor",
+      "Gray head, white throat with dark stripe",
+      "Rufous breast, barred belly"
+    ],
+    "voice": "High thin whistles.",
+    "similarSpecies": [
+      "hook-billed-kite",
+      "bat-falcon"
+    ]
   },
   {
     "slug": "great-curassow",
@@ -4142,7 +5235,21 @@
     "diet": "Omnivore",
     "image": "/birds/great-curassow.jpg",
     "audio": "/audio/great-curassow.mp3",
-    "funFact": "When a predator approaches its chicks, the great curassow performs a distraction display by feigning injury to draw the threat away from its offspring."
+    "funFact": "Walks on forest floor for fallen fruit; male black with yellow knob is unmistakable if seen.",
+    "status": "Resident",
+    "regions": [
+      "Forest interior",
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Very large black male with curly crest",
+      "Yellow bill knob, white belly",
+      "Female barred, rufous, or black morph"
+    ],
+    "voice": "Deep booming calls.",
+    "similarSpecies": [
+      "crested-guan"
+    ]
   },
   {
     "slug": "spotted-wood-quail",
@@ -4161,6 +5268,17 @@
     "diet": "Omnivore",
     "image": "/birds/spotted-wood-quail.jpg",
     "audio": "/audio/spotted-wood-quail.mp3",
-    "funFact": "When startled, this shy species usually escapes on foot but can explode into a short burst of fast flight into cover, and its advertising call is a distinctive whistled duet."
+    "funFact": "Montane understory coveys; usually escapes on foot—listen for whistled duets at dawn.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize"
+    ],
+    "fieldMarks": [
+      "Orange crest",
+      "Dark brown upperparts flecked black and rufous",
+      "Olive underparts boldly spotted white"
+    ],
+    "voice": "Distinctive whistled duet.",
+    "similarSpecies": []
   }
 ]
