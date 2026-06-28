@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import birdsData from '../data/birds.json';
 import { cacheManager } from '../utils/cacheManager';
+import { useChecklist } from '../hooks/useChecklist';
 
 const AppContext = createContext();
 
@@ -9,7 +10,7 @@ const getAssetPath = (path) => {
   return import.meta.env.BASE_URL + cleanPath;
 };
 
-const parseFrequency = (frequency) => {
+export const parseFrequency = (frequency) => {
   if (!frequency) return -1;
   const num = parseFloat(frequency.replace('%', ''));
   return isNaN(num) ? -1 : num;
@@ -28,6 +29,8 @@ export const AppProvider = ({ children }) => {
     typeof navigator !== 'undefined' ? navigator.onLine : true
   );
   const [lastSyncTime, setLastSyncTime] = useState(null);
+
+  const { isSeen, toggleSeen, seenCount, clearChecklist } = useChecklist();
 
   const [birds] = useState(() =>
     birdsData.map(bird => ({
@@ -70,6 +73,7 @@ export const AppProvider = ({ children }) => {
   const [selectedFamilies, setSelectedFamilies] = useState([]);
   const [selectedSizes, setSelectedSizes] = useState([]);
   const [selectedDiets, setSelectedDiets] = useState([]);
+  const [checklistFilter, setChecklistFilter] = useState('all');
   const [sortBy, setSortBy] = useState('taxonomic');
 
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
@@ -107,8 +111,24 @@ export const AppProvider = ({ children }) => {
       result = result.filter((bird) => selectedDiets.includes(bird.diet));
     }
 
+    if (checklistFilter === 'seen') {
+      result = result.filter((bird) => isSeen(bird.slug));
+    } else if (checklistFilter === 'unseen') {
+      result = result.filter((bird) => !isSeen(bird.slug));
+    }
+
     setFilteredBirds(result);
-  }, [searchTerm, selectedHabitats, selectedFamilies, selectedSizes, selectedDiets, birds]);
+  }, [
+    searchTerm,
+    selectedHabitats,
+    selectedFamilies,
+    selectedSizes,
+    selectedDiets,
+    checklistFilter,
+    birds,
+    isSeen,
+    seenCount,
+  ]);
 
   const allHabitats = [...new Set(birds.flatMap((bird) => bird.habitat))].sort();
   const allFamilies = [...new Set(birds.map((bird) => bird.family))].sort();
@@ -121,6 +141,7 @@ export const AppProvider = ({ children }) => {
     setSelectedFamilies([]);
     setSelectedSizes([]);
     setSelectedDiets([]);
+    setChecklistFilter('all');
   };
 
   const value = {
@@ -138,6 +159,8 @@ export const AppProvider = ({ children }) => {
     setSelectedSizes,
     selectedDiets,
     setSelectedDiets,
+    checklistFilter,
+    setChecklistFilter,
     allHabitats,
     allFamilies,
     allSizes,
@@ -148,6 +171,10 @@ export const AppProvider = ({ children }) => {
     currentlyPlaying,
     setCurrentlyPlaying,
     parseFrequency,
+    isSeen,
+    toggleSeen,
+    seenCount,
+    clearChecklist,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

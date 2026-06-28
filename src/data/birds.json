@@ -1,5 +1,6 @@
 [
   {
+    "slug": "melodious-blackbird",
     "id": 1,
     "commonName": "Melodious Blackbird",
     "scientificName": "Dives dives",
@@ -15,9 +16,21 @@
     "diet": "Omnivore",
     "image": "/birds/melodious-blackbird.jpg",
     "audio": "/audio/melodious-blackbird.mp3",
-    "funFact": "Named for its melodious, flute-like song, often heard at dawn and dusk."
+    "funFact": "Named for its melodious, flute-like song, often heard at dawn and dusk.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Entirely black with glossy sheen (male)",
+      "Duller brown-black (female)",
+      "Medium-sized icterid"
+    ],
+    "voice": "Melodious, flute-like song often heard at dawn and dusk.",
+    "similarSpecies": []
   },
   {
+    "slug": "rufous-tailed-hummingbird",
     "id": 2,
     "commonName": "Rufous-tailed Hummingbird",
     "scientificName": "Amazilia tzacatl",
@@ -33,9 +46,23 @@
     "diet": "Nectarivore",
     "image": "/birds/rufous-tailed-hummingbird.jpg",
     "audio": "/audio/rufous-tailed-hummingbird.mp3",
-    "funFact": "These tiny birds can beat their wings up to 80 times per second!"
+    "funFact": "These tiny birds can beat their wings up to 80 times per second!",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Green body",
+      "Rufous tail",
+      "Straight red bill with black tip"
+    ],
+    "voice": "Chipping calls and buzzy song from perches.",
+    "similarSpecies": [
+      "azure-crowned-hummingbird"
+    ]
   },
   {
+    "slug": "social-flycatcher",
     "id": 3,
     "commonName": "Social Flycatcher",
     "scientificName": "Myiozetetes similis",
@@ -51,9 +78,24 @@
     "diet": "Insectivore",
     "image": "/birds/social-flycatcher.jpg",
     "audio": "/audio/social-flycatcher.mp3",
-    "funFact": "Social Flycatchers build their nests near wasp nests for protection from predators."
+    "funFact": "Social Flycatchers build their nests near wasp nests for protection from predators.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "White eyebrow and throat",
+      "Dark cap",
+      "Yellow belly",
+      "Brown back"
+    ],
+    "voice": "Noisy chattering calls; often heard before seen.",
+    "similarSpecies": [
+      "boat-billed-flycatcher"
+    ]
   },
   {
+    "slug": "brown-jay",
     "id": 4,
     "commonName": "Brown Jay",
     "scientificName": "Cyanocorax morio",
@@ -69,9 +111,22 @@
     "diet": "Omnivore",
     "image": "/birds/brown-jay.jpg",
     "audio": "/audio/brown-jay.mp3",
-    "funFact": "Brown Jays are highly social and live in cooperative family groups."
+    "funFact": "Brown Jays are highly social and live in cooperative family groups.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Large brown jay",
+      "Pale bill",
+      "No crest"
+    ],
+    "voice": "Harsh, loud calls; often in noisy groups.",
+    "similarSpecies": []
   },
   {
+    "slug": "morelets-seedeater",
     "id": 5,
     "commonName": "Morelet's Seedeater",
     "scientificName": "Sporophila morelleti",
@@ -90,6 +145,7 @@
     "funFact": "Males sing from exposed perches to attract females during breeding season."
   },
   {
+    "slug": "spot-breasted-wren",
     "id": 6,
     "commonName": "Spot-breasted Wren",
     "scientificName": "Pheugopedius maculipectus",
@@ -108,6 +164,7 @@
     "funFact": "This wren's loud, musical song is often performed as a duet between mated pairs."
   },
   {
+    "slug": "keel-billed-toucan",
     "id": 7,
     "commonName": "Keel-billed Toucan",
     "scientificName": "Ramphastos sulfuratus",
@@ -123,9 +180,24 @@
     "diet": "Frugivore",
     "image": "/birds/keel-billed-toucan.jpg",
     "audio": "/audio/keel-billed-toucan.mp3",
-    "funFact": "Despite its large size, the bill is surprisingly light, made of hollow bone struts covered in keratin."
+    "funFact": "Despite its large size, the bill is surprisingly light, made of hollow bone struts covered in keratin.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Large rainbow bill",
+      "Black body",
+      "Yellow throat and chest",
+      "Red undertail coverts"
+    ],
+    "voice": "Frog-like croaking calls.",
+    "similarSpecies": [
+      "collared-aracari"
+    ]
   },
   {
+    "slug": "red-throated-ant-tanager",
     "id": 8,
     "commonName": "Red-throated Ant-Tanager",
     "scientificName": "Driophlox fuscicauda",
@@ -144,6 +216,7 @@
     "funFact": "Often follows army ant swarms to catch insects fleeing from the ants."
   },
   {
+    "slug": "collared-aracari",
     "id": 9,
     "commonName": "Collared Aracari",
     "scientificName": "Pteroglossus torquatus",
@@ -159,9 +232,23 @@
     "diet": "Frugivore",
     "image": "/birds/collared-aracari.jpg",
     "audio": "/audio/collared-aracari.mp3",
-    "funFact": "Aracaris often sleep communally, with up to six birds roosting together in a tree cavity."
+    "funFact": "Aracaris often sleep communally, with up to six birds roosting together in a tree cavity.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Smaller than toucan",
+      "Black collar on yellow chest",
+      "Colorful bill"
+    ],
+    "voice": "Soft purring and croaking notes.",
+    "similarSpecies": [
+      "keel-billed-toucan"
+    ]
   },
   {
+    "slug": "ruddy-ground-dove",
     "id": 10,
     "commonName": "Ruddy Ground Dove",
     "scientificName": "Columbina talpacoti",
@@ -180,6 +267,7 @@
     "funFact": "This dove's soft, monotonous cooing is a common sound in open areas throughout Belize."
   },
   {
+    "slug": "yellow-throated-euphonia",
     "id": 11,
     "commonName": "Yellow-throated Euphonia",
     "scientificName": "Euphonia hirundinacea",
@@ -195,9 +283,22 @@
     "diet": "Frugivore",
     "image": "/birds/yellow-throated-euphonia.jpg",
     "audio": "/audio/yellow-throated-euphonia.mp3",
-    "funFact": "Euphonias are specialist mistletoe berry eaters and help spread these parasitic plants."
+    "funFact": "Euphonias are specialist mistletoe berry eaters and help spread these parasitic plants.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Male: yellow throat and belly, blue-black upperparts",
+      "Female: olive with yellow below"
+    ],
+    "voice": "Musical whistled notes.",
+    "similarSpecies": [
+      "scrub-euphonia"
+    ]
   },
   {
+    "slug": "black-headed-saltator",
     "id": 12,
     "commonName": "Black-headed Saltator",
     "scientificName": "Saltator atriceps",
@@ -213,9 +314,22 @@
     "diet": "Omnivore",
     "image": "/birds/black-headed-saltator.jpg",
     "audio": "/audio/black-headed-saltator.mp3",
-    "funFact": "The name 'saltator' comes from Latin meaning 'dancer' or 'leaper'."
+    "funFact": "The name 'saltator' comes from Latin meaning 'dancer' or 'leaper'.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black head",
+      "White throat",
+      "Olive back",
+      "Yellow belly"
+    ],
+    "voice": "Rich whistled song from thickets.",
+    "similarSpecies": []
   },
   {
+    "slug": "blue-black-grassquit",
     "id": 13,
     "commonName": "Blue-black Grassquit",
     "scientificName": "Volatinia jacarina",
@@ -234,6 +348,7 @@
     "funFact": "Males leap straight up into the air while singing, sometimes jumping over 100 times per hour!"
   },
   {
+    "slug": "groove-billed-ani",
     "id": 14,
     "commonName": "Groove-billed Ani",
     "scientificName": "Crotophaga sulcirostris",
@@ -249,9 +364,22 @@
     "diet": "Insectivore",
     "image": "/birds/groove-billed-ani.jpg",
     "audio": "/audio/groove-billed-ani.mp3",
-    "funFact": "Anis are cooperative breeders, with multiple females laying eggs in a single communal nest."
+    "funFact": "Anis are cooperative breeders, with multiple females laying eggs in a single communal nest.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "All black",
+      "Grooved bill",
+      "Long floppy tail",
+      "Often in groups"
+    ],
+    "voice": "Whining and clicking calls from roadside groups.",
+    "similarSpecies": []
   },
   {
+    "slug": "olive-throated-parakeet",
     "id": 15,
     "commonName": "Olive-throated Parakeet",
     "scientificName": "Eupsittula nana",
@@ -270,6 +398,7 @@
     "funFact": "These parakeets excavate nest cavities in termite mounds in trees."
   },
   {
+    "slug": "yellow-winged-tanager",
     "id": 16,
     "commonName": "Yellow-winged Tanager",
     "scientificName": "Thraupis abbas",
@@ -288,6 +417,7 @@
     "funFact": "This tanager often follows mixed-species feeding flocks through the forest."
   },
   {
+    "slug": "common-squirrel-cuckoo",
     "id": 17,
     "commonName": "Common Squirrel-Cuckoo",
     "scientificName": "Piaya cayana",
@@ -306,6 +436,7 @@
     "funFact": "Named for its squirrel-like movements as it hops through branches hunting for large insects."
   },
   {
+    "slug": "ivory-billed-woodcreeper",
     "id": 18,
     "commonName": "Ivory-billed Woodcreeper",
     "scientificName": "Xiphorhynchus flavigaster",
@@ -324,6 +455,7 @@
     "funFact": "Woodcreepers use their stiff tail feathers as a prop while climbing tree trunks."
   },
   {
+    "slug": "masked-tityra",
     "id": 19,
     "commonName": "Masked Tityra",
     "scientificName": "Tityra semifasciata",
@@ -342,6 +474,7 @@
     "funFact": "Tityras nest in old woodpecker holes and often line their nests with leaves and bark."
   },
   {
+    "slug": "boat-billed-flycatcher",
     "id": 20,
     "commonName": "Boat-billed Flycatcher",
     "scientificName": "Megarynchus pitangua",
@@ -360,6 +493,7 @@
     "funFact": "The huge bill is an adaptation for catching large flying insects and even small fruits."
   },
   {
+    "slug": "lesser-greenlet",
     "id": 21,
     "commonName": "Lesser Greenlet",
     "scientificName": "Pachysylvia decurtata",
@@ -377,6 +511,7 @@
     "funFact": "Often joins mixed-species feeding flocks and sometimes hangs upside-down to feed."
   },
   {
+    "slug": "northern-tropical-pewee",
     "id": 22,
     "commonName": "Northern Tropical Pewee",
     "scientificName": "Contopus bogotensis",
@@ -394,6 +529,7 @@
     "funFact": "Sits erect on exposed perches and catches insects in mid-air, returning to the same perch and shivers its tail upon landing."
   },
   {
+    "slug": "black-headed-trogon",
     "id": 23,
     "commonName": "Black-headed Trogon",
     "scientificName": "Trogon melanocephalus",
@@ -411,6 +547,7 @@
     "funFact": "Nests in active termite mounds, with both parents excavating the nest cavity in termitaria."
   },
   {
+    "slug": "blue-gray-tanager",
     "id": 24,
     "commonName": "Blue-gray Tanager",
     "scientificName": "Thraupis episcopus",
@@ -428,6 +565,7 @@
     "funFact": "Often called blue jean in Trinidad and Tobago, this confiding species thrives around human habitation."
   },
   {
+    "slug": "white-bellied-emerald",
     "id": 25,
     "commonName": "White-bellied Emerald",
     "scientificName": "Chlorestes candida",
@@ -445,6 +583,7 @@
     "funFact": "Males sing in leks and are believed to be polygynous, with females building cup nests decorated with lichen and moss."
   },
   {
+    "slug": "olive-backed-euphonia",
     "id": 26,
     "commonName": "Olive-backed Euphonia",
     "scientificName": "Euphonia gouldi",
@@ -462,6 +601,7 @@
     "funFact": "Builds a globe-shaped nest with a side entrance made from moss, roots, and plant fibers, typically placed in a clump of moss or epiphytes."
   },
   {
+    "slug": "southern-house-wren",
     "id": 27,
     "commonName": "Southern House Wren",
     "scientificName": "Troglodytes musculus",
@@ -479,6 +619,7 @@
     "funFact": "Formerly considered the same species as the Northern House Wren but was split based on genetic divergence, differences in vocalizations, and morphology."
   },
   {
+    "slug": "white-breasted-wood-wren",
     "id": 28,
     "commonName": "White-breasted Wood-Wren",
     "scientificName": "Henicorhina leucosticta",
@@ -496,6 +637,7 @@
     "funFact": "Pairs often sing in duets, and the song has been compared to the opening bars of Beethoven's Fifth Symphony by ornithologist Luis Baptista."
   },
   {
+    "slug": "lineated-woodpecker",
     "id": 29,
     "commonName": "Lineated Woodpecker",
     "scientificName": "Dryocopus lineatus",
@@ -513,6 +655,7 @@
     "funFact": "Uses its strong bill to chip out large holes while searching for insects, especially ant and beetle larvae. Both males and females drum loudly on trees to communicate and establish territory."
   },
   {
+    "slug": "red-legged-honeycreeper",
     "id": 30,
     "commonName": "Red-legged Honeycreeper",
     "scientificName": "Cyanerpes cyaneus",
@@ -527,9 +670,22 @@
     "diet": "Omnivore",
     "image": "/birds/red-legged-honeycreeper.jpg",
     "audio": "/audio/red-legged-honeycreeper.mp3",
-    "funFact": "Males undergo a dramatic seasonal transformation, molting from their brilliant violet-blue breeding plumage into greenish eclipse plumage after the breeding season!"
+    "funFact": "Males undergo a dramatic seasonal transformation, molting from their brilliant violet-blue breeding plumage into greenish eclipse plumage after the breeding season!",
+    "status": "Resident",
+    "regions": [
+      "Forest edges"
+    ],
+    "fieldMarks": [
+      "Male: turquoise with black wings and red legs",
+      "Female: greenish"
+    ],
+    "voice": "Sharp chips; male sings from canopy.",
+    "similarSpecies": [
+      "blue-black-grassquit"
+    ]
   },
   {
+    "slug": "black-cowled-oriole",
     "id": 31,
     "commonName": "Black-cowled Oriole",
     "scientificName": "Icterus prosthemelas",
@@ -548,6 +704,7 @@
     "funFact": "Builds a shallow pendant nest stitched to the underside of large leaves like heliconia or banana, making holes in the leaf and lacing fibers through them to hang the nest!"
   },
   {
+    "slug": "lessons-motmot",
     "id": 32,
     "commonName": "Lesson's Motmot",
     "scientificName": "Momotus lessonii",
@@ -565,6 +722,7 @@
     "funFact": "Nests in tunnels dug into banks, laying 3-4 white eggs. The unique racket-shaped tail feathers are created when the barbs naturally fall off the central portion of the tail!"
   },
   {
+    "slug": "yellow-olive-flatbill",
     "id": 33,
     "commonName": "Yellow-olive Flatbill",
     "scientificName": "Tolmomyias sulphurescens",
@@ -583,6 +741,7 @@
     "funFact": "Builds a distinctive pear-shaped bag nest with a tube entrance that slopes upward! Made from rootlets, fungal rhizomorphs, grass, and spider web, adults roost in it even outside breeding season."
   },
   {
+    "slug": "pale-billed-woodpecker",
     "id": 34,
     "commonName": "Pale-billed Woodpecker",
     "scientificName": "Campephilus guatemalensis",
@@ -601,6 +760,7 @@
     "funFact": "Requires large trees for foraging and disappears from heavily deforested areas. Its characteristic call sounds like a nasal squeeze toy: 'kip kip kip kip-hey'eh'eh'!"
   },
   {
+    "slug": "common-tody-flycatcher",
     "id": 35,
     "commonName": "Common Tody-Flycatcher",
     "scientificName": "Todirostrum cinereum",
@@ -619,6 +779,7 @@
     "funFact": "Builds a hanging pouch nest with a side entrance, often decorated with bits of lichen and spider webs. Both parents incubate and feed the young!"
   },
   {
+    "slug": "long-billed-hermit",
     "id": 36,
     "commonName": "Long-billed Hermit",
     "scientificName": "Phaethornis longirostris",
@@ -637,6 +798,7 @@
     "funFact": "Males sing in communal leks of up to 25 birds and wiggle their long tails in display. Competitive lek singing can occupy half of the daylight hours to attract females!"
   },
   {
+    "slug": "gartered-trogon",
     "id": 37,
     "commonName": "Gartered Trogon",
     "scientificName": "Trogon caligatus",
@@ -655,6 +817,7 @@
     "funFact": "Nests in wasp, ant, or termite arboreal nests or holes in rotten trees. Its diet includes more fruit than most other trogons, supplemented with many types of insects!"
   },
   {
+    "slug": "green-backed-sparrow",
     "id": 38,
     "commonName": "Green-backed Sparrow",
     "scientificName": "Arremonops chloronotus",
@@ -673,6 +836,7 @@
     "funFact": "Builds a dome-shaped nest on the ground with a side entrance, made from plant fibers, leaves, and bark. Forages on the ground, usually singly or in pairs!"
   },
   {
+    "slug": "northern-schiffornis",
     "id": 39,
     "commonName": "Northern Schiffornis",
     "scientificName": "Schiffornis veraepacis",
@@ -690,6 +854,7 @@
     "funFact": "Sings mostly in the early morning with a sequence of 2-4 clear, rich musical whistles! The female alone incubates eggs for 20-21 days and provisions nestlings by herself."
   },
   {
+    "slug": "barred-antshrike",
     "id": 40,
     "commonName": "Barred Antshrike",
     "scientificName": "Thamnophilus doliatus",
@@ -708,6 +873,7 @@
     "funFact": "Pairs vigorously defend year-round territories and sing duets while stretching their necks, bowing forward, and pumping their tails up and down!"
   },
   {
+    "slug": "yellow-bellied-flycatcher",
     "id": 41,
     "commonName": "Yellow-bellied Flycatcher",
     "scientificName": "Empidonax flaviventris",
@@ -722,9 +888,22 @@
     "diet": "Insectivore",
     "image": "/birds/yellow-bellied-flycatcher.jpg",
     "audio": "/audio/yellow-bellied-flycatcher.mp3",
-    "funFact": "Migrates from breeding grounds in Canada and northeastern US to winter in southern Mexico and Central America. Makes a cup nest in sphagnum moss on or near the ground!"
+    "funFact": "Migrates from breeding grounds in Canada and northeastern US to winter in southern Mexico and Central America. Makes a cup nest in sphagnum moss on or near the ground!",
+    "status": "Migrant",
+    "regions": [
+      "Forest interior"
+    ],
+    "fieldMarks": [
+      "Olive upperparts",
+      "Yellow belly",
+      "Pale eye ring",
+      "Small flycatcher"
+    ],
+    "voice": "Soft \"chu-wee\" call; breeds in North America, winters in Belize.",
+    "similarSpecies": []
   },
   {
+    "slug": "white-necked-jacobin",
     "id": 42,
     "commonName": "White-necked Jacobin",
     "scientificName": "Florisuga mellivora",
@@ -743,6 +922,7 @@
     "funFact": "Builds a shallow cup nest of plant down and cobweb on the upper surface of a leaf where another leaf provides a 'roof'! Several may feed in one tree and are aggressive to each other."
   },
   {
+    "slug": "white-crowned-parrot",
     "id": 43,
     "commonName": "White-crowned Parrot",
     "scientificName": "Pionus senilis",
@@ -761,6 +941,7 @@
     "funFact": "When disturbed, these parrots make a distinctive musky odor! They travel in flocks of 10-40 birds and can become very tame in captivity, though wild-caught birds are protected by CITES."
   },
   {
+    "slug": "olivaceous-woodcreeper",
     "id": 44,
     "commonName": "Olivaceous Woodcreeper",
     "scientificName": "Sittasomus griseicapillus",
@@ -779,6 +960,7 @@
     "funFact": "Often follows army ant swarms to catch insects fleeing from the ants, and frequently joins mixed-species feeding flocks where it may even form a core species!"
   },
   {
+    "slug": "wedge-tailed-sabrewing",
     "id": 45,
     "commonName": "Wedge-tailed Sabrewing",
     "scientificName": "Pampa curvipennis",
@@ -797,6 +979,7 @@
     "funFact": "Males sing the most complex song of any hummingbird, even comparable to songbirds! They display at leks and sing from bare twigs in the forest understory."
   },
   {
+    "slug": "bat-falcon",
     "id": 46,
     "commonName": "Bat Falcon",
     "scientificName": "Falco rufigularis",
@@ -815,6 +998,7 @@
     "funFact": "Named for their habit of hunting bats! They are most active around dawn and dusk, often hunting well past sunset from high, open perches."
   },
   {
+    "slug": "black-cheeked-woodpecker",
     "id": 47,
     "commonName": "Black-cheeked Woodpecker",
     "scientificName": "Melanerpes pucherani",
@@ -833,6 +1017,7 @@
     "funFact": "Very active and agile forager that sometimes clings to the underside of branches! Feeds on everything from insects to fruits to flower nectar."
   },
   {
+    "slug": "blue-black-grosbeak",
     "id": 48,
     "commonName": "Blue-black Grosbeak",
     "scientificName": "Cyanoloxia cyanoides",
@@ -850,6 +1035,7 @@
     "funFact": "Often not seen because they prefer to stay hidden in vegetation - their presence is usually known only by their distinctive song of about six whistles with decreasing pitch!"
   },
   {
+    "slug": "bright-rumped-attila",
     "id": 49,
     "commonName": "Bright-rumped Attila",
     "scientificName": "Attila spadiceus",
@@ -868,6 +1054,7 @@
     "funFact": "Active, aggressive, and noisy! Will pursue prey on foot and follow army ant columns. Known for its loud 'beat-it, beat-it' call and plaintive whistled song."
   },
   {
+    "slug": "scaly-breasted-hummingbird",
     "id": 50,
     "commonName": "Scaly-breasted Hummingbird",
     "scientificName": "Phaeochroa cuvierii",
@@ -887,6 +1074,7 @@
     "funFact": "Males display for females at leks during breeding season. This hummingbird aggressively defends patches of flowers and dominates smaller hummingbirds at feeding sites!"
   },
   {
+    "slug": "short-billed-pigeon",
     "id": 51,
     "commonName": "Short-billed Pigeon",
     "scientificName": "Patagioenas nigrirostris",
@@ -904,6 +1092,7 @@
     "funFact": "Named for its proportionally short bill compared to other pigeons in its genus. Has a complex, loud and high-pitched call that is slower and more complex than its close relative, the ruddy pigeon."
   },
   {
+    "slug": "yellow-billed-cacique",
     "id": 52,
     "commonName": "Yellow-billed Cacique",
     "scientificName": "Amblycercus holosericeus",
@@ -922,6 +1111,7 @@
     "funFact": "Pairs duet together with complex vocalizations, and this bird feeds like a woodpecker by hammering into bamboo and inserting its closed bill into substrates then opening it to expose hidden prey!"
   },
   {
+    "slug": "yellow-faced-grassquit",
     "id": 53,
     "commonName": "Yellow-faced Grassquit",
     "scientificName": "Tiaris olivaceus",
@@ -940,6 +1130,7 @@
     "funFact": "Builds a roughly globular nest with a side entrance placed usually less than 30 cm above the ground among grass or weeds. During courtship, males vibrate their wings while singing just inches away from the female!"
   },
   {
+    "slug": "cinnamon-bellied-saltator",
     "id": 54,
     "commonName": "Cinnamon-bellied Saltator",
     "scientificName": "Saltator grandis",
@@ -955,9 +1146,10 @@
     "diet": "Omnivore",
     "image": "/birds/cinnamon-bellied-saltator.jpg",
     "audio": "/audio/cinnamon-bellied-saltator.mp3",
-    "funFact": "In El Salvador, this bird is affectionately known as 'dichosofui' after its elaborate call, which sounds like the Spanish phrase '\u00a1dichoso fui!' meaning 'I was happy!'"
+    "funFact": "In El Salvador, this bird is affectionately known as 'dichosofui' after its elaborate call, which sounds like the Spanish phrase '¡dichoso fui!' meaning 'I was happy!'"
   },
   {
+    "slug": "golden-olive-woodpecker",
     "id": 55,
     "commonName": "Golden-olive Woodpecker",
     "scientificName": "Colaptes rubiginosus",
@@ -974,9 +1166,10 @@
     "diet": "Insectivore",
     "image": "/birds/golden-olive-woodpecker.jpg",
     "audio": "/audio/golden-olive-woodpecker.mp3",
-    "funFact": "This woodpecker has been observed eating M\u00fcllerian bodies - specialized food structures that Cecropia plants produce to feed their symbiotic ants!"
+    "funFact": "This woodpecker has been observed eating Müllerian bodies - specialized food structures that Cecropia plants produce to feed their symbiotic ants!"
   },
   {
+    "slug": "mangrove-swallow",
     "id": 56,
     "commonName": "Mangrove Swallow",
     "scientificName": "Tachycineta albilinea",
@@ -996,6 +1189,7 @@
     "funFact": "The mangrove swallow feeds on unusually large prey for its size, including dragonflies and bees, and typically forages within 100 meters of its nest when feeding its young."
   },
   {
+    "slug": "white-collared-manakin",
     "id": 57,
     "commonName": "White-collared Manakin",
     "scientificName": "Manacus candei",
@@ -1014,6 +1208,7 @@
     "funFact": "Males clear a patch of forest floor up to 120 cm across to bare earth for their display courts, leaping to and fro between thin upright sticks while giving loud wing snaps."
   },
   {
+    "slug": "laughing-falcon",
     "id": 58,
     "commonName": "Laughing Falcon",
     "scientificName": "Herpetotheres cachinnans",
@@ -1033,6 +1228,7 @@
     "funFact": "The laughing falcon specializes in hunting snakes, including venomous coral snakes, and its scientific name Herpetotheres cachinnans means 'snake mower' and 'laughing aloud'."
   },
   {
+    "slug": "yellow-bellied-elaenia",
     "id": 59,
     "commonName": "Yellow-bellied Elaenia",
     "scientificName": "Elaenia flavogaster",
@@ -1053,6 +1249,7 @@
     "funFact": "Its dawn song has been described as \"spud-deeer, spud-deer-dzz, spud-deer\", repeated over and over."
   },
   {
+    "slug": "stripe-throated-hermit",
     "id": 60,
     "commonName": "Stripe-throated Hermit",
     "scientificName": "Phaethornis striigularis",
@@ -1072,6 +1269,7 @@
     "funFact": "It is a \"trap-line\" feeder, visiting a regular circuit of flowers, and has been observed piercing flower bases to access nectar that would otherwise be out of reach."
   },
   {
+    "slug": "king-vulture",
     "id": 61,
     "commonName": "King Vulture",
     "scientificName": "Sarcoramphus papa",
@@ -1091,6 +1289,7 @@
     "funFact": "The king vulture was revered in Maya mythology, often portrayed as a god carrying messages between humans and the other gods, and appears frequently in Maya codices."
   },
   {
+    "slug": "scrub-euphonia",
     "id": 62,
     "commonName": "Scrub Euphonia",
     "scientificName": "Euphonia affinis",
@@ -1112,6 +1311,7 @@
     "funFact": "The scrub euphonia feeds primarily on mistletoe berries, making it an important seed disperser for this parasitic plant."
   },
   {
+    "slug": "montezuma-oropendola",
     "id": 63,
     "commonName": "Montezuma Oropendola",
     "scientificName": "Psarocolius montezuma",
@@ -1130,6 +1330,7 @@
     "funFact": "The Montezuma oropendola builds hanging woven nests up to 180 cm long, and a single colony can contain as many as 172 nests in one tree."
   },
   {
+    "slug": "northern-bentbill",
     "id": 64,
     "commonName": "Northern Bentbill",
     "scientificName": "Oncostoma cinereigulare",
@@ -1150,6 +1351,7 @@
     "funFact": "The northern bentbill's call is described as a rapid toad-like trill, and it gets its name from its distinctive downcurved bill."
   },
   {
+    "slug": "tropical-mockingbird",
     "id": 65,
     "commonName": "Tropical Mockingbird",
     "scientificName": "Mimus gilvus",
@@ -1171,6 +1373,7 @@
     "funFact": "Despite being a mockingbird, the tropical mockingbird rarely mimics other species, unlike its well-known northern relative."
   },
   {
+    "slug": "dusky-antbird",
     "id": 66,
     "commonName": "Dusky Antbird",
     "scientificName": "Cercomacroides tyrannina",
@@ -1190,6 +1393,7 @@
     "funFact": "This antbird regularly attends army ant swarms to catch insects fleeing from the ants, and both parents share incubation and feeding duties."
   },
   {
+    "slug": "mayan-antthrush",
     "id": 67,
     "commonName": "Mayan Antthrush",
     "scientificName": "Formicarius moniliger",
@@ -1210,6 +1414,7 @@
     "funFact": "The Mayan antthrush walks deliberately on the forest floor with its tail cocked upright like a little rail, and pasture gaps wider than 50 meters are significant barriers to its movement."
   },
   {
+    "slug": "long-billed-gnatwren",
     "id": 68,
     "commonName": "Long-billed Gnatwren",
     "scientificName": "Ramphocaenus melanurus",
@@ -1229,6 +1434,7 @@
     "funFact": "This bird's long, thin bill is perfect for picking insects and spiders from foliage, and it frequently wags and cocks its short black tail with white-tipped feathers."
   },
   {
+    "slug": "slaty-tailed-trogon",
     "id": 69,
     "commonName": "Slaty-tailed Trogon",
     "scientificName": "Trogon massena",
@@ -1249,6 +1455,7 @@
     "funFact": "This trogon often follows white-faced capuchin monkeys to snatch insects they flush, and nests in cavities excavated in active termite nests high in trees."
   },
   {
+    "slug": "ochre-bellied-flycatcher",
     "id": 70,
     "commonName": "Ochre-bellied Flycatcher",
     "scientificName": "Mionectes oleagineus",
@@ -1270,6 +1477,7 @@
     "funFact": "Males court at leks, singing and flashing their wings, and the female builds a pear-shaped moss-covered nest with a side entrance suspended from a vine."
   },
   {
+    "slug": "red-capped-manakin",
     "id": 71,
     "commonName": "Red-capped Manakin",
     "scientificName": "Ceratopipra mentalis",
@@ -1288,6 +1496,7 @@
     "funFact": "The male's courtship display includes shuffling rapidly backwards along a branch like a moonwalk, earning it the nickname 'the Michael Jackson bird.' Its digestive system can process fruit in less than 18 minutes."
   },
   {
+    "slug": "gray-crowned-yellowthroat",
     "id": 72,
     "commonName": "Gray-crowned Yellowthroat",
     "scientificName": "Geothlypis poliocephala",
@@ -1308,6 +1517,7 @@
     "funFact": "Unlike most yellowthroats, the gray-crowned yellowthroat has scarcely any black on its face, with the black usually restricted to just the lores and behind the eye."
   },
   {
+    "slug": "greenish-elaenia",
     "id": 73,
     "commonName": "Greenish Elaenia",
     "scientificName": "Myiopagis viridicata",
@@ -1327,6 +1537,7 @@
     "funFact": "The greenish elaenia is the only species in the genus Myiopagis found from Mexico through Central America and across much of South America, with 10 recognized subspecies."
   },
   {
+    "slug": "pale-vented-pigeon",
     "id": 74,
     "commonName": "Pale-vented Pigeon",
     "scientificName": "Patagioenas cayennensis",
@@ -1342,9 +1553,10 @@
     "diet": "Frugivore",
     "image": "/birds/pale-vented-pigeon.jpg",
     "audio": "/audio/pale-vented-pigeon.mp3",
-    "funFact": "Its call is a distinctive row of soft notes \u2014 \"kuk kuk croo-ooo\" \u2014 where the initial short \"kuk\" is characteristic of the cayennensis group of Patagioenas pigeons."
+    "funFact": "Its call is a distinctive row of soft notes — \"kuk kuk croo-ooo\" — where the initial short \"kuk\" is characteristic of the cayennensis group of Patagioenas pigeons."
   },
   {
+    "slug": "amazon-kingfisher",
     "id": 75,
     "commonName": "Amazon Kingfisher",
     "scientificName": "Chloroceryle amazona",
@@ -1364,6 +1576,7 @@
     "funFact": "The Amazon kingfisher hunts by plunging into water from a perch, but also hovers like a helicopter before diving for fish."
   },
   {
+    "slug": "white-hawk",
     "id": 76,
     "commonName": "White Hawk",
     "scientificName": "Pseudastur albicollis",
@@ -1381,6 +1594,7 @@
     "funFact": "The white hawk often follows foraging groups of tufted capuchin monkeys and coatis to snatch prey startled by these animals."
   },
   {
+    "slug": "russet-naped-wood-rail",
     "id": 77,
     "commonName": "Russet-naped Wood-Rail",
     "scientificName": "Aramides albiventris",
@@ -1400,6 +1614,7 @@
     "funFact": "Its song is a rapid, crazed-sounding series of popping and clucking notes, most often heard at twilight and at night."
   },
   {
+    "slug": "ferruginous-pygmy-owl",
     "id": 78,
     "commonName": "Ferruginous Pygmy-Owl",
     "scientificName": "Glaucidium brasilianum",
@@ -1418,6 +1633,7 @@
     "funFact": "The two dark spots on the back of its head look like eyes, a clever defense that helps fool both predators and small birds trying to mob it."
   },
   {
+    "slug": "mealy-amazon",
     "id": 79,
     "commonName": "Mealy Amazon",
     "scientificName": "Amazona farinosa",
@@ -1434,9 +1650,10 @@
     "diet": "Frugivore",
     "image": "/birds/mealy-amazon.jpg",
     "audio": "/audio/mealy-amazon.mp3",
-    "funFact": "The name \"mealy\" comes from the whitish, flour-like powder on its back and nape \u2014 \"farinosa\" in Latin means \"sprinkled with flour.\""
+    "funFact": "The name \"mealy\" comes from the whitish, flour-like powder on its back and nape — \"farinosa\" in Latin means \"sprinkled with flour.\""
   },
   {
+    "slug": "northern-jacana",
     "id": 80,
     "commonName": "Northern Jacana",
     "scientificName": "Jacana spinosa",
@@ -1455,6 +1672,7 @@
     "funFact": "Its enormous feet let it walk on floating lily pads, earning it the nickname \"Jesus bird\" for appearing to walk on water."
   },
   {
+    "slug": "white-whiskered-puffbird",
     "id": 81,
     "commonName": "White-whiskered Puffbird",
     "scientificName": "Malacoptila panamensis",
@@ -1473,6 +1691,7 @@
     "funFact": "This puffbird hunts using a watch-and-wait technique, sitting motionless before darting to catch large invertebrates and small vertebrates like frogs and lizards."
   },
   {
+    "slug": "crimson-collared-tanager",
     "id": 82,
     "commonName": "Crimson-collared Tanager",
     "scientificName": "Ramphocelus sanguinolentus",
@@ -1490,6 +1709,7 @@
     "funFact": "Its specific epithet sanguinolentus means 'bloodied' in Latin, referring to its striking red plumage."
   },
   {
+    "slug": "bare-throated-tiger-heron",
     "id": 83,
     "commonName": "Bare-throated Tiger-Heron",
     "scientificName": "Tigrisoma mexicanum",
@@ -1508,6 +1728,7 @@
     "funFact": "Males give a booming hrrrowwr! call at sunset, during which the beak opens wide and undulations can be seen along the throat."
   },
   {
+    "slug": "rufous-tailed-jacamar",
     "id": 84,
     "commonName": "Rufous-tailed Jacamar",
     "scientificName": "Galbula ruficauda",
@@ -1526,6 +1747,7 @@
     "funFact": "This bird can distinguish between edible and unpalatable butterflies mainly by their body shape."
   },
   {
+    "slug": "black-faced-grosbeak",
     "id": 85,
     "commonName": "Black-faced Grosbeak",
     "scientificName": "Caryothraustes poliogaster",
@@ -1544,6 +1766,7 @@
     "funFact": "Forms noisy flocks of up to 20 birds, often mixing with honeycreepers and tanagers in mixed-species feeding flocks."
   },
   {
+    "slug": "black-hawk-eagle",
     "id": 86,
     "commonName": "Black Hawk-Eagle",
     "scientificName": "Spizaetus tyrannus",
@@ -1559,9 +1782,10 @@
     "diet": "Carnivore",
     "image": "/birds/black-hawk-eagle.jpg",
     "audio": "/audio/black-hawk-eagle.mp3",
-    "funFact": "Its popular name in Brazil is Gavi\u00e3o-pega-macaco, meaning hawk catching-monkey, as it frequently preys on monkeys."
+    "funFact": "Its popular name in Brazil is Gavião-pega-macaco, meaning hawk catching-monkey, as it frequently preys on monkeys."
   },
   {
+    "slug": "fork-tailed-flycatcher",
     "id": 87,
     "commonName": "Fork-tailed Flycatcher",
     "scientificName": "Tyrannus savana",
@@ -1581,6 +1805,7 @@
     "funFact": "Can reach speeds up to 105 km/h (65 mph), using its long forked tail for quick turns and stops while pursuing flying insects."
   },
   {
+    "slug": "variable-seedeater",
     "id": 88,
     "commonName": "Variable Seedeater",
     "scientificName": "Sporophila corvina",
@@ -1600,6 +1825,7 @@
     "funFact": "The subspecies found in Belize (Sporophila c. corvina) has entirely black males apart from a small white wing patch."
   },
   {
+    "slug": "collared-forest-falcon",
     "id": 89,
     "commonName": "Collared Forest-Falcon",
     "scientificName": "Micrastur semitorquatus",
@@ -1618,6 +1844,7 @@
     "funFact": "Its distinctive low, almost human-like ow or ahr call can be heard at great distances through the dense forest canopy."
   },
   {
+    "slug": "green-honeycreeper",
     "id": 90,
     "commonName": "Green Honeycreeper",
     "scientificName": "Chlorophanes spiza",
@@ -1632,9 +1859,10 @@
     "diet": "Frugivore",
     "image": "/birds/green-honeycreeper.jpg",
     "audio": "/audio/green-honeycreeper.mp3",
-    "funFact": "Unlike other honeycreepers, it depends less on nectar \u2014 fruit and seeds make up about 60% of its diet."
+    "funFact": "Unlike other honeycreepers, it depends less on nectar — fruit and seeds make up about 60% of its diet."
   },
   {
+    "slug": "band-backed-wren",
     "id": 91,
     "commonName": "Band-backed Wren",
     "scientificName": "Campylorhynchus zonatus",
@@ -1650,9 +1878,22 @@
     "diet": "Insectivore",
     "image": "/birds/band-backed-wren.jpg",
     "audio": "/audio/band-backed-wren.mp3",
-    "funFact": "After breeding, family groups of 4-12 birds sleep together in dormitory nests used throughout the year."
+    "funFact": "After breeding, family groups of 4-12 birds sleep together in dormitory nests used throughout the year.",
+    "status": "Resident",
+    "regions": [
+      "Northern Belize",
+      "Coastal"
+    ],
+    "fieldMarks": [
+      "Bold black-and-white barred back",
+      "Rich rufous underparts",
+      "Long curved bill"
+    ],
+    "voice": "Loud musical duets, often in pairs.",
+    "similarSpecies": []
   },
   {
+    "slug": "lesser-swallow-tailed-swift",
     "id": 92,
     "commonName": "Lesser Swallow-tailed Swift",
     "scientificName": "Panyptila cayennensis",
@@ -1671,6 +1912,7 @@
     "funFact": "Its nest is a long tube made of plant material felted with saliva, wider at the top with the entrance at the base, attached to a vertical surface or tree branch."
   },
   {
+    "slug": "green-breasted-mango",
     "id": 93,
     "commonName": "Green-breasted Mango",
     "scientificName": "Anthracothorax prevostii",
@@ -1690,6 +1932,7 @@
     "funFact": "Despite being a tropical species, it has wandered as far north as Wisconsin and North Carolina as a vagrant to the United States."
   },
   {
+    "slug": "buff-throated-saltator",
     "id": 94,
     "commonName": "Buff-throated Saltator",
     "scientificName": "Saltator maximus",
@@ -1708,6 +1951,7 @@
     "funFact": "Males duet melodiously with a warbled \"cheery cheery\" answered by \"cheery to you.\""
   },
   {
+    "slug": "yellow-bellied-tyrannulet",
     "id": 95,
     "commonName": "Yellow-bellied Tyrannulet",
     "scientificName": "Ornithion semiflavum",
@@ -1727,6 +1971,7 @@
     "funFact": "Despite being a flycatcher, its active foraging behavior resembles that of a warbler or vireo as it gleans arthropods from leaves and twigs."
   },
   {
+    "slug": "stub-tailed-spadebill",
     "id": 96,
     "commonName": "Stub-tailed Spadebill",
     "scientificName": "Platyrinchus cancrominus",
@@ -1745,6 +1990,7 @@
     "funFact": "Its greatly reduced or completely absent crown distinguishes it from all other members of the genus Platyrinchus."
   },
   {
+    "slug": "yellow-tailed-oriole",
     "id": 97,
     "commonName": "Yellow-tailed Oriole",
     "scientificName": "Icterus mesomelas",
@@ -1763,6 +2009,7 @@
     "funFact": "This is the only oriole with prominent yellow in the tail, which gives the species its name."
   },
   {
+    "slug": "blue-ground-dove",
     "id": 98,
     "commonName": "Blue Ground Dove",
     "scientificName": "Claravis pretiosa",
@@ -1782,6 +2029,7 @@
     "funFact": "In most regions where it occurs, a blue-grey and a brown bird flying through the trees together is almost certainly this species."
   },
   {
+    "slug": "tawny-winged-woodcreeper",
     "id": 99,
     "commonName": "Tawny-winged Woodcreeper",
     "scientificName": "Dendrocincla anabatina",
@@ -1801,6 +2049,7 @@
     "funFact": "This species is a near-obligate follower of army ant swarms, capturing arthropods that flee from the advancing ants."
   },
   {
+    "slug": "rusty-sparrow",
     "id": 100,
     "commonName": "Rusty Sparrow",
     "scientificName": "Aimophila rufescens",
@@ -1820,6 +2069,7 @@
     "funFact": "Its song has been described as a rich, liquid \"cheet-cheet-swing-you!\" or \"sweet-sweet-to'you!\""
   },
   {
+    "slug": "ornate-hawk-eagle",
     "id": 101,
     "commonName": "Ornate Hawk-Eagle",
     "scientificName": "Spizaetus ornatus",
@@ -1838,6 +2088,7 @@
     "funFact": "The juvenile gray-bellied hawk closely resembles the adult ornate hawk-eagle, likely a case of mimicry where a less powerful species mimics a more powerful raptor to avoid attack."
   },
   {
+    "slug": "blue-bunting",
     "id": 102,
     "commonName": "Blue Bunting",
     "scientificName": "Cyanocompsa parellina",
@@ -1857,6 +2108,7 @@
     "funFact": "The male's song has been described as \"a sweet, rather sad warble.\""
   },
   {
+    "slug": "mottled-owl",
     "id": 103,
     "commonName": "Mottled Owl",
     "scientificName": "Strix virgata",
@@ -1876,6 +2128,7 @@
     "funFact": "The mottled owl shows the greatest degree of sexual dimorphism of any owl species, with females considerably larger than males."
   },
   {
+    "slug": "ruddy-crake",
     "id": 104,
     "commonName": "Ruddy Crake",
     "scientificName": "Laterallus ruber",
@@ -1895,6 +2148,7 @@
     "funFact": "After no sightings for two decades in Costa Rica, it was listed as possibly extinct there until rediscovered in 2007 at the La Selva Biological Research Station."
   },
   {
+    "slug": "ochre-crowned-greenlet",
     "id": 105,
     "commonName": "Ochre-crowned Greenlet",
     "scientificName": "Tunchiornis ochraceiceps",
@@ -1913,6 +2167,7 @@
     "funFact": "Its genus name Tunchiornis derives from 'El Tunche,' the whistling jungle spirit of Amazonian mythology, referring to its simple whistled song."
   },
   {
+    "slug": "black-throated-shrike-tanager",
     "id": 106,
     "commonName": "Black-throated Shrike-Tanager",
     "scientificName": "Lanio aurantius",
@@ -1929,6 +2184,7 @@
     "funFact": "It is replaced geographically by its close relative the White-throated Shrike-Tanager further south in Central America."
   },
   {
+    "slug": "vauxs-swift",
     "id": 107,
     "commonName": "Vaux's Swift",
     "scientificName": "Chaetura vauxi",
@@ -1947,6 +2203,7 @@
     "funFact": "Named for William Sansom Vaux (pronounced 'vox'), this swift has a more varied call repertoire than others in its genus, mixing chattering, buzzes, squeaks, and chips."
   },
   {
+    "slug": "violet-sabrewing",
     "id": 108,
     "commonName": "Violet Sabrewing",
     "scientificName": "Campylopterus hemileucurus",
@@ -1965,6 +2222,7 @@
     "funFact": "The violet sabrewing is the largest hummingbird in Mexico and Central America, measuring 13 to 15 cm long, and males are known to aggressively defend flower patches from other hummingbirds."
   },
   {
+    "slug": "rufous-capped-warbler",
     "id": 109,
     "commonName": "Rufous-capped Warbler",
     "scientificName": "Basileuterus rufifrons",
@@ -1980,9 +2238,10 @@
     "diet": "Insectivore",
     "image": "/birds/rufous-capped-warbler.jpg",
     "audio": "/audio/rufous-capped-warbler.mp3",
-    "funFact": "Despite its name, the rufous-capped warbler does not actually warble \u2014 its courtship song is a rapid, accelerating series of chipping notes."
+    "funFact": "Despite its name, the rufous-capped warbler does not actually warble — its courtship song is a rapid, accelerating series of chipping notes."
   },
   {
+    "slug": "wedge-billed-woodcreeper",
     "id": 110,
     "commonName": "Wedge-billed Woodcreeper",
     "scientificName": "Glyphorynchus spirurus",
@@ -2001,6 +2260,7 @@
     "funFact": "The wedge-billed woodcreeper is the only member of its genus and is the smallest of all woodcreepers, easily recognized by its short wedge-shaped bill."
   },
   {
+    "slug": "little-tinamou",
     "id": 111,
     "commonName": "Little Tinamou",
     "scientificName": "Crypturellus soui",
@@ -2016,9 +2276,10 @@
     "diet": "Omnivore",
     "image": "/birds/little-tinamou.jpg",
     "audio": "/audio/little-tinamou.mp3",
-    "funFact": "The little tinamou is more closely related to ostriches and emus (both ratites) than to quail or grouse, despite looking similar \u2014 it belongs to the ancient group of palaeognath birds."
+    "funFact": "The little tinamou is more closely related to ostriches and emus (both ratites) than to quail or grouse, despite looking similar — it belongs to the ancient group of palaeognath birds."
   },
   {
+    "slug": "plain-breasted-ground-dove",
     "id": 112,
     "commonName": "Plain-breasted Ground Dove",
     "scientificName": "Columbina minuta",
@@ -2037,6 +2298,7 @@
     "funFact": "The plain-breasted ground dove may be the smallest of all pigeons and doves by mass, yet it can be found across an enormous range spanning 18.8 million square kilometers from Mexico to Argentina."
   },
   {
+    "slug": "great-black-hawk",
     "id": 113,
     "commonName": "Great Black Hawk",
     "scientificName": "Buteogallus urubitinga",
@@ -2052,9 +2314,10 @@
     "diet": "Carnivore",
     "image": "/birds/great-black-hawk.jpg",
     "audio": "/audio/great-black-hawk.mp3",
-    "funFact": "One Great Black Hawk became a famous vagrant in 2018, traveling from Texas to Maine \u2014 the first record in the ABA area \u2014 where it survived a winter before being rescued during a snowstorm."
+    "funFact": "One Great Black Hawk became a famous vagrant in 2018, traveling from Texas to Maine — the first record in the ABA area — where it survived a winter before being rescued during a snowstorm."
   },
   {
+    "slug": "dot-winged-antwren",
     "id": 114,
     "commonName": "Dot-winged Antwren",
     "scientificName": "Microrhopias quixensis",
@@ -2073,6 +2336,7 @@
     "funFact": "The dot-winged antwren is the only member of its genus Microrhopias, and the male's striking black plumage with white wing dots makes it one of the most distinctive antwrens in its range."
   },
   {
+    "slug": "slate-headed-tody-flycatcher",
     "id": 115,
     "commonName": "Slate-headed Tody-Flycatcher",
     "scientificName": "Poecilotriccus sylvia",
@@ -2093,6 +2357,7 @@
     "funFact": "Its nest is pear-shaped with a side entrance, woven from moss and plant fibers, and suspended from the tip of a branch about 3 meters above the ground."
   },
   {
+    "slug": "northern-plain-xenops",
     "id": 116,
     "commonName": "Northern Plain-Xenops",
     "scientificName": "Xenops mexicanus",
@@ -2112,6 +2377,7 @@
     "funFact": "Uses its wedge-shaped, upturned bill to chisel and pry arthropod prey from dead branches, often foraging while hanging upside down like a nuthatch."
   },
   {
+    "slug": "canivets-emerald",
     "id": 117,
     "commonName": "Canivet's Emerald",
     "scientificName": "Cynanthus canivetii",
@@ -2131,6 +2397,7 @@
     "funFact": "Holds its tail partly open and wags it while feeding on nectar, often visiting small flowers that are ignored by other hummingbirds."
   },
   {
+    "slug": "tody-motmot",
     "id": 118,
     "commonName": "Tody Motmot",
     "scientificName": "Hylomanes momotula",
@@ -2148,6 +2415,7 @@
     "funFact": "The tody motmot is the only species in its genus Hylomanes and is the smallest of all motmots, named for its resemblance to the todies of the Caribbean."
   },
   {
+    "slug": "red-crowned-ant-tanager",
     "id": 119,
     "commonName": "Red-crowned Ant-Tanager",
     "scientificName": "Habia rubica",
@@ -2166,6 +2434,7 @@
     "funFact": "Frequently follows army ant columns to snatch invertebrate prey startled by the ants, and also trails South American coatis on their feeding excursions."
   },
   {
+    "slug": "white-collared-swift",
     "id": 120,
     "commonName": "White-collared Swift",
     "scientificName": "Streptoprocne zonaris",
@@ -2185,6 +2454,7 @@
     "funFact": "White-collared swifts attain flying speeds of 70-100 km/h (43-62 mph) and often feed in flocks of 200 or more, sometimes alongside other swift species."
   },
   {
+    "slug": "eye-ringed-flatbill",
     "id": 121,
     "commonName": "Eye-ringed Flatbill",
     "scientificName": "Rhynchocyclus brevirostris",
@@ -2204,6 +2474,7 @@
     "funFact": "Builds a large pear-shaped nest with a downward-sloping tunnel entrance, suspended from a twig or vine over open space or water, and adults roost in the nest year-round."
   },
   {
+    "slug": "azure-crowned-hummingbird",
     "id": 122,
     "commonName": "Azure-crowned Hummingbird",
     "scientificName": "Saucerottia cyanocephala",
@@ -2223,6 +2494,7 @@
     "funFact": "In urban areas, azure-crowned hummingbirds have been known to build their nests on utility wires, a remarkable adaptation to human-altered environments."
   },
   {
+    "slug": "white-browed-gnatcatcher",
     "id": 123,
     "commonName": "White-browed Gnatcatcher",
     "scientificName": "Polioptila bilineata",
@@ -2242,6 +2514,7 @@
     "funFact": "Formerly considered a subspecies of the Tropical Gnatcatcher, the White-browed Gnatcatcher was elevated to full species status based on genetic studies showing it is distinct."
   },
   {
+    "slug": "black-and-white-hawk-eagle",
     "id": 124,
     "commonName": "Black-and-white Hawk-Eagle",
     "scientificName": "Spizaetus melanoleucus",
@@ -2260,6 +2533,7 @@
     "funFact": "Each black-and-white hawk-eagle requires a hunting territory of about 3,500 acres (1,400 hectares) and has been known to snatch prey in mid-air that was mobbing it."
   },
   {
+    "slug": "rufous-breasted-spinetail",
     "id": 125,
     "commonName": "Rufous-breasted Spinetail",
     "scientificName": "Synallaxis erythrothorax",
@@ -2279,6 +2553,7 @@
     "funFact": "Builds a dome-shaped nest of thorny sticks with a tunnel entrance, sometimes half again as long as it is high, thatched with bark and leaf stems."
   },
   {
+    "slug": "purple-crowned-fairy",
     "id": 126,
     "commonName": "Purple-crowned Fairy",
     "scientificName": "Heliothryx barroti",
@@ -2295,9 +2570,10 @@
     "diet": "Nectarivore",
     "image": "/birds/purple-crowned-fairy.jpg",
     "audio": "/audio/purple-crowned-fairy.mp3",
-    "funFact": "Unlike most hummingbirds, the purple-crowned fairy does not catch insects in flight \u2014 it hovers and gleans them from foliage, and will pierce the base of flowers to 'rob' nectar."
+    "funFact": "Unlike most hummingbirds, the purple-crowned fairy does not catch insects in flight — it hovers and gleans them from foliage, and will pierce the base of flowers to 'rob' nectar."
   },
   {
+    "slug": "northern-barred-woodcreeper",
     "id": 127,
     "commonName": "Northern Barred-Woodcreeper",
     "scientificName": "Dendrocolaptes sanctithomae",
@@ -2317,6 +2593,7 @@
     "funFact": "Often follows army ant swarms to feed on prey disturbed by the ants, perching on near-vertical trunks and making short flights to pick prey from the ground, trunks, and foliage."
   },
   {
+    "slug": "ruddy-woodcreeper",
     "id": 128,
     "commonName": "Ruddy Woodcreeper",
     "scientificName": "Dendrocincla homochroa",
@@ -2336,6 +2613,7 @@
     "funFact": "A near-obligate follower of army ant swarms, it clings to trunks up to 10 meters high and captures arthropod prey disturbed by the ants, but never feeds on the ants themselves."
   },
   {
+    "slug": "gray-headed-dove",
     "id": 129,
     "commonName": "Gray-headed Dove",
     "scientificName": "Leptotila plumbeiceps",
@@ -2355,6 +2633,7 @@
     "funFact": "The gray-headed dove, gray-fronted dove, pallid dove, Azuero dove, and Grenada dove were once all thought to be a single species."
   },
   {
+    "slug": "gray-headed-tanager",
     "id": 130,
     "commonName": "Gray-headed Tanager",
     "scientificName": "Eucometis penicillata",
@@ -2373,6 +2652,7 @@
     "funFact": "The gray-headed tanager is the only member of its genus Eucometis and is known to follow army ant swarms to feed on insects fleeing from the ants."
   },
   {
+    "slug": "chestnut-colored-woodpecker",
     "id": 131,
     "commonName": "Chestnut-colored Woodpecker",
     "scientificName": "Celeus castaneus",
@@ -2389,9 +2669,10 @@
     "diet": "Insectivore",
     "image": "/birds/chestnut-colored-woodpecker.jpg",
     "audio": "/audio/chestnut-colored-woodpecker.mp3",
-    "funFact": "The male chestnut-colored woodpecker is distinguished by bright red plumage from the lores to behind the eye and down to the throat \u2014 the female has none."
+    "funFact": "The male chestnut-colored woodpecker is distinguished by bright red plumage from the lores to behind the eye and down to the throat — the female has none."
   },
   {
+    "slug": "mangrove-vireo",
     "id": 132,
     "commonName": "Mangrove Vireo",
     "scientificName": "Vireo pallens",
@@ -2411,6 +2692,7 @@
     "funFact": "On the Pacific coast, mangrove vireos are found almost exclusively in red mangroves, while Caribbean populations inhabit a wider variety of forest types."
   },
   {
+    "slug": "white-bellied-wren",
     "id": 133,
     "commonName": "White-bellied Wren",
     "scientificName": "Uropsila leucogastra",
@@ -2426,9 +2708,10 @@
     "diet": "Insectivore",
     "image": "/birds/white-bellied-wren.jpg",
     "audio": "/audio/white-bellied-wren.mp3",
-    "funFact": "Builds a retort-shaped nest \u2014 an oval ball with a downward-pointing funnel entrance \u2014 often placed in spiny locations like Bromelia thickets or Acacia trees."
+    "funFact": "Builds a retort-shaped nest — an oval ball with a downward-pointing funnel entrance — often placed in spiny locations like Bromelia thickets or Acacia trees."
   },
   {
+    "slug": "orange-breasted-falcon",
     "id": 134,
     "commonName": "Orange-breasted Falcon",
     "scientificName": "Falco deiroleucus",
@@ -2447,6 +2730,7 @@
     "funFact": "The Peregrine Fund has been successfully captive-breeding and releasing orange-breasted falcons into the wild in Belize since 2007, with over 50 released and some pairing with wild birds."
   },
   {
+    "slug": "white-necked-puffbird",
     "id": 135,
     "commonName": "White-necked Puffbird",
     "scientificName": "Notharchus hyperrhynchus",
@@ -2466,6 +2750,7 @@
     "funFact": "The white-necked puffbird nests in arboreal termitaria (termite nests), where both sexes excavate a cavity for their eggs."
   },
   {
+    "slug": "great-tinamou",
     "id": 136,
     "commonName": "Great Tinamou",
     "scientificName": "Tinamus major",
@@ -2485,6 +2770,7 @@
     "funFact": "The great tinamou has the highest percentage of skeletal muscle devoted to locomotion of any bird (56.9% of body weight), yet has the smallest relative heart size of any bird (0.19%)."
   },
   {
+    "slug": "gray-chested-dove",
     "id": 137,
     "commonName": "Gray-chested Dove",
     "scientificName": "Leptotila cassinii",
@@ -2501,6 +2787,7 @@
     "funFact": "The gray-chested dove builds a shallow platform nest of twigs and straw, placed 1-5 meters above ground on a tree branch or in a vine tangle."
   },
   {
+    "slug": "golden-hooded-tanager",
     "id": 138,
     "commonName": "Golden-hooded Tanager",
     "scientificName": "Stilpnia larvata",
@@ -2517,9 +2804,24 @@
     "diet": "Omnivore",
     "image": "/birds/golden-hooded-tanager.jpg",
     "audio": "/audio/golden-hooded-tanager.mp3",
-    "funFact": "The golden-hooded tanager is often double-brooded, and young birds from the first clutch assist with feeding the second brood of chicks."
+    "funFact": "The golden-hooded tanager is often double-brooded, and young birds from the first clutch assist with feeding the second brood of chicks.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Golden head",
+      "Black mask",
+      "Turquoise shoulders",
+      "Black back"
+    ],
+    "voice": "High thin chips in mixed flocks.",
+    "similarSpecies": [
+      "blue-gray-tanager"
+    ]
   },
   {
+    "slug": "smoky-brown-woodpecker",
     "id": 139,
     "commonName": "Smoky-brown Woodpecker",
     "scientificName": "Leuconotopicus fumigatus",
@@ -2541,6 +2843,7 @@
     "funFact": "The smoky-brown woodpecker has an exceptionally wide elevational range, found from near sea level up to 2,800 meters (9,200 ft) in the Andes."
   },
   {
+    "slug": "hook-billed-kite",
     "id": 140,
     "commonName": "Hook-billed Kite",
     "scientificName": "Chondrohierax uncinatus",
@@ -2560,6 +2863,7 @@
     "funFact": "The hook-billed kite's beak has adapted in size and shape across different regions in response to the species of tree snail available in each area, a remarkable example of local adaptation."
   },
   {
+    "slug": "brown-hooded-parrot",
     "id": 141,
     "commonName": "Brown-hooded Parrot",
     "scientificName": "Pyrilia haematotis",
@@ -2580,6 +2884,7 @@
     "funFact": "The brown-hooded parrot and the rose-faced parrot were once considered the same species and are now regarded as sister species."
   },
   {
+    "slug": "black-crowned-tityra",
     "id": 142,
     "commonName": "Black-crowned Tityra",
     "scientificName": "Tityra inquisitor",
@@ -2598,9 +2903,21 @@
     "diet": "Frugivore",
     "image": "/birds/black-crowned-tityra.jpg",
     "audio": "/audio/black-crowned-tityra.mp3",
-    "funFact": "The black-crowned tityra has a complicated taxonomic history \u2014 originally described as a shrike, it was later placed with tyrant flycatchers before being assigned to its own family Tityridae."
+    "funFact": "The black-crowned tityra has a complicated taxonomic history — originally described as a shrike, it was later placed with tyrant flycatchers before being assigned to its own family Tityridae.",
+    "status": "Resident",
+    "regions": [
+      "Countrywide"
+    ],
+    "fieldMarks": [
+      "Black cap and mask (male)",
+      "Pinkish bill",
+      "Gray body"
+    ],
+    "voice": "Soft whistles and wheezing calls.",
+    "similarSpecies": []
   },
   {
+    "slug": "cabaniss-wren",
     "id": 143,
     "commonName": "Cabanis's Wren",
     "scientificName": "Cantorchilus modestus",
@@ -2621,6 +2938,7 @@
     "funFact": "Cabanis's wren was formerly lumped with the canebrake wren and isthmian wren as a single species called the 'plain wren,' until they were split in 2016 based on differences in vocalizations and genetics."
   },
   {
+    "slug": "tropical-royal-flycatcher",
     "id": 144,
     "commonName": "Tropical Royal Flycatcher",
     "scientificName": "Onychorhynchus coronatus",
@@ -2631,16 +2949,17 @@
       "Primary evergreen forest",
       "Second growth forest",
       "Stream edges",
-      "V\u00e1rzea forest"
+      "Várzea forest"
     ],
     "description": "A small flycatcher 12.5-18 cm (5-7 in) long with an erectile fan-shaped crest. The male's crest is red with blue tips; the female's is yellow or orange. Upperparts are dark brown with narrow black and buffy bars, rump is cinnamon-rufous, and underparts are warm buff with narrow black barring on the breast.",
     "size": "Small",
     "diet": "Insectivore",
     "image": "/birds/tropical-royal-flycatcher.jpg",
     "audio": "/audio/tropical-royal-flycatcher.mp3",
-    "funFact": "The tropical royal flycatcher's spectacular erectile fan-shaped crest \u2014 scarlet with blue tips in males, yellow or orange in females \u2014 is displayed during courtship and when the bird is alarmed."
+    "funFact": "The tropical royal flycatcher's spectacular erectile fan-shaped crest — scarlet with blue tips in males, yellow or orange in females — is displayed during courtship and when the bird is alarmed."
   },
   {
+    "slug": "northern-potoo",
     "id": 145,
     "commonName": "Northern Potoo",
     "scientificName": "Nyctibius jamaicensis",
@@ -2661,6 +2980,7 @@
     "funFact": "The Mopan Maya of Belize believe that if a northern potoo flies over a house repeatedly at night, someone in that family will die, and they chase the birds away with lighted sticks."
   },
   {
+    "slug": "lesser-yellow-headed-vulture",
     "id": 146,
     "commonName": "Lesser Yellow-headed Vulture",
     "scientificName": "Cathartes burrovianus",
@@ -2678,9 +2998,10 @@
     "diet": "Carnivore",
     "image": "/birds/lesser-yellow-headed-vulture.jpg",
     "audio": "/audio/lesser-yellow-headed-vulture.mp3",
-    "funFact": "Like other New World vultures, the lesser yellow-headed vulture practices urohidrosis \u2014 urinating on its legs to cool them by evaporation."
+    "funFact": "Like other New World vultures, the lesser yellow-headed vulture practices urohidrosis — urinating on its legs to cool them by evaporation."
   },
   {
+    "slug": "orange-billed-sparrow",
     "id": 147,
     "commonName": "Orange-billed Sparrow",
     "scientificName": "Arremon aurantiirostris",
@@ -2701,6 +3022,7 @@
     "funFact": "The orange-billed sparrow builds a bulky ball-shaped nest with a side entrance, usually placed on the ground, constructed from coarse plant material and lined with finer fibers."
   },
   {
+    "slug": "sulphur-rumped-flycatcher",
     "id": 148,
     "commonName": "Sulphur-rumped Flycatcher",
     "scientificName": "Myiobius sulphurepygius",
@@ -2718,6 +3040,7 @@
     "funFact": "This bird often displays its bright sulphur-yellow rump patch by fanning its tail and dropping its wings, and frequently joins mixed-species flocks foraging near streams in the forest understory."
   },
   {
+    "slug": "thick-billed-seed-finch",
     "id": 149,
     "commonName": "Thick-billed Seed-Finch",
     "scientificName": "Sporophila funerea",
@@ -2736,6 +3059,7 @@
     "funFact": "The male is almost entirely black with a small white wing patch, while the female is a completely different-looking rich brown, making them appear to be different species."
   },
   {
+    "slug": "thicket-tinamou",
     "id": 150,
     "commonName": "Thicket Tinamou",
     "scientificName": "Crypturellus cinnamomeus",
@@ -2755,6 +3079,7 @@
     "funFact": "The thicket tinamou has a monotonous voice sounding like a steam engine, and like most tinamous, it prefers to walk rather than fly."
   },
   {
+    "slug": "crested-guan",
     "id": 151,
     "commonName": "Crested Guan",
     "scientificName": "Penelope purpurascens",
@@ -2775,6 +3100,7 @@
     "funFact": "The crested guan's dawn song is a powerful steam-whistle call ending in a low growl: \"ku LEEErrr!\", and it performs display flights at dawn during breeding season with dramatic wing-drumming."
   },
   {
+    "slug": "collared-trogon",
     "id": 152,
     "commonName": "Collared Trogon",
     "scientificName": "Trogon collaris",
@@ -2794,6 +3120,7 @@
     "funFact": "The collared trogon often nests in cavities in decaying wood or arboreal termite nests, and the cavity is often so shallow that much of the bird remains visible while incubating."
   },
   {
+    "slug": "barred-forest-falcon",
     "id": 153,
     "commonName": "Barred Forest-Falcon",
     "scientificName": "Micrastur ruficollis",
@@ -2813,6 +3140,7 @@
     "funFact": "Like Accipiter hawks, it often waits quietly on tree branches to ambush prey, but it also hunts on foot and follows army ant swarms to flush insects and small animals."
   },
   {
+    "slug": "yellow-backed-oriole",
     "id": 154,
     "commonName": "Yellow-backed Oriole",
     "scientificName": "Icterus chrysater",
@@ -2832,6 +3160,7 @@
     "funFact": "Builds a shallow, dangling basket nest that it often attaches to the tips of palm fronds, woven from fine grasses that give the nest a springy texture."
   },
   {
+    "slug": "northern-emerald-toucanet",
     "id": 155,
     "commonName": "Northern Emerald-Toucanet",
     "scientificName": "Aulacorhynchus prasinus",
@@ -2851,6 +3180,7 @@
     "funFact": "Despite its small size compared to larger toucans, it nests in tree cavities up to 27 m (89 ft) above the ground and gives a loud, nasal barking call of repeated \"Wok!\" notes."
   },
   {
+    "slug": "fawn-throated-foliage-gleaner",
     "id": 156,
     "commonName": "Fawn-throated Foliage-gleaner",
     "scientificName": "Automolus cervinigularis",
@@ -2869,6 +3199,7 @@
     "funFact": "Often joins mixed-species feeding flocks and forages by pulling prey from clumps of dead leaves as it hops along branches, vines, and the forest floor."
   },
   {
+    "slug": "sepia-capped-flycatcher",
     "id": 157,
     "commonName": "Sepia-capped Flycatcher",
     "scientificName": "Leptopogon amaurocephalus",
@@ -2887,6 +3218,7 @@
     "funFact": "Builds a mossy globe nest with a side entrance that it hangs from a vine or exposed root beneath an overhanging log, rock, or stream bank."
   },
   {
+    "slug": "double-toothed-kite",
     "id": 158,
     "commonName": "Double-toothed Kite",
     "scientificName": "Harpagus bidentatus",
@@ -2905,6 +3237,7 @@
     "funFact": "Gets its name from tooth-like notches on its upper bill and regularly follows troops of monkeys to catch prey flushed from the forest floor."
   },
   {
+    "slug": "great-curassow",
     "id": 159,
     "commonName": "Great Curassow",
     "scientificName": "Crax rubra",
@@ -2923,6 +3256,7 @@
     "funFact": "When a predator approaches its chicks, the great curassow performs a distraction display by feigning injury to draw the threat away from its offspring."
   },
   {
+    "slug": "spotted-wood-quail",
     "id": 160,
     "commonName": "Spotted Wood-Quail",
     "scientificName": "Odontophorus guttatus",

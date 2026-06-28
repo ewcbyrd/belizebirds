@@ -58,9 +58,15 @@ Use the WebFetch tool to gather information about the bird from Wikipedia:
 - `size` - Categorize based on length/weight info
 - `diet` - From Wikipedia behavior/ecology section
 - `funFact` - A field note on behavior, voice, or identification (stored as `funFact` in JSON, displayed as "Field Notes" in the app)
+- `slug` - Auto-generate from common name (lowercase, hyphens, no apostrophes; must match image filename)
 
 **Optional fields:**
 - `frequency` - eBird reporting rate for Belize (e.g. `"45.03%"`). Encouraged for field guide use when data is available.
+- `fieldMarks` - Array of key identification features (e.g. `["Yellow belly", "White eyebrow"]`)
+- `voice` - Vocalization description for the Voice section
+- `status` - `"Resident"`, `"Migrant"`, or `"Rare"`
+- `regions` - Array of Belize regions where found (e.g. `["Countrywide", "Coastal"]`)
+- `similarSpecies` - Array of slugs for confusion species already in the database
 
 If the image URL was already provided by the user, skip to step 3. Otherwise, ask for it.
 
@@ -171,6 +177,7 @@ Read `src/data/birds.json` and:
 
 **For new birds (insert):**
 - Generate a new `id` by finding the highest existing ID and adding 1
+- Set `slug` from common name (same rules as image filename, without extension)
 - Create a complete bird object with all required fields
 - Set `image` path to `/birds/[FILENAME].jpg`
 - Set `audio` path to `/audio/[FILENAME].mp3`
@@ -234,6 +241,7 @@ Each bird object in `birds.json` should follow this structure:
 ```json
 {
   "id": 21,
+  "slug": "great-kiskadee",
   "commonName": "Great Kiskadee",
   "scientificName": "Pitangus sulphuratus",
   "frequency": "12.50%",
@@ -244,7 +252,12 @@ Each bird object in `birds.json` should follow this structure:
   "diet": "Omnivore",
   "image": "/birds/great-kiskadee.jpg",
   "audio": "/audio/great-kiskadee.mp3",
-  "funFact": "One of the most adaptable flycatchers — note the bold black-and-white head pattern and rufous tail."
+  "funFact": "One of the most adaptable flycatchers — note the bold black-and-white head pattern and rufous tail.",
+  "fieldMarks": ["Black and white head pattern", "Rufous wings and tail", "Yellow belly"],
+  "voice": "Loud \"Kiskadee!\" calls",
+  "status": "Resident",
+  "regions": ["Countrywide"],
+  "similarSpecies": ["social-flycatcher", "boat-billed-flycatcher"]
 }
 ```
 
