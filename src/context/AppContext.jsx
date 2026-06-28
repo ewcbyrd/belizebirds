@@ -2,6 +2,7 @@ import { createContext, useContext, useState, useEffect } from 'react';
 import birdsData from '../data/birds.json';
 import { cacheManager } from '../utils/cacheManager';
 import { useChecklist } from '../hooks/useChecklist';
+import { CANONICAL_HABITATS } from '../data/habitatTaxonomy';
 
 const AppContext = createContext();
 
@@ -130,7 +131,9 @@ export const AppProvider = ({ children }) => {
     seenCount,
   ]);
 
-  const allHabitats = [...new Set(birds.flatMap((bird) => bird.habitat))].sort();
+  const allHabitats = [...CANONICAL_HABITATS].sort((a, b) =>
+    a.localeCompare(b)
+  );
   const allFamilies = [...new Set(birds.map((bird) => bird.family))].sort();
   const allSizes = [...new Set(birds.map((bird) => bird.size))].sort();
   const allDiets = [...new Set(birds.map((bird) => bird.diet))].sort();

@@ -1,13 +1,17 @@
 # Belize Birds Field Guide
 
-A modern, offline-capable field guide to the birds of Belize. Built with React, Vite, and Tailwind CSS.
+A modern, offline-capable field guide to the birds of **Cayo District, Belize**. Built with React, Vite, and Tailwind CSS.
 
 **Live Site:** [https://ewcbyrd.github.io/belizebirds/](https://ewcbyrd.github.io/belizebirds/)
+
+## Scope
+
+This guide lists **160 species recorded in Cayo District** per eBird. Reporting rates and species inclusion are based on Cayo District eBird data. Sub-zones within Cayo (San Ignacio, Mountain Pine Ridge, etc.) may be added later for hotspot filtering.
 
 ## Features
 
 ### Bird Gallery
-- Browse 160+ bird species found in Belize
+- Browse 160+ bird species found in Cayo District
 - Card-based layout with species photos
 - **Shareable species pages** at `/species/[slug]` for each bird
 - **Personal checklist** — mark species seen in the field (saved locally)
@@ -18,14 +22,14 @@ A modern, offline-capable field guide to the birds of Belize. Built with React, 
   - Voice description and audio playback
   - Habitat preferences
   - Diet and size information
-  - Status and regions (when available)
+  - Status (when available)
   - Similar species links
   - Field notes on behavior and identification
-  - eBird reporting rate (when available)
+  - eBird reporting rate for Cayo District (when available)
 
 ### Search & Filter
 - Real-time search by common or scientific name
-- Filter by habitat, family, size, and diet
+- Filter by habitat (25 canonical terms), family, size, and diet
 - Filter checklist by seen / unseen
 - Sort by taxonomic order, A–Z, or most common
 - View filtered results count
@@ -173,7 +177,8 @@ belizebirds/
 │   │   └── AppContext.jsx      # Global state management
 │   ├── data/
 │   │   ├── birds.json          # Bird data
-│   │   └── familyNames.js      # Family common names
+│   │   ├── familyNames.js      # Family common names
+│   │   └── habitatTaxonomy.js  # Canonical habitat terms
 │   ├── App.jsx                 # Main app component
 │   ├── main.jsx                # React entry point
 │   └── index.css               # Global styles + Tailwind
@@ -188,14 +193,14 @@ belizebirds/
 
 ## Bird Species Database
 
-The app includes bird data for species found in Belize. Each bird entry includes:
+The app includes bird data for species found in Cayo District. Each bird entry includes:
 - Common and scientific names
 - Family classification
 - Habitat preferences
 - Physical description
 - Size and diet information
 - Field notes (behavior, voice, identification tips)
-- Observation frequency (when available, based on eBird data)
+- Observation frequency based on Cayo District eBird reporting rates
 
 **Note:** The database is designed to be easily expandable. See the "Adding More Birds" section below for instructions on adding new species.
 
@@ -258,8 +263,7 @@ Modify these to match your preferred color scheme.
 ## Future Enhancement Ideas (Phase 3)
 
 - **Bird comparison**: View multiple species side-by-side
-- **Location-based filters**: Filter by region within Belize (once `regions` data is backfilled)
-- **Habitat normalization**: Standardize habitat taxonomy for reliable filtering
+- **Location-based filters**: Filter by Cayo hotspot (optional sub-zones in `src/data/regionTaxonomy.js`)
 - **Audio library**: Populate bird call recordings for all species
 - **Dark mode**: Toggle for light/dark theme
 - **Checklist export**: Export life list or sync with eBird
@@ -279,7 +283,7 @@ This project is open source and available under the MIT License.
 
 ## Acknowledgments
 
-- Bird data based on eBird frequency reports for Belize
+- Bird data based on eBird for Cayo District, Belize
 - Built with React and Vite
 - Styled with Tailwind CSS
 - Inspired by the incredible biodiversity of Belize

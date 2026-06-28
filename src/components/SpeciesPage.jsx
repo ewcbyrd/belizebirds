@@ -111,7 +111,12 @@ const SpeciesPage = () => {
                 <p className="text-sm font-semibold text-gray-700 mb-1">
                   Reporting rate
                 </p>
-                <p className="text-gray-900">{bird.frequency}</p>
+                <p className="text-gray-900">
+                  {bird.frequency}
+                  <span className="block text-xs text-gray-500 font-normal mt-0.5">
+                    Cayo District eBird reporting rate
+                  </span>
+                </p>
               </div>
             )}
             {bird.status && (
@@ -120,9 +125,15 @@ const SpeciesPage = () => {
                 <p className="text-gray-900">{bird.status}</p>
               </div>
             )}
-            {bird.regions?.length > 0 && (
+            {bird.regions?.length > 0 &&
+              !(
+                bird.regions.length === 1 &&
+                bird.regions[0] === 'Throughout Cayo'
+              ) && (
               <div className="col-span-2">
-                <p className="text-sm font-semibold text-gray-700 mb-1">Regions</p>
+                <p className="text-sm font-semibold text-gray-700 mb-1">
+                  Where in Cayo
+                </p>
                 <p className="text-gray-900">{bird.regions.join(', ')}</p>
               </div>
             )}

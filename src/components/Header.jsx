@@ -21,7 +21,7 @@ const Header = () => {
           Belize Birds
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium drop-shadow-lg">
-          A field guide to the birds of Belize
+          A field guide to Cayo District, Belize
         </p>
       </div>
     </header>
