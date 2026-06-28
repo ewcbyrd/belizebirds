@@ -11,8 +11,12 @@ const AppContext = createContext();
 
 const getAssetPath = (path) => {
   if (!path) return '';
+  const base = import.meta.env.BASE_URL;
+  if (path.startsWith(base) || path.startsWith('http://') || path.startsWith('https://')) {
+    return path;
+  }
   const cleanPath = path.replace(/^\//, '');
-  return import.meta.env.BASE_URL + cleanPath;
+  return base + cleanPath;
 };
 
 export const parseFrequency = (frequency) => {
@@ -45,20 +49,10 @@ export const AppProvider = ({ children }) => {
   const { isSeen, toggleSeen, seenCount, clearChecklist } = useChecklist();
   const { selectedDistrict, setSelectedDistrict } = useDistrict();
 
-  const curatedBirds = useMemo(
-    () =>
-      birdsData.map((bird) => ({
-        ...bird,
-        image: getAssetPath(bird.image),
-        audio: getAssetPath(bird.audio),
-      })),
-    []
-  );
-
   const birds = useMemo(
     () =>
       mergeBirdData({
-        curatedBirds,
+        curatedBirds: birdsData,
         districtSpecies: districtSpeciesData,
         selectedDistrict,
       }).map((bird) => ({
@@ -68,7 +62,7 @@ export const AppProvider = ({ children }) => {
           : getAssetPath(bird.image || '/birds/placeholder.jpg'),
         audio: bird.audio ? getAssetPath(bird.audio) : '',
       })),
-    [curatedBirds, selectedDistrict]
+    [selectedDistrict]
   );
 
   const dataGeneratedAt = getDataGeneratedAt(districtSpeciesData);
