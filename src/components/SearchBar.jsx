@@ -227,46 +227,56 @@ const SearchBar = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-          <div className="text-sm text-gray-600 space-y-1">
-            <div>
-              Showing {filteredBirds.length} of {birds.length} birds
-            </div>
-            <div>
-              {seenCount} of {birds.length} species seen
-            </div>
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pt-1 border-t border-gray-100">
+          <div className="flex flex-wrap items-center gap-2 min-h-[36px]">
+            {filteredBirds.length !== birds.length && (
+              <span className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-700 tabular-nums">
+                {filteredBirds.length} of {birds.length}
+              </span>
+            )}
+            {seenCount > 0 && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-belize-green/10 px-3 py-1 text-xs font-semibold text-belize-green-dark tabular-nums">
+                <svg
+                  className="w-3.5 h-3.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2.5}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                {seenCount} seen
+              </span>
+            )}
           </div>
-          <div className="flex flex-wrap items-center gap-3">
-            <div className="flex items-center gap-2">
-              <label htmlFor="checklist-filter" className="text-sm text-gray-600">
-                Checklist:
-              </label>
-              <select
-                id="checklist-filter"
-                value={checklistFilter}
-                onChange={(e) => setChecklistFilter(e.target.value)}
-                className="text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-belize-green focus:border-transparent"
-              >
-                <option value="all">All</option>
-                <option value="seen">Seen</option>
-                <option value="unseen">Unseen</option>
-              </select>
-            </div>
-            <div className="flex items-center gap-2">
-              <label htmlFor="sort-by" className="text-sm text-gray-600">
-                Sort by:
-              </label>
-              <select
-                id="sort-by"
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-                className="text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-belize-green focus:border-transparent"
-              >
-                <option value="taxonomic">Taxonomic</option>
-                <option value="alpha">A–Z</option>
-                <option value="frequency">Most common</option>
-              </select>
-            </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <select
+              id="checklist-filter"
+              aria-label="Filter by checklist"
+              value={checklistFilter}
+              onChange={(e) => setChecklistFilter(e.target.value)}
+              className="text-sm font-medium border border-gray-200 bg-gray-50 text-gray-700 rounded-lg px-3 py-2 focus:ring-2 focus:ring-belize-green focus:border-transparent"
+            >
+              <option value="all">All species</option>
+              <option value="seen">Seen only</option>
+              <option value="unseen">Unseen only</option>
+            </select>
+            <select
+              id="sort-by"
+              aria-label="Sort species"
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+              className="text-sm font-medium border border-gray-200 bg-gray-50 text-gray-700 rounded-lg px-3 py-2 focus:ring-2 focus:ring-belize-green focus:border-transparent"
+            >
+              <option value="taxonomic">Taxonomic</option>
+              <option value="alpha">A–Z</option>
+              <option value="frequency">Most common</option>
+            </select>
           </div>
         </div>
       </div>
