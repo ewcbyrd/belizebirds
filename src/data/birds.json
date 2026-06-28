@@ -2921,5 +2921,23 @@
     "image": "/birds/great-curassow.jpg",
     "audio": "/audio/great-curassow.mp3",
     "funFact": "When a predator approaches its chicks, the great curassow performs a distraction display by feigning injury to draw the threat away from its offspring."
+  },
+  {
+    "id": 160,
+    "commonName": "Spotted Wood-Quail",
+    "scientificName": "Odontophorus guttatus",
+    "frequency": "",
+    "family": "Odontophoridae",
+    "habitat": [
+      "Montane forest",
+      "Understory thickets",
+      "Bamboo"
+    ],
+    "description": "A small ground-dwelling quail about 25 cm (10 in) long and 300 g, with an orange crest, dark brown upperparts flecked with black and rufous, and olive-brown underparts boldly spotted with white. Found in mountain highlands from 1,000 m to the timberline in dense understory from southern Mexico through Belize and Central America.",
+    "size": "Small-medium",
+    "diet": "Omnivore",
+    "image": "/birds/spotted-wood-quail.jpg",
+    "audio": "/audio/spotted-wood-quail.mp3",
+    "funFact": "When startled, this shy species usually escapes on foot but can explode into a short burst of fast flight into cover, and its advertising call is a distinctive whistled duet."
   }
 ]

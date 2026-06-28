@@ -45,5 +45,6 @@ export const FAMILY_NAMES = {
   'Passerellidae': 'New World Sparrows',
   'Onychorhynchidae': 'Royal Flycatchers',
   'Nyctibiidae': 'Potoos',
-  'Cracidae': 'Guans, Chachalacas & Curassows'
+  'Cracidae': 'Guans, Chachalacas & Curassows',
+  'Odontophoridae': 'New World Quail'
 };
