@@ -9,6 +9,7 @@
     "enrichment:backlog": "node scripts/enrichment-backlog.mjs",
     "enrich:batch-1": "node scripts/enrich-batch-1.mjs",
     "enrich:batch-2": "node scripts/enrich-batch-2.mjs",
+    "enrich:batch-3": "node scripts/enrich-batch-3.mjs",
     "check:ebird-key": "node scripts/check-ebird-key.mjs",
     "sync:data": "npm run sync:ebird",
     "prebuild": "npm run sync:data",

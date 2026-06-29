@@ -53,5 +53,6 @@ export const FAMILY_NAMES = {
   'Aramidae': 'Limpkin',
   'Recurvirostridae': 'Stilts & Avocets',
   'Charadriidae': 'Plovers & Lapwings',
-  'Scolopacidae': 'Sandpipers & Allies'
+  'Scolopacidae': 'Sandpipers & Allies',
+  'Laridae': 'Gulls, Terns & Skimmers'
 };

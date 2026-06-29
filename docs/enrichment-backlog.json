@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-28T18:50:04.443Z",
-  "totalStubs": 406,
+  "generatedAt": "2026-06-29T11:50:03.209Z",
+  "totalStubs": 381,
   "tierCounts": {
-    "1": 203,
+    "1": 178,
     "2": 49,
     "3": 154
   },
@@ -13,10 +13,10 @@
   },
   "backlog": [
     {
-      "slug": "marbled-godwit",
-      "commonName": "Marbled Godwit",
-      "scientificName": "Limosa fedoa",
-      "ebirdCode": "margod",
+      "slug": "common-tern",
+      "commonName": "Common Tern",
+      "scientificName": "Sterna hirundo",
+      "ebirdCode": "comter",
       "districts": [
         "BZ-BZ",
         "BZ-CY",
@@ -27,15 +27,15 @@
       ],
       "districtCount": 6,
       "tier": 1,
-      "family": "Sandpipers and Allies",
-      "familyScientific": "Scolopacidae",
-      "taxonomicOrder": 2056
+      "family": "Gulls, Terns, and Skimmers",
+      "familyScientific": "Laridae",
+      "taxonomicOrder": 2301
     },
     {
-      "slug": "short-billed-dowitcher",
-      "commonName": "Short-billed Dowitcher",
-      "scientificName": "Limnodromus griseus",
-      "ebirdCode": "shbdow",
+      "slug": "sandwich-tern",
+      "commonName": "Sandwich Tern",
+      "scientificName": "Thalasseus sandvicensis",
+      "ebirdCode": "santer1",
       "districts": [
         "BZ-BZ",
         "BZ-CY",
@@ -46,15 +46,15 @@
       ],
       "districtCount": 6,
       "tier": 1,
-      "family": "Sandpipers and Allies",
-      "familyScientific": "Scolopacidae",
-      "taxonomicOrder": 2058
+      "family": "Gulls, Terns, and Skimmers",
+      "familyScientific": "Laridae",
+      "taxonomicOrder": 2307
     },
     {
-      "slug": "long-billed-dowitcher",
-      "commonName": "Long-billed Dowitcher",
-      "scientificName": "Limnodromus scolopaceus",
-      "ebirdCode": "lobdow",
+      "slug": "royal-tern",
+      "commonName": "Royal Tern",
+      "scientificName": "Thalasseus maximus",
+      "ebirdCode": "royter1",
       "districts": [
         "BZ-BZ",
         "BZ-CY",
@@ -65,15 +65,15 @@
       ],
       "districtCount": 6,
       "tier": 1,
-      "family": "Sandpipers and Allies",
-      "familyScientific": "Scolopacidae",
-      "taxonomicOrder": 2059
+      "family": "Gulls, Terns, and Skimmers",
+      "familyScientific": "Laridae",
+      "taxonomicOrder": 2311
     },
     {
-      "slug": "wilsons-snipe",
-      "commonName": "Wilson's Snipe",
-      "scientificName": "Gallinago delicata",
-      "ebirdCode": "wilsni1",
+      "slug": "least-grebe",
+      "commonName": "Least Grebe",
+      "scientificName": "Tachybaptus dominicus",
+      "ebirdCode": "leagre",
       "districts": [
         "BZ-BZ",
         "BZ-CY",
@@ -84,15 +84,15 @@
       ],
       "districtCount": 6,
       "tier": 1,
-      "family": "Sandpipers and Allies",
-      "familyScientific": "Scolopacidae",
-      "taxonomicOrder": 2085
+      "family": "Grebes",
+      "familyScientific": "Podicipedidae",
+      "taxonomicOrder": 2326
     },
     {
-      "slug": "wilsons-phalarope",
-      "commonName": "Wilson's Phalarope",
-      "scientificName": "Phalaropus tricolor",
-      "ebirdCode": "wilpha",
+      "slug": "pied-billed-grebe",
+      "commonName": "Pied-billed Grebe",
+      "scientificName": "Podilymbus podiceps",
+      "ebirdCode": "pibgre",
       "districts": [
         "BZ-BZ",
         "BZ-CY",
@@ -103,9 +103,9 @@
       ],
       "districtCount": 6,
       "tier": 1,
-      "family": "Sandpipers and Allies",
-      "familyScientific": "Scolopacidae",
-      "taxonomicOrder": 2092
+      "family": "Grebes",
+      "familyScientific": "Podicipedidae",
+      "taxonomicOrder": 2327
     }
   ]
 }

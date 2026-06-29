@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T18:50:08.172Z",
+  "generatedAt": "2026-06-29T11:50:38.272Z",
   "districts": {
     "BZ-BZ": {
       "name": "Belize District",
@@ -5324,8 +5324,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "shbdow": {
       "slug": "short-billed-dowitcher",
@@ -5339,8 +5338,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "lobdow": {
       "slug": "long-billed-dowitcher",
@@ -5354,8 +5352,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "wilsni1": {
       "slug": "wilsons-snipe",
@@ -5369,8 +5366,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "wilpha": {
       "slug": "wilsons-phalarope",
@@ -5384,8 +5380,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "renpha": {
       "slug": "red-necked-phalarope",
@@ -5412,8 +5407,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "solsan": {
       "slug": "solitary-sandpiper",
@@ -5427,8 +5421,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "lesyel": {
       "slug": "lesser-yellowlegs",
@@ -5442,8 +5435,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "willet1": {
       "slug": "willet",
@@ -5471,8 +5463,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "rudtur": {
       "slug": "ruddy-turnstone",
@@ -5486,8 +5477,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "redkno": {
       "slug": "red-knot",
@@ -5514,8 +5504,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "bubsan": {
       "slug": "buff-breasted-sandpiper",
@@ -5543,8 +5532,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "dunlin": {
       "slug": "dunlin",
@@ -5571,8 +5559,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "leasan": {
       "slug": "least-sandpiper",
@@ -5586,8 +5573,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "pecsan": {
       "slug": "pectoral-sandpiper",
@@ -5601,8 +5587,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "wessan": {
       "slug": "western-sandpiper",
@@ -5616,8 +5601,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "semsan": {
       "slug": "semipalmated-sandpiper",
@@ -5631,8 +5615,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "parjae": {
       "slug": "parasitic-jaeger",
@@ -5684,8 +5667,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "fragul": {
       "slug": "franklins-gull",
@@ -5699,8 +5681,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "ribgul": {
       "slug": "ring-billed-gull",
@@ -5800,8 +5781,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "briter1": {
       "slug": "bridled-tern",
@@ -5828,8 +5808,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "gubter2": {
       "slug": "gull-billed-tern",
@@ -5843,8 +5822,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "caster1": {
       "slug": "caspian-tern",
@@ -5858,8 +5836,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "blkter": {
       "slug": "black-tern",
@@ -5873,8 +5850,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "forter": {
       "slug": "forsters-tern",
@@ -5888,8 +5864,7 @@
         "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
+      ]
     },
     "arcter": {
       "slug": "arctic-tern",
@@ -12571,81 +12546,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "marbled-godwit",
-      "ebirdCode": "margod",
-      "commonName": "Marbled Godwit",
-      "scientificName": "Limosa fedoa",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "short-billed-dowitcher",
-      "ebirdCode": "shbdow",
-      "commonName": "Short-billed Dowitcher",
-      "scientificName": "Limnodromus griseus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "long-billed-dowitcher",
-      "ebirdCode": "lobdow",
-      "commonName": "Long-billed Dowitcher",
-      "scientificName": "Limnodromus scolopaceus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "wilsons-snipe",
-      "ebirdCode": "wilsni1",
-      "commonName": "Wilson's Snipe",
-      "scientificName": "Gallinago delicata",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "wilsons-phalarope",
-      "ebirdCode": "wilpha",
-      "commonName": "Wilson's Phalarope",
-      "scientificName": "Phalaropus tricolor",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "red-necked-phalarope",
       "ebirdCode": "renpha",
       "commonName": "Red-necked Phalarope",
@@ -12659,87 +12559,12 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "spotted-sandpiper",
-      "ebirdCode": "sposan",
-      "commonName": "Spotted Sandpiper",
-      "scientificName": "Actitis macularius",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "solitary-sandpiper",
-      "ebirdCode": "solsan",
-      "commonName": "Solitary Sandpiper",
-      "scientificName": "Tringa solitaria",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "lesser-yellowlegs",
-      "ebirdCode": "lesyel",
-      "commonName": "Lesser Yellowlegs",
-      "scientificName": "Tringa flavipes",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "willet",
       "ebirdCode": "willet1",
       "commonName": "Willet",
       "scientificName": "Tringa semipalmata",
       "districts": [
         "BZ-BZ",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "greater-yellowlegs",
-      "ebirdCode": "greyel",
-      "commonName": "Greater Yellowlegs",
-      "scientificName": "Tringa melanoleuca",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "ruddy-turnstone",
-      "ebirdCode": "rudtur",
-      "commonName": "Ruddy Turnstone",
-      "scientificName": "Arenaria interpres",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
         "BZ-CZL",
         "BZ-OW",
         "BZ-SC",
@@ -12761,21 +12586,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "stilt-sandpiper",
-      "ebirdCode": "stisan",
-      "commonName": "Stilt Sandpiper",
-      "scientificName": "Calidris himantopus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "buff-breasted-sandpiper",
       "ebirdCode": "bubsan",
       "commonName": "Buff-breasted Sandpiper",
@@ -12790,21 +12600,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "sanderling",
-      "ebirdCode": "sander",
-      "commonName": "Sanderling",
-      "scientificName": "Calidris alba",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "dunlin",
       "ebirdCode": "dunlin",
       "commonName": "Dunlin",
@@ -12812,81 +12607,6 @@
       "districts": [
         "BZ-BZ",
         "BZ-CZL",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "white-rumped-sandpiper",
-      "ebirdCode": "whrsan",
-      "commonName": "White-rumped Sandpiper",
-      "scientificName": "Calidris fuscicollis",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "least-sandpiper",
-      "ebirdCode": "leasan",
-      "commonName": "Least Sandpiper",
-      "scientificName": "Calidris minutilla",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "pectoral-sandpiper",
-      "ebirdCode": "pecsan",
-      "commonName": "Pectoral Sandpiper",
-      "scientificName": "Calidris melanotos",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "western-sandpiper",
-      "ebirdCode": "wessan",
-      "commonName": "Western Sandpiper",
-      "scientificName": "Calidris mauri",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "semipalmated-sandpiper",
-      "ebirdCode": "semsan",
-      "commonName": "Semipalmated Sandpiper",
-      "scientificName": "Calidris pusilla",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
       ],
@@ -12927,36 +12647,6 @@
         "BZ-CZL",
         "BZ-OW",
         "BZ-SC"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "laughing-gull",
-      "ebirdCode": "laugul",
-      "commonName": "Laughing Gull",
-      "scientificName": "Leucophaeus atricilla",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "franklins-gull",
-      "ebirdCode": "fragul",
-      "commonName": "Franklin's Gull",
-      "scientificName": "Leucophaeus pipixcan",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
       ],
       "enrichmentStatus": "pending"
     },
@@ -13047,21 +12737,6 @@
       "enrichmentStatus": "pending"
     },
     {
-      "slug": "sooty-tern",
-      "ebirdCode": "sooter1",
-      "commonName": "Sooty Tern",
-      "scientificName": "Onychoprion fuscatus",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
       "slug": "bridled-tern",
       "ebirdCode": "briter1",
       "commonName": "Bridled Tern",
@@ -13069,81 +12744,6 @@
       "districts": [
         "BZ-BZ",
         "BZ-CZL",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "least-tern",
-      "ebirdCode": "leater1",
-      "commonName": "Least Tern",
-      "scientificName": "Sternula antillarum",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "gull-billed-tern",
-      "ebirdCode": "gubter2",
-      "commonName": "Gull-billed Tern",
-      "scientificName": "Gelochelidon nilotica",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "caspian-tern",
-      "ebirdCode": "caster1",
-      "commonName": "Caspian Tern",
-      "scientificName": "Hydroprogne caspia",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "black-tern",
-      "ebirdCode": "blkter",
-      "commonName": "Black Tern",
-      "scientificName": "Chlidonias niger",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
-        "BZ-SC",
-        "BZ-TOL"
-      ],
-      "enrichmentStatus": "pending"
-    },
-    {
-      "slug": "forsters-tern",
-      "ebirdCode": "forter",
-      "commonName": "Forster's Tern",
-      "scientificName": "Sterna forsteri",
-      "districts": [
-        "BZ-BZ",
-        "BZ-CY",
-        "BZ-CZL",
-        "BZ-OW",
         "BZ-SC",
         "BZ-TOL"
       ],
@@ -17690,9 +17290,9 @@
   ],
   "unmatchedBirds": [],
   "stats": {
-    "curatedBirds": 210,
+    "curatedBirds": 235,
     "ebirdSpeciesInBelize": 616,
-    "newSpeciesCount": 406,
+    "newSpeciesCount": 381,
     "unmatchedCuratedCount": 0
   }
 }
